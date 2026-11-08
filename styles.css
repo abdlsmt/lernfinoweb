@@ -506,27 +506,40 @@ h1, h2, h3, h4, p {
   display: flex;
   align-items: center;
   gap: 10px;
-  background: color-mix(in srgb, var(--surface) 92%, transparent);
-  backdrop-filter: blur(10px);
-  border: 1px solid var(--line);
-  padding: 10px 14px;
+  background: color-mix(in srgb, var(--surface) 88%, transparent);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid color-mix(in srgb, var(--line) 85%, transparent);
+  padding: 8px 13px;
   border-radius: 14px;
-  box-shadow: var(--shadow-md);
+  box-shadow: 0 10px 25px -4px rgba(24, 30, 41, 0.14), 0 3px 8px -2px rgba(24, 30, 41, 0.08);
+  white-space: nowrap;
+  z-index: 2;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.float-badge:hover {
+  transform: scale(1.04);
+  box-shadow: 0 14px 28px -4px rgba(24, 30, 41, 0.2);
 }
 
 .float-icon {
   font-size: 20px;
+  line-height: 1;
 }
 
 .float-badge strong {
   display: block;
-  font-size: 13px;
-  line-height: 1.2;
+  font-size: 12.5px;
+  font-weight: 700;
+  line-height: 1.25;
 }
 
 .float-badge small {
-  font-size: 11px;
+  display: block;
+  font-size: 10.5px;
   color: var(--muted);
+  line-height: 1.2;
 }
 
 .muted-inline {
@@ -535,18 +548,37 @@ h1, h2, h3, h4, p {
 }
 
 .float-top-left {
-  top: 12px;
-  left: -12px;
+  top: 4px;
+  left: -26px;
+  animation: floatAnimA 5s ease-in-out infinite;
+}
+
+.float-top-right {
+  top: 4px;
+  right: -26px;
+  animation: floatAnimB 5.4s ease-in-out infinite;
 }
 
 .float-bottom-left {
-  bottom: 20px;
-  left: -18px;
+  bottom: 4px;
+  left: -26px;
+  animation: floatAnimB 5.2s ease-in-out infinite;
 }
 
 .float-bottom-right {
-  bottom: -8px;
-  right: -8px;
+  bottom: 4px;
+  right: -26px;
+  animation: floatAnimA 5.6s ease-in-out infinite;
+}
+
+@keyframes floatAnimA {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+
+@keyframes floatAnimB {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(5px); }
 }
 
 /* SECTION HEADERS */
@@ -1326,9 +1358,10 @@ h1, h2, h3, h4, p {
   .hero-mascot-img {
     max-width: 290px;
   }
-  .float-top-left { left: 0; }
-  .float-bottom-left { left: 0; }
-  .float-bottom-right { right: 0; }
+  .float-top-left { left: -8px; top: -4px; }
+  .float-top-right { right: -8px; top: -4px; }
+  .float-bottom-left { left: -8px; bottom: -4px; }
+  .float-bottom-right { right: -8px; bottom: -4px; }
   .bento-card,
   .bento-card.bento-large {
     grid-column: span 12;
@@ -1352,14 +1385,23 @@ h1, h2, h3, h4, p {
     padding: 22px;
   }
   .float-badge {
-    padding: 7px 10px;
+    padding: 6px 9px;
+    gap: 7px;
+    border-radius: 11px;
+  }
+  .float-icon {
+    font-size: 16px;
   }
   .float-badge strong {
     font-size: 11px;
   }
   .float-badge small {
-    font-size: 10px;
+    font-size: 9.5px;
   }
+  .float-top-left { left: -4px; }
+  .float-top-right { right: -4px; }
+  .float-bottom-left { left: -4px; }
+  .float-bottom-right { right: -4px; }
   .footer-meta {
     text-align: left;
   }
