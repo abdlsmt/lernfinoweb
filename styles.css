@@ -1052,7 +1052,7 @@ h1, h2, h3, h4, p {
   display: grid;
   grid-template-columns: 1.15fr 0.85fr;
   gap: 40px;
-  align-items: center;
+  align-items: start;
   box-shadow: var(--shadow-lg);
   border: 2px solid rgba(247, 181, 0, 0.35);
 }
@@ -1088,38 +1088,95 @@ h1, h2, h3, h4, p {
   margin-bottom: 28px;
 }
 
-.milestones {
+.launch-highlights-grid {
   display: grid;
-  gap: 16px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+  margin-bottom: 20px;
 }
 
-.milestone-top {
+.launch-hl-card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+  padding: 16px;
+  transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+}
+
+.launch-hl-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(247, 181, 0, 0.4);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.launch-hl-header {
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.launch-hl-icon {
+  font-size: 22px;
+  line-height: 1;
+}
+
+.launch-hl-tag {
+  font-size: 10.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 3px 8px;
+  border-radius: 999px;
+  background: rgba(247, 181, 0, 0.15);
+  color: #ffc72c;
+  border: 1px solid rgba(247, 181, 0, 0.3);
+}
+
+.launch-hl-card h4 {
+  font-size: 14.5px;
+  font-weight: 700;
+  color: #ffffff;
   margin-bottom: 6px;
-  color: #e5e7eb;
 }
 
-.text-gold { color: #ffc72c; }
-.text-amber { color: #f28c38; }
-
-.progress-bar {
-  height: 8px;
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.12);
-  overflow: hidden;
+.launch-hl-card p {
+  font-size: 12.5px;
+  line-height: 1.5;
+  color: #c5cad6;
+  margin-bottom: 0;
 }
 
-.progress-bar > span {
-  display: block;
-  height: 100%;
-  background: linear-gradient(90deg, #267a53, #4ade80);
-  border-radius: 999px;
+.launch-vip-banner {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: rgba(247, 181, 0, 0.08);
+  border: 1px dashed rgba(247, 181, 0, 0.45);
+  border-radius: 14px;
+  padding: 14px 16px;
+  margin-top: 6px;
 }
 
-.progress-bar > span.bar-amber {
-  background: linear-gradient(90deg, #e87722, #ffc72c);
+.launch-vip-banner .vip-icon {
+  font-size: 22px;
+  flex-shrink: 0;
+}
+
+.launch-vip-banner .vip-text {
+  font-size: 12.5px;
+  line-height: 1.45;
+  color: #fce7b2;
+}
+
+.launch-vip-banner strong {
+  color: #ffc72c;
+}
+
+@media (max-width: 680px) {
+  .launch-highlights-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* Notify Form */
