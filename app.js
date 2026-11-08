@@ -98,9 +98,9 @@ const I18N = {
     "launch.card4Tag": "Akıllı Tekrar",
     "launch.card4Title": "Bağlamsal Sözlük & SRS",
     "launch.card4Desc": "Cümledeki gerçek dilbilgisi rolü, artikel rehberi ve unutturmayan bilimsel aralıklı tekrar.",
-    "launch.vipNotice": "<strong>İlk Kayıt Avantajı:</strong> Lansmanda e-posta bırakan öğrencilere tüm yeni içerikler ve ilk sınav setleri öncelikli olarak sunulacak.",
+    "launch.vipNotice": "<strong>İlk Üyelere Özel Sürpriz:</strong> Lansman gününde ilk öğrencilerimize özel sürpriz indirimleri, hediyeleri ve ayrıcalıkları kaçırmayın!",
     "launch.formTitle": "Erken Erişim & Lansman Bildirimi",
-    "launch.formSub": "Spam yok. Yalnızca uygulama mağazalarda açıldığında tek bir davet e-postası göndereceğiz.",
+    "launch.formSub": "Spam yok. Yalnızca uygulama açıldığında ilk üyelere özel sürpriz indiriminizle birlikte tek bir davet e-postası göndereceğiz.",
     "launch.emailLabel": "E-posta Adresiniz",
     "launch.emailPlaceholder": "ornek@eposta.com",
     "launch.levelLabel": "Hedeflediğiniz Almanca Seviyesi",
@@ -109,7 +109,7 @@ const I18N = {
     "launch.optB1": "B1 — Orta / Sertifika (Mittelstufe)",
     "launch.optB2": "B2 — İleri Orta (Gute Mittelstufe)",
     "launch.submitBtn": "Beni Listeye Ekle 🦊",
-    "launch.successMsg": "Harika! Fino e-posta adresinizi kaydetti ({email}). Lansman günü görüşmek üzere!",
+    "launch.successMsg": "Harika! Fino e-posta adresinizi kaydetti ({email}). Lansman günü ilk üyelere özel sürprizlerle görüşmek üzere!",
 
     "footer.tagline": "Almancaya açılan sıcak bir sayfa. Çok yakında iOS, Android ve Web'de.",
     "footer.rights": "Tüm hakları saklıdır."
@@ -209,9 +209,9 @@ const I18N = {
     "launch.card4Tag": "Smart Review",
     "launch.card4Title": "Contextual Dictionary & SRS",
     "launch.card4Desc": "Grammar role breakdowns for every word in context and spaced repetition flashcards for permanent retention.",
-    "launch.vipNotice": "<strong>Early Bird Perk:</strong> Waitlist members get immediate priority access to all new story packs and introductory mock exams upon launch.",
+    "launch.vipNotice": "<strong>Exclusive to First Members:</strong> Don't miss out on special launch discounts, unique perks, and surprises reserved for our first learners!",
     "launch.formTitle": "Early Access & Launch Notification",
-    "launch.formSub": "Zero spam. We will only send a single invitation email when the app launches in stores.",
+    "launch.formSub": "Zero spam. We will only send a single invitation email with exclusive member perks and surprises when the app goes live.",
     "launch.emailLabel": "Your Email Address",
     "launch.emailPlaceholder": "you@example.com",
     "launch.levelLabel": "Your Target German Level",
@@ -220,7 +220,7 @@ const I18N = {
     "launch.optB1": "B1 — Intermediate / Certificate (Mittelstufe)",
     "launch.optB2": "B2 — Upper-Intermediate (Gute Mittelstufe)",
     "launch.submitBtn": "Join the Waitlist 🦊",
-    "launch.successMsg": "Wonderful! Fino saved your email ({email}). See you on launch day!",
+    "launch.successMsg": "Wonderful! Fino saved your email ({email}). See you on launch day with special member surprises!",
 
     "footer.tagline": "A warm page opening to German. Coming soon to iOS, Android, and Web.",
     "footer.rights": "All rights reserved."
@@ -320,9 +320,9 @@ const I18N = {
     "launch.card4Tag": "Intelligente Wiederholung",
     "launch.card4Title": "Kontextwörterbuch & SRS",
     "launch.card4Desc": "Grammatische Rollenerklärung für jedes Wort im Satzzusammenhang und wissenschaftliche Spaced-Repetition-Wiederholung.",
-    "launch.vipNotice": "<strong>Früher-Vogel-Vorteil:</strong> Für alle Voranmeldungen werden neue Inhaltspakete und erste Prüfungssätze zum Start direkt freigeschaltet.",
+    "launch.vipNotice": "<strong>Exklusiv für erste Mitglieder:</strong> Verpassen Sie nicht die besonderen Rabatte, Vorteile und Überraschungen zum Start!",
     "launch.formTitle": "Früher Zugang & Start-Benachrichtigung",
-    "launch.formSub": "Kein Spam. Wir senden Ihnen nur eine einzige Einladung, sobald die App verfügbar ist.",
+    "launch.formSub": "Kein Spam. Wir senden Ihnen nur eine einzige Einladung mit Ihren exklusiven Überraschungsvorteilen, sobald die App live geht.",
     "launch.emailLabel": "Ihre E-Mail-Adresse",
     "launch.emailPlaceholder": "name@beispiel.de",
     "launch.levelLabel": "Ihr gewünschtes Sprachniveau",
@@ -331,7 +331,7 @@ const I18N = {
     "launch.optB1": "B1 — Mittelstufe / Zertifikat (B1)",
     "launch.optB2": "B2 — Gute Mittelstufe (B2)",
     "launch.submitBtn": "Auf die Warteliste 🦊",
-    "launch.successMsg": "Wunderbar! Fino hat Ihre E-Mail-Adresse ({email}) notiert. Bis bald zum Start!",
+    "launch.successMsg": "Wunderbar! Fino hat Ihre E-Mail-Adresse ({email}) notiert. Bis bald zum Start mit exklusiven Überraschungen!",
 
     "footer.tagline": "Eine herzliche Seite zur deutschen Sprache. Demnächst für iOS, Android und Web.",
     "footer.rights": "Alle Rechte vorbehalten."
