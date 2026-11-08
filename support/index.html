@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="tr" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Destek & SSS — Lernfino</title>
+  <meta name="description" content="Lernfino Destek ve Yardım Merkezi: Sıkça sorulan sorular, çevrimdışı çalışma, veri yedekleme, Goethe/ÖSD deneme sınavları ve support@lernfino.com iletişim kanalları." />
+  <meta name="theme-color" content="#181E29" />
+
+  <link rel="icon" type="image/png" href="../Lernfino%20Deutsch%20Fox%20Icon.png" />
+  <link rel="apple-touch-icon" href="../Lernfino%20Deutsch%20Fox%20Icon.png" />
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <!-- Top German Flag Line -->
+  <div class="flag-topline" aria-hidden="true">
+    <span class="flag-black"></span>
+    <span class="flag-red"></span>
+    <span class="flag-gold"></span>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="../" class="brand-logo" aria-label="Lernfino Ana Sayfa">
+        <img src="../Lernfino%20Deutsch%20Fox%20Icon.png" alt="Lernfino Logo" class="brand-img" />
+        <div class="brand-text-wrap">
+          <span class="brand-name">lernfino<span class="brand-dot">.</span></span>
+          <span class="brand-badge">Deutsch</span>
+        </div>
+      </a>
+
+      <nav class="main-nav" aria-label="Sayfa Menüsü">
+        <a href="../#demo" data-i18n="nav.home">Ana Sayfa</a>
+        <a href="../privacy/" data-i18n="nav.privacy">Gizlilik</a>
+        <a href="../terms/" data-i18n="nav.terms">Koşullar</a>
+        <a href="../support/" class="active" data-i18n="nav.support">Destek & SSS</a>
+        <a href="../delete-account/" data-i18n="nav.deleteAccount">Hesap Silme</a>
+      </nav>
+
+      <div class="header-actions">
+        <div class="lang-switcher" role="group" aria-label="Dil Seçimi">
+          <button type="button" class="lang-btn active" data-lang="tr" aria-pressed="true">TR</button>
+          <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+          <button type="button" class="lang-btn" data-lang="de" aria-pressed="false">DE</button>
+        </div>
+
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Temayı Değiştir">
+          <svg class="icon-moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Title & Navigation Tabs -->
+  <div class="legal-page-header">
+    <div class="legal-header-inner">
+      <a href="../" class="legal-back-link" data-i18n="nav.backHome">← lernfino.com Ana Sayfasına Dön</a>
+      <div class="legal-title-wrap">
+        <h1 data-i18n="support.title">Destek & Yardım Merkezi</h1>
+        <p class="legal-subtitle" data-i18n="support.subtitle">
+          Lernfino ile Almanca öğrenirken takıldığınız bir konu, öneriniz veya yardıma ihtiyacınız mı var? Ekibimiz ve Fino yanınızda.
+        </p>
+        <div class="legal-meta-row">
+          <span class="legal-meta-pill" data-i18n="meta.supportEmail">Destek: support@lernfino.com</span>
+          <span class="legal-meta-pill" data-i18n="meta.controller">Geliştirici: Respecode</span>
+          <span class="legal-meta-pill">⏱️ Yanıt Süresi: Genellikle 24 saat içinde</span>
+        </div>
+      </div>
+
+      <nav class="legal-nav-tabs" aria-label="Destek ve Yasal Belgeler">
+        <a href="../privacy/" class="legal-nav-tab" data-i18n="nav.privacy">Gizlilik Politikası</a>
+        <a href="../terms/" class="legal-nav-tab" data-i18n="nav.terms">Kullanım Koşulları</a>
+        <a href="../support/" class="legal-nav-tab active" data-i18n="nav.support">Destek & SSS</a>
+        <a href="../delete-account/" class="legal-nav-tab" data-i18n="nav.deleteAccount">Hesap Silme</a>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <main class="legal-main">
+    <div class="legal-container">
+
+      <!-- Action Cards Grid -->
+      <div class="support-cards-grid">
+        <div class="support-action-card">
+          <span class="support-action-icon">📬</span>
+          <h3 class="support-action-title" data-i18n="support.action1Title">E-posta ile İletişim</h3>
+          <p class="support-action-desc" data-i18n="support.action1Desc">
+            Her türlü soru, teknik sorun veya kurumsal iş birliği için bize yazın. Genellikle 24 saat içinde dönüş yapıyoruz.
+          </p>
+          <a href="mailto:support@lernfino.com?subject=Lernfino%20Destek%20Talebi" class="btn btn-primary btn-sm full-w">
+            support@lernfino.com
+          </a>
+        </div>
+
+        <div class="support-action-card">
+          <span class="support-action-icon">💾</span>
+          <h3 class="support-action-title" data-i18n="support.action2Title">Veri Yedekleme ve Taşıma</h3>
+          <p class="support-action-desc" data-i18n="support.action2Desc">
+            Öğrenme verilerinizi yeni bir cihaza aktarmak için uygulama içinden tek tıkla JSON yedeği alabilirsiniz.
+          </p>
+          <a href="#backup-guide" class="btn btn-secondary btn-sm full-w" data-i18n="support.action2Btn">
+            Yedekleme Rehberi ↓
+          </a>
+        </div>
+
+        <div class="support-action-card">
+          <span class="support-action-icon">🛡️</span>
+          <h3 class="support-action-title" data-i18n="support.action3Title">Hesap & Veri Silme</h3>
+          <p class="support-action-desc" data-i18n="support.action3Desc">
+            Hesabınızı veya cihazınızdaki öğrenme verilerini dilediğiniz an kalıcı olarak silebilirsiniz.
+          </p>
+          <a href="../delete-account/" class="btn btn-secondary btn-sm full-w" data-i18n="support.action3Btn">
+            Hesap Silme Sayfası →
+          </a>
+        </div>
+      </div>
+
+      <div class="legal-card">
+        <h2 style="margin-top:0;" data-i18n="support.faqHeading">Sıkça Sorulan Sorular (SSS)</h2>
+
+        <!-- ==================== TÜRKÇE SSS ==================== -->
+        <div class="faq-list" data-lang-content="tr">
+          <div class="faq-item open">
+            <button type="button" class="faq-question">
+              <span>İnternet bağlantım olmadan (çevrimdışı / offline) hikâyeleri okuyup dinleyebilir miyim?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class="faq-answer">
+              <p>
+                <strong>Evet, kesinlikle!</strong> Lernfino "önce-yerel" (local-first) mimariyle geliştirilmiştir. Kitap kataloğu, hikâye metinleri, bağlamsal sözlük ve önceden indirilmiş ses dosyaları cihazınızda saklanır. Metroda, uçakta veya internet erişiminiz olmayan her yerde kesintisiz çalışabilirsiniz.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item" id="backup-guide">
+            <button type="button" class="faq-question">
+              <span>Telefonumu değiştirdiğimde öğrenme verilerimi ve kelimelerimi nasıl aktarırım?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Verilerinizi taşımak çok kolaydır ve bulut hesabı açma zorunluluğu gerektirmez:</p>
+              <ol>
+                <li>Eski telefonunuzda Lernfino'yu açın ve <strong>Ayarlar</strong> sekmesine gidin.</li>
+                <li><strong>"Öğrenme verilerimi yedekle"</strong> butonuna dokunun. Tüm kelime kartlarınız, okuma geçmişiniz ve sınav sonuçlarınız içeren bir <code>.json</code> yedek dosyası cihazınıza indirilecektir.</li>
+                <li>Bu dosyayı yeni telefonunuza (e-posta, AirDrop, Bluetooth vb.) aktarın.</li>
+                <li>Yeni telefonunuzda Lernfino → Ayarlar bölümünde <strong>"Yedek dosyası seç"</strong> butonuna dokunarak dosyayı seçin. Tüm ilerlemeniz anında geri yüklenir!</li>
+              </ol>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-question">
+              <span>Goethe ve ÖSD tam deneme sınavları (Hören, Lesen, Schreiben) nasıl işliyor?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Sınav modülümüz, uluslararası Goethe-Zertifikat ve ÖSD sınav yönergeleriyle birebir uyumlu gerçekçi deneme sınavları sunar:
+              </p>
+              <ul>
+                <li><strong>Hören & Lesen:</strong> Resmî okuma süreleri, dinleme sayaçları ve sınav bitiminde yanlışlarınızın metindeki kanıt anına tek tıkla atlama özelliği.</li>
+                <li><strong>Schreiben (Yazma):</strong> Resmî mektup, e-posta veya görüş yazısı yönergeleri, zaman sayacı, bağlaç rehberi ve sınav sonunda örnek tam puanlı çözüm metinleri.</li>
+                <li>İster süreli tam deneme simülasyonu yapabilir, ister serbest çalışma modunda araları atlayarak pratik yapabilirsiniz.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-question">
+              <span>Seslendirmeler gerçek ana dili Almanca olan sesler mi?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Evet! Hikâyelerdeki karakter diyalogları ve sınav dinleme bölümleri, ana dili Almanca olan net stüdyo telaffuzlarıyla özel olarak üretilmiştir. Cümleyi dinlerken kelime-kelime vurgu takibi yapabilir, dinleme hızını seviyenize göre (0.8x, 1.0x, 1.2x) ayarlayabilirsiniz.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-question">
+              <span>Uygulamada bir hata gördüm veya çeviri önerisinde bulunmak istiyorum, ne yapmalıyım?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Geri bildirimleriniz bizim için çok değerlidir! Karşılaştığınız hatayı, ekran görüntüsünü veya çeviri önerinizi doğrudan <strong>support@lernfino.com</strong> adresine iletebilirsiniz. Ekibimiz her e-postayı titizlikle inceler.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ==================== ENGLISH FAQ ==================== -->
+        <div class="faq-list" data-lang-content="en" style="display: none;">
+          <div class="faq-item open">
+            <button type="button" class="faq-question">
+              <span>Can I read and listen to stories without an internet connection (offline)?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class="faq-answer">
+              <p>
+                <strong>Yes, absolutely!</strong> Lernfino is engineered with a "local-first" architecture. Story chapters, the contextual dictionary, and pre-downloaded audios remain stored on your device. You can practice seamlessly on flights, subways, or anywhere without mobile connectivity.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-question">
+              <span>How do I transfer my learning progress and vocabulary to a new phone?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Transferring your progress is seamless without requiring a cloud account:</p>
+              <ol>
+                <li>Open Lernfino on your current device and navigate to <strong>Settings</strong>.</li>
+                <li>Tap <strong>"Backup learning data"</strong>. A portable <code>.json</code> backup file will be generated and saved to your device.</li>
+                <li>Send this file to your new device (via AirDrop, email, etc.).</li>
+                <li>On your new phone, open Lernfino → Settings and tap <strong>"Select backup file"</strong> to restore all flashcards and stats immediately.</li>
+              </ol>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-question">
+              <span>How do Goethe and ÖSD full mock exams (Hören, Lesen, Schreiben) work?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Our exam module reproduces authentic certification exam workflows:
+              </p>
+              <ul>
+                <li><strong>Hören & Lesen:</strong> Official countdown timers, reading audio tracks, and one-click proof passage navigation for every question review.</li>
+                <li><strong>Schreiben (Writing):</strong> Official letter/email prompts, phrase bank, connector guide, and model full-mark sample essays.</li>
+                <li>Choose between strict timed exam simulation or flexible self-paced study modes.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-question">
+              <span>Are audio narrations voiced by native German speakers?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Yes! Story dialogs and exam listening passages feature studio-grade native German articulation with synchronized word-by-word highlighting and adjustable playback speeds (0.8x, 1.0x, 1.2x).
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-question">
+              <span>How can I report a bug or suggest a translation correction?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Your feedback is highly appreciated! Please email details, screenshots, or corrections directly to <strong>support@lernfino.com</strong>.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ==================== DEUTSCH FAQ ==================== -->
+        <div class="faq-list" data-lang-content="de" style="display: none;">
+          <div class="faq-item open">
+            <button type="button" class="faq-question">
+              <span>Kann ich die Geschichten und Audios ohne Internetverbindung (offline) nutzen?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class="faq-answer">
+              <p>
+                <strong>Ja, absolut!</strong> Lernfino basiert auf einer modernen "Local-First"-Architektur. Das Geschichtenverzeichnis, das kontextuelle Wörterbuch und heruntergeladene Audiodateien bleiben lokal auf Ihrem Gerät gespeichert.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-question">
+              <span>Wie übertrage ich meinen Lernfortschritt auf ein neues Smartphone?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Tippen Sie in Lernfino unter <strong>Einstellungen</strong> auf <strong>"Lerndaten sichern"</strong>. Sie erhalten eine portable <code>.json</code>-Datei, die Sie auf Ihrem neuen Gerät unter <strong>"Backup-Datei wählen"</strong> in Sekundenschnelle wiederherstellen können.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-question">
+              <span>Wie funktionieren die Goethe- & ÖSD-Probeprüfungen (Hören, Lesen, Schreiben)?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Die Prüfungsmodule simulieren die echten Zertifikatsprüfungen mit offiziellen Zeiten, Audio-Einspielungen, Nachweisen im Text und Musterlösungen für den Schreibteil.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-question">
+              <span>Wie kann ich Feedback geben oder Fehler melden?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Schreiben Sie uns jederzeit gerne an <strong>support@lernfino.com</strong>. Wir freuen uns über jedes Feedback!
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="../Lernfino%20Deutsch%20Fox%20Icon.png" alt="Lernfino" class="footer-logo" />
+        <div>
+          <strong>lernfino.com</strong>
+          <p data-i18n="footer.tagline">Almancaya açılan sıcak bir sayfa. Çok yakında iOS, Android ve Web'de.</p>
+        </div>
+      </div>
+
+      <div class="footer-meta">
+        <div class="footer-links">
+          <a href="../privacy/" class="footer-nav-link" data-i18n="footer.privacy">Gizlilik Politikası</a>
+          <span>·</span>
+          <a href="../terms/" class="footer-nav-link" data-i18n="footer.terms">Kullanım Koşulları</a>
+          <span>·</span>
+          <a href="../support/" class="footer-nav-link" data-i18n="footer.support">Destek & SSS</a>
+          <span>·</span>
+          <a href="../delete-account/" class="footer-nav-link" data-i18n="footer.deleteAccount">Hesap Silme</a>
+        </div>
+        <div class="footer-langs">
+          <button type="button" class="text-link" data-lang-switch="tr">Türkçe</button>
+          <span>·</span>
+          <button type="button" class="text-link" data-lang-switch="en">English</button>
+          <span>·</span>
+          <button type="button" class="text-link" data-lang-switch="de">Deutsch</button>
+        </div>
+        <small>© 2026 Lernfino · Respecode. <span data-i18n="footer.rights">Tüm hakları saklıdır.</span></small>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../legal.js"></script>
+</body>
+</html>

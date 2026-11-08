@@ -116,7 +116,11 @@ const I18N = {
     "launch.successMsg": "Harika! Fino e-posta adresinizi kaydetti ({email}). Lansman günü ilk üyelere özel sürprizlerle görüşmek üzere!",
 
     "footer.tagline": "Almancaya açılan sıcak bir sayfa. Çok yakında iOS, Android ve Web'de.",
-    "footer.rights": "Tüm hakları saklıdır."
+    "footer.rights": "Tüm hakları saklıdır.",
+    "footer.privacy": "Gizlilik Politikası",
+    "footer.terms": "Kullanım Koşulları",
+    "footer.support": "Destek & SSS",
+    "footer.deleteAccount": "Hesap Silme"
   },
 
   en: {
@@ -231,7 +235,11 @@ const I18N = {
     "launch.successMsg": "Wonderful! Fino saved your email ({email}). See you on launch day with special member surprises!",
 
     "footer.tagline": "A warm page opening to German. Coming soon to iOS, Android, and Web.",
-    "footer.rights": "All rights reserved."
+    "footer.rights": "All rights reserved.",
+    "footer.privacy": "Privacy Policy",
+    "footer.terms": "Terms of Service",
+    "footer.support": "Support & FAQ",
+    "footer.deleteAccount": "Delete Account"
   },
 
   de: {
@@ -346,7 +354,11 @@ const I18N = {
     "launch.successMsg": "Wunderbar! Fino hat Ihre E-Mail-Adresse ({email}) notiert. Bis bald zum Start mit exklusiven Überraschungen!",
 
     "footer.tagline": "Eine herzliche Seite zur deutschen Sprache. Demnächst für iOS, Android und Web.",
-    "footer.rights": "Alle Rechte vorbehalten."
+    "footer.rights": "Alle Rechte vorbehalten.",
+    "footer.privacy": "Datenschutz",
+    "footer.terms": "Nutzungsbedingungen",
+    "footer.support": "Support & FAQ",
+    "footer.deleteAccount": "Konto löschen"
   }
 };
 
@@ -994,6 +1006,11 @@ let savedWords = new Set();
 let currentAudioPlayer = null;
 
 function detectInitialLang() {
+  try {
+    const params = new URLSearchParams(window.location.search);
+    const qLang = params.get("lang");
+    if (qLang && I18N[qLang.toLowerCase()]) return qLang.toLowerCase();
+  } catch {}
   const saved = localStorage.getItem("lernfino_web_lang");
   if (saved && I18N[saved]) return saved;
   const nav = (navigator.language || "tr").toLowerCase();
