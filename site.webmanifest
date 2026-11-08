@@ -1,0 +1,16 @@
+{
+  "name": "Lernfino Deutsch",
+  "short_name": "Lernfino",
+  "description": "Fino ile her sayfada biraz Almanca — Seviyelendirilmiş sesli hikâyeler, etkileşimli videolar, bağlamsal sözlük ve Goethe/ÖSD sınav hazırlığı.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#FAF7F2",
+  "theme_color": "#181E29",
+  "icons": [
+    {
+      "src": "./Lernfino%20Deutsch%20Fox%20Icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
