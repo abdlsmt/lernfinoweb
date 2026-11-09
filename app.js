@@ -1423,12 +1423,13 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // Early Access Notification Form (Fix: Hidden until submit!)
+  // Early Access Notification Form (Connected to Google Sheets)
   const notifyForm = document.getElementById("notifyForm");
   const emailInput = document.getElementById("emailInput");
   const levelSelect = document.getElementById("levelSelect");
   const formFeedback = document.getElementById("formFeedback");
   const feedbackMessage = document.getElementById("feedbackMessage");
+  const GOOGLE_SHEET_URL = "https://script.google.com/macros/s/AKfycbz0gSh1Sguut_86bbIYPC1Dtd4Y7MxpNpJceBm8p7lxmB6bhQwha20FN-L49fGmtGEk/exec";
 
   if (notifyForm && emailInput && formFeedback) {
     notifyForm.addEventListener("submit", (e) => {
@@ -1437,9 +1438,38 @@ document.addEventListener("DOMContentLoaded", () => {
       const level = levelSelect ? levelSelect.value : "B1";
       if (!email) return;
 
+      // 1. Local storage backup
       const list = JSON.parse(localStorage.getItem("lernfino_waitlist") || "[]");
       list.push({ email, level, lang: currentLang, date: new Date().toISOString() });
       localStorage.setItem("lernfino_waitlist", JSON.stringify(list));
+
+      // 2. Google Sheets sync (no-cors mode for seamless Google Apps Script execution)
+      const submitBtn = notifyForm.querySelector("button[type='submit']");
+      if (submitBtn) {
+        submitBtn.disabled = true;
+        submitBtn.style.opacity = "0.7";
+      }
+
+      fetch(GOOGLE_SHEET_URL, {
+        method: "POST",
+        mode: "no-cors",
+        headers: {
+          "Content-Type": "text/plain;charset=utf-8"
+        },
+        body: JSON.stringify({
+          email: email,
+          level: level,
+          lang: currentLang,
+          source: "lernfino.com"
+        })
+      }).catch((err) => {
+        console.warn("Google Sheets sync note:", err);
+      }).finally(() => {
+        if (submitBtn) {
+          submitBtn.disabled = false;
+          submitBtn.style.opacity = "";
+        }
+      });
 
       // Reveal only on successful submit!
       formFeedback.style.display = "flex";
