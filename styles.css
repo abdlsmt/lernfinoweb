@@ -2304,6 +2304,42 @@ h1, h2, h3, h4, p {
   flex-shrink: 0;
 }
 
+
+.yt-lang-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.lang-tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 9px;
+  border-radius: 999px;
+  font-size: 11.5px;
+  font-weight: 600;
+  background: var(--bg-soft);
+  border: 1px solid var(--line);
+  color: var(--ink-secondary);
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+  transition: all 0.15s ease;
+}
+
+[data-theme="dark"] .lang-tag {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.12);
+  color: var(--ink-secondary);
+}
+
+.lang-tag:hover {
+  border-color: var(--amber);
+  color: var(--amber);
+  background: var(--surface);
+  transform: translateY(-1px);
+}
+
 .yt-cta-note {
   font-size: 12.5px;
   font-weight: 600;
