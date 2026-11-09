@@ -550,7 +550,7 @@ const DEMO_LEVELS = {
   A1: {
     storyTitle: "Der kleine Garten",
     badge: { tr: "A1 · Başlangıç (Präsens)", en: "A1 · Beginner (Präsens)", de: "A1 · Anfänger (Präsens)" },
-    audioFile: "./audio/sentence_a1.mp3",
+    audioFile: "./audio/sentence_a1_garten.mp3",
     words: [
       { key: "hinter", label: "Hinter" },
       { key: "ihrem", label: "ihrem" },
@@ -615,7 +615,7 @@ const DEMO_LEVELS = {
   B2: {
     storyTitle: "Briefe von morgen",
     badge: { tr: "B2 · İleri Orta (Passiv & Modalverb)", en: "B2 · Upper-Intermediate (Passiv & Modal)", de: "B2 · Gute Mittelstufe (Passiv & Modal)" },
-    audioFile: "./audio/sentence_b2.mp3",
+    audioFile: "./audio/sentence_b2_clear.mp3",
     words: [
       { key: "bevor", label: "Bevor" },
       { key: "die", label: "die" },
