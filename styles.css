@@ -1509,8 +1509,10 @@ h1, h2, h3, h4, p {
     text-align: left;
   }
   .footer-links,
-  .footer-langs {
+  .footer-langs,
+  .footer-socials {
     justify-content: flex-start;
+    flex-wrap: wrap;
   }
 }
 
@@ -2404,6 +2406,12 @@ h1, h2, h3, h4, p {
   background: rgba(225, 48, 108, 0.08);
   border-color: #e1306c;
   color: #e1306c;
+}
+
+.footer-social-btn.fb:hover {
+  background: rgba(24, 119, 242, 0.08);
+  border-color: #1877f2;
+  color: #1877f2;
 }
 
 @media (max-width: 860px) {
