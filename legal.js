@@ -23,6 +23,7 @@ const LEGAL_I18N = {
     // Footer
     "footer.tagline": "Almancaya açılan sıcak bir sayfa. Çok yakında iOS, Android ve Web'de.",
     "footer.rights": "Tüm hakları saklıdır.",
+    "footer.disclaimer": "Goethe-Zertifikat ve ÖSD, ilgili sahiplerinin tescilli markalarıdır. Lernfino bağımsız bir eğitim platformudur; Goethe-Institut veya ÖSD'nin resmî bir materyali, ortağı veya ürünü değildir.",
     "footer.privacy": "Gizlilik Politikası",
     "footer.terms": "Kullanım Koşulları",
     "footer.support": "Destek & SSS",
@@ -83,6 +84,7 @@ const LEGAL_I18N = {
     // Footer
     "footer.tagline": "A warm page opening to German. Coming soon to iOS, Android, and Web.",
     "footer.rights": "All rights reserved.",
+    "footer.disclaimer": "Goethe-Zertifikat and ÖSD are registered trademarks of their respective owners. Lernfino is an independent learning platform and not official material of the Goethe-Institut or ÖSD.",
     "footer.privacy": "Privacy Policy",
     "footer.terms": "Terms of Service",
     "footer.support": "Support & FAQ",
@@ -143,6 +145,7 @@ const LEGAL_I18N = {
     // Footer
     "footer.tagline": "Eine herzliche Seite zur deutschen Sprache. Demnächst für iOS, Android und Web.",
     "footer.rights": "Alle Rechte vorbehalten.",
+    "footer.disclaimer": "Goethe-Zertifikat und ÖSD sind eingetragene Marken der jeweiligen Inhaber. Lernfino ist ein unabhängiges Bildungsangebot und kein offizielles Prüfungsmaterial des Goethe-Instituts oder des ÖSD.",
     "footer.privacy": "Datenschutz",
     "footer.terms": "Nutzungsbedingungen",
     "footer.support": "Support & FAQ",

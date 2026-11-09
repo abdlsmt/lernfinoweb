@@ -2445,3 +2445,39 @@ h1, h2, h3, h4, p {
     justify-content: flex-start;
   }
 }
+
+/* ==========================================================================
+   LEGAL DISCLAIMERS & TRADEMARK NOTICES
+   ========================================================================== */
+
+.exam-disclaimer {
+  display: block;
+  margin-top: 14px;
+  font-size: 11px;
+  line-height: 1.45;
+  color: var(--ink-muted);
+  font-style: italic;
+}
+
+.yt-disclaimer {
+  display: block;
+  margin-top: 10px;
+  font-size: 11px;
+  line-height: 1.45;
+  color: var(--ink-muted);
+  font-style: italic;
+}
+
+.footer-disclaimer {
+  font-size: 11px;
+  line-height: 1.55;
+  color: var(--ink-muted);
+  margin: 12px 0 8px;
+  max-width: 680px;
+}
+
+[data-theme="dark"] .exam-disclaimer,
+[data-theme="dark"] .yt-disclaimer,
+[data-theme="dark"] .footer-disclaimer {
+  color: rgba(255, 255, 255, 0.45);
+}
