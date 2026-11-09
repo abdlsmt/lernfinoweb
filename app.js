@@ -386,7 +386,7 @@ const DEMO_LEVELS = {
   A2: {
     storyTitle: "Brief im falschen Kasten",
     badge: { tr: "A2 · Temel (Perfekt)", en: "A2 · Elementary (Perfekt)", de: "A2 · Grundlagen (Perfekt)" },
-    audioFile: "./audio/sentence_a2.mp3?v=3",
+    audioFile: "./audio/sentence_a2.mp3",
     words: [
       { key: "ich", label: "Ich" },
       { key: "habe", label: "habe" },
@@ -627,7 +627,7 @@ const WORD_DICTIONARY = {
     },
     exampleDe: "Sie hat die Tür leise geöffnet.",
     exampleTr: { tr: "Kapıyı sessizce açtı.", en: "She opened the door quietly.", de: "Er hat das Fenster geöffnet." },
-    audioFile: "./audio/word_oeffnen.mp3?v=2"
+    audioFile: "./audio/word_oeffnen.mp3"
   },
   und: {
     headword: "und",
@@ -956,7 +956,7 @@ const WORD_DICTIONARY = {
     },
     exampleDe: "Nora liebt alte Bücher.",
     exampleTr: { tr: "Nora eski kitapları çok sever.", en: "Nora loves antique books.", de: "Nora liest jeden Abend vor dem Schlafen." },
-    audioFile: "./audio/word_nora.mp3?v=2"
+    audioFile: "./audio/word_nora.mp3"
   },
   saemtliche: {
     headword: "sämtlich",
@@ -1030,7 +1030,8 @@ function stopAudio() {
 function playAudioFile(srcPath, fallbackWord) {
   stopAudio();
   if (srcPath) {
-    const audio = new Audio(srcPath);
+    const cleanPath = srcPath.split("?")[0] + "?v=qwen3";
+    const audio = new Audio(cleanPath);
     currentAudioPlayer = audio;
     audio.play().catch(() => {
       if (fallbackWord) speakGermanSynthesis(fallbackWord);
