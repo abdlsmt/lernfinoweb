@@ -2084,3 +2084,31 @@ h1, h2, h3, h4, p {
     border: 1px solid rgba(232, 119, 34, 0.2);
   }
 }
+
+
+.support-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+}
+
+.support-header-fino {
+  width: 104px;
+  height: 104px;
+  object-fit: contain;
+  flex-shrink: 0;
+  filter: drop-shadow(0 8px 20px rgba(0, 0, 0, 0.12));
+}
+
+@media (max-width: 680px) {
+  .support-title-row {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .support-header-fino {
+    width: 76px;
+    height: 76px;
+  }
+}
