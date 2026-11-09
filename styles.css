@@ -1936,6 +1936,10 @@ h1, h2, h3, h4, p {
   background: rgba(232, 119, 34, 0.02);
 }
 
+.compare-mobile-tag {
+  display: none;
+}
+
 .compare-header-row {
   background: var(--bg);
   border-bottom: 2px solid var(--line);
@@ -2056,8 +2060,8 @@ h1, h2, h3, h4, p {
 @media (max-width: 860px) {
   .compare-row {
     grid-template-columns: 1fr;
-    padding: 18px 20px;
-    gap: 14px;
+    padding: 20px 18px;
+    gap: 12px;
   }
   .compare-header-row {
     display: none;
@@ -2065,23 +2069,72 @@ h1, h2, h3, h4, p {
   .compare-col {
     padding: 0;
     border-right: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
   }
   .compare-col-feature {
     background: none;
-    padding-bottom: 8px;
+    padding-bottom: 10px;
     border-bottom: 1px solid var(--line-soft);
     font-size: 16px;
+    flex-direction: row;
+    align-items: center;
   }
   .compare-col-classic {
-    padding: 12px 14px;
+    padding: 14px 16px;
     border-radius: var(--radius-sm);
-    background: rgba(24, 30, 41, 0.03);
+    background: rgba(24, 30, 41, 0.035);
+    border: 1px solid var(--line-soft);
   }
   .compare-col-fino.highlight-col {
-    padding: 14px;
+    padding: 14px 16px;
     border-radius: var(--radius-sm);
     background: var(--amber-soft);
-    border: 1px solid rgba(232, 119, 34, 0.2);
+    border: 1px solid rgba(232, 119, 34, 0.28);
+    box-shadow: 0 4px 14px rgba(232, 119, 34, 0.06);
+  }
+  .compare-mobile-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    padding: 3px 9px;
+    border-radius: 20px;
+  }
+  .compare-mobile-tag.classic {
+    background: rgba(214, 40, 40, 0.09);
+    color: var(--crimson);
+    border: 1px solid rgba(214, 40, 40, 0.25);
+  }
+  .compare-mobile-tag.fino {
+    background: #ffffff;
+    color: var(--amber);
+    border: 1px solid rgba(232, 119, 34, 0.35);
+    box-shadow: 0 2px 6px rgba(232, 119, 34, 0.12);
+  }
+  [data-theme="dark"] .compare-mobile-tag.fino {
+    background: rgba(242, 140, 56, 0.2);
+    color: #ffa04f;
+    border: 1px solid rgba(242, 140, 56, 0.4);
+  }
+  [data-theme="dark"] .compare-mobile-tag.classic {
+    background: rgba(214, 40, 40, 0.18);
+    color: #ff6b6b;
+    border: 1px solid rgba(214, 40, 40, 0.35);
+  }
+  .compare-mobile-fino-ico {
+    width: 15px;
+    height: 15px;
+    object-fit: contain;
+  }
+  .compare-mobile-icon {
+    font-size: 11px;
+    line-height: 1;
   }
 }
 
