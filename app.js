@@ -89,7 +89,7 @@ const I18N = {
     "demo.exampleTitle": "ÖRNEK CÜMLE",
     "demo.saveBtn": "Kelime Defterime Ekle (SRS)",
     "demo.savedBtn": "✓ SRS Kelime Defterine Eklendi",
-    "demo.listenWord": "Kelime Sesi",
+    "demo.listenWord": "Dinle",
 
     "features.eyebrow": "UYGULAMADA NELER OLACAK?",
     "features.title": "Almanca Öğrenmek İçin Eksiksiz Bir Ekosistem",
@@ -136,6 +136,7 @@ const I18N = {
     "how.s3Title": "Tam Deneme Sınavıyla Kendini Test Et",
     "how.s3Desc": "Goethe ve ÖSD formatındaki Hören, Lesen ve Schreiben modülleriyle eksiksiz sınav provası yap, hatalarını kanıtlı çözümlerle hemen gör.",
 
+    "yt.brand": "YOUTUBE'DA LERNFINO · @LernfinoDeutsch",
     "yt.title": "Almancayı YouTube Kanalımızda İzleyin",
     "yt.subtitle": "Sadece okumayın; Goethe sınav simülasyonları, animasyonlu hikâyeler ve günlük pratik videolarıyla Almancayı izleyerek ve dinleyerek pekiştirin.",
     "yt.p1Title": "Goethe & ÖSD Sınav Simülatörleri:",
@@ -268,7 +269,7 @@ const I18N = {
     "demo.exampleTitle": "EXAMPLE SENTENCE",
     "demo.saveBtn": "Add to My Vocabulary (SRS)",
     "demo.savedBtn": "✓ Saved to SRS Vocabulary",
-    "demo.listenWord": "Word Audio",
+    "demo.listenWord": "Listen",
 
     "features.eyebrow": "WHAT'S INSIDE LERNFINO?",
     "features.title": "A Complete Ecosystem for Mastering German",
@@ -315,6 +316,7 @@ const I18N = {
     "how.s3Title": "Test Yourself with Full Mock Exams",
     "how.s3Desc": "Take full Goethe & ÖSD simulations across Hören, Lesen, and Schreiben modules with timestamped evidence solutions.",
 
+    "yt.brand": "LERNFINO ON YOUTUBE · @LernfinoDeutsch",
     "yt.title": "Learn German on Our YouTube Channel",
     "yt.subtitle": "Don't just read; master German by watching and listening with full Goethe exam simulations, animated stories, and daily practical video lessons.",
     "yt.p1Title": "Goethe & ÖSD Exam Simulators:",
@@ -494,6 +496,7 @@ const I18N = {
     "how.s3Title": "Mit vollständigen Modellprüfungen testen",
     "how.s3Desc": "Beweisen Sie Ihr Niveau in Hören, Lesen und Schreiben mit Goethe- und ÖSD-Modellprüfungen samt detaillierten Beleg-Erklärungen.",
 
+    "yt.brand": "LERNFINO AUF YOUTUBE · @LernfinoDeutsch",
     "yt.title": "Deutsch lernen auf unserem YouTube-Kanal",
     "yt.subtitle": "Nicht nur lesen: Vertiefen Sie Ihr Deutsch durch Sehen und Hören mit Goethe-Modellprüfungen, animierten Geschichten und täglichen Praxistipps.",
     "yt.p1Title": "Goethe & ÖSD Prüfungssimulatoren:",
@@ -1193,10 +1196,11 @@ function detectInitialLang() {
   } catch {}
   const saved = localStorage.getItem("lernfino_web_lang");
   if (saved && I18N[saved]) return saved;
-  const nav = (navigator.language || "tr").toLowerCase();
+  const nav = (navigator.language || "en").toLowerCase();
+  if (nav.startsWith("tr")) return "tr";
   if (nav.startsWith("de")) return "de";
   if (nav.startsWith("en")) return "en";
-  return "tr";
+  return "en";
 }
 
 function stopAudio() {

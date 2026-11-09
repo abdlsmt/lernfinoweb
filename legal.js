@@ -200,10 +200,11 @@ function detectLegalLang() {
   const saved = localStorage.getItem("lernfino_web_lang");
   if (saved && LEGAL_I18N[saved]) return saved;
 
-  const nav = (navigator.language || "tr").toLowerCase();
+  const nav = (navigator.language || "en").toLowerCase();
+  if (nav.startsWith("tr")) return "tr";
   if (nav.startsWith("de")) return "de";
   if (nav.startsWith("en")) return "en";
-  return "tr";
+  return "en";
 }
 
 function setLegalLanguage(lang) {
