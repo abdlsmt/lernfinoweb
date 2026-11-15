@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html lang="de" data-theme="light" data-page-lang="de" data-base="..">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lernfino — Mit Fino auf jeder Seite ein Stück Deutsch | Demnächst</title>
+  <meta name="description" content="Lernfino: Abgestufte deutsche Hörgeschichten (A1–B2), interaktive Videolektionen, Klick-Wörterbuch und Goethe/ÖSD-Probeprüfungen (Hören, Lesen & Schreiben). Demnächst für iOS, Android und Web." />
+  <meta name="theme-color" content="#181E29" />
+  <link rel="canonical" href="https://lernfino.com/de/" />
+  <link rel="alternate" hreflang="en" href="https://lernfino.com/" />
+  <link rel="alternate" hreflang="tr" href="https://lernfino.com/tr/" />
+  <link rel="alternate" hreflang="de" href="https://lernfino.com/de/" />
+  <link rel="alternate" hreflang="x-default" href="https://lernfino.com/" />
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="de_DE" />
+  <meta property="og:url" content="https://lernfino.com/de/" />
+  <meta property="og:title" content="Lernfino Deutsch — Mit Fino auf jeder Seite ein Stück Deutsch" />
+  <meta property="og:description" content="Abgestufte Hörgeschichten von A1 bis B2, interaktive Video-Episoden, Klick-Wörterbuch und Goethe/ÖSD-Probeprüfungen. Bald verfügbar!" />
+  <meta property="og:image" content="https://lernfino.com/Lernfino%20Deutsch%20Fox%20Icon.png" />
+
+  <link rel="icon" type="image/png" href="../Lernfino%20Deutsch%20Fox%20Icon.png" />
+  <link rel="apple-touch-icon" href="../Lernfino%20Deutsch%20Fox%20Icon.png" />
+  <link rel="manifest" href="../site.webmanifest" />
+  <link rel="stylesheet" href="../styles.css?v=20261115-h1" />
+</head>
+<body>
+  <!-- Top German Flag Subtle Accent Bar -->
+  <div class="flag-topline" aria-hidden="true">
+    <span class="flag-black"></span>
+    <span class="flag-red"></span>
+    <span class="flag-gold"></span>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="brand-logo" aria-label="Lernfino Startseite">
+        <img src="../Lernfino%20Deutsch%20Fox%20Icon.png" alt="Lernfino Fino mascot logo" class="brand-img" />
+        <div class="brand-text-wrap">
+          <span class="brand-name">Lernfino</span>
+          <span class="brand-badge">Deutsch</span>
+        </div>
+      </a>
+
+      <nav class="main-nav" aria-label="Hauptmenü">
+        <a href="#demo" data-i18n="nav.demo">Live-Demo</a>
+        <a href="#features" data-i18n="nav.features">Funktionen</a>
+        <a href="#compare" data-i18n="nav.compare">Warum Lernfino?</a>
+        <a href="#how" data-i18n="nav.how">Ablauf</a>
+        <a href="#channel" data-i18n="nav.channel">YouTube</a>
+        <a href="#launch" data-i18n="nav.launch">Startstatus</a>
+        <a href="../level-test/" data-i18n="nav.tools">Kostenlose Tools</a>
+      </nav>
+
+      <div class="header-actions">
+        <!-- Language Switcher (TR | EN | DE) -->
+        <div class="lang-switcher" role="group" aria-label="Sprachauswahl">
+          <button type="button" class="lang-btn" data-lang="tr" aria-pressed="false">TR</button>
+          <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+          <button type="button" class="lang-btn active" data-lang="de" aria-pressed="true">DE</button>
+        </div>
+
+        <!-- Theme Toggle -->
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Theme wechseln">
+          <svg class="icon-moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+
+        <a href="#launch" class="btn btn-primary btn-sm header-cta" data-i18n="nav.cta">Benachrichtigen</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge-row">
+            <div class="status-pill">
+              <span class="status-dot"></span>
+              <span data-i18n="hero.badge">DEMNÄCHST · iOS, Android & Web</span>
+            </div>
+            <div class="hero-waving-fino" title="Hallo! Ich bin Fino!">
+              <img src="../02_Fino_Selam_Veriyor.png" alt="Fino waving" class="fino-avatar-wave" />
+              <span class="fino-bubble">Hallo! 👋</span>
+            </div>
+          </div>
+
+          <h1 class="hero-title" data-i18n="hero.title">Mit Fino auf jeder Seite ein Stück <span class="highlight-gold">Deutsch.</span> Kleine Schritte, große Geschichten.</h1>
+
+          <p class="hero-subtitle" data-i18n="hero.subtitle">Der herzlichste Weg, Deutsch zu lernen: mit gestuften Hörgeschichten (A1–B2), interaktiven Videolektionen, sofortigem Kontextwörterbuch und vollständigen Goethe-/ÖSD-Modellprüfungen (Hören, Lesen & Schreiben).</p>
+
+          <div class="hero-cta-row">
+            <a href="#launch" class="btn btn-primary btn-lg">
+              <span data-i18n="hero.ctaPrimary">Zum Start benachrichtigen</span>
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#demo" class="btn btn-secondary btn-lg">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+              </svg>
+              <span data-i18n="hero.ctaSecondary">Live-Demo ausprobieren</span>
+            </a>
+          </div>
+
+          <!-- Key Metrics / Competitive Stat Row -->
+          <div class="hero-stats-row">
+            <div class="hero-stat-card">
+              <div class="hero-stat-header">
+                <span class="hero-stat-num" data-i18n="hero.stat1Num">5.600+</span>
+                <span class="hero-stat-label" data-i18n="hero.stat1Label">Vertonungen</span>
+              </div>
+              <span class="hero-stat-sub" data-i18n="hero.stat1Sub">60 % mehr Wortschatz als herkömmliche Sprach-Apps</span>
+            </div>
+
+            <div class="hero-stat-card">
+              <div class="hero-stat-header">
+                <span class="hero-stat-num" data-i18n="hero.stat2Num">18.000+</span>
+                <span class="hero-stat-label" data-i18n="hero.stat2Label">Wortformen</span>
+              </div>
+              <span class="hero-stat-sub" data-i18n="hero.stat2Sub">Vollständige A1–B2 Artikel- und Grammatikzuordnung</span>
+            </div>
+
+            <div class="hero-stat-card">
+              <div class="hero-stat-header">
+                <span class="hero-stat-num" data-i18n="hero.stat3Num">A1 — B2</span>
+                <span class="hero-stat-label" data-i18n="hero.stat3Label">Goethe & ÖSD</span>
+              </div>
+              <span class="hero-stat-sub" data-i18n="hero.stat3Sub">Komplette Hören-, Lesen- und Schreiben-Prüfungen</span>
+            </div>
+          </div>
+
+          <!-- Store Badges (Coming Soon) -->
+          <div class="store-badges">
+            <div class="store-badge">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.96 6.33c.67-.81 1.12-1.94 1-3.08-.96.04-2.13.64-2.82 1.45-.61.7-.15 1.86-.99 2.98 1.08.08 2.15-.54 2.81-1.35z"/>
+              </svg>
+              <div>
+                <small data-i18n="store.soon">Demnächst</small>
+                <strong>App Store</strong>
+              </div>
+            </div>
+
+            <div class="store-badge">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                <path d="M3 20.5v-17c0-.83.94-1.3 1.6-.8l14 8.5c.6.37.6 1.23 0 1.6l-14 8.5c-.66.5-1.6.03-1.6-.8z"/>
+              </svg>
+              <div>
+                <small data-i18n="store.soon">Demnächst</small>
+                <strong>Google Play</strong>
+              </div>
+            </div>
+
+            <div class="store-badge">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="2" y1="12" x2="22" y2="12"></line>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+              </svg>
+              <div>
+                <small data-i18n="store.soon">Demnächst</small>
+                <strong data-i18n="store.web">Web-Version</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Right Visual: Official Fino Mascot + 4 Symmetric Floating UI Badges -->
+        <div class="hero-visual">
+          <div class="mascot-glow"></div>
+          <div class="mascot-card-frame">
+            <img src="../Lernfino%20Deutsch%20Fox%20Icon.png" alt="Lernfino Maskotu Fino" class="hero-mascot-img" />
+
+            <!-- Floating Card Top Left: CEFR Levels -->
+            <div class="float-badge float-top-left">
+              <span class="float-icon">📚</span>
+              <div>
+                <strong>A1 · A2 · B1 · B2</strong>
+                <small data-i18n="hero.floatLevels">Geschichten auf 4 Niveaus</small>
+              </div>
+            </div>
+
+            <!-- Floating Card Top Right: Interactive Videos -->
+            <div class="float-badge float-top-right">
+              <span class="float-icon">🎬</span>
+              <div>
+                <strong data-i18n="hero.floatVideoTitle">Interaktives Video</strong>
+                <small data-i18n="hero.floatVideoSub">Szenenübungen</small>
+              </div>
+            </div>
+
+            <!-- Floating Card Bottom Left: Word Lookup -->
+            <div class="float-badge float-bottom-left">
+              <span class="float-icon">🔍</span>
+              <div>
+                <strong data-i18n="hero.floatDictTitle">der Brief · <span class="muted-inline">die Briefe</span></strong>
+                <small data-i18n="hero.floatDict">Tipp-Wörterbuch</small>
+              </div>
+            </div>
+
+            <!-- Floating Card Bottom Right: Full Mock Exam (Hören, Lesen, Schreiben) -->
+            <div class="float-badge float-bottom-right">
+              <span class="float-icon">🎓</span>
+              <div>
+                <strong data-i18n="hero.floatExamTitle">Goethe & ÖSD</strong>
+                <small data-i18n="hero.floatExam">Hören, Lesen & Schreiben</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTERACTIVE DEMO SECTION -->
+    <section class="demo-section" id="demo">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow-tag" data-i18n="demo.eyebrow">INTERAKTIVE APP-VORSCHAU</span>
+          <h2 data-i18n="demo.title">Probieren Sie Lernfino direkt hier aus</h2>
+          <p data-i18n="demo.subtitle">Wechseln Sie unten die GER-Stufe (A1–B2), tippen Sie auf ein beliebiges Wort für Grammatikdetails oder hören Sie den Beispielsatz an.</p>
+        </div>
+
+        <div class="interactive-workbench">
+          <!-- Left: Reader Paper -->
+          <div class="demo-reader-card">
+            <div class="reader-topbar">
+              <div class="story-meta-row">
+                <img src="../01_Fino_Kitap_Okuyor_Sade.png" alt="Fino Kitap Okuyor" class="fino-reader-badge" />
+                <div class="story-meta">
+                  <span class="story-tag" data-i18n="demo.storyTag">GESCHICHTE & VIDEO-EPISODE</span>
+                  <strong id="demoStoryTitle">Der kleine Garten</strong>
+                </div>
+              </div>
+
+              <!-- CEFR Level Switcher -->
+              <div class="cefr-pills" role="tablist" aria-label="CEFR Seviyesi">
+                <button type="button" class="cefr-btn active" data-level="A1">A1</button>
+                <button type="button" class="cefr-btn" data-level="A2">A2</button>
+                <button type="button" class="cefr-btn" data-level="B1">B1</button>
+                <button type="button" class="cefr-btn" data-level="B2">B2</button>
+              </div>
+            </div>
+
+            <!-- Reader Mode Bar -->
+            <div class="reader-modes-bar">
+              <span class="mode-chip active">
+                <span class="dot-green"></span>
+                <span data-i18n="demo.modeRead">Wort-synchrones Lesen</span>
+              </span>
+              <span class="mode-chip" data-i18n="demo.modeListenFirst">🎧 Zuerst-Hören-Modus</span>
+              <span class="mode-chip" data-i18n="demo.modeRoleplay">🎭 Rolle sprechen</span>
+            </div>
+
+            <!-- Active Sentence Area -->
+            <div class="sentence-stage">
+              <div class="sentence-header">
+                <span class="level-indicator" id="demoLevelBadge">A1 · Anfänger (Präsens)</span>
+                <button type="button" class="audio-play-btn" id="speakSentenceBtn">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                  </svg>
+                  <span data-i18n="demo.listenBtn">Satz anhören</span>
+                </button>
+              </div>
+
+              <p class="german-sentence" id="demoGermanSentence" lang="de">
+                <!-- Populated dynamically by app.js -->
+              </p>
+
+              <p class="sentence-translation" id="demoSentenceTranslation">
+                <!-- Populated dynamically by app.js -->
+              </p>
+
+              <div class="tap-instruction">
+                <span class="pulse-ring"></span>
+                <span data-i18n="demo.tapHint">Tipp: Jedes Wort im Satz ist anklickbar. Tippen Sie ein Wort an, um Artikel, Grammatik und Aussprache zu sehen.</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Live Contextual Dictionary Panel -->
+          <aside class="demo-dict-card" aria-live="polite">
+            <div class="dict-card-header">
+              <span data-i18n="demo.dictHeader">KONTEXTWÖRTERBUCH & GRAMMATIK</span>
+              <button type="button" class="dict-audio-btn" id="speakWordBtn" title="Kelimeyi Seslendir">
+                🔊 <span id="dictWordAudioLabel" data-i18n="demo.listenWord">Wort-Audio</span>
+              </button>
+            </div>
+
+            <div class="dict-card-body">
+              <div class="dict-article" id="dictArticle">Wechselpräposition</div>
+              <h3 class="dict-headword" id="dictHeadword" lang="de">Brief</h3>
+              <div class="dict-meaning" id="dictMeaning">mektup</div>
+
+              <div class="dict-grammar-box">
+                <strong data-i18n="demo.grammarTitle">Grammatik- & Kontexthinweis:</strong>
+                <p id="dictGrammarNote">Wechselpräposition. Steht hier auf die Frage 'Wo?' mit Dativ: 'hinter ihrem Haus'.</p>
+              </div>
+
+              <div class="dict-example-box">
+                <small data-i18n="demo.exampleTitle">BEISPIELSATZ</small>
+                <p class="dict-example-de" id="dictExampleDe" lang="de">Ich schreibe meiner Mutter einen langen Brief.</p>
+                <p class="dict-example-tr" id="dictExampleTr">Der Garten liegt hinter dem Gebäude.</p>
+              </div>
+
+              <button type="button" class="btn btn-srs full-w" id="saveWordBtn">
+                <span id="saveWordIcon">＋</span>
+                <span id="saveWordText" data-i18n="demo.saveBtn">Zum Vokabelheft hinzufügen (SRS)</span>
+              </button>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4 CORE MODULES (BENTO GRID) -->
+    <section class="features-section" id="features">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow-tag" data-i18n="features.eyebrow">WAS ERWARTET SIE IN LERNFINO?</span>
+          <h2 data-i18n="features.title">Ein komplettes Ökosystem zum Deutschlernen</h2>
+          <p data-i18n="features.subtitle">Statt isolierter Wortlisten verbinden wir gestufte Literatur, interaktive Videos und vollständige Zertifikatsprüfungen.</p>
+        </div>
+
+        <div class="bento-grid">
+          <!-- Feature 1: Stories -->
+          <article class="bento-card bento-large">
+            <div class="bento-card-top">
+              <span class="bento-badge badge-amber" data-i18n="f1.badge">A1 · A2 · B1 · B2 BIBLIOTHEK</span>
+              <img src="../06_Fino_Kitap_Okuyor_Alternatif.png" alt="Fino Kitap Okuyor" class="bento-mini-fino" />
+            </div>
+            <h3 data-i18n="f1.title">Gestufte Hörgeschichten & Bücher</h3>
+            <p data-i18n="f1.desc">Lesen Sie dieselbe Geschichte genau auf Ihrem Niveau – von klaren kurzen Sätzen auf A1 bis zu nuancierter Erzählkunst auf B2.</p>
+            <ul class="feature-list">
+              <li data-i18n="f1.b1">Wortgenau synchronisierte Audio-Markierung und Tempoauswahl</li>
+              <li data-i18n="f1.b2"><strong>„Zuerst hören“</strong>-Modus für gezieltes Hörverständnis</li>
+              <li data-i18n="f1.b3"><strong>„Rolle spielen“</strong>-Modus zum aktiven Mitsprechen in Dialogen</li>
+              <li data-i18n="f1.b4">Satzübersetzungen und Verständnisfragen am Kapitelende</li>
+            </ul>
+          </article>
+
+          <!-- Feature 2: Interactive Videos -->
+          <article class="bento-card">
+            <div class="bento-card-top">
+              <span class="bento-badge badge-gold" data-i18n="f2.badge">VIDEOLEKTIONEN & SHORTS</span>
+              <img src="../08_Fino_Klaper_Video.png" alt="Fino Film Klaperiyle" class="bento-mini-fino fino-scale-up" />
+            </div>
+            <h3 data-i18n="f2.title">Interaktive Video-Episoden</h3>
+            <p data-i18n="f2.desc">Erleben Sie Alltagsgeschichten wie <em>Tim & Lea</em> im freien Schauen oder im <strong>„Als Lektion lernen“</strong>-Modus mit Szenenfragen.</p>
+            <ul class="feature-list">
+              <li data-i18n="f2.b1">Automatische Zwischenfragen am Ende jeder Szene</li>
+              <li data-i18n="f2.b2">Jedes Wort im Videotranskript ist direkt anklickbar</li>
+              <li data-i18n="f2.b3">Vertikale <strong>Shorts</strong> mit kompakten Mini-Tests</li>
+            </ul>
+          </article>
+
+          <!-- Feature 3: Smart Dictionary & SRS -->
+          <article class="bento-card">
+            <div class="bento-card-top">
+              <span class="bento-badge badge-crimson" data-i18n="f3.badge">SMARTES WÖRTERBUCH & SRS</span>
+              <img src="../03_Fino_Basparmak_Gosteriyor.png" alt="Fino thumbs up" class="bento-mini-fino" />
+            </div>
+            <h3 data-i18n="f3.title">Kontextbasiertes Vokabelheft</h3>
+            <p data-i18n="f3.desc">Artikel (<em>der/die/das</em>), Pluralformen und Verbformen sofort griffbereit. Jedes gespeicherte Wort bewahrt alle Sätze aus Geschichten und Videos.</p>
+
+            <div class="bento-stat-callout">
+              <div class="bento-stat-tag">
+                <span class="pulse-mini-dot"></span>
+                <span data-i18n="f3.statPill">5.600+ VERTONUNGEN</span>
+              </div>
+              <p data-i18n="f3.statHighlight">Während herkömmliche Apps bei ca. 3.000 Wörtern stagnieren, bietet Lernfino 5.600+ hochwertige Vertonungen und über 18.000 Wortformen für die gezielte B2-Prüfungsvorbereitung.</p>
+            </div>
+
+            <ul class="feature-list">
+              <li data-i18n="f3.b1">Intelligente Wiederholungsintervalle (SRS: 1, 3 und wachsende Tage)</li>
+              <li data-i18n="f3.b2">Bis zu 100 echte Kontextsätze pro Karteikarte</li>
+              <li data-i18n="f3.b3">Verständliche Grammatikerklärungen im jeweiligen Satzkontext</li>
+            </ul>
+          </article>
+
+          <!-- Feature 4: Goethe & ÖSD Full Exams (Hören, Lesen, Schreiben) -->
+          <article class="bento-card bento-large">
+            <div class="bento-card-top">
+              <span class="bento-badge badge-navy" data-i18n="f4.badge">GOETHE- & ÖSD-KOMPLETTMODELLTESTS</span>
+              <img src="../05_Fino_Lernfino_Kitabiyla.png" alt="Fino holding exam book" class="bento-mini-fino fino-scale-up" />
+            </div>
+            <h3 data-i18n="f4.title">Vollständige Modellprüfungen (Hören, Lesen & Schreiben)</h3>
+            <p data-i18n="f4.desc">Originalgetreue Prüfungssimulation von A1 bis B2 mit allen Modulen: Hörverstehen (Hören), Leseverstehen (Lesen) und schriftlicher Ausdruck (Schreiben).</p>
+            <ul class="feature-list">
+              <li data-i18n="f4.b1"><strong>Hören & Lesen:</strong> Realitätsnaher Countdown, formatgetreue Lesepausen, Schritt-Navigation und Belegstellen-Sprung mit einem Klick</li>
+              <li data-i18n="f4.b2"><strong>Schreiben-Modul:</strong> Formelle und persönliche E-Mail-/Brief-Aufgaben, Satzverbindungshilfen und voll bepunktete Mustertexte</li>
+              <li data-i18n="f4.b3"><strong>Standardisierte Bewertungskriterien:</strong> Checklisten für Aufgabenerfüllung, Kohärenz, Wortschatz und Grammatikgenauigkeit</li>
+              <li data-i18n="f4.b4"><strong>Prüfungs- & Übungsmodus:</strong> Entweder unter Realzeit-Bedingungen oder im freien Modus mit überspringbaren Pausen</li>
+            </ul>
+            <small class="exam-disclaimer" data-i18n="f4.disclaimer">* Kein offizielles Prüfungsmaterial des Goethe-Instituts oder des ÖSD. Unabhängige Übungssimulation.</small>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMPARISON SECTION -->
+    <section class="compare-section" id="compare">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow-tag" data-i18n="compare.eyebrow">WARUM LERNFINO?</span>
+          <h2 data-i18n="compare.title">Verschwenden Sie keine Zeit mit herkömmlichen Apps</h2>
+          <p data-i18n="compare.subtitle">Statt starrer Auswendiglernerei und Herz-Barrieren: lebendiges Deutsch, echte Probeprüfungen und kristallklare Stimmen.</p>
+        </div>
+
+        <div class="compare-table-wrapper">
+          <div class="compare-table-card">
+            <!-- Header Row -->
+            <div class="compare-row compare-header-row">
+              <div class="compare-col compare-col-feature">
+                <span data-i18n="compare.thFeature">Bereich</span>
+              </div>
+              <div class="compare-col compare-col-classic">
+                <span class="compare-pill-classic" data-i18n="compare.thClassic">Herkömmliche Sprach-Apps</span>
+              </div>
+              <div class="compare-col compare-col-fino">
+                <div class="fino-header-badge">
+                  <img src="../Lernfino%20Deutsch%20Fox%20Icon.png" alt="Fino" class="compare-fino-mini" />
+                  <span data-i18n="compare.thFino">Lernfino-Erlebnis</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Row 1: Öğrenme Metodu -->
+            <div class="compare-row">
+              <div class="compare-col compare-col-feature">
+                <div class="feature-title-wrap">
+                  <span class="feature-icon">🎯</span>
+                  <strong data-i18n="compare.r1Feature">Lernmethode</strong>
+                </div>
+              </div>
+              <div class="compare-col compare-col-classic">
+                <div class="compare-mobile-tag classic">
+                  <span class="compare-mobile-icon">❌</span>
+                  <span data-i18n="compare.thClassic">Herkömmliche Sprach-Apps</span>
+                </div>
+                <div class="compare-cell">
+                  <span class="cell-status-icon bad">✕</span>
+                  <div class="cell-text">
+                    <strong data-i18n="compare.r1ClassicTitle">Mechanisches Auswendiglernen</strong>
+                    <p data-i18n="compare.r1ClassicDesc">Zeitverschwendung mit lebensfremden Sätzen wie „Der Bär isst den Apfel“ ohne echten Alltagsbezug.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="compare-col compare-col-fino highlight-col">
+                <div class="compare-mobile-tag fino">
+                  <img src="../Lernfino%20Deutsch%20Fox%20Icon.png" alt="Fino" class="compare-mobile-fino-ico" />
+                  <span data-i18n="compare.thFino">Lernfino-Erlebnis</span>
+                </div>
+                <div class="compare-cell">
+                  <span class="cell-status-icon good">✓</span>
+                  <div class="cell-text">
+                    <strong data-i18n="compare.r1FinoTitle">Lebendige Geschichten & Videos</strong>
+                    <p data-i18n="compare.r1FinoDesc">Echtes Deutsch auf Berliner Straßen, bei der Wohnungssuche oder im Zug – mit Szenen-Verständnisfragen.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Row 2: Kelime & Seviye Derinliği -->
+            <div class="compare-row">
+              <div class="compare-col compare-col-feature">
+                <div class="feature-title-wrap">
+                  <span class="feature-icon">📚</span>
+                  <strong data-i18n="compare.r2Feature">Wortschatz & CEFR-Tiefe</strong>
+                </div>
+              </div>
+              <div class="compare-col compare-col-classic">
+                <div class="compare-mobile-tag classic">
+                  <span class="compare-mobile-icon">❌</span>
+                  <span data-i18n="compare.thClassic">Herkömmliche Sprach-Apps</span>
+                </div>
+                <div class="compare-cell">
+                  <span class="cell-status-icon bad">✕</span>
+                  <div class="cell-text">
+                    <strong data-i18n="compare.r2ClassicTitle">Stagnation bei 3.000 Wörtern</strong>
+                    <p data-i18n="compare.r2ClassicDesc">Gefangen in einer A1–A2-Endlosschleife ohne echten Übergang zu fortgeschrittenen Sprachstufen.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="compare-col compare-col-fino highlight-col">
+                <div class="compare-mobile-tag fino">
+                  <img src="../Lernfino%20Deutsch%20Fox%20Icon.png" alt="Fino" class="compare-mobile-fino-ico" />
+                  <span data-i18n="compare.thFino">Lernfino-Erlebnis</span>
+                </div>
+                <div class="compare-cell">
+                  <span class="cell-status-icon good">✓</span>
+                  <div class="cell-text">
+                    <strong data-i18n="compare.r2FinoTitle">5.600+ Vertonungen & 18.000+ Formen</strong>
+                    <p data-i18n="compare.r2FinoDesc">Vollständiger Artikel-Leitfaden (der/die/das), Pluralformen, Verbkonjugationen und über 28.000 Wörter in Lesetexten von A1 bis B2.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Row 3: Ses Kalitesi & Telaffuz -->
+            <div class="compare-row">
+              <div class="compare-col compare-col-feature">
+                <div class="feature-title-wrap">
+                  <span class="feature-icon">🎙️</span>
+                  <strong data-i18n="compare.r3Feature">Audioqualität & Aussprache</strong>
+                </div>
+              </div>
+              <div class="compare-col compare-col-classic">
+                <div class="compare-mobile-tag classic">
+                  <span class="compare-mobile-icon">❌</span>
+                  <span data-i18n="compare.thClassic">Herkömmliche Sprach-Apps</span>
+                </div>
+                <div class="compare-cell">
+                  <span class="cell-status-icon bad">✕</span>
+                  <div class="cell-text">
+                    <strong data-i18n="compare.r3ClassicTitle">Roboterhafte Text-to-Speech-Stimmen</strong>
+                    <p data-i18n="compare.r3ClassicDesc">Monotone Synthesestimmen ohne natürliche Satzmelodie, die das Gehör nicht auf echte Sprechsituationen vorbereiten.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="compare-col compare-col-fino highlight-col">
+                <div class="compare-mobile-tag fino">
+                  <img src="../Lernfino%20Deutsch%20Fox%20Icon.png" alt="Fino" class="compare-mobile-fino-ico" />
+                  <span data-i18n="compare.thFino">Lernfino-Erlebnis</span>
+                </div>
+                <div class="compare-cell">
+                  <span class="cell-status-icon good">✓</span>
+                  <div class="cell-text">
+                    <strong data-i18n="compare.r3FinoTitle">Vielfältige & natürliche Aussprache</strong>
+                    <p data-i18n="compare.r3FinoDesc">Fernab roboterhafter Monotonie: klare, flüssige Aussprache verschiedener Sprecher, wortgenaue Hervorhebung und „Zuerst Hören“-Modus.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Row 4: Okurken Sözlük Deneyimi -->
+            <div class="compare-row">
+              <div class="compare-col compare-col-feature">
+                <div class="feature-title-wrap">
+                  <span class="feature-icon">🔍</span>
+                  <strong data-i18n="compare.r4Feature">Wörterbuch beim Lesen</strong>
+                </div>
+              </div>
+              <div class="compare-col compare-col-classic">
+                <div class="compare-mobile-tag classic">
+                  <span class="compare-mobile-icon">❌</span>
+                  <span data-i18n="compare.thClassic">Herkömmliche Sprach-Apps</span>
+                </div>
+                <div class="compare-cell">
+                  <span class="cell-status-icon bad">✕</span>
+                  <div class="cell-text">
+                    <strong data-i18n="compare.r4ClassicTitle">Isolierte Vokabelkarten</strong>
+                    <p data-i18n="compare.r4ClassicDesc">Reines Vokabelpauken ohne Berücksichtigung der grammatikalischen Rolle und des Satzkontextes.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="compare-col compare-col-fino highlight-col">
+                <div class="compare-mobile-tag fino">
+                  <img src="../Lernfino%20Deutsch%20Fox%20Icon.png" alt="Fino" class="compare-mobile-fino-ico" />
+                  <span data-i18n="compare.thFino">Lernfino-Erlebnis</span>
+                </div>
+                <div class="compare-cell">
+                  <span class="cell-status-icon good">✓</span>
+                  <div class="cell-text">
+                    <strong data-i18n="compare.r4FinoTitle">Tippen-und-Verstehen Wörterbuch</strong>
+                    <p data-i18n="compare.r4FinoDesc">Tippen Sie auf jedes Wort in Texten oder Videos, um Artikel, Grammatiknotiz und Aussprache sofort einzusehen. Mit einem Klick ins SRS-Vokabelheft.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Row 5: Sertifika & Sınav Hazırlığı -->
+            <div class="compare-row">
+              <div class="compare-col compare-col-feature">
+                <div class="feature-title-wrap">
+                  <span class="feature-icon">🎓</span>
+                  <strong data-i18n="compare.r5Feature">Prüfungsvorbereitung & Zertifikate</strong>
+                </div>
+              </div>
+              <div class="compare-col compare-col-classic">
+                <div class="compare-mobile-tag classic">
+                  <span class="compare-mobile-icon">❌</span>
+                  <span data-i18n="compare.thClassic">Herkömmliche Sprach-Apps</span>
+                </div>
+                <div class="compare-cell">
+                  <span class="cell-status-icon bad">✕</span>
+                  <div class="cell-text">
+                    <strong data-i18n="compare.r5ClassicTitle">Keine Prüfungssimulation</strong>
+                    <p data-i18n="compare.r5ClassicDesc">Wer ein Goethe- oder ÖSD-Zertifikat anstrebt (Visum, Beruf, Studium), bleibt beim Schreiben von Briefen/E-Mails allein.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="compare-col compare-col-fino highlight-col">
+                <div class="compare-mobile-tag fino">
+                  <img src="../Lernfino%20Deutsch%20Fox%20Icon.png" alt="Fino" class="compare-mobile-fino-ico" />
+                  <span data-i18n="compare.thFino">Lernfino-Erlebnis</span>
+                </div>
+                <div class="compare-cell">
+                  <span class="cell-status-icon good">✓</span>
+                  <div class="cell-text">
+                    <strong data-i18n="compare.r5FinoTitle">Vollständige Goethe- & ÖSD-Modelltests</strong>
+                    <p data-i18n="compare.r5FinoDesc">Komplette Prüfungsdurchläufe für Hören, Lesen und Schreiben (Leitfäden für Briefe/E-Mails und Musterlösungen).</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Row 6: Kullanım & Üyelik Modeli -->
+            <div class="compare-row">
+              <div class="compare-col compare-col-feature">
+                <div class="feature-title-wrap">
+                  <span class="feature-icon">⚡</span>
+                  <strong data-i18n="compare.r6Feature">Nutzungs- & Mitgliedschaftsmodell</strong>
+                </div>
+              </div>
+              <div class="compare-col compare-col-classic">
+                <div class="compare-mobile-tag classic">
+                  <span class="compare-mobile-icon">❌</span>
+                  <span data-i18n="compare.thClassic">Herkömmliche Sprach-Apps</span>
+                </div>
+                <div class="compare-cell">
+                  <span class="cell-status-icon bad">✕</span>
+                  <div class="cell-text">
+                    <strong data-i18n="compare.r6ClassicTitle">Einschränkendes Herz-/Lebensystem</strong>
+                    <p data-i18n="compare.r6ClassicDesc">Demotivierende Strafmechanismen bei Fehlern sowie überteuerte Abonnementgebühren.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="compare-col compare-col-fino highlight-col">
+                <div class="compare-mobile-tag fino">
+                  <img src="../Lernfino%20Deutsch%20Fox%20Icon.png" alt="Fino" class="compare-mobile-fino-ico" />
+                  <span data-i18n="compare.thFino">Lernfino-Erlebnis</span>
+                </div>
+                <div class="compare-cell">
+                  <span class="cell-status-icon good">✓</span>
+                  <div class="cell-text">
+                    <strong data-i18n="compare.r6FinoTitle">Kostenlos starten · Frühbucher-Rabatt</strong>
+                    <p data-i18n="compare.r6FinoDesc">Lernen Sie ohne Herz-Sperren im eigenen Rhythmus und sichern Sie sich zum Launch exklusive Premium-Vorteile.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS / FINO ROUTINE -->
+    <section class="how-section" id="how">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow-tag" data-i18n="how.eyebrow">TÄGLICHER LERNFLUSS</span>
+          <h2 data-i18n="how.title">Ihre ruhige 15-Minuten-Routine mit Fino</h2>
+        </div>
+
+        <div class="steps-grid">
+          <div class="step-card">
+            <div class="step-top-row">
+              <div class="step-num">01</div>
+              <img src="../11_Fino_Kulaklikla_Dinliyor.png" alt="Fino Dinliyor" class="step-fino-img" />
+            </div>
+            <h3 data-i18n="how.s1Title">Niveau wählen, lesen & hören</h3>
+            <p data-i18n="how.s1Desc">Setzen Sie Ihre Geschichte auf dem Heute-Bildschirm fort. Folgen Sie der Stimme Wort für Wort und tippen Sie neue Wörter an.</p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-top-row">
+              <div class="step-num">02</div>
+              <img src="../10_Fino_Mikrofon_Konusuyor.png" alt="Fino with studio microphone" class="step-fino-img" />
+            </div>
+            <h3 data-i18n="how.s2Title">Videos erleben & Vokabeln festigen</h3>
+            <p data-i18n="how.s2Desc">Beantworten Sie Szenenfragen im Video und wiederholen Sie fällige Wörter mit Finos täglichen SRS-Karten.</p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-top-row">
+              <div class="step-num">03</div>
+              <img src="../09_Fino_Dusunuyor_Soru.png" alt="Fino solving exam question" class="step-fino-img" />
+            </div>
+            <h3 data-i18n="how.s3Title">Mit vollständigen Modellprüfungen testen</h3>
+            <p data-i18n="how.s3Desc">Beweisen Sie Ihr Niveau in Hören, Lesen und Schreiben mit Goethe- und ÖSD-Modellprüfungen samt detaillierten Beleg-Erklärungen.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+        <!-- YOUTUBE CHANNEL SHOWCASE -->
+    <section class="youtube-section" id="channel">
+      <div class="container">
+        <div class="yt-simple-card">
+          <div class="yt-simple-left">
+            <div class="yt-simple-eyebrow">
+              <span class="yt-dot-live"></span>
+              <span class="yt-brand-text" data-i18n="yt.brand">LERNFINO AUF YOUTUBE · @LernfinoDeutsch</span>
+            </div>
+            <h2 data-i18n="yt.title">Deutsch lernen auf unserem YouTube-Kanal</h2>
+            <p data-i18n="yt.subtitle">Nicht nur lesen: Vertiefen Sie Ihr Deutsch durch Sehen und Hören mit Goethe-Modellprüfungen, animierten Geschichten und täglichen Praxistipps.</p>
+
+            <ul class="yt-pillars-list">
+              <li>
+                <span class="pillar-icon">🎓</span>
+                <div>
+                  <strong data-i18n="yt.p1Title">Goethe & ÖSD Prüfungssimulatoren:</strong>
+                  <span data-i18n="yt.p1Desc">Vollständige Prüfungsvideos mit formatgetreuem Countdown für A1–B2 Hören und Sprechen inklusive genauen Beleg-Lösungen.</span>
+                </div>
+              </li>
+              <li>
+                <span class="pillar-icon">📖</span>
+                <div>
+                  <strong data-i18n="yt.p2Title">Animierte Geschichten:</strong>
+                  <span data-i18n="yt.p2Desc">Alltag auf Berliner Straßen mit Tim & Lea und vielen weiteren lebendigen Figuren. Animierte Lektionen mit Untertiteln in bis zu 13 Sprachen und flüssige, natürliche Aussprache:</span>
+                  <div class="yt-lang-pills" aria-label="YouTube-Untertitelsprachen">
+                    <span class="lang-tag">Deutsch</span>
+                    <span class="lang-tag">English</span>
+                    <span class="lang-tag">Türkçe</span>
+                    <span class="lang-tag">Español</span>
+                    <span class="lang-tag">Português</span>
+                    <span class="lang-tag">Français</span>
+                    <span class="lang-tag" dir="rtl">العربية</span>
+                    <span class="lang-tag">Русский</span>
+                    <span class="lang-tag">Українська</span>
+                    <span class="lang-tag">हिन्दी</span>
+                    <span class="lang-tag">Tiếng Việt</span>
+                    <span class="lang-tag">Bahasa Indonesia</span>
+                    <span class="lang-tag">中文</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <span class="pillar-icon">⚡</span>
+                <div>
+                  <strong data-i18n="yt.p3Title">Shorts & Alltagstipps:</strong>
+                  <span data-i18n="yt.p3Desc">60-Sekunden-Tipps für Artikel (der/die/das), typische Prüfungsfallen und nützliche Redewendungen.</span>
+                </div>
+              </li>
+            </ul>
+
+            <div class="yt-cta-row">
+              <a href="https://www.youtube.com/@LernfinoDeutsch" target="_blank" rel="noopener noreferrer" class="btn btn-youtube">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                <span data-i18n="yt.btn">Unserem YouTube-Kanal beitreten</span>
+                <span>➔</span>
+              </a>
+              <span class="yt-cta-note" data-i18n="yt.ctaNote">Untertitel in bis zu 13 Sprachen · Kostenlos · Regelmäßig neu</span>
+            </div>
+            <small class="yt-disclaimer" data-i18n="yt.disclaimer">* Unabhängiges Prüfungstraining; kein offizielles Produkt des Goethe-Instituts oder des ÖSD.</small>
+          </div>
+
+          <div class="yt-simple-right">
+            <img src="../08_Fino_Klaper_Video.png" alt="Fino YouTube channel" class="yt-mascot-feature" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LAUNCH STATUS & EARLY ACCESS CTA -->
+    <section class="launch-section" id="launch">
+      <div class="container">
+        <div class="launch-box">
+          <div class="launch-left">
+            <div class="launch-mascot-row">
+              <img src="../07_Fino_Kitapla_Selam_Veriyor.png" alt="Fino waving" class="launch-mini-mascot" />
+              <span class="eyebrow-tag" data-i18n="launch.eyebrow">FRÜHER ZUGANG & ROADMAP</span>
+            </div>
+            <h2 data-i18n="launch.title">Gehören Sie zu unseren ersten Lernenden!</h2>
+            <p data-i18n="launch.desc">Lernfino wächst stetig weiter als lebendiges Ökosystem mit neuen Geschichten, natürlichen Vertonungen, interaktiven Videos und vollständigen Prüfungssätzen. Lassen Sie sich beim Start als Erstes benachrichtigen:</p>
+
+            <!-- Expanding Ecosystem Roadmap & Highlights -->
+            <div class="launch-highlights-grid">
+              <div class="launch-hl-card">
+                <div class="launch-hl-header">
+                  <span class="launch-hl-icon">📚</span>
+                  <span class="launch-hl-tag" data-i18n="launch.card1Tag">A1 · A2 · B1 · B2</span>
+                </div>
+                <h4 data-i18n="launch.card1Title">Stetig wachsende Bibliothek</h4>
+                <p data-i18n="launch.card1Desc">Regelmäßig neue Originalgeschichten von A1 bis B2 mit natürlicher deutscher Aussprache und abgestuften Lesetexten.</p>
+              </div>
+
+              <div class="launch-hl-card">
+                <div class="launch-hl-header">
+                  <span class="launch-hl-icon">🎬</span>
+                  <span class="launch-hl-tag" data-i18n="launch.card2Tag">Interaktive Praxis</span>
+                </div>
+                <h4 data-i18n="launch.card2Title">Interaktive Videolektionen</h4>
+                <p data-i18n="launch.card2Desc">Animierte Episoden mit interaktiven Verständnisfragen und Dialogen, die Deutsch im Alltag lebendig vermitteln.</p>
+              </div>
+
+              <div class="launch-hl-card">
+                <div class="launch-hl-header">
+                  <span class="launch-hl-icon">📝</span>
+                  <span class="launch-hl-tag" data-i18n="launch.card3Tag">Hören · Lesen · Schreiben</span>
+                </div>
+                <h4 data-i18n="launch.card3Title">Vollständige Goethe & ÖSD Prüfungen</h4>
+                <p data-i18n="launch.card3Desc">Umfassende Prüfungssimulation mit Hören, Lesen und Schreiben sowie regelmäßig neu erscheinenden Prüfungssätzen.</p>
+              </div>
+
+              <div class="launch-hl-card">
+                <div class="launch-hl-header">
+                  <span class="launch-hl-icon">🧠</span>
+                  <span class="launch-hl-tag" data-i18n="launch.card4Tag">5.600+ Audio · 18.000+ Formen</span>
+                </div>
+                <h4 data-i18n="launch.card4Title">Kontextwörterbuch & SRS</h4>
+                <p data-i18n="launch.card4Desc">Reicher A1–B2 Wortschatz: 5.600+ Vertonungen, Artikelhilfe und wissenschaftliches SRS.</p>
+              </div>
+            </div>
+
+            <div class="launch-vip-banner">
+              <span class="vip-icon">🎁</span>
+              <div class="vip-text" data-i18n="launch.vipNotice"><strong>Exklusiv für erste Mitglieder:</strong> Verpassen Sie nicht die besonderen Rabatte, Vorteile und Überraschungen zum Start!</div>
+            </div>
+          </div>
+
+          <div class="launch-right">
+            <form class="notify-form" id="notifyForm">
+              <h3 data-i18n="launch.formTitle">Früher Zugang & Start-Benachrichtigung</h3>
+              <p data-i18n="launch.formSub">Kein Spam. Wir senden Ihnen nur eine einzige Einladung mit Ihren exklusiven Überraschungsvorteilen, sobald die App live geht.</p>
+
+              <label class="form-label" for="emailInput" data-i18n="launch.emailLabel">Ihre E-Mail-Adresse</label>
+              <input
+                type="email"
+                id="emailInput"
+                class="form-input"
+                placeholder="name@beispiel.de"
+                required
+              />
+
+              <label class="form-label" for="levelSelect" data-i18n="launch.levelLabel">Ihr gewünschtes Sprachniveau</label>
+              <select id="levelSelect" class="form-select">
+                <option value="A1" data-i18n="launch.optA1">A1 — Anfänger (A1)</option>
+                <option value="A2" data-i18n="launch.optA2">A2 — Grundlagen (A2)</option>
+                <option value="B1" selected data-i18n="launch.optB1">B1 — Mittelstufe / Zertifikat (B1)</option>
+                <option value="B2" data-i18n="launch.optB2">B2 — Gute Mittelstufe (B2)</option>
+              </select>
+
+              <button type="submit" class="btn btn-primary btn-lg full-w" data-i18n="launch.submitBtn">Auf die Warteliste 🦊</button>
+
+              <div class="form-feedback" id="formFeedback" style="display: none;">
+                <img src="../04_Fino_Kutlama_Yapiyor.png" alt="Fino" class="feedback-fino-img" />
+                <div class="form-feedback-body">
+                  <span id="feedbackMessage"></span>
+                  <button type="button" id="formRetryBtn" class="form-retry-btn" hidden data-i18n="launch.retryBtn">Erneut versuchen</button>
+                </div>
+              </div>
+              <p class="form-unsubscribe" data-i18n="launch.unsubscribeHtml">Möchten Sie sich abmelden oder Ihre Anfrage ändern? <a href="mailto:support@lernfino.com?subject=Lernfino%20Warteliste%20Abmelden">Abmelden / support@lernfino.com</a></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="../Lernfino%20Deutsch%20Fox%20Icon.png" alt="Lernfino" class="footer-logo" />
+        <div>
+          <strong>lernfino.com</strong>
+          <p data-i18n="footer.tagline">Eine herzliche Seite zur deutschen Sprache. Demnächst für iOS, Android und Web.</p>
+        </div>
+      </div>
+
+      <div class="footer-meta">
+        <div class="footer-socials">
+          <a href="https://www.youtube.com/@LernfinoDeutsch" target="_blank" rel="noopener noreferrer" class="footer-social-btn yt" aria-label="Lernfino YouTube">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+            <span>YouTube</span>
+          </a>
+          <a href="https://www.instagram.com/lernfinodeutsch/" target="_blank" rel="noopener noreferrer" class="footer-social-btn ig" aria-label="Lernfino Instagram">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            <span>Instagram</span>
+          </a>
+          <a href="https://www.facebook.com/lernfinodeutsch" target="_blank" rel="noopener noreferrer" class="footer-social-btn fb" aria-label="Lernfino Facebook">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            <span>Facebook</span>
+          </a>
+          <a href="https://www.tiktok.com/@lernfino.deutsch" target="_blank" rel="noopener noreferrer" class="footer-social-btn tt" aria-label="Lernfino TikTok">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64c.298-.002.595.042.88.13V9.4a6.33 6.33 0 0 0-1-.08A6.34 6.34 0 0 0 3 15.66a6.34 6.34 0 0 0 10.82 4.46 6.27 6.27 0 0 0 1.88-4.46V8.78a8.28 8.28 0 0 0 4.89 1.58V6.9a4.83 4.83 0 0 1-1-.21z"/></svg>
+            <span>TikTok</span>
+          </a>
+        </div>
+        <div class="footer-tools">
+          <span class="footer-tools-label" data-i18n="footer.toolsLabel">Kostenlose Tools:</span>
+          <a href="../exam-calculator/" class="footer-nav-link" data-i18n="footer.toolCalc">Goethe/ÖSD-Punkterechner</a>
+          <span>·</span>
+          <a href="../word-counter/" class="footer-nav-link" data-i18n="footer.toolCounter">Schreiben-Wortzähler</a>
+          <span>·</span>
+          <a href="../level-test/" class="footer-nav-link" data-i18n="footer.toolLevel">A1–B2 Einstufungstest</a>
+        </div>
+        <div class="footer-links">
+          <a href="../privacy/" class="footer-nav-link" data-i18n="footer.privacy">Datenschutz</a>
+          <span>·</span>
+          <a href="../terms/" class="footer-nav-link" data-i18n="footer.terms">Nutzungsbedingungen</a>
+          <span>·</span>
+          <a href="../support/" class="footer-nav-link" data-i18n="footer.support">Support & FAQ</a>
+          <span>·</span>
+          <a href="../delete-account/" class="footer-nav-link" data-i18n="footer.deleteAccount">Konto löschen</a>
+        </div>
+        <div class="footer-langs">
+          <button type="button" class="text-link" data-lang-switch="tr">Türkçe</button>
+          <span>·</span>
+          <button type="button" class="text-link" data-lang-switch="en">English</button>
+          <span>·</span>
+          <button type="button" class="text-link" data-lang-switch="de">Deutsch</button>
+        </div>
+        <p class="footer-disclaimer" data-i18n="footer.disclaimer">Goethe-Zertifikat und ÖSD sind eingetragene Marken der jeweiligen Inhaber. Lernfino ist ein unabhängiges Bildungsangebot und kein offizielles Prüfungsmaterial des Goethe-Instituts oder des ÖSD.</p>
+        <small>© 2026 Lernfino · Respecode. <span data-i18n="footer.rights">Alle Rechte vorbehalten.</span></small>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../app.js?v=20261115-h1"></script>
+</body>
+</html>

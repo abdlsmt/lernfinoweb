@@ -11,6 +11,7 @@ const I18N = {
     "nav.how": "Nasıl Çalışır?",
     "nav.channel": "YouTube",
     "nav.launch": "Lansman",
+    "nav.tools": "Ücretsiz Araçlar",
     "nav.cta": "Haberdar Ol",
     "nav.compare": "Neden Lernfino?",
     "compare.eyebrow": "NEDEN LERNFINO?",
@@ -176,11 +177,20 @@ const I18N = {
     "launch.optB1": "B1 — Orta / Sertifika (Mittelstufe)",
     "launch.optB2": "B2 — İleri Orta (Gute Mittelstufe)",
     "launch.submitBtn": "Beni Listeye Ekle 🦊",
+    "launch.pendingMsg": "E-posta adresiniz doğrulanıyor ve bekleme listesine iletiliyor...",
     "launch.successMsg": "Harika! Fino e-posta adresinizi kaydetti ({email}). Lansman günü ilk üyelere özel sürprizlerle görüşmek üzere!",
+    "launch.duplicateMsg": "Bu e-posta adresi için talebiniz zaten sistemde görünüyor. Yinelenen bir bildirim gönderilmeyecektir.",
+    "launch.errorMsg": "Kayıt şu anda doğrulanamadı ({reason}). E-posta adresiniz korundu, lütfen tekrar deneyin.",
+    "launch.retryBtn": "Tekrar Dene",
+    "launch.unsubscribeHtml": "Listeden çıkmak veya e-posta tercihinizi güncellemek mi istiyorsunuz? <a href=\"mailto:support@lernfino.com?subject=Lernfino%20Bekleme%20Listesi%20Abonelikten%20Cikma\">Abonelikten çık / support@lernfino.com</a>",
 
     "footer.tagline": "Almancaya açılan sıcak bir sayfa. Çok yakında iOS, Android ve Web'de.",
     "footer.rights": "Tüm hakları saklıdır.",
     "footer.disclaimer": "Goethe-Zertifikat ve ÖSD, ilgili sahiplerinin tescilli markalarıdır. Lernfino bağımsız bir eğitim platformudur; Goethe-Institut veya ÖSD'nin resmî bir materyali, ortağı veya ürünü değildir.",
+    "footer.toolsLabel": "Ücretsiz Araçlar:",
+    "footer.toolCalc": "Goethe/ÖSD Puan Hesaplayıcı",
+    "footer.toolCounter": "Schreiben Kelime Sayacı",
+    "footer.toolLevel": "A1–B2 Seviye Tespit",
     "footer.privacy": "Gizlilik Politikası",
     "footer.terms": "Kullanım Koşulları",
     "footer.support": "Destek & SSS",
@@ -194,6 +204,7 @@ const I18N = {
     "nav.how": "How It Works",
     "nav.channel": "YouTube",
     "nav.launch": "Launch Status",
+    "nav.tools": "Free Tools",
     "nav.cta": "Notify Me",
     "nav.compare": "Why Lernfino?",
     "compare.eyebrow": "WHY LERNFINO?",
@@ -359,10 +370,19 @@ const I18N = {
     "launch.optB1": "B1 — Intermediate / Certificate (Mittelstufe)",
     "launch.optB2": "B2 — Upper-Intermediate (Gute Mittelstufe)",
     "launch.submitBtn": "Join the Waitlist 🦊",
-    "launch.successMsg": "Wonderful! Fino saved your email ({email}). See you on launch day with special member surprises!",
+    "launch.pendingMsg": "Confirming your registration with the server...",
+    "launch.successMsg": "Wonderful! Fino confirmed your registration ({email}). See you on launch day with special member surprises!",
+    "launch.duplicateMsg": "Your request for this address is already on file. No duplicate notification will be sent.",
+    "launch.errorMsg": "Could not confirm registration right now ({reason}). Your email was kept — please try again.",
+    "launch.retryBtn": "Try Again",
+    "launch.unsubscribeHtml": "Need to unsubscribe or change your request? <a href=\"mailto:support@lernfino.com?subject=Lernfino%20Waitlist%20Unsubscribe\">Unsubscribe / support@lernfino.com</a>",
 
     "footer.tagline": "A warm page opening to German. Coming soon to iOS, Android, and Web.",
     "footer.rights": "All rights reserved.",
+    "footer.toolsLabel": "Free Tools:",
+    "footer.toolCalc": "Goethe/ÖSD Score Calculator",
+    "footer.toolCounter": "Schreiben Word Counter",
+    "footer.toolLevel": "A1–B2 Level Test",
     "footer.privacy": "Privacy Policy",
     "footer.terms": "Terms of Service",
     "footer.support": "Support & FAQ",
@@ -377,6 +397,7 @@ const I18N = {
     "nav.how": "Ablauf",
     "nav.channel": "YouTube",
     "nav.launch": "Startstatus",
+    "nav.tools": "Kostenlose Tools",
     "nav.cta": "Benachrichtigen",
     "nav.compare": "Warum Lernfino?",
     "compare.eyebrow": "WARUM LERNFINO?",
@@ -542,10 +563,19 @@ const I18N = {
     "launch.optB1": "B1 — Mittelstufe / Zertifikat (B1)",
     "launch.optB2": "B2 — Gute Mittelstufe (B2)",
     "launch.submitBtn": "Auf die Warteliste 🦊",
-    "launch.successMsg": "Wunderbar! Fino hat Ihre E-Mail-Adresse ({email}) notiert. Bis bald zum Start mit exklusiven Überraschungen!",
+    "launch.pendingMsg": "Ihre Anmeldung wird über den Server bestätigt...",
+    "launch.successMsg": "Wunderbar! Fino hat Ihre Anmeldung bestätigt ({email}). Bis bald zum Start mit exklusiven Überraschungen!",
+    "launch.duplicateMsg": "Für diese E-Mail-Adresse liegt bereits eine Anmeldung vor. Es wird keine doppelte Nachricht gesendet.",
+    "launch.errorMsg": "Anmeldung konnte gerade nicht bestätigt werden ({reason}). Ihre Eingabe blieb erhalten – bitte erneut versuchen.",
+    "launch.retryBtn": "Erneut versuchen",
+    "launch.unsubscribeHtml": "Möchten Sie sich abmelden oder Ihre Anfrage ändern? <a href=\"mailto:support@lernfino.com?subject=Lernfino%20Warteliste%20Abmelden\">Abmelden / support@lernfino.com</a>",
 
     "footer.tagline": "Eine herzliche Seite zur deutschen Sprache. Demnächst für iOS, Android und Web.",
     "footer.rights": "Alle Rechte vorbehalten.",
+    "footer.toolsLabel": "Kostenlose Tools:",
+    "footer.toolCalc": "Goethe/ÖSD-Punkterechner",
+    "footer.toolCounter": "Schreiben-Wortzähler",
+    "footer.toolLevel": "A1–B2 Einstufungstest",
     "footer.privacy": "Datenschutz",
     "footer.terms": "Nutzungsbedingungen",
     "footer.support": "Support & FAQ",
@@ -1191,11 +1221,20 @@ const WORD_DICTIONARY = {
   }
 };
 
-let currentLang = "tr";
+const ASSET_BASE = (document.documentElement.getAttribute("data-base") || ".").replace(/\/+$/, "");
+const PAGE_LANG = (document.documentElement.getAttribute("data-page-lang") || "").toLowerCase();
+
+let currentLang = PAGE_LANG && I18N[PAGE_LANG] ? PAGE_LANG : "en";
 let currentLevel = "A1";
 let currentWordKey = "hinter";
 let savedWords = new Set();
 let currentAudioPlayer = null;
+
+function resolveAssetPath(srcPath) {
+  if (!srcPath) return srcPath;
+  if (srcPath.startsWith("./")) return ASSET_BASE + srcPath.slice(1);
+  return srcPath;
+}
 
 function detectInitialLang() {
   try {
@@ -1203,13 +1242,58 @@ function detectInitialLang() {
     const qLang = params.get("lang");
     if (qLang && I18N[qLang.toLowerCase()]) return qLang.toLowerCase();
   } catch {}
-  const saved = localStorage.getItem("lernfino_web_lang");
-  if (saved && I18N[saved]) return saved;
-  const nav = (navigator.language || "en").toLowerCase();
-  if (nav.startsWith("tr")) return "tr";
-  if (nav.startsWith("de")) return "de";
-  if (nav.startsWith("en")) return "en";
+  if (PAGE_LANG && I18N[PAGE_LANG]) return PAGE_LANG;
   return "en";
+}
+
+function switchPageLanguage(lang) {
+  if (!I18N[lang]) return;
+  try {
+    localStorage.setItem("lernfino_web_lang", lang);
+  } catch {}
+  if (PAGE_LANG && lang !== PAGE_LANG && window.location.protocol !== "file:") {
+    const hash = window.location.hash || "";
+    const target = lang === "en" ? `${ASSET_BASE}/${hash}` : `${ASSET_BASE}/${lang}/${hash}`;
+    window.location.href = target;
+    return;
+  }
+  setLanguage(lang);
+}
+
+function interpretWaitlistResponse(ok, status, rawText) {
+  let data = null;
+  try {
+    data = rawText ? JSON.parse(rawText) : null;
+  } catch {
+    data = null;
+  }
+  const statusVal = String((data && (data.status || data.result || data.state)) || "").toLowerCase();
+  if (
+    data &&
+    (data.duplicate === true ||
+      statusVal === "duplicate" ||
+      statusVal === "already_registered" ||
+      statusVal === "exists")
+  ) {
+    return { kind: "duplicate" };
+  }
+  if (
+    ok &&
+    data &&
+    data.ok !== false &&
+    data.success !== false &&
+    (data.ok === true ||
+      data.success === true ||
+      statusVal === "ok" ||
+      statusVal === "success" ||
+      statusVal === "created" ||
+      statusVal === "subscribed" ||
+      statusVal === "added")
+  ) {
+    return { kind: "success" };
+  }
+  const reason = (data && (data.error || data.message)) || (status ? `HTTP ${status}` : "network");
+  return { kind: "error", reason: String(reason) };
 }
 
 function stopAudio() {
@@ -1223,7 +1307,8 @@ function stopAudio() {
 function playAudioFile(srcPath, fallbackWord) {
   stopAudio();
   if (srcPath) {
-    const cleanPath = srcPath.split("?")[0] + "?v=qwen3";
+    const resolved = resolveAssetPath(srcPath.split("?")[0]);
+    const cleanPath = resolved + "?v=qwen3";
     const audio = new Audio(cleanPath);
     currentAudioPlayer = audio;
     audio.play().catch(() => {
@@ -1368,11 +1453,25 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  // Clear legacy localStorage waitlist email backup if present
+  try {
+    localStorage.removeItem("lernfino_waitlist");
+  } catch {}
+
+  // Preselect level from ?level= query parameter (e.g. from /level-test/)
+  try {
+    const qLevel = (new URLSearchParams(window.location.search).get("level") || "").toUpperCase();
+    const levelSelectEl = document.getElementById("levelSelect");
+    if (levelSelectEl && ["A1", "A2", "B1", "B2"].includes(qLevel)) {
+      levelSelectEl.value = qLevel;
+    }
+  } catch {}
+
   // Language buttons
   document.querySelectorAll(".lang-btn").forEach((btn) => {
     btn.addEventListener("click", () => {
       const lang = btn.getAttribute("data-lang");
-      if (lang) setLanguage(lang);
+      if (lang) switchPageLanguage(lang);
     });
   });
 
@@ -1380,8 +1479,10 @@ document.addEventListener("DOMContentLoaded", () => {
     btn.addEventListener("click", () => {
       const lang = btn.getAttribute("data-lang-switch");
       if (lang) {
-        setLanguage(lang);
-        window.scrollTo({ top: 0, behavior: "smooth" });
+        switchPageLanguage(lang);
+        if (!PAGE_LANG || window.location.protocol === "file:") {
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        }
       }
     });
   });
@@ -1436,36 +1537,58 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  // Early Access Notification Form (Connected to Google Sheets)
+  // Early Access Notification Form (Verified CORS response, neutral duplicate handling, retry support)
   const notifyForm = document.getElementById("notifyForm");
   const emailInput = document.getElementById("emailInput");
   const levelSelect = document.getElementById("levelSelect");
   const formFeedback = document.getElementById("formFeedback");
   const feedbackMessage = document.getElementById("feedbackMessage");
+  const feedbackFinoImg = formFeedback ? formFeedback.querySelector(".feedback-fino-img") : null;
+  const formRetryBtn = document.getElementById("formRetryBtn");
   const GOOGLE_SHEET_URL = "https://script.google.com/macros/s/AKfycbz0gSh1Sguut_86bbIYPC1Dtd4Y7MxpNpJceBm8p7lxmB6bhQwha20FN-L49fGmtGEk/exec";
 
-  if (notifyForm && emailInput && formFeedback) {
-    notifyForm.addEventListener("submit", (e) => {
-      e.preventDefault();
-      const email = emailInput.value.trim();
-      const level = levelSelect ? levelSelect.value : "B1";
-      if (!email) return;
+  function showFormFeedback(state, text, showRetry) {
+    if (!formFeedback) return;
+    formFeedback.classList.remove("is-pending", "is-duplicate", "is-error", "is-visible");
+    if (state) formFeedback.classList.add(state);
+    formFeedback.classList.add("is-visible");
+    formFeedback.style.display = "flex";
+    formFeedback.removeAttribute("hidden");
+    if (feedbackFinoImg) {
+      feedbackFinoImg.style.display = state === "is-error" ? "none" : "block";
+    }
+    if (feedbackMessage) {
+      feedbackMessage.textContent = text;
+    } else {
+      formFeedback.textContent = text;
+    }
+    if (formRetryBtn) {
+      formRetryBtn.hidden = !showRetry;
+      formRetryBtn.textContent = I18N[currentLang]["launch.retryBtn"] || "Try Again";
+    }
+  }
 
-      // 1. Local storage backup
-      const list = JSON.parse(localStorage.getItem("lernfino_waitlist") || "[]");
-      list.push({ email, level, lang: currentLang, date: new Date().toISOString() });
-      localStorage.setItem("lernfino_waitlist", JSON.stringify(list));
+  let isSubmittingWaitlist = false;
 
-      // 2. Google Sheets sync (no-cors mode for seamless Google Apps Script execution)
-      const submitBtn = notifyForm.querySelector("button[type='submit']");
-      if (submitBtn) {
-        submitBtn.disabled = true;
-        submitBtn.style.opacity = "0.7";
-      }
+  async function submitWaitlist() {
+    if (!notifyForm || !emailInput || !formFeedback || isSubmittingWaitlist) return;
+    const email = emailInput.value.trim();
+    const level = levelSelect ? levelSelect.value : "B1";
+    if (!email) return;
 
-      fetch(GOOGLE_SHEET_URL, {
+    const submitBtn = notifyForm.querySelector("button[type='submit']");
+    isSubmittingWaitlist = true;
+    if (submitBtn) {
+      submitBtn.disabled = true;
+      submitBtn.style.opacity = "0.7";
+    }
+    showFormFeedback("is-pending", I18N[currentLang]["launch.pendingMsg"], false);
+
+    try {
+      const res = await fetch(GOOGLE_SHEET_URL, {
         method: "POST",
-        mode: "no-cors",
+        mode: "cors",
+        credentials: "omit",
         headers: {
           "Content-Type": "text/plain;charset=utf-8"
         },
@@ -1473,30 +1596,46 @@ document.addEventListener("DOMContentLoaded", () => {
           email: email,
           level: level,
           lang: currentLang,
-          source: "lernfino.com"
+          source: "lernfino.com",
+          page: window.location.pathname
         })
-      }).catch((err) => {
-        console.warn("Google Sheets sync note:", err);
-      }).finally(() => {
-        if (submitBtn) {
-          submitBtn.disabled = false;
-          submitBtn.style.opacity = "";
-        }
       });
+      const rawText = await res.text();
+      const outcome = interpretWaitlistResponse(res.ok, res.status, rawText);
 
-      // Reveal only on successful submit!
-      formFeedback.style.display = "flex";
-      formFeedback.classList.add("is-visible");
-      formFeedback.removeAttribute("hidden");
-
-      const msg = I18N[currentLang]["launch.successMsg"].replace("{email}", email);
-      if (feedbackMessage) {
-        feedbackMessage.textContent = msg;
+      if (outcome.kind === "success") {
+        const msg = I18N[currentLang]["launch.successMsg"].replace("{email}", email);
+        showFormFeedback("", msg, false);
+        emailInput.value = "";
+      } else if (outcome.kind === "duplicate") {
+        showFormFeedback("is-duplicate", I18N[currentLang]["launch.duplicateMsg"], false);
       } else {
-        formFeedback.textContent = msg;
+        const errMsg = I18N[currentLang]["launch.errorMsg"].replace("{reason}", outcome.reason);
+        showFormFeedback("is-error", errMsg, true);
       }
-      emailInput.value = "";
+    } catch (err) {
+      const reason = err && err.message ? err.message : "network";
+      const errMsg = I18N[currentLang]["launch.errorMsg"].replace("{reason}", reason);
+      showFormFeedback("is-error", errMsg, true);
+    } finally {
+      isSubmittingWaitlist = false;
+      if (submitBtn) {
+        submitBtn.disabled = false;
+        submitBtn.style.opacity = "";
+      }
+    }
+  }
+
+  if (notifyForm && emailInput && formFeedback) {
+    notifyForm.addEventListener("submit", (e) => {
+      e.preventDefault();
+      submitWaitlist();
     });
+    if (formRetryBtn) {
+      formRetryBtn.addEventListener("click", () => {
+        submitWaitlist();
+      });
+    }
   }
 
   // Initial render

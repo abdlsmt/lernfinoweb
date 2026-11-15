@@ -1,23 +1,29 @@
 <!DOCTYPE html>
-<html lang="tr" data-theme="light">
+<html lang="en" data-theme="light" data-page-lang="en" data-base=".">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lernfino — Fino ile Her Sayfada Biraz Almanca | Çok Yakında</title>
-  <meta name="description" content="Lernfino: Seviyelendirilmiş Almanca sesli hikâyeler (A1-B2), etkileşimli video dersleri, bağlamsal sözlük ve Goethe/ÖSD tam deneme sınavları (Hören, Lesen & Schreiben). Çok yakında iOS, Android ve Web'de." />
+  <title>Lernfino — A Little German on Every Page with Fino | Coming Soon</title>
+  <meta name="description" content="Lernfino: Leveled German audio stories (A1–B2), interactive video lessons, click-to-learn contextual dictionary, and Goethe/ÖSD mock exams (Hören, Lesen & Schreiben). Coming soon to iOS, Android, and Web." />
   <meta name="theme-color" content="#181E29" />
+  <link rel="canonical" href="https://lernfino.com/" />
+  <link rel="alternate" hreflang="en" href="https://lernfino.com/" />
+  <link rel="alternate" hreflang="tr" href="https://lernfino.com/tr/" />
+  <link rel="alternate" hreflang="de" href="https://lernfino.com/de/" />
+  <link rel="alternate" hreflang="x-default" href="https://lernfino.com/" />
 
   <!-- Open Graph / Social Sharing -->
   <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_US" />
   <meta property="og:url" content="https://lernfino.com/" />
-  <meta property="og:title" content="Lernfino Deutsch — Fino ile Her Sayfada Biraz Almanca" />
-  <meta property="og:description" content="A1'den B2'ye sesli hikâyeler, etkileşimli video bölümleri, tıkla-öğren sözlük ve Goethe/ÖSD tam deneme sınavları (Hören, Lesen & Schreiben). Çok yakında yayında!" />
-  <meta property="og:image" content="./Lernfino%20Deutsch%20Fox%20Icon.png" />
+  <meta property="og:title" content="Lernfino Deutsch — A Little German on Every Page with Fino" />
+  <meta property="og:description" content="Leveled audio stories from A1 to B2, interactive video episodes, tap-to-learn dictionary, and Goethe/ÖSD mock exams. Coming soon!" />
+  <meta property="og:image" content="https://lernfino.com/Lernfino%20Deutsch%20Fox%20Icon.png" />
 
   <link rel="icon" type="image/png" href="./Lernfino%20Deutsch%20Fox%20Icon.png" />
   <link rel="apple-touch-icon" href="./Lernfino%20Deutsch%20Fox%20Icon.png" />
   <link rel="manifest" href="./site.webmanifest" />
-  <link rel="stylesheet" href="./styles.css?v=20261110-compliance" />
+  <link rel="stylesheet" href="./styles.css?v=20261115-h1" />
 </head>
 <body>
   <!-- Top German Flag Subtle Accent Bar -->
@@ -30,33 +36,34 @@
   <!-- Header -->
   <header class="site-header">
     <div class="container header-inner">
-      <a href="#" class="brand-logo" aria-label="Lernfino Ana Sayfa">
-        <img src="./Lernfino%20Deutsch%20Fox%20Icon.png" alt="Lernfino Fino Maskot Logo" class="brand-img" />
+      <a href="#" class="brand-logo" aria-label="Lernfino Home">
+        <img src="./Lernfino%20Deutsch%20Fox%20Icon.png" alt="Lernfino Fino mascot logo" class="brand-img" />
         <div class="brand-text-wrap">
           <span class="brand-name">Lernfino</span>
           <span class="brand-badge">Deutsch</span>
         </div>
       </a>
 
-      <nav class="main-nav" aria-label="Ana Menü">
-        <a href="#demo" data-i18n="nav.demo">Canlı Demo</a>
-        <a href="#features" data-i18n="nav.features">Neler Olacak?</a>
-        <a href="#compare" data-i18n="nav.compare">Neden Lernfino?</a>
-        <a href="#how" data-i18n="nav.how">Nasıl Çalışır?</a>
+      <nav class="main-nav" aria-label="Main Navigation">
+        <a href="#demo" data-i18n="nav.demo">Live Demo</a>
+        <a href="#features" data-i18n="nav.features">What's Inside?</a>
+        <a href="#compare" data-i18n="nav.compare">Why Lernfino?</a>
+        <a href="#how" data-i18n="nav.how">How It Works</a>
         <a href="#channel" data-i18n="nav.channel">YouTube</a>
-        <a href="#launch" data-i18n="nav.launch">Lansman</a>
+        <a href="#launch" data-i18n="nav.launch">Launch Status</a>
+        <a href="./level-test/" data-i18n="nav.tools">Free Tools</a>
       </nav>
 
       <div class="header-actions">
         <!-- Language Switcher (TR | EN | DE) -->
-        <div class="lang-switcher" role="group" aria-label="Dil Seçimi">
-          <button type="button" class="lang-btn active" data-lang="tr" aria-pressed="true">TR</button>
-          <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+        <div class="lang-switcher" role="group" aria-label="Language Selection">
+          <button type="button" class="lang-btn" data-lang="tr" aria-pressed="false">TR</button>
+          <button type="button" class="lang-btn active" data-lang="en" aria-pressed="true">EN</button>
           <button type="button" class="lang-btn" data-lang="de" aria-pressed="false">DE</button>
         </div>
 
         <!-- Theme Toggle -->
-        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Temayı Değiştir">
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Toggle Theme">
           <svg class="icon-moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
             <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
           </svg>
@@ -73,7 +80,7 @@
           </svg>
         </button>
 
-        <a href="#launch" class="btn btn-primary btn-sm header-cta" data-i18n="nav.cta">Haberdar Ol</a>
+        <a href="#launch" class="btn btn-primary btn-sm header-cta" data-i18n="nav.cta">Notify Me</a>
       </div>
     </div>
   </header>
@@ -86,25 +93,21 @@
           <div class="hero-badge-row">
             <div class="status-pill">
               <span class="status-dot"></span>
-              <span data-i18n="hero.badge">ÇOK YAKINDA · iOS, Android & Web</span>
+              <span data-i18n="hero.badge">COMING SOON · iOS, Android & Web</span>
             </div>
             <div class="hero-waving-fino" title="Hallo! Ich bin Fino!">
-              <img src="./02_Fino_Selam_Veriyor.png" alt="Fino Selam Veriyor" class="fino-avatar-wave" />
+              <img src="./02_Fino_Selam_Veriyor.png" alt="Fino waving" class="fino-avatar-wave" />
               <span class="fino-bubble">Hallo! 👋</span>
             </div>
           </div>
 
-          <h1 class="hero-title" data-i18n="hero.title">
-            Fino ile her sayfada biraz <span class="highlight-gold">Almanca.</span> Küçük adımlar, büyük hikâyeler.
-          </h1>
+          <h1 class="hero-title" data-i18n="hero.title">A little <span class="highlight-gold">German</span> on every page with Fino. Small steps, big stories.</h1>
 
-          <p class="hero-subtitle" data-i18n="hero.subtitle">
-            Seviyene uygun sesli hikâyeler (A1–B2), etkileşimli video dersleri, dokunduğun anda açılan bağlamsal sözlük ve Goethe/ÖSD tam deneme sınavlarıyla (Hören, Lesen & Schreiben) Almanca öğrenmenin en sıcak yolu.
-          </p>
+          <p class="hero-subtitle" data-i18n="hero.subtitle">The warmest way to learn German with leveled audio stories (A1–B2), interactive video episodes, an instant tap-to-learn contextual dictionary, and full Goethe/ÖSD mock exams (Hören, Lesen & Schreiben).</p>
 
           <div class="hero-cta-row">
             <a href="#launch" class="btn btn-primary btn-lg">
-              <span data-i18n="hero.ctaPrimary">Lansmandan Haberdar Ol</span>
+              <span data-i18n="hero.ctaPrimary">Notify Me at Launch</span>
               <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2">
                 <line x1="5" y1="12" x2="19" y2="12"></line>
                 <polyline points="12 5 19 12 12 19"></polyline>
@@ -114,7 +117,7 @@
               <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
                 <polygon points="5 3 19 12 5 21 5 3"></polygon>
               </svg>
-              <span data-i18n="hero.ctaSecondary">Canlı Demoyu Dene</span>
+              <span data-i18n="hero.ctaSecondary">Try Interactive Demo</span>
             </a>
           </div>
 
@@ -122,18 +125,18 @@
           <div class="hero-stats-row">
             <div class="hero-stat-card">
               <div class="hero-stat-header">
-                <span class="hero-stat-num" data-i18n="hero.stat1Num">5.600+</span>
-                <span class="hero-stat-label" data-i18n="hero.stat1Label">Doğal Seslendirme</span>
+                <span class="hero-stat-num" data-i18n="hero.stat1Num">5,600+</span>
+                <span class="hero-stat-label" data-i18n="hero.stat1Label">Natural Audio Tracks</span>
               </div>
-              <span class="hero-stat-sub" data-i18n="hero.stat1Sub">A1–B2 kapsamlı sesli kelime arşivi</span>
+              <span class="hero-stat-sub" data-i18n="hero.stat1Sub">Comprehensive A1–B2 vocabulary archive</span>
             </div>
 
             <div class="hero-stat-card">
               <div class="hero-stat-header">
-                <span class="hero-stat-num" data-i18n="hero.stat2Num">18.000+</span>
-                <span class="hero-stat-label" data-i18n="hero.stat2Label">Kelime Formu</span>
+                <span class="hero-stat-num" data-i18n="hero.stat2Num">18,000+</span>
+                <span class="hero-stat-label" data-i18n="hero.stat2Label">Word Forms</span>
               </div>
-              <span class="hero-stat-sub" data-i18n="hero.stat2Sub">A1–B2 tam artikel ve çekim eşleşmesi</span>
+              <span class="hero-stat-sub" data-i18n="hero.stat2Sub">Full A1–B2 article and grammar matching</span>
             </div>
 
             <div class="hero-stat-card">
@@ -141,7 +144,7 @@
                 <span class="hero-stat-num" data-i18n="hero.stat3Num">A1 — B2</span>
                 <span class="hero-stat-label" data-i18n="hero.stat3Label">Goethe & ÖSD</span>
               </div>
-              <span class="hero-stat-sub" data-i18n="hero.stat3Sub">Hören, Lesen ve Schreiben sınavları</span>
+              <span class="hero-stat-sub" data-i18n="hero.stat3Sub">Full Hören, Lesen, and Schreiben mock exams</span>
             </div>
           </div>
 
@@ -152,7 +155,7 @@
                 <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.96 6.33c.67-.81 1.12-1.94 1-3.08-.96.04-2.13.64-2.82 1.45-.61.7-.15 1.86-.99 2.98 1.08.08 2.15-.54 2.81-1.35z"/>
               </svg>
               <div>
-                <small data-i18n="store.soon">Çok Yakında</small>
+                <small data-i18n="store.soon">Coming Soon</small>
                 <strong>App Store</strong>
               </div>
             </div>
@@ -162,7 +165,7 @@
                 <path d="M3 20.5v-17c0-.83.94-1.3 1.6-.8l14 8.5c.6.37.6 1.23 0 1.6l-14 8.5c-.66.5-1.6.03-1.6-.8z"/>
               </svg>
               <div>
-                <small data-i18n="store.soon">Çok Yakında</small>
+                <small data-i18n="store.soon">Coming Soon</small>
                 <strong>Google Play</strong>
               </div>
             </div>
@@ -174,8 +177,8 @@
                 <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
               </svg>
               <div>
-                <small data-i18n="store.soon">Çok Yakında</small>
-                <strong data-i18n="store.web">Web Sürümü</strong>
+                <small data-i18n="store.soon">Coming Soon</small>
+                <strong data-i18n="store.web">Web Version</strong>
               </div>
             </div>
           </div>
@@ -192,7 +195,7 @@
               <span class="float-icon">📚</span>
               <div>
                 <strong>A1 · A2 · B1 · B2</strong>
-                <small data-i18n="hero.floatLevels">4 Seviyeli Hikâyeler</small>
+                <small data-i18n="hero.floatLevels">4-Level Graded Stories</small>
               </div>
             </div>
 
@@ -200,8 +203,8 @@
             <div class="float-badge float-top-right">
               <span class="float-icon">🎬</span>
               <div>
-                <strong data-i18n="hero.floatVideoTitle">İnteraktif Video</strong>
-                <small data-i18n="hero.floatVideoSub">Sahne Alıştırmaları</small>
+                <strong data-i18n="hero.floatVideoTitle">Interactive Video</strong>
+                <small data-i18n="hero.floatVideoSub">Scene Checkpoints</small>
               </div>
             </div>
 
@@ -210,7 +213,7 @@
               <span class="float-icon">🔍</span>
               <div>
                 <strong data-i18n="hero.floatDictTitle">der Brief · <span class="muted-inline">die Briefe</span></strong>
-                <small data-i18n="hero.floatDict">Tıkla-Öğren Sözlük</small>
+                <small data-i18n="hero.floatDict">Tap-to-Learn Dictionary</small>
               </div>
             </div>
 
@@ -219,7 +222,7 @@
               <span class="float-icon">🎓</span>
               <div>
                 <strong data-i18n="hero.floatExamTitle">Goethe & ÖSD</strong>
-                <small data-i18n="hero.floatExam">Hören, Lesen, Schreiben</small>
+                <small data-i18n="hero.floatExam">Hören, Lesen & Schreiben</small>
               </div>
             </div>
           </div>
@@ -231,11 +234,9 @@
     <section class="demo-section" id="demo">
       <div class="container">
         <div class="section-header">
-          <span class="eyebrow-tag" data-i18n="demo.eyebrow">CANLI UYGULAMA ÖNİZLEMESİ</span>
-          <h2 data-i18n="demo.title">Nasıl Çalıştığını Şimdi Deneyin</h2>
-          <p data-i18n="demo.subtitle">
-            Aşağıdaki hikâye cümlesinde seviye değiştirin (A1–B2), altı çizili Almanca kelimelere dokunarak sözlük kartını açın veya cümleyi sesli dinleyin.
-          </p>
+          <span class="eyebrow-tag" data-i18n="demo.eyebrow">INTERACTIVE APP PREVIEW</span>
+          <h2 data-i18n="demo.title">Experience How Lernfino Works Right Now</h2>
+          <p data-i18n="demo.subtitle">Switch CEFR levels (A1–B2) in the story sentence below, tap any word to inspect its contextual grammar card, or listen to the authentic voiceover.</p>
         </div>
 
         <div class="interactive-workbench">
@@ -245,7 +246,7 @@
               <div class="story-meta-row">
                 <img src="./01_Fino_Kitap_Okuyor_Sade.png" alt="Fino Kitap Okuyor" class="fino-reader-badge" />
                 <div class="story-meta">
-                  <span class="story-tag" data-i18n="demo.storyTag">HİKÂYE & VİDEO BÖLÜMÜ</span>
+                  <span class="story-tag" data-i18n="demo.storyTag">STORY & VIDEO EPISODE</span>
                   <strong id="demoStoryTitle">Der kleine Garten</strong>
                 </div>
               </div>
@@ -263,21 +264,21 @@
             <div class="reader-modes-bar">
               <span class="mode-chip active">
                 <span class="dot-green"></span>
-                <span data-i18n="demo.modeRead">Kelime Takipli Okuma</span>
+                <span data-i18n="demo.modeRead">Word-Synced Reading</span>
               </span>
-              <span class="mode-chip" data-i18n="demo.modeListenFirst">🎧 Önce Dinle Modu</span>
-              <span class="mode-chip" data-i18n="demo.modeRoleplay">🎭 Karakteri Canlandır</span>
+              <span class="mode-chip" data-i18n="demo.modeListenFirst">🎧 Listen-First Mode</span>
+              <span class="mode-chip" data-i18n="demo.modeRoleplay">🎭 Roleplay Character</span>
             </div>
 
             <!-- Active Sentence Area -->
             <div class="sentence-stage">
               <div class="sentence-header">
-                <span class="level-indicator" id="demoLevelBadge">A1 · Başlangıç</span>
+                <span class="level-indicator" id="demoLevelBadge">A1 · Beginner (Präsens)</span>
                 <button type="button" class="audio-play-btn" id="speakSentenceBtn">
                   <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
                     <polygon points="5 3 19 12 5 21 5 3"></polygon>
                   </svg>
-                  <span data-i18n="demo.listenBtn">Cümleyi Dinle</span>
+                  <span data-i18n="demo.listenBtn">Listen to Sentence</span>
                 </button>
               </div>
 
@@ -291,7 +292,7 @@
 
               <div class="tap-instruction">
                 <span class="pulse-ring"></span>
-                <span data-i18n="demo.tapHint">İpucu: Renkli altı çizili Almanca kelimelere tıklayarak sağdaki sözlük kartını değiştirin.</span>
+                <span data-i18n="demo.tapHint">Tip: Every word in the sentence is clickable. Tap any word to instantly reveal its article, grammar note, and pronunciation.</span>
               </div>
             </div>
           </div>
@@ -299,31 +300,31 @@
           <!-- Right: Live Contextual Dictionary Panel -->
           <aside class="demo-dict-card" aria-live="polite">
             <div class="dict-card-header">
-              <span data-i18n="demo.dictHeader">BAĞLAMSAL SÖZLÜK & GRAMER</span>
+              <span data-i18n="demo.dictHeader">CONTEXTUAL DICTIONARY & GRAMMAR</span>
               <button type="button" class="dict-audio-btn" id="speakWordBtn" title="Kelimeyi Seslendir">
-                🔊 <span id="dictWordAudioLabel" data-i18n="demo.listenWord">Dinle</span>
+                🔊 <span id="dictWordAudioLabel" data-i18n="demo.listenWord">Listen</span>
               </button>
             </div>
 
             <div class="dict-card-body">
-              <div class="dict-article" id="dictArticle">der Brief · çoğul: die Briefe</div>
+              <div class="dict-article" id="dictArticle">Preposition</div>
               <h3 class="dict-headword" id="dictHeadword" lang="de">Brief</h3>
               <div class="dict-meaning" id="dictMeaning">mektup</div>
 
               <div class="dict-grammar-box">
-                <strong data-i18n="demo.grammarTitle">Dilbilgisi & Bağlam Notu:</strong>
-                <p id="dictGrammarNote">Eril isim (Maskulinum). Cümlede yalın halde (Nominativ) özne olarak kullanılmıştır.</p>
+                <strong data-i18n="demo.grammarTitle">Grammar & Context Note:</strong>
+                <p id="dictGrammarNote">Two-way preposition. Answers 'Where?' and therefore takes the Dative case: 'hinter ihrem Haus'.</p>
               </div>
 
               <div class="dict-example-box">
-                <small data-i18n="demo.exampleTitle">ÖRNEK CÜMLE</small>
+                <small data-i18n="demo.exampleTitle">EXAMPLE SENTENCE</small>
                 <p class="dict-example-de" id="dictExampleDe" lang="de">Ich schreibe meiner Mutter einen langen Brief.</p>
-                <p class="dict-example-tr" id="dictExampleTr">Anneme uzun bir mektup yazıyorum.</p>
+                <p class="dict-example-tr" id="dictExampleTr">The garden is behind the building.</p>
               </div>
 
               <button type="button" class="btn btn-srs full-w" id="saveWordBtn">
                 <span id="saveWordIcon">＋</span>
-                <span id="saveWordText" data-i18n="demo.saveBtn">Kelime Defterime Ekle (SRS)</span>
+                <span id="saveWordText" data-i18n="demo.saveBtn">Add to My Vocabulary (SRS)</span>
               </button>
             </div>
           </aside>
@@ -335,94 +336,82 @@
     <section class="features-section" id="features">
       <div class="container">
         <div class="section-header">
-          <span class="eyebrow-tag" data-i18n="features.eyebrow">UYGULAMADA NELER OLACAK?</span>
-          <h2 data-i18n="features.title">Almanca Öğrenmek İçin Eksiksiz Bir Ekosistem</h2>
-          <p data-i18n="features.subtitle">
-            Ezberci kartlar yerine; hikâyeler, videolar ve tam sınav simülasyonunu tek çatı altında birleştirdik.
-          </p>
+          <span class="eyebrow-tag" data-i18n="features.eyebrow">WHAT'S INSIDE LERNFINO?</span>
+          <h2 data-i18n="features.title">A Complete Ecosystem for Mastering German</h2>
+          <p data-i18n="features.subtitle">Instead of isolated flashcards, we united graded literature, interactive video stories, and full certificate mock exams.</p>
         </div>
 
         <div class="bento-grid">
           <!-- Feature 1: Stories -->
           <article class="bento-card bento-large">
             <div class="bento-card-top">
-              <span class="bento-badge badge-amber" data-i18n="f1.badge">A1 · A2 · B1 · B2 SEVİYELİ KÜTÜPHANE</span>
+              <span class="bento-badge badge-amber" data-i18n="f1.badge">A1 · A2 · B1 · B2 GRADED LIBRARY</span>
               <img src="./06_Fino_Kitap_Okuyor_Alternatif.png" alt="Fino Kitap Okuyor" class="bento-mini-fino" />
             </div>
-            <h3 data-i18n="f1.title">Seviyelendirilmiş Sesli Hikâyeler & Kitaplar</h3>
-            <p data-i18n="f1.desc">
-              Aynı özgün hikâyeyi ve dünya klasiklerini ister A1 başlangıç seviyesinde kısa ve somut cümlelerle, ister B2 seviyesinde zengin edebî anlatımla okuyun.
-            </p>
+            <h3 data-i18n="f1.title">Leveled Audio Stories & Books</h3>
+            <p data-i18n="f1.desc">Read original stories and timeless classics at your exact level—from simple concrete sentences in A1 to nuanced literary prose in B2.</p>
             <ul class="feature-list">
-              <li data-i18n="f1.b1">Kelime-kelime senkronize ses vurgusu ve hız kontrolü</li>
-              <li data-i18n="f1.b2"><strong>"Önce Dinle"</strong> modu ile metni görmeden kulağınızı eğitme</li>
-              <li data-i18n="f1.b3"><strong>"Karakteri Canlandır"</strong> modu ile diyaloglarda rol alarak konuşma sırası</li>
-              <li data-i18n="f1.b4">Her cümlenin altında tek tıkla açılan doğal çeviri ve bölüm sonu mini testleri</li>
+              <li data-i18n="f1.b1">Word-by-word synchronized audio highlighting and speed control</li>
+              <li data-i18n="f1.b2"><strong>“Listen-First”</strong> mode to train your ear before revealing the text</li>
+              <li data-i18n="f1.b3"><strong>“Roleplay Character”</strong> mode to take speaking turns in story dialogues</li>
+              <li data-i18n="f1.b4">Instant sentence translations and end-of-chapter comprehension quizzes</li>
             </ul>
           </article>
 
           <!-- Feature 2: Interactive Videos -->
           <article class="bento-card">
             <div class="bento-card-top">
-              <span class="bento-badge badge-gold" data-i18n="f2.badge">VİDEO DERSLERİ & SHORTS</span>
+              <span class="bento-badge badge-gold" data-i18n="f2.badge">VIDEO LESSONS & SHORTS</span>
               <img src="./08_Fino_Klaper_Video.png" alt="Fino Film Klaperiyle" class="bento-mini-fino fino-scale-up" />
             </div>
-            <h3 data-i18n="f2.title">Etkileşimli Video Bölümleri</h3>
-            <p data-i18n="f2.desc">
-              <em>Tim & Lea</em> gibi günlük yaşam hikâyelerini ister keyifle izleyin, ister <strong>"Ders Olarak Çalış"</strong> moduyla sahne sonlarında durup anlama sorularını çözün.
-            </p>
+            <h3 data-i18n="f2.title">Interactive Video Episodes</h3>
+            <p data-i18n="f2.desc">Watch everyday stories like <em>Tim & Lea</em> for fun, or switch to <strong>“Study as Lesson”</strong> mode with scene-by-scene checkpoints.</p>
             <ul class="feature-list">
-              <li data-i18n="f2.b1">Sahne sonlarında otomatik duran interaktif anlama soruları</li>
-              <li data-i18n="f2.b2">Videodaki her kelimeye dokunup sözlük açabilme</li>
-              <li data-i18n="f2.b3">Dikey <strong>Shorts</strong> videoları ve hızlı mini testler</li>
+              <li data-i18n="f2.b1">Interactive comprehension questions pausing automatically at scene ends</li>
+              <li data-i18n="f2.b2">Tap any word in the video transcript to open its dictionary card</li>
+              <li data-i18n="f2.b3">Vertical <strong>Shorts</strong> clips with quick mini-quizzes</li>
             </ul>
           </article>
 
           <!-- Feature 3: Smart Dictionary & SRS -->
           <article class="bento-card">
             <div class="bento-card-top">
-              <span class="bento-badge badge-crimson" data-i18n="f3.badge">AKILLI SÖZLÜK & SRS</span>
-              <img src="./03_Fino_Basparmak_Gosteriyor.png" alt="Fino Başparmak Gösteriyor" class="bento-mini-fino" />
+              <span class="bento-badge badge-crimson" data-i18n="f3.badge">SMART DICTIONARY & SRS</span>
+              <img src="./03_Fino_Basparmak_Gosteriyor.png" alt="Fino thumbs up" class="bento-mini-fino" />
             </div>
-            <h3 data-i18n="f3.title">Bağlamsal Kelime Defteri</h3>
-            <p data-i18n="f3.desc">
-              İsimlerin artikeli (<em>der/die/das</em>) ve çoğul hali, fiillerin mastar ve çekimleri anında elinizin altında. Kaydettiğiniz her kelime, karşılaştığınız tüm hikâye ve video cümleleriyle birlikte saklanır.
-            </p>
+            <h3 data-i18n="f3.title">Contextual Vocabulary Notebook</h3>
+            <p data-i18n="f3.desc">Noun articles (<em>der/die/das</em>), plurals, and verb conjugations at your fingertips. Every saved word preserves all the story and video sentences where you met it.</p>
 
             <div class="bento-stat-callout">
               <div class="bento-stat-tag">
                 <span class="pulse-mini-dot"></span>
-                <span data-i18n="f3.statPill">5.600+ DOĞAL SESLENDİRME</span>
+                <span data-i18n="f3.statPill">5,600+ NATURAL AUDIO TRACKS</span>
               </div>
-              <p data-i18n="f3.statHighlight">
-                Popüler uygulamalar ortalama 3.000 kelimede tıkanırken; Lernfino 5.600+ doğal seslendirme ve 18.000+ çekimli sözcük formuyla B2 seviyesine ve sertifika sınavlarına tam hazırlar.
-              </p>
+              <p data-i18n="f3.statHighlight">While mainstream apps hit a ceiling around 3,000 words, Lernfino delivers 5,600+ natural audio narrations and 18,000+ word forms to guide you all the way through B2 certificate exams.</p>
             </div>
 
             <ul class="feature-list">
-              <li data-i18n="f3.b1">Aralıklı tekrar algoritması (SRS: 1, 3 ve katlanan gün aralıkları)</li>
-              <li data-i18n="f3.b2">Aynı kelimenin farklı hikâyelerdeki bağlamlarını tek kartta görme</li>
-              <li data-i18n="f3.b3">Doğrudan anlaşılır dilbilgisi açıklamaları</li>
+              <li data-i18n="f3.b1">Spaced repetition algorithm (SRS: 1, 3, and expanding day intervals)</li>
+              <li data-i18n="f3.b2">View multiple real story contexts on a single flashcard</li>
+              <li data-i18n="f3.b3">Clear, learner-friendly grammar explanations</li>
             </ul>
           </article>
 
           <!-- Feature 4: Goethe & ÖSD Full Exams (Hören, Lesen, Schreiben) -->
           <article class="bento-card bento-large">
             <div class="bento-card-top">
-              <span class="bento-badge badge-navy" data-i18n="f4.badge">GOETHE & ÖSD TAM DENEME SINAVLARI</span>
-              <img src="./05_Fino_Lernfino_Kitabiyla.png" alt="Fino Sınav Kitabıyla" class="bento-mini-fino fino-scale-up" />
+              <span class="bento-badge badge-navy" data-i18n="f4.badge">GOETHE & ÖSD FULL MOCK EXAMS</span>
+              <img src="./05_Fino_Lernfino_Kitabiyla.png" alt="Fino holding exam book" class="bento-mini-fino fino-scale-up" />
             </div>
-            <h3 data-i18n="f4.title">Tam Deneme Sınavları (Hören, Lesen & Schreiben)</h3>
-            <p data-i18n="f4.desc">
-              A1'den B2'ye uluslararası Goethe ve ÖSD sertifika sınavları için dinleme, okuma ve yazma modüllerini eksiksiz kapsayan tam deneme simülasyonu.
-            </p>
+            <h3 data-i18n="f4.title">Full Mock Exams (Hören, Lesen & Schreiben)</h3>
+            <p data-i18n="f4.desc">Complete mock exam simulations from A1 to B2 covering Listening (Hören), Reading (Lesen), and Writing (Schreiben) modules for Goethe & ÖSD certificates.</p>
             <ul class="feature-list">
-              <li data-i18n="f4.b1"><strong>Hören & Lesen:</strong> Gerçek sınav sayacı, formatına uygun standart okuma süreleri, soru gezintisi ve çözümlerde kanıt anına tek tıkla atlama</li>
-              <li data-i18n="f4.b2"><strong>Schreiben (Yazma Modülü):</strong> Formel ve yarı-resmî mektup, e-posta ve görüş yazısı yönergeleri, kalıp ifadeler, bağlaç rehberi ve örnek tam puanlı çözüm metinleri</li>
-              <li data-i18n="f4.b3"><strong>Birebir Değerlendirme Kriterleri:</strong> Görev tamamlama, metin yapısı, kelime zenginliği ve dilbilgisi doğruluğu kontrol listeleri</li>
-              <li data-i18n="f4.b4"><strong>Çalışma & Deneme Modları:</strong> İster süreli sınav provası yapın, ister araları atlayarak serbest çalışın</li>
+              <li data-i18n="f4.b1"><strong>Hören & Lesen:</strong> Real exam timer, format-aligned reading intervals, step navigation, and one-tap jump to audio/text evidence</li>
+              <li data-i18n="f4.b2"><strong>Schreiben (Writing Module):</strong> Formal & semi-formal email/letter prompts, connector cheat sheets, and 100% scored model essays</li>
+              <li data-i18n="f4.b3"><strong>Standard Grading Rubrics:</strong> Task fulfillment, cohesion & structure, vocabulary richness, and grammatical accuracy checklists (CEFR-Aligned)</li>
+              <li data-i18n="f4.b4"><strong>Study vs. Mock Modes:</strong> Practice under timed exam pressure or study freely with skippable reading intervals</li>
             </ul>
-            <small class="exam-disclaimer" data-i18n="f4.disclaimer">* Goethe-Institut veya ÖSD'nin resmî sınav materyali değildir. Bağımsız sınav hazırlık simülasyonudur.</small>
+            <small class="exam-disclaimer" data-i18n="f4.disclaimer">* Not official examination material of Goethe-Institut or ÖSD. Independent practice simulation.</small>
           </article>
         </div>
       </div>
@@ -432,11 +421,9 @@
     <section class="compare-section" id="compare">
       <div class="container">
         <div class="section-header">
-          <span class="eyebrow-tag" data-i18n="compare.eyebrow">NEDEN LERNFINO?</span>
-          <h2 data-i18n="compare.title">Ezberci Kalıplarla Vakit Kaybetmeyin</h2>
-          <p data-i18n="compare.subtitle">
-            Mekanik cümle tekrarları ve kısıtlayıcı can bariyerleri yerine; yaşayan Almanca, tam sınav simülatörü ve berrak, doğal sesler.
-          </p>
+          <span class="eyebrow-tag" data-i18n="compare.eyebrow">WHY LERNFINO?</span>
+          <h2 data-i18n="compare.title">Stop Wasting Time with Conventional Apps</h2>
+          <p data-i18n="compare.subtitle">Instead of rigid rote-memorization and restrictive heart barriers: authentic German, full certificate mock exams, and crystal-clear natural voices.</p>
         </div>
 
         <div class="compare-table-wrapper">
@@ -444,15 +431,15 @@
             <!-- Header Row -->
             <div class="compare-row compare-header-row">
               <div class="compare-col compare-col-feature">
-                <span data-i18n="compare.thFeature">Karşılaştırma Alanı</span>
+                <span data-i18n="compare.thFeature">Learning Area</span>
               </div>
               <div class="compare-col compare-col-classic">
-                <span class="compare-pill-classic" data-i18n="compare.thClassic">Geleneksel Dil Uygulamaları</span>
+                <span class="compare-pill-classic" data-i18n="compare.thClassic">Conventional Language Apps</span>
               </div>
               <div class="compare-col compare-col-fino">
                 <div class="fino-header-badge">
                   <img src="./Lernfino%20Deutsch%20Fox%20Icon.png" alt="Fino" class="compare-fino-mini" />
-                  <span data-i18n="compare.thFino">Lernfino Deneyimi</span>
+                  <span data-i18n="compare.thFino">Lernfino Experience</span>
                 </div>
               </div>
             </div>
@@ -462,32 +449,32 @@
               <div class="compare-col compare-col-feature">
                 <div class="feature-title-wrap">
                   <span class="feature-icon">🎯</span>
-                  <strong data-i18n="compare.r1Feature">Öğrenme Metodu</strong>
+                  <strong data-i18n="compare.r1Feature">Learning Method</strong>
                 </div>
               </div>
               <div class="compare-col compare-col-classic">
                 <div class="compare-mobile-tag classic">
                   <span class="compare-mobile-icon">❌</span>
-                  <span data-i18n="compare.thClassic">Geleneksel Dil Uygulamaları</span>
+                  <span data-i18n="compare.thClassic">Conventional Language Apps</span>
                 </div>
                 <div class="compare-cell">
                   <span class="cell-status-icon bad">✕</span>
                   <div class="cell-text">
-                    <strong data-i18n="compare.r1ClassicTitle">Mekanik Cümle Ezberi</strong>
-                    <p data-i18n="compare.r1ClassicDesc">"Ayı elmayı yer" gibi gerçek hayatta karşılığı olmayan yapay cümle tekrarlarıyla vakit kaybı.</p>
+                    <strong data-i18n="compare.r1ClassicTitle">Mechanical Rote Memorization</strong>
+                    <p data-i18n="compare.r1ClassicDesc">Wasting time with absurd sentences like “The bear eats an apple” that have zero real-life use.</p>
                   </div>
                 </div>
               </div>
               <div class="compare-col compare-col-fino highlight-col">
                 <div class="compare-mobile-tag fino">
                   <img src="./Lernfino%20Deutsch%20Fox%20Icon.png" alt="Fino" class="compare-mobile-fino-ico" />
-                  <span data-i18n="compare.thFino">Lernfino Deneyimi</span>
+                  <span data-i18n="compare.thFino">Lernfino Experience</span>
                 </div>
                 <div class="compare-cell">
                   <span class="cell-status-icon good">✓</span>
                   <div class="cell-text">
-                    <strong data-i18n="compare.r1FinoTitle">Yaşayan Hikâyeler & İnteraktif Videolar</strong>
-                    <p data-i18n="compare.r1FinoDesc">Berlin sokaklarında, ev kiralarken, trende veya kafede geçen gerçek Almanca ve sahne anlama soruları.</p>
+                    <strong data-i18n="compare.r1FinoTitle">Living Stories & Interactive Videos</strong>
+                    <p data-i18n="compare.r1FinoDesc">Real German used on Berlin streets, renting flats, trains, or cafes, accompanied by scene comprehension questions.</p>
                   </div>
                 </div>
               </div>
@@ -498,32 +485,32 @@
               <div class="compare-col compare-col-feature">
                 <div class="feature-title-wrap">
                   <span class="feature-icon">📚</span>
-                  <strong data-i18n="compare.r2Feature">Kelime & Seviye Derinliği</strong>
+                  <strong data-i18n="compare.r2Feature">Vocabulary & CEFR Depth</strong>
                 </div>
               </div>
               <div class="compare-col compare-col-classic">
                 <div class="compare-mobile-tag classic">
                   <span class="compare-mobile-icon">❌</span>
-                  <span data-i18n="compare.thClassic">Geleneksel Dil Uygulamaları</span>
+                  <span data-i18n="compare.thClassic">Conventional Language Apps</span>
                 </div>
                 <div class="compare-cell">
                   <span class="cell-status-icon bad">✕</span>
                   <div class="cell-text">
-                    <strong data-i18n="compare.r2ClassicTitle">3.000 Kelimede Tıkanma</strong>
-                    <p data-i18n="compare.r2ClassicDesc">Sadece A1–A2 başlangıç döngüsünde kalır, ileri düzey cümle kurduramaz ve derinleşemez.</p>
+                    <strong data-i18n="compare.r2ClassicTitle">Plateauing at 3,000 Words</strong>
+                    <p data-i18n="compare.r2ClassicDesc">Trapped in an endless A1–A2 loop without advancing to nuanced sentences or upper-intermediate fluency.</p>
                   </div>
                 </div>
               </div>
               <div class="compare-col compare-col-fino highlight-col">
                 <div class="compare-mobile-tag fino">
                   <img src="./Lernfino%20Deutsch%20Fox%20Icon.png" alt="Fino" class="compare-mobile-fino-ico" />
-                  <span data-i18n="compare.thFino">Lernfino Deneyimi</span>
+                  <span data-i18n="compare.thFino">Lernfino Experience</span>
                 </div>
                 <div class="compare-cell">
                   <span class="cell-status-icon good">✓</span>
                   <div class="cell-text">
-                    <strong data-i18n="compare.r2FinoTitle">5.600+ Doğal Seslendirme & 18.000+ Kelime Formu</strong>
-                    <p data-i18n="compare.r2FinoDesc">A1'den B2'ye kadar tam artikel rehberi (der/die/das), çoğul formlar, fiil çekimleri ve 28.000+ kelimelik hikâye korpusu.</p>
+                    <strong data-i18n="compare.r2FinoTitle">5,600+ Natural Audio Tracks & 18,000+ Word Forms</strong>
+                    <p data-i18n="compare.r2FinoDesc">Complete A1 to B2 article guide (der/die/das), plural forms, conjugations, and a 28,000+ word story corpus.</p>
                   </div>
                 </div>
               </div>
@@ -534,32 +521,32 @@
               <div class="compare-col compare-col-feature">
                 <div class="feature-title-wrap">
                   <span class="feature-icon">🎙️</span>
-                  <strong data-i18n="compare.r3Feature">Ses Kalitesi & Telaffuz</strong>
+                  <strong data-i18n="compare.r3Feature">Audio Quality & Pronunciation</strong>
                 </div>
               </div>
               <div class="compare-col compare-col-classic">
                 <div class="compare-mobile-tag classic">
                   <span class="compare-mobile-icon">❌</span>
-                  <span data-i18n="compare.thClassic">Geleneksel Dil Uygulamaları</span>
+                  <span data-i18n="compare.thClassic">Conventional Language Apps</span>
                 </div>
                 <div class="compare-cell">
                   <span class="cell-status-icon bad">✕</span>
                   <div class="cell-text">
-                    <strong data-i18n="compare.r3ClassicTitle">Metalik / Robotik Sentez Sesler</strong>
-                    <p data-i18n="compare.r3ClassicDesc">Duygusuz ve tekdüze tonlama; kulak gerçek konuşma akışına, doğal ritme ve telaffuz hızına alışamaz.</p>
+                    <strong data-i18n="compare.r3ClassicTitle">Robotic & Metallic Synthesis</strong>
+                    <p data-i18n="compare.r3ClassicDesc">Flat, lifeless tonality that fails to prepare your ears for real conversational speed, native cadence, and natural accents.</p>
                   </div>
                 </div>
               </div>
               <div class="compare-col compare-col-fino highlight-col">
                 <div class="compare-mobile-tag fino">
                   <img src="./Lernfino%20Deutsch%20Fox%20Icon.png" alt="Fino" class="compare-mobile-fino-ico" />
-                  <span data-i18n="compare.thFino">Lernfino Deneyimi</span>
+                  <span data-i18n="compare.thFino">Lernfino Experience</span>
                 </div>
                 <div class="compare-cell">
                   <span class="cell-status-icon good">✓</span>
                   <div class="cell-text">
-                    <strong data-i18n="compare.r3FinoTitle">Zengin & Doğal Seslendirme Çeşitliliği</strong>
-                    <p data-i18n="compare.r3FinoDesc">Robotiklikten uzak, berrak ve akıcı birden fazla doğal seslendirme tonu; kelime-kelime senkronize vurgu, hız kontrolü ve kulağı eğiten "Önce Dinle" modu.</p>
+                    <strong data-i18n="compare.r3FinoTitle">Rich & Natural Voice Diversity</strong>
+                    <p data-i18n="compare.r3FinoDesc">Far from robotic monotony: crystal-clear, natural tones across diverse characters, synchronized word highlighting, speed control, and a dedicated “Listen-First” mode.</p>
                   </div>
                 </div>
               </div>
@@ -570,32 +557,32 @@
               <div class="compare-col compare-col-feature">
                 <div class="feature-title-wrap">
                   <span class="feature-icon">🔍</span>
-                  <strong data-i18n="compare.r4Feature">Okurken Sözlük Deneyimi</strong>
+                  <strong data-i18n="compare.r4Feature">Contextual Reading Dictionary</strong>
                 </div>
               </div>
               <div class="compare-col compare-col-classic">
                 <div class="compare-mobile-tag classic">
                   <span class="compare-mobile-icon">❌</span>
-                  <span data-i18n="compare.thClassic">Geleneksel Dil Uygulamaları</span>
+                  <span data-i18n="compare.thClassic">Conventional Language Apps</span>
                 </div>
                 <div class="compare-cell">
                   <span class="cell-status-icon bad">✕</span>
                   <div class="cell-text">
-                    <strong data-i18n="compare.r4ClassicTitle">Kuru Kelime Ezberi</strong>
-                    <p data-i18n="compare.r4ClassicDesc">Kelimenin cümledeki gramer rolünü ve artikelini ayrı vermez; bağlamdan kopararak kart ezberletir.</p>
+                    <strong data-i18n="compare.r4ClassicTitle">Isolated Word Memorization</strong>
+                    <p data-i18n="compare.r4ClassicDesc">Disconnected flashcards that hide the word's grammatical role, case, and article in natural context.</p>
                   </div>
                 </div>
               </div>
               <div class="compare-col compare-col-fino highlight-col">
                 <div class="compare-mobile-tag fino">
                   <img src="./Lernfino%20Deutsch%20Fox%20Icon.png" alt="Fino" class="compare-mobile-fino-ico" />
-                  <span data-i18n="compare.thFino">Lernfino Deneyimi</span>
+                  <span data-i18n="compare.thFino">Lernfino Experience</span>
                 </div>
                 <div class="compare-cell">
                   <span class="cell-status-icon good">✓</span>
                   <div class="cell-text">
-                    <strong data-i18n="compare.r4FinoTitle">Dokun-Öğren Bağlamsal Sözlük</strong>
-                    <p data-i18n="compare.r4FinoDesc">Hikâyede veya videoda bilmediğin kelimeye dokun; artikeli, gramer notu ve telaffuzu anında açılsın. SRS kelime defterine tek tıkla kaydet.</p>
+                    <strong data-i18n="compare.r4FinoTitle">Instant Tap-to-Learn Dictionary</strong>
+                    <p data-i18n="compare.r4FinoDesc">Tap any word in stories or videos to instantly view its article, grammar note, and audio. Save to your SRS notebook with one tap.</p>
                   </div>
                 </div>
               </div>
@@ -606,32 +593,32 @@
               <div class="compare-col compare-col-feature">
                 <div class="feature-title-wrap">
                   <span class="feature-icon">🎓</span>
-                  <strong data-i18n="compare.r5Feature">Sertifika & Sınav Hazırlığı</strong>
+                  <strong data-i18n="compare.r5Feature">Certification & Exam Preparation</strong>
                 </div>
               </div>
               <div class="compare-col compare-col-classic">
                 <div class="compare-mobile-tag classic">
                   <span class="compare-mobile-icon">❌</span>
-                  <span data-i18n="compare.thClassic">Geleneksel Dil Uygulamaları</span>
+                  <span data-i18n="compare.thClassic">Conventional Language Apps</span>
                 </div>
                 <div class="compare-cell">
                   <span class="cell-status-icon bad">✕</span>
                   <div class="cell-text">
-                    <strong data-i18n="compare.r5ClassicTitle">Sınav Desteği Yok</strong>
-                    <p data-i18n="compare.r5ClassicDesc">Goethe ve ÖSD sertifikası almak isteyenler (aile birleşimi, iş, vize) mektup yazma ve sınav formatında desteksiz kalır.</p>
+                    <strong data-i18n="compare.r5ClassicTitle">Zero Exam Simulation</strong>
+                    <p data-i18n="compare.r5ClassicDesc">Learners aiming for Goethe or ÖSD certificates (visas, work, family reunification) are left stranded without letter writing practice.</p>
                   </div>
                 </div>
               </div>
               <div class="compare-col compare-col-fino highlight-col">
                 <div class="compare-mobile-tag fino">
                   <img src="./Lernfino%20Deutsch%20Fox%20Icon.png" alt="Fino" class="compare-mobile-fino-ico" />
-                  <span data-i18n="compare.thFino">Lernfino Deneyimi</span>
+                  <span data-i18n="compare.thFino">Lernfino Experience</span>
                 </div>
                 <div class="compare-cell">
                   <span class="cell-status-icon good">✓</span>
                   <div class="cell-text">
-                    <strong data-i18n="compare.r5FinoTitle">Goethe & ÖSD Tam Sınav Simülatörü</strong>
-                    <p data-i18n="compare.r5FinoDesc">Hören, Lesen ve özellikle Schreiben (formel ve yarı-resmî mektup/e-posta yazma rehberi, bağlaçlar ve tam puanlı örnek çözümler) ile eksiksiz sınav provası.</p>
+                    <strong data-i18n="compare.r5FinoTitle">Complete Goethe & ÖSD Mock Exams</strong>
+                    <p data-i18n="compare.r5FinoDesc">Full simulations across Hören, Lesen, and Schreiben (formal letter/email guides, connectors, and 100% scored model answers).</p>
                   </div>
                 </div>
               </div>
@@ -642,32 +629,32 @@
               <div class="compare-col compare-col-feature">
                 <div class="feature-title-wrap">
                   <span class="feature-icon">⚡</span>
-                  <strong data-i18n="compare.r6Feature">Kullanım & Üyelik Modeli</strong>
+                  <strong data-i18n="compare.r6Feature">Access & Fairness Model</strong>
                 </div>
               </div>
               <div class="compare-col compare-col-classic">
                 <div class="compare-mobile-tag classic">
                   <span class="compare-mobile-icon">❌</span>
-                  <span data-i18n="compare.thClassic">Geleneksel Dil Uygulamaları</span>
+                  <span data-i18n="compare.thClassic">Conventional Language Apps</span>
                 </div>
                 <div class="compare-cell">
                   <span class="cell-status-icon bad">✕</span>
                   <div class="cell-text">
-                    <strong data-i18n="compare.r6ClassicTitle">Kısıtlayıcı Can / Enerji Bariyeri</strong>
-                    <p data-i18n="compare.r6ClassicDesc">Hata yaptıkça öğrenmeni yarıda kesip bekleten cezalandırıcı can mekanikleri ve fahiş abonelik ücretleri.</p>
+                    <strong data-i18n="compare.r6ClassicTitle">Punitive Heart / Life Limits</strong>
+                    <p data-i18n="compare.r6ClassicDesc">Frustrating mechanics that halt your learning when you make mistakes, backed by inflated subscription rates.</p>
                   </div>
                 </div>
               </div>
               <div class="compare-col compare-col-fino highlight-col">
                 <div class="compare-mobile-tag fino">
                   <img src="./Lernfino%20Deutsch%20Fox%20Icon.png" alt="Fino" class="compare-mobile-fino-ico" />
-                  <span data-i18n="compare.thFino">Lernfino Deneyimi</span>
+                  <span data-i18n="compare.thFino">Lernfino Experience</span>
                 </div>
                 <div class="compare-cell">
                   <span class="cell-status-icon good">✓</span>
                   <div class="cell-text">
-                    <strong data-i18n="compare.r6FinoTitle">Ücretsiz Başla · Erken Kayıtlara Lansman İndirimi</strong>
-                    <p data-i18n="compare.r6FinoDesc">Can cezası olmadan kendi hızında özgürce öğrenmeye başla; lansman gününde ilk öğrencilere özel avantajlı Premium fırsatını yakala.</p>
+                    <strong data-i18n="compare.r6FinoTitle">Start Free · Early Bird Launch Discount</strong>
+                    <p data-i18n="compare.r6FinoDesc">Learn at your own pace without arbitrary heart penalties; secure exclusive launch discounts for ad-free Premium access.</p>
                   </div>
                 </div>
               </div>
@@ -682,8 +669,8 @@
     <section class="how-section" id="how">
       <div class="container">
         <div class="section-header">
-          <span class="eyebrow-tag" data-i18n="how.eyebrow">GÜNLÜK ÖĞRENME AKIŞI</span>
-          <h2 data-i18n="how.title">Fino ile Her Gün 15 Dakikalık Rutin</h2>
+          <span class="eyebrow-tag" data-i18n="how.eyebrow">DAILY LEARNING FLOW</span>
+          <h2 data-i18n="how.title">A Calm 15-Minute Daily Routine with Fino</h2>
         </div>
 
         <div class="steps-grid">
@@ -692,32 +679,26 @@
               <div class="step-num">01</div>
               <img src="./11_Fino_Kulaklikla_Dinliyor.png" alt="Fino Dinliyor" class="step-fino-img" />
             </div>
-            <h3 data-i18n="how.s1Title">Seviyeni Seç, Oku & Dinle</h3>
-            <p data-i18n="how.s1Desc">
-              Bugün ekranında yarım kalan hikâyene devam et. Cümleleri ana dili Almanca olan seslerden takip et, bilmediğin kelimeye dokun.
-            </p>
+            <h3 data-i18n="how.s1Title">Pick Your Level, Read & Listen</h3>
+            <p data-i18n="how.s1Desc">Resume your story from the Today dashboard. Follow natural audio word-by-word and tap unfamiliar words effortlessly.</p>
           </div>
 
           <div class="step-card">
             <div class="step-top-row">
               <div class="step-num">02</div>
-              <img src="./10_Fino_Mikrofon_Konusuyor.png" alt="Fino Mikrofonla Canlandırıyor" class="step-fino-img" />
+              <img src="./10_Fino_Mikrofon_Konusuyor.png" alt="Fino with studio microphone" class="step-fino-img" />
             </div>
-            <h3 data-i18n="how.s2Title">Videolarla Canlandır & Tekrar Et</h3>
-            <p data-i18n="how.s2Desc">
-              İzlediğin bölümdeki sahne sorularını yanıtla, kaydettiğin kelimeleri Fino'nun günlük SRS kartlarıyla unutmadan pekiştir.
-            </p>
+            <h3 data-i18n="how.s2Title">Watch Episodes & Review SRS</h3>
+            <p data-i18n="how.s2Desc">Answer scene check questions in video lessons and reinforce saved words with Fino's daily spaced-repetition cards.</p>
           </div>
 
           <div class="step-card">
             <div class="step-top-row">
               <div class="step-num">03</div>
-              <img src="./09_Fino_Dusunuyor_Soru.png" alt="Fino Soru Çözüyor" class="step-fino-img" />
+              <img src="./09_Fino_Dusunuyor_Soru.png" alt="Fino solving exam question" class="step-fino-img" />
             </div>
-            <h3 data-i18n="how.s3Title">Tam Deneme Sınavıyla Kendini Test Et</h3>
-            <p data-i18n="how.s3Desc">
-              Goethe ve ÖSD formatındaki Hören, Lesen ve Schreiben modülleriyle eksiksiz sınav provası yap, hatalarını kanıtlı çözümlerle hemen gör.
-            </p>
+            <h3 data-i18n="how.s3Title">Test Yourself with Full Mock Exams</h3>
+            <p data-i18n="how.s3Desc">Take full Goethe & ÖSD simulations across Hören, Lesen, and Schreiben modules with timestamped evidence solutions.</p>
           </div>
         </div>
       </div>
@@ -730,27 +711,25 @@
           <div class="yt-simple-left">
             <div class="yt-simple-eyebrow">
               <span class="yt-dot-live"></span>
-              <span class="yt-brand-text" data-i18n="yt.brand">YOUTUBE'DA LERNFINO · @LernfinoDeutsch</span>
+              <span class="yt-brand-text" data-i18n="yt.brand">LERNFINO ON YOUTUBE · @LernfinoDeutsch</span>
             </div>
-            <h2 data-i18n="yt.title">Almancayı YouTube Kanalımızda İzleyin</h2>
-            <p data-i18n="yt.subtitle">
-              Sadece okumayın; Goethe sınav simülasyonları, animasyonlu hikâyeler ve günlük pratik videolarıyla Almancayı izleyerek ve dinleyerek pekiştirin.
-            </p>
+            <h2 data-i18n="yt.title">Learn German on Our YouTube Channel</h2>
+            <p data-i18n="yt.subtitle">Don't just read; master German by watching and listening with full Goethe exam simulations, animated stories, and daily practical video lessons.</p>
 
             <ul class="yt-pillars-list">
               <li>
                 <span class="pillar-icon">🎓</span>
                 <div>
-                  <strong data-i18n="yt.p1Title">Goethe & ÖSD Sınav Simülatörleri:</strong>
-                  <span data-i18n="yt.p1Desc">A1–B2 Hören ve Sprechen için sınav formatına uygun süre sayaçlı tam video denemeleri ve soru sonu kanıt çözümleri.</span>
+                  <strong data-i18n="yt.p1Title">Goethe & ÖSD Exam Simulators:</strong>
+                  <span data-i18n="yt.p1Desc">Full timed video mock exams for A1–B2 Hören and Sprechen, featuring realistic countdown timers and timestamped evidence solutions.</span>
                 </div>
               </li>
               <li>
                 <span class="pillar-icon">📖</span>
                 <div>
-                  <strong data-i18n="yt.p2Title">Animasyonlu Almanca Hikâyeleri:</strong>
-                  <span data-i18n="yt.p2Desc">Tim & Lea başta olmak üzere zengin karakter kadromuzla Berlin sokaklarında günlük yaşam. 13 dilde altyazı desteği ve kulağı konuşturan berrak ve doğal tonlama:</span>
-                  <div class="yt-lang-pills" aria-label="YouTube altyazı dilleri">
+                  <strong data-i18n="yt.p2Title">Animated German Stories:</strong>
+                  <span data-i18n="yt.p2Desc">Everyday life on Berlin streets with Tim & Lea and our diverse cast of characters. Animated lessons with subtitles in up to 13 languages and authentic natural voice acting:</span>
+                  <div class="yt-lang-pills" aria-label="YouTube subtitle languages">
                     <span class="lang-tag">Deutsch</span>
                     <span class="lang-tag">English</span>
                     <span class="lang-tag">Türkçe</span>
@@ -770,8 +749,8 @@
               <li>
                 <span class="pillar-icon">⚡</span>
                 <div>
-                  <strong data-i18n="yt.p3Title">Shorts & Günlük Tüyolar:</strong>
-                  <span data-i18n="yt.p3Desc">60 saniyede artikel (der/die/das) kuralları, en sık yapılan sınav hataları ve hayat kurtaran pratik kalıplar.</span>
+                  <strong data-i18n="yt.p3Title">Shorts & Daily Tips:</strong>
+                  <span data-i18n="yt.p3Desc">60-second hacks for articles (der/die/das), common test traps, and essential phrases that save your day.</span>
                 </div>
               </li>
             </ul>
@@ -779,16 +758,16 @@
             <div class="yt-cta-row">
               <a href="https://www.youtube.com/@LernfinoDeutsch" target="_blank" rel="noopener noreferrer" class="btn btn-youtube">
                 <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
-                <span data-i18n="yt.btn">YouTube Kanalımıza Katılın</span>
+                <span data-i18n="yt.btn">Join Our YouTube Channel</span>
                 <span>➔</span>
               </a>
-              <span class="yt-cta-note" data-i18n="yt.ctaNote">13 Dilde Altyazı · Ücretsiz · Düzenli Yeni İçerik</span>
+              <span class="yt-cta-note" data-i18n="yt.ctaNote">Subtitles in Up to 13 Languages · Free · Regularly Updated</span>
             </div>
-            <small class="yt-disclaimer" data-i18n="yt.disclaimer">* Bağımsız eğitim simülasyonudur; sınav kurumlarıyla resmî bir bağı veya ortaklığı yoktur.</small>
+            <small class="yt-disclaimer" data-i18n="yt.disclaimer">* Independent learning simulator; not affiliated with or endorsed by certification bodies.</small>
           </div>
 
           <div class="yt-simple-right">
-            <img src="./08_Fino_Klaper_Video.png" alt="Fino YouTube Kanalı" class="yt-mascot-feature" />
+            <img src="./08_Fino_Klaper_Video.png" alt="Fino YouTube channel" class="yt-mascot-feature" />
           </div>
         </div>
       </div>
@@ -800,13 +779,11 @@
         <div class="launch-box">
           <div class="launch-left">
             <div class="launch-mascot-row">
-              <img src="./07_Fino_Kitapla_Selam_Veriyor.png" alt="Fino Selam Veriyor" class="launch-mini-mascot" />
-              <span class="eyebrow-tag" data-i18n="launch.eyebrow">LANSMAN DURUMU · KASIM 2026</span>
+              <img src="./07_Fino_Kitapla_Selam_Veriyor.png" alt="Fino waving" class="launch-mini-mascot" />
+              <span class="eyebrow-tag" data-i18n="launch.eyebrow">EARLY ACCESS & ROADMAP</span>
             </div>
-            <h2 data-i18n="launch.title">İlk Öğrencilerimizden Biri Olun!</h2>
-            <p data-i18n="launch.desc">
-              Lernfino iOS (App Store), Android (Google Play) ve Web sürümleri son mağaza test aşamasında. E-posta adresinizi bırakın; uygulama yayınlandığı gün Fino size haber versin.
-            </p>
+            <h2 data-i18n="launch.title">Be Among Our First Learners!</h2>
+            <p data-i18n="launch.desc">Lernfino is built as a continuously expanding ecosystem enriched with regular new stories, natural German audio, interactive videos, and full mock exams. Be the first to know when the app launches:</p>
 
             <!-- Expanding Ecosystem Roadmap & Highlights -->
             <div class="launch-highlights-grid">
@@ -815,17 +792,17 @@
                   <span class="launch-hl-icon">📚</span>
                   <span class="launch-hl-tag" data-i18n="launch.card1Tag">A1 · A2 · B1 · B2</span>
                 </div>
-                <h4 data-i18n="launch.card1Title">Sürekli Büyüyen Kütüphane</h4>
-                <p data-i18n="launch.card1Desc">Her seviyede düzenli eklenen özgün hikâyeler, doğal tonlamalı akıcı Almanca seslendirmeler ve zengin okuma metinleri.</p>
+                <h4 data-i18n="launch.card1Title">Constantly Growing Library</h4>
+                <p data-i18n="launch.card1Desc">Fresh original stories across A1 to B2 added regularly, paired with ultra-natural German pronunciation and graded reading texts.</p>
               </div>
 
               <div class="launch-hl-card">
                 <div class="launch-hl-header">
                   <span class="launch-hl-icon">🎬</span>
-                  <span class="launch-hl-tag" data-i18n="launch.card2Tag">İnteraktif Pratik</span>
+                  <span class="launch-hl-tag" data-i18n="launch.card2Tag">Interactive Learning</span>
                 </div>
-                <h4 data-i18n="launch.card2Title">Etkileşimli Videolar</h4>
-                <p data-i18n="launch.card2Desc">Bölümleri izlerken duraklayan sahne soruları ve günlük yaşam konuşma diyalogları.</p>
+                <h4 data-i18n="launch.card2Title">Interactive Video Lessons</h4>
+                <p data-i18n="launch.card2Desc">Animated story episodes that pause for comprehension checkpoints and conversational everyday practice.</p>
               </div>
 
               <div class="launch-hl-card">
@@ -833,58 +810,58 @@
                   <span class="launch-hl-icon">📝</span>
                   <span class="launch-hl-tag" data-i18n="launch.card3Tag">Hören · Lesen · Schreiben</span>
                 </div>
-                <h4 data-i18n="launch.card3Title">Goethe & ÖSD Tam Sınavlar</h4>
-                <p data-i18n="launch.card3Desc">Hören, Lesen ve Schreiben modülleriyle gerçek sınav formatında, düzenli yeni deneme setleri.</p>
+                <h4 data-i18n="launch.card3Title">Full Goethe & ÖSD Exams</h4>
+                <p data-i18n="launch.card3Desc">Realistic exam simulations covering Hören, Lesen, and Schreiben, with new test sets released periodically.</p>
               </div>
 
               <div class="launch-hl-card">
                 <div class="launch-hl-header">
                   <span class="launch-hl-icon">🧠</span>
-                  <span class="launch-hl-tag" data-i18n="launch.card4Tag">5.600+ Ses · 18.000+ Form</span>
+                  <span class="launch-hl-tag" data-i18n="launch.card4Tag">5,600+ Audio · 18,000+ Forms</span>
                 </div>
-                <h4 data-i18n="launch.card4Title">Bağlamsal Sözlük & SRS</h4>
-                <p data-i18n="launch.card4Desc">A1–B2 seviyesinde zengin kelime haznesi: 5.600+ doğal seslendirme, artikel rehberi ve bilimsel aralıklı tekrar.</p>
+                <h4 data-i18n="launch.card4Title">Contextual Dictionary & SRS</h4>
+                <p data-i18n="launch.card4Desc">Rich A1–B2 vocabulary archive: 5,600+ natural audio tracks, article guide, and spaced-repetition cards.</p>
               </div>
             </div>
 
             <div class="launch-vip-banner">
               <span class="vip-icon">🎁</span>
-              <div class="vip-text" data-i18n="launch.vipNotice">
-                <strong>İlk Üyelere Özel Sürpriz:</strong> Lansman gününde ilk öğrencilerimize özel sürpriz indirimleri, hediyeleri ve ayrıcalıkları kaçırmayın!
-              </div>
+              <div class="vip-text" data-i18n="launch.vipNotice"><strong>Exclusive to First Members:</strong> Don't miss out on special launch discounts, unique perks, and surprises reserved for our first learners!</div>
             </div>
           </div>
 
           <div class="launch-right">
             <form class="notify-form" id="notifyForm">
-              <h3 data-i18n="launch.formTitle">Erken Erişim & Lansman Bildirimi</h3>
-              <p data-i18n="launch.formSub">Spam yok. Yalnızca uygulama mağazalarda açıldığında tek bir davet e-postası göndereceğiz.</p>
+              <h3 data-i18n="launch.formTitle">Early Access & Launch Notification</h3>
+              <p data-i18n="launch.formSub">Zero spam. We will only send a single invitation email with exclusive member perks and surprises when the app goes live.</p>
 
-              <label class="form-label" for="emailInput" data-i18n="launch.emailLabel">E-posta Adresiniz</label>
+              <label class="form-label" for="emailInput" data-i18n="launch.emailLabel">Your Email Address</label>
               <input
                 type="email"
                 id="emailInput"
                 class="form-input"
-                placeholder="ornek@eposta.com"
+                placeholder="you@example.com"
                 required
               />
 
-              <label class="form-label" for="levelSelect" data-i18n="launch.levelLabel">Hedeflediğiniz Almanca Seviyesi</label>
+              <label class="form-label" for="levelSelect" data-i18n="launch.levelLabel">Your Target German Level</label>
               <select id="levelSelect" class="form-select">
-                <option value="A1" data-i18n="launch.optA1">A1 — Başlangıç (Anfänger)</option>
-                <option value="A2" data-i18n="launch.optA2">A2 — Temel (Grundlagen)</option>
-                <option value="B1" selected data-i18n="launch.optB1">B1 — Orta / Sertifika (Mittelstufe)</option>
-                <option value="B2" data-i18n="launch.optB2">B2 — İleri Orta (Gute Mittelstufe)</option>
+                <option value="A1" data-i18n="launch.optA1">A1 — Beginner (Anfänger)</option>
+                <option value="A2" data-i18n="launch.optA2">A2 — Elementary (Grundlagen)</option>
+                <option value="B1" selected data-i18n="launch.optB1">B1 — Intermediate / Certificate (Mittelstufe)</option>
+                <option value="B2" data-i18n="launch.optB2">B2 — Upper-Intermediate (Gute Mittelstufe)</option>
               </select>
 
-              <button type="submit" class="btn btn-primary btn-lg full-w" data-i18n="launch.submitBtn">
-                Beni Listeye Ekle 🦊
-              </button>
+              <button type="submit" class="btn btn-primary btn-lg full-w" data-i18n="launch.submitBtn">Join the Waitlist 🦊</button>
 
               <div class="form-feedback" id="formFeedback" style="display: none;">
-                <img src="./04_Fino_Kutlama_Yapiyor.png" alt="Fino Kutlama" class="feedback-fino-img" />
-                <span id="feedbackMessage"></span>
+                <img src="./04_Fino_Kutlama_Yapiyor.png" alt="Fino" class="feedback-fino-img" />
+                <div class="form-feedback-body">
+                  <span id="feedbackMessage"></span>
+                  <button type="button" id="formRetryBtn" class="form-retry-btn" hidden data-i18n="launch.retryBtn">Try Again</button>
+                </div>
               </div>
+              <p class="form-unsubscribe" data-i18n="launch.unsubscribeHtml">Need to unsubscribe or change your request? <a href="mailto:support@lernfino.com?subject=Lernfino%20Waitlist%20Unsubscribe">Unsubscribe / support@lernfino.com</a></p>
             </form>
           </div>
         </div>
@@ -899,7 +876,7 @@
         <img src="./Lernfino%20Deutsch%20Fox%20Icon.png" alt="Lernfino" class="footer-logo" />
         <div>
           <strong>lernfino.com</strong>
-          <p data-i18n="footer.tagline">Almancaya açılan sıcak bir sayfa. Çok yakında iOS, Android ve Web'de.</p>
+          <p data-i18n="footer.tagline">A warm page opening to German. Coming soon to iOS, Android, and Web.</p>
         </div>
       </div>
 
@@ -922,14 +899,22 @@
             <span>TikTok</span>
           </a>
         </div>
+        <div class="footer-tools">
+          <span class="footer-tools-label" data-i18n="footer.toolsLabel">Free Tools:</span>
+          <a href="./exam-calculator/" class="footer-nav-link" data-i18n="footer.toolCalc">Goethe/ÖSD Score Calculator</a>
+          <span>·</span>
+          <a href="./word-counter/" class="footer-nav-link" data-i18n="footer.toolCounter">Schreiben Word Counter</a>
+          <span>·</span>
+          <a href="./level-test/" class="footer-nav-link" data-i18n="footer.toolLevel">A1–B2 Level Test</a>
+        </div>
         <div class="footer-links">
-          <a href="./privacy/" class="footer-nav-link" data-i18n="footer.privacy">Gizlilik Politikası</a>
+          <a href="./privacy/" class="footer-nav-link" data-i18n="footer.privacy">Privacy Policy</a>
           <span>·</span>
-          <a href="./terms/" class="footer-nav-link" data-i18n="footer.terms">Kullanım Koşulları</a>
+          <a href="./terms/" class="footer-nav-link" data-i18n="footer.terms">Terms of Service</a>
           <span>·</span>
-          <a href="./support/" class="footer-nav-link" data-i18n="footer.support">Destek & SSS</a>
+          <a href="./support/" class="footer-nav-link" data-i18n="footer.support">Support & FAQ</a>
           <span>·</span>
-          <a href="./delete-account/" class="footer-nav-link" data-i18n="footer.deleteAccount">Hesap Silme</a>
+          <a href="./delete-account/" class="footer-nav-link" data-i18n="footer.deleteAccount">Delete Account</a>
         </div>
         <div class="footer-langs">
           <button type="button" class="text-link" data-lang-switch="tr">Türkçe</button>
@@ -938,12 +923,12 @@
           <span>·</span>
           <button type="button" class="text-link" data-lang-switch="de">Deutsch</button>
         </div>
-        <p class="footer-disclaimer" data-i18n="footer.disclaimer">Goethe-Zertifikat ve ÖSD, ilgili sahiplerinin tescilli markalarıdır. Lernfino bağımsız bir eğitim platformudur; Goethe-Institut veya ÖSD'nin resmî bir materyali, ortağı veya ürünü değildir.</p>
-        <small>© 2026 Lernfino · Respecode. <span data-i18n="footer.rights">Tüm hakları saklıdır.</span></small>
+        <p class="footer-disclaimer" data-i18n="footer.disclaimer">Goethe-Zertifikat and ÖSD are registered trademarks of their respective owners. Lernfino is an independent learning platform and not official material of the Goethe-Institut or ÖSD.</p>
+        <small>© 2026 Lernfino · Respecode. <span data-i18n="footer.rights">All rights reserved.</span></small>
       </div>
     </div>
   </footer>
 
-  <script src="./app.js?v=20261110-compliance"></script>
+  <script src="./app.js?v=20261115-h1"></script>
 </body>
 </html>
