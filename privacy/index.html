@@ -115,13 +115,13 @@
           </p>
           <ul>
             <li>
-              <strong>Cihaz İçi (Yerel) Depolama:</strong> Okuduğunuz hikâye bölümleri, ses dinleme kayıtları, SRS kelime defterinize eklediğiniz sözcükler, Goethe/ÖSD tam deneme sınavı puanlarınız ve uygulama tema tercihleriniz varsayılan olarak yalnızca kendi cihazınızda (cihaz içi yerel veritabanında) saklanır. Bu veriler sunucularımıza gönderilmez.
+              <strong>Cihaz İçi (Yerel) Depolama:</strong> Okuduğunuz hikâye bölümleri, ses dinleme kayıtları, SRS kelime defterinize eklediğiniz sözcükler, Goethe/ÖSD tam deneme sınavı puanlarınız ve uygulama tema tercihleriniz varsayılan olarak yalnızca kendi cihazınızda (cihaz içi yerel veritabanında) saklanır. Hesap eşitlemesini seçerseniz ilerlemeniz hesabınıza da kaydedilir.
             </li>
             <li>
-              <strong>İsteğe Bağlı Bulut Hesabı Verileri:</strong> Cihazlar arası senkronizasyon amacıyla hesap oluşturmayı tercih ederseniz, yalnızca e-posta adresiniz ve şifrelenmiş öğrenme ilerleme yedeğiniz güvenli bulut altyapımızda tutulur.
+              <strong>İsteğe Bağlı Bulut Hesabı Verileri:</strong> Cihazlar arası senkronizasyon amacıyla hesap oluşturmayı tercih ederseniz, e-posta adresiniz, öğrenme ilerlemeniz ve isteğe bağlı AI sonuçlarınız güvenli bulut altyapımızda tutulur.
             </li>
             <li>
-              <strong>Mikrofon & Konuşma Tanıma İzni:</strong> Telaffuz ve interaktif konuşma pratiklerinde cihaz mikrofonuna erişim izni talep edilir. Ses kayıtlarınız hiçbir sunucuya gönderilmez, saklanmaz ve toplanmaz; konuşma tanıma işlemi anlık olarak cihazınızın kendi işletim sistemi tarafından yerel olarak gerçekleştirilir.
+              <strong>Mikrofon & Konuşma Tanıma İzni:</strong> Yerel kayıtlar cihazında kalır. Konuşma tanıma, işletim sisteminin hizmetini kullanır ve cihaza göre internet gerektirebilir. Yalnız yetişkinin açık onayıyla ses veya metin Supabase üzerinden Google Gemini’ye gönderilir. Lernfino sesi bellekte işler; sonuç kaydedilince yerel taslağı siler. Döküm ve geri bildirim hesapta kalır. Ücretsiz katmanda Google gönderileri ürünlerini geliştirmek için kullanabilir; kendi saklama koşulları geçerlidir.
             </li>
             <li>
               <strong>Teknik Tanılama & Çökme Bilgileri:</strong> Uygulamanın kararlılığını sürdürmek ve çökmeleri gidermek amacıyla kişisel kimlik taşımayan anonim cihaz modeli ve işletim sistemi sürümü bilgileri işlenebilir.
@@ -192,10 +192,10 @@
               <strong>On-Device (Local) Storage:</strong> Completed story chapters, listening timestamps, spaced repetition (SRS) flashcards, Goethe/ÖSD mock test scores, and visual theme preferences are stored locally on your device by default. This data is not uploaded to our servers unless you explicitly sync your account.
             </li>
             <li>
-              <strong>Optional Cloud Account Data:</strong> If you voluntarily create an account for cross-device synchronization, we only store your email address and an encrypted backup of your learning progress.
+              <strong>Optional Cloud Account Data:</strong> If you voluntarily create an account for cross-device synchronization, we store your email address, learning progress and any optional AI feedback.
             </li>
             <li>
-              <strong>Microphone & Speech Recognition:</strong> Microphone access is requested solely for pronunciation and interactive speaking exercises. Audio is never recorded, stored, or transmitted to external servers; speech recognition is performed ephemerally on-device by your operating system.
+              <strong>Microphone & Speech Recognition:</strong> Local recordings stay on this device. Speech recognition uses your operating system’s service and may need an internet connection. Only with explicit adult consent does Lernfino send audio or text via Supabase to Google Gemini. Lernfino processes audio in memory and deletes the local draft after saving feedback. Transcripts and feedback remain in the account. On the free tier Google may use submissions to improve its products; its retention terms apply.
             </li>
             <li>
               <strong>Technical Diagnostics:</strong> Anonymized crash logs and device OS specifications may be collected solely to diagnose system failures and maintain application stability.
@@ -262,10 +262,10 @@
               <strong>Lokale Gerätespeicherung:</strong> Gelesene Kapitel, Audiositzungen, SRS-Vokabeln, Goethe-/ÖSD-Prüfungsergebnisse und Anzeigeeinstellungen werden standardmäßig ausschließlich lokal auf Ihrem Gerät gespeichert.
             </li>
             <li>
-              <strong>Optionales Cloud-Konto:</strong> Wenn Sie sich freiwillig für ein Konto zur geräteübergreifenden Synchronisierung registrieren, speichern wir ausschließlich Ihre E-Mail-Adresse und ein verschlüsseltes Backup Ihres Lernfortschritts.
+              <strong>Optionales Cloud-Konto:</strong> Wenn Sie sich freiwillig für ein Konto zur geräteübergreifenden Synchronisierung registrieren, speichern wir Ihre E-Mail-Adresse, Ihren Lernfortschritt und gegebenenfalls Ihr optionales KI-Feedback.
             </li>
             <li>
-              <strong>Mikrofon- und Spracherkennung:</strong> Die Mikrofonberechtigung wird ausschließlich für interaktive Aussprache- und Sprechübungen angefordert. Sprachaufnahmen werden weder aufgezeichnet noch gespeichert oder übertragen; die Spracherkennung erfolgt flüchtig direkt auf dem Gerät über das Betriebssystem.
+              <strong>Mikrofon- und Spracherkennung:</strong> Lokale Aufnahmen bleiben auf diesem Gerät. Die Spracherkennung nutzt den Dienst des Betriebssystems und benötigt je nach Gerät Internet. Nur mit ausdrücklicher Einwilligung Erwachsener sendet Lernfino Audio oder Text über Supabase an Google Gemini. Lernfino verarbeitet Audio im Arbeitsspeicher und löscht nach Speicherung des Ergebnisses den lokalen Entwurf. Transkript und Feedback bleiben im Konto. Im kostenlosen Tarif kann Google Einsendungen zur Produktverbesserung nutzen; Googles Speicherbedingungen gelten.
             </li>
             <li>
               <strong>Technische Fehlerberichte:</strong> Zur Gewährleistung der App-Stabilität können anonymisierte Absturzberichte und Gerätedaten verarbeitet werden.
