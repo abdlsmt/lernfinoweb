@@ -1395,22 +1395,24 @@ h1, h2, h3, h4, p {
 
 .footer-inner {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
-  gap: 20px;
-  flex-wrap: wrap;
+  gap: 32px;
 }
 
 .footer-brand {
   display: flex;
   align-items: center;
   gap: 12px;
+  flex: 0 1 360px;
+  min-width: 240px;
 }
 
 .footer-logo {
   width: 40px;
   height: 40px;
   object-fit: contain;
+  flex-shrink: 0;
 }
 
 .footer-brand strong {
@@ -1423,7 +1425,18 @@ h1, h2, h3, h4, p {
 }
 
 .footer-meta {
+  flex: 1 1 auto;
+  min-width: 0;
   text-align: right;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 6px;
 }
 
 .footer-langs {
@@ -2441,8 +2454,27 @@ h1, h2, h3, h4, p {
   .yt-simple-left h2 {
     font-size: 24px;
   }
-  .footer-socials {
+  .footer-inner {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .footer-brand {
+    flex: none;
+    max-width: 100%;
+  }
+  .footer-meta {
+    width: 100%;
+    text-align: left;
+  }
+  .footer-socials,
+  .footer-tools,
+  .footer-links,
+  .footer-langs {
     justify-content: flex-start;
+  }
+  .footer-disclaimer {
+    margin-left: 0;
   }
 }
 
@@ -2472,7 +2504,7 @@ h1, h2, h3, h4, p {
   font-size: 11px;
   line-height: 1.55;
   color: var(--ink-muted);
-  margin: 12px 0 8px;
+  margin: 12px 0 8px auto;
   max-width: 680px;
 }
 
