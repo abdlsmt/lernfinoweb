@@ -12,11 +12,12 @@ const LEGAL_I18N = {
     "nav.terms": "Koşullar",
     "nav.support": "Destek & SSS",
     "nav.deleteAccount": "Hesap Silme",
+    "nav.imprint": "Künye",
     "nav.backHome": "← lernfino.com Ana Sayfasına Dön",
 
     // Meta Badges
-    "meta.updated": "Son Güncelleme: 9 Kasım 2026",
-    "meta.controller": "Veri Sorumlusu: Respecode",
+    "meta.updated": "Son Güncelleme: 16 Kasım 2026",
+    "meta.controller": "Veri Sorumlusu: Abdulsamet Saygı (Respecode)",
     "meta.supportEmail": "Destek: support@lernfino.com",
     "meta.version": "Sürüm: 1.0 (Mağaza Yayını)",
 
@@ -28,6 +29,7 @@ const LEGAL_I18N = {
     "footer.terms": "Kullanım Koşulları",
     "footer.support": "Destek & SSS",
     "footer.deleteAccount": "Hesap Silme",
+    "footer.imprint": "Künye",
 
     // PRIVACY POLICY PAGE (/privacy)
     "privacy.title": "Gizlilik Politikası",
@@ -39,7 +41,7 @@ const LEGAL_I18N = {
     "support.subtitle": "Lernfino ile Almanca öğrenirken takıldığınız bir konu, öneriniz veya yardıma ihtiyacınız mı var? Ekibimiz ve Fino yanınızda.",
     "support.cardBadge": "LERNFINO MÜŞTERİ DESTEĞİ & YARDIM DOKÜMANTASYONU",
     "support.action1Title": "E-posta ile İletişim",
-    "support.action1Desc": "Her türlü soru, teknik sorun veya kurumsal iş birliği için bize yazın. Genellikle 24 saat içinde dönüş yapıyoruz.",
+    "support.action1Desc": "Her türlü soru, teknik sorun veya geri bildiriminiz için bize yazabilirsiniz. Mesajlarınızı düzenli olarak yanıtlıyoruz.",
     "support.action1Btn": "support@lernfino.com",
     "support.action2Title": "Veri Yedekleme ve Taşıma",
     "support.action2Desc": "Öğrenme verilerinizi yeni bir cihaza aktarmak için uygulama içinden tek tıkla JSON yedeği alabilirsiniz.",
@@ -63,7 +65,11 @@ const LEGAL_I18N = {
     "delete.inputLabel": "Lernfino Kayıtlı E-posta Adresiniz:",
     "delete.inputPlaceholder": "ornek@eposta.com",
     "delete.btnAction": "Hesap Silme E-postası Gönder ✉️",
-    "delete.directNotice": "Veya doğrudan kayıtlı e-posta adresinizden konu kısmına 'Lernfino Hesap Silme Talebi' yazarak support@lernfino.com adresine gönderebilirsiniz."
+    "delete.directNotice": "Veya doğrudan kayıtlı e-posta adresinizden konu kısmına 'Lernfino Hesap Silme Talebi' yazarak support@lernfino.com adresine gönderebilirsiniz.",
+
+    // IMPRINT PAGE (/imprint)
+    "imprint.title": "Künye",
+    "imprint.subtitle": "DDG § 5, MStV § 18 ve 6563 sayılı Kanun kapsamında lernfino.com ve Lernfino mobil uygulamalarına ilişkin işletmeci ve iletişim bilgileri."
   },
 
   en: {
@@ -73,11 +79,12 @@ const LEGAL_I18N = {
     "nav.terms": "Terms",
     "nav.support": "Support & FAQ",
     "nav.deleteAccount": "Delete Account",
+    "nav.imprint": "Legal Notice",
     "nav.backHome": "← Return to lernfino.com Home",
 
     // Meta Badges
-    "meta.updated": "Last Updated: November 9, 2026",
-    "meta.controller": "Data Controller: Respecode",
+    "meta.updated": "Last Updated: November 16, 2026",
+    "meta.controller": "Data Controller: Abdulsamet Saygı (Respecode)",
     "meta.supportEmail": "Support: support@lernfino.com",
     "meta.version": "Version: 1.0 (Store Release)",
 
@@ -89,6 +96,7 @@ const LEGAL_I18N = {
     "footer.terms": "Terms of Service",
     "footer.support": "Support & FAQ",
     "footer.deleteAccount": "Delete Account",
+    "footer.imprint": "Legal Notice",
 
     // PRIVACY POLICY PAGE (/privacy)
     "privacy.title": "Privacy Policy",
@@ -100,7 +108,7 @@ const LEGAL_I18N = {
     "support.subtitle": "Have a question while learning German with Lernfino, a suggestion, or need technical assistance? Our team and Fino are here to help.",
     "support.cardBadge": "LERNFINO CUSTOMER SUPPORT & DOCUMENTATION",
     "support.action1Title": "Contact via Email",
-    "support.action1Desc": "Reach out for technical questions, feedback, or inquiries. We typically respond within 24 hours.",
+    "support.action1Desc": "Reach out for technical questions, feedback, or inquiries. We review and respond to emails as promptly as possible.",
     "support.action1Btn": "support@lernfino.com",
     "support.action2Title": "Backup & Transfer Data",
     "support.action2Desc": "Easily transfer your progress to a new device using the built-in one-click offline JSON backup.",
@@ -124,7 +132,11 @@ const LEGAL_I18N = {
     "delete.inputLabel": "Registered Lernfino Email Address:",
     "delete.inputPlaceholder": "example@email.com",
     "delete.btnAction": "Send Account Deletion Email ✉️",
-    "delete.directNotice": "Alternatively, you can email support@lernfino.com directly from your registered email with the subject 'Lernfino Account Deletion Request'."
+    "delete.directNotice": "Alternatively, you can email support@lernfino.com directly from your registered email with the subject 'Lernfino Account Deletion Request'.",
+
+    // IMPRINT PAGE (/imprint)
+    "imprint.title": "Legal Notice",
+    "imprint.subtitle": "Operator and contact disclosures pursuant to German DDG § 5, MStV § 18, and Turkish Law No. 6563 for lernfino.com and the Lernfino mobile applications."
   },
 
   de: {
@@ -134,11 +146,12 @@ const LEGAL_I18N = {
     "nav.terms": "Bedingungen",
     "nav.support": "Support & FAQ",
     "nav.deleteAccount": "Konto löschen",
+    "nav.imprint": "Impressum",
     "nav.backHome": "← Zurück zur lernfino.com Startseite",
 
     // Meta Badges
-    "meta.updated": "Zuletzt aktualisiert: 9. November 2026",
-    "meta.controller": "Verantwortlicher: Respecode",
+    "meta.updated": "Zuletzt aktualisiert: 16. November 2026",
+    "meta.controller": "Verantwortlicher: Abdulsamet Saygı (Respecode)",
     "meta.supportEmail": "Support: support@lernfino.com",
     "meta.version": "Version: 1.0 (Store Release)",
 
@@ -150,6 +163,7 @@ const LEGAL_I18N = {
     "footer.terms": "Nutzungsbedingungen",
     "footer.support": "Support & FAQ",
     "footer.deleteAccount": "Konto löschen",
+    "footer.imprint": "Impressum",
 
     // PRIVACY POLICY PAGE (/privacy)
     "privacy.title": "Datenschutzerklärung",
@@ -161,7 +175,7 @@ const LEGAL_I18N = {
     "support.subtitle": "Haben Sie Fragen beim Deutschlernen mit Lernfino, Anregungen oder benötigen Sie technische Unterstützung? Wir helfen Ihnen gerne weiter.",
     "support.cardBadge": "LERNFINO KUNDENBETREUUNG & HILFE-DOKUMENTATION",
     "support.action1Title": "E-Mail-Support",
-    "support.action1Desc": "Schreiben Sie uns für Supportanfragen oder Anregungen. Wir antworten in der Regel innerhalb von 24 Stunden.",
+    "support.action1Desc": "Schreiben Sie uns bei Supportanfragen oder Anregungen. Wir beantworten E-Mails so zeitnah wie möglich.",
     "support.action1Btn": "support@lernfino.com",
     "support.action2Title": "Daten sichern & übertragen",
     "support.action2Desc": "Übertragen Sie Ihren Lernfortschritt auf ein neues Gerät mit dem integrierten Offline-JSON-Backup.",
@@ -185,7 +199,11 @@ const LEGAL_I18N = {
     "delete.inputLabel": "Registrierte Lernfino E-Mail-Adresse:",
     "delete.inputPlaceholder": "beispiel@email.com",
     "delete.btnAction": "Löschungs-E-Mail absenden ✉️",
-    "delete.directNotice": "Alternativ können Sie eine E-Mail mit dem Betreff 'Lernfino Konto-Löschungsanfrage' von Ihrer registrierten Adresse an support@lernfino.com senden."
+    "delete.directNotice": "Alternativ können Sie eine E-Mail mit dem Betreff 'Lernfino Konto-Löschungsanfrage' von Ihrer registrierten Adresse an support@lernfino.com senden.",
+
+    // IMPRINT PAGE (/imprint)
+    "imprint.title": "Impressum",
+    "imprint.subtitle": "Angaben gemäß § 5 DDG, § 18 Abs. 2 MStV sowie dem türkischen Gesetz Nr. 6563 für lernfino.com und die mobilen Lernfino-Apps."
   }
 };
 
