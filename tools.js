@@ -16,8 +16,10 @@
     if (raw === null || raw === undefined || raw === "") return null;
     var n = typeof raw === "number" ? raw : Number(String(raw).trim().replace(",", "."));
     if (!Number.isFinite(n)) return null;
-    return Math.max(0, Math.min(100, Math.round(n * 100) / 100));
+    return Math.max(0, Math.min(100, n));
   }
+
+  function formatExamScore(score) { return String(Math.floor(score * 100) / 100); }
 
   function goethePassRule(level) {
     return level === "A1" || level === "A2" ? "total" : "modular";
@@ -66,7 +68,7 @@
         var sc = scores[s];
         modules[s] = {
           score: sc,
-          points25: sc === null ? null : Math.round((sc / 4) * 100) / 100,
+          points25: sc === null ? null : sc / 4,
           status: sc === null ? "missing" : "measured"
         };
       });
@@ -87,9 +89,9 @@
         };
       }
 
-      var written = Math.round(((scores.listen + scores.read + scores.write) / 4) * 100) / 100;
-      var oral = Math.round((scores.speak / 4) * 100) / 100;
-      var total = Math.round((written + oral) * 100) / 100;
+      var written = (scores.listen + scores.read + scores.write) / 4;
+      var oral = scores.speak / 4;
+      var total = written + oral;
       var a2MinOk = safeLevel !== "A2" || (written >= 45 && oral >= 15);
       var passedTotal = total >= 60 && a2MinOk;
       var failedReason = null;
@@ -173,6 +175,7 @@
 
   function normalizeGerman(value) {
     return String(value || "")
+      .normalize("NFC")
       .toLocaleLowerCase("de")
       .replace(/ä/g, "ae")
       .replace(/ö/g, "oe")
@@ -195,7 +198,36 @@
   function hasPhrase(haystack, needle) {
     var tokens = normalizeGerman(needle).trim().split(/\s+/).filter(Boolean);
     if (!tokens.length) return false;
-    return new RegExp("(^|[^a-z0-9])" + tokens.map(escapeRegex).join("\\s+") + "(?=$|[^a-z0-9])").test(haystack);
+    return new RegExp("(^|[^\\p{L}\\p{N}])" + tokens.map(escapeRegex).join("\\s+") + "(?=$|[^\\p{L}\\p{N}])", "u").test(normalizeGerman(haystack));
+  }
+
+  // Letter and sentence rules mirrored from app practice.ts; parity is checked by argon-j3.test.ts.
+  const letterOpening = /^(?:sehr geehrte(?:r|n)?\b|guten tag\b|liebe(?:r)?\b|hallo\b|hi\b|servus\b|moin\b)/u;
+  const letterSignoff = /^(?:mit freundlichen gruessen|freundliche gruesse|viele gruesse|liebe gruesse|herzliche gruesse|mit besten gruessen|bis bald|bis dann|lg|dein|deine|gruss)\b/u;
+  const hasWritingOpening = (line, openings) => openings.some(o => {
+      const tokens = normalizeGerman(o).trim().split(/\s+/).filter(Boolean);
+      return tokens.length > 0 && new RegExp(`^${tokens.map(escapeRegex).join('\\s+')}(?=$|[^\\p{L}\\p{N}])`, 'u').test(normalizeGerman(line).trim());
+  });
+  /** Preserve common abbreviations and date ordinals; greeting/closing lines aren't body sentences. */
+  function writingSentences(draft) {
+      let closed = false;
+      const body = draft.normalize('NFC').split(/\n/).map(line => {
+          const plain = normalizeGerman(line).trim();
+          if (closed)
+              return '';
+          if (letterSignoff.test(plain)) {
+              closed = true;
+              return '';
+          }
+          if (letterOpening.test(plain)) {
+              const comma = line.indexOf(',');
+              return comma < 0 ? '' : line.slice(comma + 1);
+          }
+          return line;
+      }).join('\n');
+      return body.replace(/\b(?:z\.\s*b\.|d\.\s*h\.|u\.\s*a\.|(?:prof|dr|bzw|usw|ca|nr)\.)/giu, m => m.replace(/\./g, '\uE000'))
+          .replace(/\b\d+\.(?=\s+\p{L})/gu, m => m.replace('.', '\uE000'))
+          .split(/[.!?\n]+/).map(s => s.replace(/\uE000/g, '.').trim()).filter(s => wordCount(s) >= 3);
   }
 
   function analyzeWriting(profileId, draft) {
@@ -205,11 +237,7 @@
     var words = wordCount(raw);
     var chars = raw.length;
     var charsNoSpace = raw.replace(/\s+/g, "").length;
-    var sentences = raw
-      .split(/[.!?\n]+/)
-      .filter(function (s) {
-        return wordCount(s) >= 3;
-      }).length;
+    var sentences = writingSentences(raw).length;
 
     var pool = CONNECTORS_BY_LEVEL[profile.level] || CONNECTORS_BY_LEVEL.B1;
     var connectorsFound = pool.filter(function (c) {
@@ -238,10 +266,10 @@
       .filter(Boolean);
 
     var hasOpening = openings.some(function (op) {
-      return (lines[0] && lines[0].indexOf(op.trim()) !== -1) || hasPhrase(plain, op.trim());
+      return hasWritingOpening(lines[0] || "", [op]);
     });
     var hasSignoff = signoffs.some(function (sg) {
-      return hasPhrase(plain, sg.trim());
+      return hasPhrase(lines.slice(-3).join(" "), sg.trim());
     });
 
     var lengthStatus = "empty";
@@ -790,7 +818,7 @@
           if (note) {
             if (mod.score === null) note.textContent = "";
             else if (res.rule === "total" && mod.points25 !== null) {
-              note.textContent = fmt(t.calcPointsOf25, { val: mod.points25 });
+              note.textContent = fmt(t.calcPointsOf25, { val: formatExamScore(mod.points25) });
             } else {
               note.textContent = mod.score + " / 100";
             }
@@ -815,9 +843,9 @@
             title = fmt(t.calcVerdictPassTitle, { level: res.level });
             if (res.rule === "total") {
               desc = fmt(res.level === "A2" ? t.calcVerdictPassA2Desc : t.calcVerdictPassA1Desc, {
-                w: res.written,
-                o: res.oral,
-                t: res.total
+                w: formatExamScore(res.written),
+                o: formatExamScore(res.oral),
+                t: formatExamScore(res.total)
               });
             } else {
               desc = t.calcVerdictPassModDesc;
@@ -826,11 +854,11 @@
             calcVerdictEl.classList.add("is-fail");
             title = t.calcVerdictFailTitle;
             if (res.failedReason === "a2_written_min") {
-              desc = fmt(t.calcVerdictFailA2Written, { w: res.written, t: res.total });
+              desc = fmt(t.calcVerdictFailA2Written, { w: formatExamScore(res.written), t: formatExamScore(res.total) });
             } else if (res.failedReason === "a2_oral_min") {
-              desc = fmt(t.calcVerdictFailA2Oral, { o: res.oral, t: res.total });
+              desc = fmt(t.calcVerdictFailA2Oral, { o: formatExamScore(res.oral), t: formatExamScore(res.total) });
             } else if (res.failedReason === "total_below_60") {
-              desc = fmt(t.calcVerdictFailTotal, { w: res.written, o: res.oral, t: res.total });
+              desc = fmt(t.calcVerdictFailTotal, { w: formatExamScore(res.written), o: formatExamScore(res.oral), t: formatExamScore(res.total) });
             } else {
               var failedLabels = (res.failedModules || []).map(function (s) {
                 return skillNames[s];
