@@ -16,7 +16,7 @@ const LEGAL_I18N = {
     "nav.backHome": "← lernfino.com Ana Sayfasına Dön",
 
     // Meta Badges
-    "meta.updated": "Son Güncelleme: 16 Kasım 2026",
+    "meta.updated": "Son Güncelleme: 19 Kasım 2026",
     "meta.controller": "Veri Sorumlusu: Abdulsamet Saygı (Respecode)",
     "meta.supportEmail": "Destek: support@lernfino.com",
     "meta.version": "Sürüm: 1.0 (Mağaza Yayını)",
@@ -83,7 +83,7 @@ const LEGAL_I18N = {
     "nav.backHome": "← Return to lernfino.com Home",
 
     // Meta Badges
-    "meta.updated": "Last Updated: November 16, 2026",
+    "meta.updated": "Last Updated: November 19, 2026",
     "meta.controller": "Data Controller: Abdulsamet Saygı (Respecode)",
     "meta.supportEmail": "Support: support@lernfino.com",
     "meta.version": "Version: 1.0 (Store Release)",
@@ -150,7 +150,7 @@ const LEGAL_I18N = {
     "nav.backHome": "← Zurück zur lernfino.com Startseite",
 
     // Meta Badges
-    "meta.updated": "Zuletzt aktualisiert: 16. November 2026",
+    "meta.updated": "Zuletzt aktualisiert: 19. November 2026",
     "meta.controller": "Verantwortlicher: Abdulsamet Saygı (Respecode)",
     "meta.supportEmail": "Support: support@lernfino.com",
     "meta.version": "Version: 1.0 (Store Release)",
