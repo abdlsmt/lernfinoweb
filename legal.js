@@ -252,7 +252,8 @@ function setLegalLanguage(chosen) {
   legalCurrentLang = lang;
   localStorage.setItem("lernfino_web_lang", chosen);
   document.documentElement.lang = chosen;
-  document.documentElement.dir = chosen === "ar" ? "rtl" : "ltr";
+  // Body stays English (ltr) for note languages; only the note box gets rtl for Arabic
+  document.documentElement.dir = "ltr";
 
   // Binding-language note for the 12 additional languages
   const oldNote = document.getElementById("legalLangNote");
@@ -263,6 +264,8 @@ function setLegalLanguage(chosen) {
       const note = document.createElement("div");
       note.id = "legalLangNote";
       note.className = "callout-box callout-amber";
+      note.lang = chosen;
+      note.dir = chosen === "ar" ? "rtl" : "ltr";
       note.textContent = LEGAL_NOTE_LANGS[chosen];
       host.insertBefore(note, host.firstChild);
     }
