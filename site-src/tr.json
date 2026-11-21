@@ -6,7 +6,7 @@
     "suggestion": "Bu sayfa tarayıcınızın dilinde mevcuttur.",
     "dismiss": "Öneriyi reddet",
     "theme": "Karanlık modu değiştir",
-    "home": "Ev",
+    "home": "Ana sayfa",
     "features": "Neler öğreneceksin?",
     "featuresIntro": "Dört Almanca becerisinin tamamını geliştirin, ardından bunları sınav uygulamalarında ve günlük durumlarda uygulamaya koyun.",
     "how": "Lernfino nasıl çalışır?",
@@ -79,7 +79,7 @@
     "independent": "Lernfino bağımsız bir öğrenme uygulamasıdır. Sınav sağlayıcı adları uygulama formatlarını tanımlar.",
     "officialNotice": "Bu çeviri bilgi amaçlıdır. İngilizce ve Almanca versiyonları bağlayıcıdır.",
     "updated": "21 Kasım 2026'da güncellendi",
-    "languagesNote": "Aray?z dilini se?. ?rnekler ve ses kay?tlar? Almanca kal?r."
+    "languagesNote": "Arayüz dilini seç. Örnekler ve ses kayıtları Almanca kalır."
   },
   "help": {
     "contact": "E-posta desteği",

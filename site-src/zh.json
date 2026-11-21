@@ -5,15 +5,15 @@
     "languageLabel": "选择语言",
     "suggestion": "此页面可使用您的浏览器语言。",
     "dismiss": "驳回建议",
-    "theme": "切换暗模式",
-    "home": "家",
+    "theme": "切换深色模式",
+    "home": "首页",
     "features": "你将学到什么",
     "featuresIntro": "培养所有四项德语技能，然后将它们运用到考试练习和日常情况中。",
     "how": "Lernfino 的工作原理",
     "tools": "免费网络工具",
     "signup": "加入启动列表",
     "launchStatus": "即将登陆 iOS 和 Android",
-    "heroTitle": "和菲诺一起学习德语。",
+    "heroTitle": "和Fino一起学习德语。",
     "heroAccent": "从第一句 Hallo 学到 B2。",
     "heroIntro": "遵循从第一句话到 B2 的德语学习路径。通过迷你课程、日常对话和完整模拟考试进行练习。",
     "languagesTitle": "以 15 种语言学习",
@@ -40,7 +40,7 @@
     "reading": "故事和词汇",
     "readingText": "阅读和聆听分级故事。在上下文中查找单词，然后将它们保存到“我的单词”中。",
     "review": "回顾与进展",
-    "reviewText": "使用错误笔记本重温错误并间隔重复练习单词。随时切换到深色模式。",
+    "reviewText": "使用错题本重温错误并间隔重复练习单词。随时切换到深色模式。",
     "step1": "找到你的水平",
     "step1Text": "从头开始或参加网络展示位置测试以了解从哪里开始。",
     "step2": "参加一个简短的课程",
@@ -52,7 +52,7 @@
     "dictionary": "字典",
     "listenSentence": "听听这句话",
     "listenWord": "听听这个词",
-    "saveWord": "添加到我的话",
+    "saveWord": "添加到生词本",
     "savedWord": "保存在此演示中",
     "levelTest": "德语分班考试",
     "levelTestText": "回答最多 12 个问题来评估您从 A1 到 B2 的德语水平。",
@@ -79,12 +79,12 @@
     "independent": "Lernfino 是一款独立学习应用程序。考试提供商的名称确定了练习形式。",
     "officialNotice": "此翻译仅供参考。英语和德语版本具有约束力。",
     "updated": "更新于 2026 年 11 月 21 日",
-    "languagesNote": "???????????????????"
+    "languagesNote": "选择界面语言。例句和音频仍为德语。"
   },
   "legal": {
-    "privacy": "<div class=\"callout-box callout-emerald\"><strong>总结和核心承诺：</strong> Lernfino 旨在保障您的个人学习旅程。默认情况下，您的阅读历史记录、词汇卡和模拟考试结果仍存储在您自己的设备上，您的个人数据绝不会出售给第三方。</div>\n\n          <h2>1. 数据控制者</h2>\n          <p>\n            本隐私政策适用于 Lernfino 移动应用程序（iOS 和 Android）和 <code>lernfino.com</code> 由个人开发者开发和运营的网站 <strong>Abdulsamet Saygı</strong> （Respecode/Lernfino）。\n          </p>\n          <p><strong>数据控制者：</strong> Abdulsamet Saygı<br /> <strong>地址：</strong> Mehmet Akif Ersoy Mah. 295. Cd C12 Blok No:46, Yenimahalle / Ankara, Türkiye<br /> <strong>电子邮件：</strong> <a href=\"mailto:support@lernfino.com\">support@lernfino.com</a></p>\n\n          <h2>2. 我们收集的数据和存储原则</h2>\n          <p>Lernfino 严格遵守数据最小化原则。我们仅处理提供我们的学习功能和请求的通信所需的数据：</p>\n          <ul>\n            <li><strong>设备上（本地）存储：</strong>默认情况下，已完成的故事章节、听力进度、间隔重复 (SRS) 抽认卡、Goethe/ÖSD 格式练习乐谱和视觉主题首选项都存储在您的设备本地。除非您创建并同步帐户，否则此数据不会上传到我们的服务器。</li>\n            <li><strong>可选的云帐户数据：</strong>如果您自愿创建跨设备同步帐户，我们会将您的电子邮件地址、用户 ID、学习进度和可选的 AI 评估结果存储在我们的云后端（Supabase）中。</li>\n            <li><strong>麦克风和语音识别：</strong>本地录音保留在此设备上。语音识别使用操作系统的服务，并且可能需要互联网连接。只有在成人（18 岁以上）明确同意的情况下，Lernfino 才会通过 Supabase 向 Google Gemini 发送音频或文本。Lernfino 在内存中处理音频，不在其服务器上存储音频文件，并在保存反馈后删除本地草稿。成绩单和反馈保留在帐户中。在您同意并离线提交后，您的答案可能会在连接恢复时发送。在免费套餐中，Google 可能会使用提交内容来改进其产品；其保留条款适用。</li>\n            <li><strong>技术诊断：</strong> 匿名诊断（例如错误代码、计数和近似时间戳）可能仅用于维护应用程序稳定性。</li>\n          </ul>\n\n          <h2 id=\"waitlist-privacy\">3. 启动等候名单表格</h2>\n          <p>当您在 <code>lernfino.com</code> 上提交启动通知表时，我们会处理以下数据：</p>\n          <ul>\n            <li><strong>收集的数据：</strong>您的电子邮件地址、提交日期/时间、选择的界面语言以及可选的目标德语水平。</li>\n            <li><strong>用途：</strong> 仅发送有关 Lernfino 的启动通知和产品更新。</li>\n            <li><strong>法律依据：</strong> 您的明确同意（GDPR 第 6(1)(a) 条、土耳其 KVKK 第 5(1) 条、德国 UWG § 7）。除非主动勾选同意框，否则提交将被阻止。</li>\n            <li><strong>处理器和传输：</strong>提交内容通过 Google Apps 脚本存储在 Google Sheets（Google LLC，美国）中，涉及到美国的国际数据传输。</li>\n            <li><strong>保留：</strong> 候补名单记录将在应用启动后 <strong> 6 个月</strong> 内删除，或在您提出撤回/删除请求后立即删除。</li>\n            <li><strong>选择退出：</strong> 您可以随时发送电子邮件至 <code>support@lernfino.com</code> 撤回同意并取消订阅。</li>\n          </ul>\n\n          <h2>4. 处理器和国际数据传输</h2>\n          <p>我们依靠以下第三方服务提供商（处理者）来运营 Lernfino：</p>\n          <ul>\n            <li><strong>Supabase：</strong> 云端用户账号、认证、学习进度同步。</li>\n            <li><strong>Google Gemini：</strong> 可选的人工智能口语和写作评估，仅在成人（18 岁以上）明确同意后发送。</li>\n            <li><strong>Google AdMob：</strong> 免费层上的广告（在欧洲经济区/英国采用 Google UMP 同意管理）。</li>\n            <li><strong>RevenueCat、Apple App Store 和 Google Play：</strong> 应用内购买、订阅状态和收据验证。</li>\n            <li><strong>使用 Google 登录并使用 Apple 登录：</strong> 可选的社交登录提供商。</li>\n            <li><strong>Google Apps 脚本/Google 表格：</strong> 网站启动候补名单存储。</li>\n            <li><strong>重新发送：</strong>发送帐户验证和密码重置电子邮件（处理电子邮件地址和发送日志；美国提供商，根据标准合同条款和/或您的同意等适当的保障措施进行传输 - <a href=\"https://resend.com/legal/privacy-policy\" target=\"_blank\" rel=\"noopener noreferrer\">隐私政策</a>）。</li>\n            <li><strong>Cloudflare (Cloudflare R2)：</strong> 通过 <code>media.lernfino.com</code> 交付应用程序音频和图像资产（处理 IP 地址和请求日志；全球/美国网络，根据标准合同条款和/或您的同意等适当的保障措施进行传输 — <a href=\"https://www.cloudflare.com/privacypolicy/\" target=\"_blank\" rel=\"noopener noreferrer\"> 隐私政策</a>）。</li>\n          </ul>\n          <p><strong>国际传输：</strong>上面列出的一些提供商在土耳其和欧洲经济区 (EEA) 之外（包括美国）处理数据。转让是在适当的保障措施（例如标准合同条款）和/或您的明确同意下进行的。</p>\n\n          <div class=\"callout-box callout-navy\"><strong>禁止数据出售·透明的广告政策：</strong>我们绝不会向数据经纪人出售、出租或交易您的个人信息或学习历史。为了支持我们的免费套餐，广告可以通过 Google AdMob 投放；Plus 和 Pro 订阅会删除广告。</div>\n\n          <h2>5. 用户权利和投诉权（GDPR、KVKK 和全球权利）</h2>\n          <p>每个 Lernfino 用户都可以完全控制自己的数据：</p>\n          <ul>\n            <li><strong>访问和数据可移植性：</strong>您可以随时通过<em>设置→备份学习数据</em>将词汇历史记录和学习日志导出为开放的JSON文件。</li>\n            <li><strong>纠正、限制和撤回：</strong>您可以随时更新您的详细信息、反对处理或撤回同意。</li>\n            <li><strong>删除权：</strong>删除帐户会删除同步的记录和 AI 反馈。应用内删除还会清除该手机上的帐户进度和排队草稿。保留匿名成本指标和随机删除收据。访客可以在“设置”→“重置学习数据”中删除本地学习进度，或通过 <a href=\"{deleteAccountPath}\">lernfino.com/delete-account</a> 或发送电子邮件至 <code>support@lernfino.com</code> 请求永久删除。</li>\n            <li><strong>提出投诉的权利：</strong>您有权向欧盟/欧洲经济区的数据保护监管机构（例如您当地的德国国家数据保护机构）或土耳其的<strong>个人数据保护委员会 (KVKK Kurulu)</strong> 提出投诉。</li>\n          </ul>\n\n          <h2>6. 年龄要求（18岁以上）</h2>\n          <p>Lernfino 及其人工智能评估功能适用于<strong>18 岁及以上</strong> 的成年人。我们不会故意收集 18 岁以下个人的个人数据。在提交音频或文本进行 AI 评估之前，用户明确确认自己已年满 18 岁。家长或监护人可以联系 <code>support@lernfino.com</code> 要求删除任何错误提交的数据。</p>\n\n          <h2>7. 数据安全和联系信息</h2>\n          <p>所有网络通信均受 TLS / HTTPS 加密保护。如有任何疑问或数据请求，请联系：<br /> <strong>电子邮件：</strong> <a href=\"mailto:support@lernfino.com\">support@lernfino.com</a><br /> <strong>网站：</strong> <a href=\"https://lernfino.com\">lernfino.com</a></p>",
-    "terms": "<h2>1. 接受条款和年龄要求（18 岁以上）</h2>\n          <p>下载、安装或使用 Lernfino 移动应用程序或 <code>lernfino.com</code> 平台，即表示您同意这些服务条款和我们的<a href=\"{privacyPath}\">隐私政策</a>。如果您不同意，请勿访问或使用该应用程序。</p>\n          <p>Lernfino 及其可选的人工智能评估功能适用于<strong>18 岁及以上</strong> 的成年人。在提交口语或写作内容进行 AI 评估之前，用户明确确认自己已年满 18 岁。</p>\n\n          <h2>2. 服务、免费套餐和许可证说明</h2>\n          <p>Lernfino 提供分级德语音频故事 (A1–B2)、互动视频片段和短片、间隔重复词汇工具以及歌德/ÖSD 考试格式的独立练习测试。</p>\n          <p>您可以开始使用免费计划，该计划有广告和每日使用限制。内容访问、广告和人工智能评估津贴因计划而异。Respecode 授予您个人、非独占、不可转让、可撤销的非商业教育用途许可。</p>\n\n          <h2>3. 知识产权</h2>\n          <p>所有内容，包括 Fino 吉祥物艺术品、德语文本改编、翻译、录音、练习题、设计资产和源代码，均为 Respecode 的专有财产，并受知识产权法保护。</p>\n\n          <h2>4. 商标免责声明（Goethe &amp; ÖSD）</h2>\n          <div class=\"callout-box callout-amber\"><strong>机构独立性声明：</strong> Lernfino 中提供的模拟测试是采用 Goethe/ÖSD 考试格式的独立教育练习，旨在帮助学习者做好准备。Lernfino 和 Respecode <strong>不隶属于歌德学院或 ÖSD (Österreichisches Sprachdiplom Deutsch)，也不受其认可、认可或赞助</strong>。所有商标均属于其各自所有者，引用仅用于表明格式兼容性。Lernfino 不是歌德学院或 ÖSD 的官方考试材料。</div>\n\n          <h2>5. 可接受的使用和帐户安全</h2>\n          <p>用户有责任保护其登录凭据。严格禁止自动抓取、未经授权的逆向工程或破坏应用程序基础设施的尝试。</p>\n\n          <h2>6. 应用内购买、订阅、退款和取消</h2>\n          <p>付费订阅和通行证（Lernfino Plus、Lernfino Pro、Exam Pass）仅通过 <strong>Apple App Store</strong> 或 <strong>Google Play Store</strong> 应用内结算进行处理；我们不运营单独的结帐系统。</p>\n          <ul>\n            <li>所有付款、续订、法定撤销权和退款请求仅受相应商店的条款（Apple Media Services 或 Google Play）管辖。</li>\n            <li>您可以随时直接在 <strong>App Store</strong> 或 <strong>Google Play</strong> 帐户设置中管理或取消订阅。</li>\n          </ul>\n\n          <h2>7. 免责声明和责任限制</h2>\n          <p>Lernfino 按“原样”和“可用”的基础提供。练习分数（包括可选的人工智能评估）仅供学习之用；Respecode 对官方歌德或 ÖSD 考试成绩或通过结果不做任何承诺。</p>\n\n          <h2>八、联系方式</h2>\n          <p>有关这些服务条款的问题可提交至：<strong>support@lernfino.com</strong>。</p>",
-    "imprint": "<h2>1. 运营商和服务提供商</h2>\n          <p><strong>运营商/开发人员：</strong> Abdulsamet Saygı（个人开发人员 - Respecode / Lernfino）<br /> <strong>地址：</strong> Mehmet Akif Ersoy Mah. 295. Cd C12 Blok No:46, Yenimahalle / Ankara, Türkiye<br /> <strong>电子邮件：</strong> <a href=\"mailto:support@lernfino.com\">support@lernfino.com</a><br /><strong>网站：</strong> <a href=\"https://lernfino.com\">https://lernfino.com</a></p>\n\n          <h2>2. 法律地位</h2>\n          <p>Lernfino由个人开发者<strong>Abdulsamet Saygı</strong>开发和运营；目前没有法人公司注册。</p>\n\n          <h2>3. 内容负责人</h2>\n          <p><strong>负责人：</strong> Abdulsamet Saygı<br /> <strong>地址：</strong> Mehmet Akif Ersoy Mah. 295. Cd C12 Blok No:46, Yenimahalle / Ankara, Türkiye</p>\n\n          <h2>4. 商标声明</h2>\n          <p>Goethe-Zertifikat 和 ÖSD 是其各自所有者的注册商标。Lernfino 是一个独立的学习平台，并非歌德学院或 ÖSD 的官方材料。</p>"
+    "privacy": "<div class=\"callout-box callout-emerald\"><strong>总结和核心承诺：</strong> Lernfino 旨在保障您的个人学习旅程。默认情况下，您的阅读历史记录、词汇卡和模拟考试结果仍存储在您自己的设备上，您的个人数据绝不会出售给第三方。</div>\n\n          <h2>1. 数据控制者</h2>\n          <p>\n            本隐私政策适用于 Lernfino 移动应用程序（iOS 和 Android）和 <code>lernfino.com</code> 由个人开发者开发和运营的网站 <strong>Abdulsamet Saygı</strong> （Respecode/Lernfino）。\n          </p>\n          <p><strong>数据控制者：</strong> Abdulsamet Saygı<br /> <strong>地址：</strong> Mehmet Akif Ersoy Mah. 295. Cd C12 Blok No:46, Yenimahalle / Ankara, Türkiye<br /> <strong>电子邮件：</strong> <a href=\"mailto:support@lernfino.com\">support@lernfino.com</a></p>\n\n          <h2>2. 我们收集的数据和存储原则</h2>\n          <p>Lernfino 严格遵守数据最小化原则。我们仅处理提供我们的学习功能和请求的通信所需的数据：</p>\n          <ul>\n            <li><strong>设备上（本地）存储：</strong>默认情况下，已完成的故事章节、听力进度、间隔重复 (SRS) 抽认卡、Goethe/ÖSD 格式练习乐谱和视觉主题首选项都存储在您的设备本地。除非您创建并同步帐户，否则此数据不会上传到我们的服务器。</li>\n            <li><strong>可选的云帐户数据：</strong>如果您自愿创建跨设备同步帐户，我们会将您的电子邮件地址、用户 ID、学习进度和可选的 AI 评估结果存储在我们的云后端（Supabase）中。</li>\n            <li><strong>麦克风和语音识别：</strong>本地录音保留在此设备上。语音识别使用操作系统的服务，并且可能需要互联网连接。只有在成人（18 岁以上）明确同意的情况下，Lernfino 才会通过 Supabase 向 Google Gemini 发送音频或文本。Lernfino 在内存中处理音频，不在其服务器上存储音频文件，并在保存反馈后删除本地草稿。成绩单和反馈保留在帐户中。在您同意并离线提交后，您的答案可能会在连接恢复时发送。在免费套餐中，Google 可能会使用提交内容来改进其产品；其保留条款适用。</li>\n            <li><strong>技术诊断：</strong> 匿名诊断（例如错误代码、计数和近似时间戳）可能仅用于维护应用程序稳定性。</li>\n          </ul>\n\n          <h2 id=\"waitlist-privacy\">3. 启动等候名单表格</h2>\n          <p>当您在 <code>lernfino.com</code> 上提交启动通知表时，我们会处理以下数据：</p>\n          <ul>\n            <li><strong>收集的数据：</strong>您的电子邮件地址、提交日期/时间、选择的界面语言以及可选的目标德语水平。</li>\n            <li><strong>用途：</strong> 仅发送有关 Lernfino 的启动通知和产品更新。</li>\n            <li><strong>法律依据：</strong> 您的明确同意（GDPR 第 6(1)(a) 条、土耳其 KVKK 第 5(1) 条、德国 UWG § 7）。除非主动勾选同意框，否则提交将被阻止。</li>\n            <li><strong>处理器和传输：</strong>提交内容通过 Google Apps 脚本存储在 Google Sheets（Google LLC，美国）中，涉及到美国的国际数据传输。</li>\n            <li><strong>保留：</strong> 候补名单记录将在应用启动后 <strong> 6 个月</strong> 内删除，或在您提出撤回/删除请求后立即删除。</li>\n            <li><strong>选择退出：</strong> 您可以随时发送电子邮件至 <code>support@lernfino.com</code> 撤回同意并取消订阅。</li>\n          </ul>\n\n          <h2>4. 处理器和国际数据传输</h2>\n          <p>我们依靠以下第三方服务提供商（处理者）来运营 Lernfino：</p>\n          <ul>\n            <li><strong>Supabase：</strong> 云端用户账号、认证、学习进度同步。</li>\n            <li><strong>Google Gemini：</strong> 可选的人工智能口语和写作评估，仅在成人（18 岁以上）明确同意后发送。</li>\n            <li><strong>Google AdMob：</strong> 免费层上的广告（在欧洲经济区/英国采用 Google UMP 同意管理）。</li>\n            <li><strong>RevenueCat、Apple App Store 和 Google Play：</strong> 应用内购买、订阅状态和收据验证。</li>\n            <li><strong>使用 Google 登录并使用 Apple 登录：</strong> 可选的社交登录提供商。</li>\n            <li><strong>Google Apps 脚本/Google 表格：</strong> 网站启动候补名单存储。</li>\n            <li><strong>Resend：</strong>发送帐户验证和密码重置电子邮件（处理电子邮件地址和发送日志；美国提供商，根据标准合同条款和/或您的同意等适当的保障措施进行传输 - <a href=\"https://resend.com/legal/privacy-policy\" target=\"_blank\" rel=\"noopener noreferrer\">隐私政策</a>）。</li>\n            <li><strong>Cloudflare (Cloudflare R2)：</strong> 通过 <code>media.lernfino.com</code> 交付应用程序音频和图像资产（处理 IP 地址和请求日志；全球/美国网络，根据标准合同条款和/或您的同意等适当的保障措施进行传输 — <a href=\"https://www.cloudflare.com/privacypolicy/\" target=\"_blank\" rel=\"noopener noreferrer\"> 隐私政策</a>）。</li>\n          </ul>\n          <p><strong>国际传输：</strong>上面列出的一些提供商在土耳其和欧洲经济区 (EEA) 之外（包括美国）处理数据。转让是在适当的保障措施（例如标准合同条款）和/或您的明确同意下进行的。</p>\n\n          <div class=\"callout-box callout-navy\"><strong>禁止数据出售·透明的广告政策：</strong>我们绝不会向数据经纪人出售、出租或交易您的个人信息或学习历史。为了支持我们的免费套餐，广告可以通过 Google AdMob 投放；Plus 和 Pro 订阅会删除广告。</div>\n\n          <h2>5. 用户权利和投诉权（GDPR、KVKK 和全球权利）</h2>\n          <p>每个 Lernfino 用户都可以完全控制自己的数据：</p>\n          <ul>\n            <li><strong>访问和数据可移植性：</strong>您可以随时通过<em>设置→备份学习数据</em>将词汇历史记录和学习日志导出为开放的JSON文件。</li>\n            <li><strong>纠正、限制和撤回：</strong>您可以随时更新您的详细信息、反对处理或撤回同意。</li>\n            <li><strong>删除权：</strong>删除帐户会删除同步的记录和 AI 反馈。应用内删除还会清除该手机上的帐户进度和排队草稿。保留匿名成本指标和随机删除收据。访客可以在“设置”→“重置学习数据”中删除本地学习进度，或通过 <a href=\"{deleteAccountPath}\">lernfino.com/delete-account</a> 或发送电子邮件至 <code>support@lernfino.com</code> 请求永久删除。</li>\n            <li><strong>提出投诉的权利：</strong>您有权向欧盟/欧洲经济区的数据保护监管机构（例如您当地的德国国家数据保护机构）或土耳其的<strong>个人数据保护委员会 (KVKK Kurulu)</strong> 提出投诉。</li>\n          </ul>\n\n          <h2>6. 年龄要求（18岁以上）</h2>\n          <p>Lernfino 及其人工智能评估功能适用于<strong>18 岁及以上</strong> 的成年人。我们不会故意收集 18 岁以下个人的个人数据。在提交音频或文本进行 AI 评估之前，用户明确确认自己已年满 18 岁。家长或监护人可以联系 <code>support@lernfino.com</code> 要求删除任何错误提交的数据。</p>\n\n          <h2>7. 数据安全和联系信息</h2>\n          <p>所有网络通信均受 TLS / HTTPS 加密保护。如有任何疑问或数据请求，请联系：<br /> <strong>电子邮件：</strong> <a href=\"mailto:support@lernfino.com\">support@lernfino.com</a><br /> <strong>网站：</strong> <a href=\"https://lernfino.com\">lernfino.com</a></p>",
+    "terms": "<h2>1. 接受条款和年龄要求（18 岁以上）</h2>\n          <p>下载、安装或使用 Lernfino 移动应用程序或 <code>lernfino.com</code> 平台，即表示您同意这些服务条款和我们的<a href=\"{privacyPath}\">隐私政策</a>。如果您不同意，请勿访问或使用该应用程序。</p>\n          <p>Lernfino 及其可选的人工智能评估功能适用于<strong>18 岁及以上</strong> 的成年人。在提交口语或写作内容进行 AI 评估之前，用户明确确认自己已年满 18 岁。</p>\n\n          <h2>2. 服务、免费套餐和许可证说明</h2>\n          <p>Lernfino 提供分级德语音频故事 (A1–B2)、互动视频片段和短片、间隔重复词汇工具以及Goethe/ÖSD 考试格式的独立练习测试。</p>\n          <p>您可以开始使用免费计划，该计划有广告和每日使用限制。内容访问、广告和人工智能评估津贴因计划而异。Respecode 授予您个人、非独占、不可转让、可撤销的非商业教育用途许可。</p>\n\n          <h2>3. 知识产权</h2>\n          <p>所有内容，包括 Fino 吉祥物艺术品、德语文本改编、翻译、录音、练习题、设计资产和源代码，均为 Respecode 的专有财产，并受知识产权法保护。</p>\n\n          <h2>4. 商标免责声明（Goethe &amp; ÖSD）</h2>\n          <div class=\"callout-box callout-amber\"><strong>机构独立性声明：</strong> Lernfino 中提供的模拟测试是采用 Goethe/ÖSD 考试格式的独立教育练习，旨在帮助学习者做好准备。Lernfino 和 Respecode <strong>不隶属于Goethe学院或 ÖSD (Österreichisches Sprachdiplom Deutsch)，也不受其认可、认可或赞助</strong>。所有商标均属于其各自所有者，引用仅用于表明格式兼容性。Lernfino 不是Goethe学院或 ÖSD 的官方考试材料。</div>\n\n          <h2>5. 可接受的使用和帐户安全</h2>\n          <p>用户有责任保护其登录凭据。严格禁止自动抓取、未经授权的逆向工程或破坏应用程序基础设施的尝试。</p>\n\n          <h2>6. 应用内购买、订阅、退款和取消</h2>\n          <p>付费订阅和通行证（Lernfino Plus、Lernfino Pro、Exam Pass）仅通过 <strong>Apple App Store</strong> 或 <strong>Google Play Store</strong> 应用内结算进行处理；我们不运营单独的结帐系统。</p>\n          <ul>\n            <li>所有付款、续订、法定撤销权和退款请求仅受相应商店的条款（Apple Media Services 或 Google Play）管辖。</li>\n            <li>您可以随时直接在 <strong>App Store</strong> 或 <strong>Google Play</strong> 帐户设置中管理或取消订阅。</li>\n          </ul>\n\n          <h2>7. 免责声明和责任限制</h2>\n          <p>Lernfino 按“原样”和“可用”的基础提供。练习分数（包括可选的人工智能评估）仅供学习之用；Respecode 对官方Goethe或 ÖSD 考试成绩或通过结果不做任何承诺。</p>\n\n          <h2>八、联系方式</h2>\n          <p>有关这些服务条款的问题可提交至：<strong>support@lernfino.com</strong>。</p>",
+    "imprint": "<h2>1. 运营商和服务提供商</h2>\n          <p><strong>运营商/开发人员：</strong> Abdulsamet Saygı（个人开发人员 - Respecode / Lernfino）<br /> <strong>地址：</strong> Mehmet Akif Ersoy Mah. 295. Cd C12 Blok No:46, Yenimahalle / Ankara, Türkiye<br /> <strong>电子邮件：</strong> <a href=\"mailto:support@lernfino.com\">support@lernfino.com</a><br /><strong>网站：</strong> <a href=\"https://lernfino.com\">https://lernfino.com</a></p>\n\n          <h2>2. 法律地位</h2>\n          <p>Lernfino由个人开发者<strong>Abdulsamet Saygı</strong>开发和运营；目前没有法人公司注册。</p>\n\n          <h2>3. 内容负责人</h2>\n          <p><strong>负责人：</strong> Abdulsamet Saygı<br /> <strong>地址：</strong> Mehmet Akif Ersoy Mah. 295. Cd C12 Blok No:46, Yenimahalle / Ankara, Türkiye</p>\n\n          <h2>4. 商标声明</h2>\n          <p>Goethe-Zertifikat 和 ÖSD 是其各自所有者的注册商标。Lernfino 是一个独立的学习平台，并非Goethe学院或 ÖSD 的官方材料。</p>"
   },
   "demo": {
     "sentences": {
@@ -127,7 +127,7 @@
       "kleiner": {
         "article": "形容词",
         "meaning": "小/小",
-        "grammar": "混合形容词变格：在“ein”之后接收“-er”结尾，并带有阳性主格名词。",
+        "grammar": "混合形容词变格：在“-er”之后接收“ein”结尾，并带有阳性主格名词。",
         "exampleTr": "她有一只小狗。"
       },
       "garten": {
@@ -187,7 +187,7 @@
       "gelben": {
         "article": "形容词",
         "meaning": "黄色的",
-        "grammar": "弱形容词变格：在阳性宾格中，在“diesen”之后采用“-en”结尾。",
+        "grammar": "弱形容词变格：在阳性宾格中，在“-en”之后采用“diesen”结尾。",
         "exampleTr": "她戴着一条黄色围巾。"
       },
       "umschlag": {
@@ -283,7 +283,7 @@
       "alte": {
         "article": "形容词",
         "meaning": "老的",
-        "grammar": "弱形容词变格，在定冠词“die”之后以“-e”结尾。",
+        "grammar": "弱形容词变格，在定冠词“-e”之后以“die”结尾。",
         "exampleTr": "老巷子里矗立着历史悠久的房子。"
       },
       "buchhandlung": {
@@ -329,7 +329,7 @@
         "exampleTr": "所有文件都经过仔细检查。"
       },
       "schubladen": {
-        "article": "die Schblade · 复数: die Schubaden",
+        "article": "die Schublade · 复数: die Schubladen",
         "meaning": "抽屉",
         "grammar": "复数宾格中的阴性名词，充当“ausräumen”的直接宾语。",
         "exampleTr": "抽屉里放着旧信。"
@@ -370,14 +370,14 @@
     "tabCalc": "考试成绩计算器",
     "tabCounter": "Schreiben 字计数器",
     "tabLevel": "分班水平测试",
-    "ctaTitle": "和菲诺一起学习德语。",
+    "ctaTitle": "和Fino一起学习德语。",
     "ctaDesc": "将您的目标级别保存在发布等候名单中，以便在发布当天收到通知。",
     "ctaBtn": "加入启动列表",
     "skillListen": "Hören（听）",
     "skillRead": "Lesen（读）",
     "skillWrite": "Schreiben（写作）",
     "skillSpeak": "Sprechen（说话）",
-    "calcPageTitle": "Goethe 和 ÖSD 考试分数计算器 (A1–B2) |勒恩菲诺",
+    "calcPageTitle": "Goethe 和 ÖSD 考试分数计算器 (A1–B2) |Lernfino",
     "calcTitle": "Goethe 和 ÖSD 分数计算器",
     "calcSubtitle": "按 0-100 分值分别输入模块分数。模块永远不会一起平均；通过规则遵循每种考试形式。",
     "calcInstitution": "考试形式",
@@ -397,7 +397,7 @@
     "calcVerdictIncompleteDesc": "空白模块被视为未测量，而不是 0。记录：{count}/4。",
     "calcVerdictPassTitle": "Goethe {level} 已达到通过阈值",
     "calcVerdictPassA1Desc": "书面：{w}/75 · 口语：{o}/25 · 总计：{t}/100（至少 60）。",
-    "calcVerdictPassA2Desc": "书面：{w}/75（分钟 45） · 口语：{o}/25（分钟 15） · 总计：{t}/100（分钟 60）。",
+    "calcVerdictPassA2Desc": "书面：{w}/75（最低 45） · 口语：{o}/25（最低 15） · 总计：{t}/100（最低 60）。",
     "calcVerdictPassModDesc": "所有 4 个模块均独立达到至少 60 分。",
     "calcVerdictFailTitle": "低于及格要求",
     "calcVerdictFailA2Written": "书面部分为 {w}/75（Goethe A2 至少需要 45，即使总数 >= 60）。总计：{t}/100。",
@@ -406,7 +406,7 @@
     "calcVerdictFailMod": "60 以下的模块：{list}。在{level}模块化考试中，每个模块必须独立达到60分。",
     "calcVerdictOsdTitle": "ÖSD 单独显示的模块（无自动判定）",
     "calcVerdictOsdDesc": "Lernfino 不会将 ÖSD 传递规则硬编码为已验证；模块分数单独显示，无需平均或要求整体通过。",
-    "counterPageTitle": "Goethe 和 ÖSD Schreiben 字计数器 (A1–B2) |勒恩菲诺",
+    "counterPageTitle": "Goethe 和 ÖSD Schreiben 字计数器 (A1–B2) |Lernfino",
     "counterTitle": "Schreiben 字数统计器和连接器检查",
     "counterSubtitle": "检查从 A1 到 B2 匹配 Goethe 和 ÖSD Schreiben 任务的确切单词目标，以及问候语、结束语和连接器覆盖范围。",
     "counterProfileLabel": "考试级别和写作任务",
@@ -416,7 +416,7 @@
     "counterWords": "字",
     "counterTarget": "目标范围",
     "counterSentences": "句子（>=3 个单词）",
-    "counterChars": "人物",
+    "counterChars": "字符数",
     "counterLenEmpty": "开始打字，根据 {min}–{max} 单词来衡量您的草稿。",
     "counterLenUnder": "{diff} 需要更多字数才能达到最低目标 ({min}–{max})。",
     "counterLenIn": "在目标范围内（{min}–{max} 字词）！",
@@ -427,7 +427,7 @@
     "counterSignoffOk": "检测到关闭",
     "counterSignoffMiss": "添加结束语（例如 Viele Grüße / Mit freundlichen Grüßen）",
     "counterConnLabel": "检测到的 {level} ({hit}/{total}) 连接器：",
-    "levelPageTitle": "快速德语分级测试 (A1–B2) |勒恩菲诺",
+    "levelPageTitle": "快速德语分级测试 (A1–B2) |Lernfino",
     "levelTitle": "检查您的等级 (A1–B2)",
     "levelSubtitle": "从 A1 到 B2 的 12 个短项。在低于 2/3 正确答案的第一级停止前进。",
     "levelQuestionProgress": "问题 {n} / {total}",
