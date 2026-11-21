@@ -24,7 +24,7 @@ const LEGAL_I18N = {
     // Footer
     "footer.tagline": "Almancaya açılan sıcak bir sayfa. Çok yakında iOS, Android ve Web'de.",
     "footer.rights": "Tüm hakları saklıdır.",
-    "footer.disclaimer": "Goethe-Zertifikat ve ÖSD, ilgili sahiplerinin tescilli markalarıdır. Lernfino bağımsız bir eğitim platformudur; Goethe-Institut veya ÖSD'nin resmî bir materyali, ortağı veya ürünü değildir.",
+    "footer.disclaimer": "Goethe-Zertifikat, ÖSD ve telc, ilgili sahiplerinin markalarıdır. Lernfino bağımsız bir eğitim platformudur; Goethe-Institut, ÖSD veya telc gGmbH'nin resmî bir materyali, ortağı veya ürünü değildir.",
     "footer.privacy": "Gizlilik Politikası",
     "footer.terms": "Kullanım Koşulları",
     "footer.support": "Destek & SSS",
@@ -91,7 +91,7 @@ const LEGAL_I18N = {
     // Footer
     "footer.tagline": "A warm page opening to German. Coming soon to iOS, Android, and Web.",
     "footer.rights": "All rights reserved.",
-    "footer.disclaimer": "Goethe-Zertifikat and ÖSD are registered trademarks of their respective owners. Lernfino is an independent learning platform and not official material of the Goethe-Institut or ÖSD.",
+    "footer.disclaimer": "Goethe-Zertifikat, ÖSD and telc are trademarks of their respective owners. Lernfino is an independent learning platform and not official material of the Goethe-Institut, ÖSD or telc gGmbH.",
     "footer.privacy": "Privacy Policy",
     "footer.terms": "Terms of Service",
     "footer.support": "Support & FAQ",
@@ -158,7 +158,7 @@ const LEGAL_I18N = {
     // Footer
     "footer.tagline": "Eine herzliche Seite zur deutschen Sprache. Demnächst für iOS, Android und Web.",
     "footer.rights": "Alle Rechte vorbehalten.",
-    "footer.disclaimer": "Goethe-Zertifikat und ÖSD sind eingetragene Marken der jeweiligen Inhaber. Lernfino ist ein unabhängiges Bildungsangebot und kein offizielles Prüfungsmaterial des Goethe-Instituts oder des ÖSD.",
+    "footer.disclaimer": "Goethe-Zertifikat, ÖSD und telc sind Marken der jeweiligen Inhaber. Lernfino ist ein unabhängiges Bildungsangebot und kein offizielles Prüfungsmaterial des Goethe-Instituts, des ÖSD oder der telc gGmbH.",
     "footer.privacy": "Datenschutz",
     "footer.terms": "Nutzungsbedingungen",
     "footer.support": "Support & FAQ",
@@ -207,19 +207,36 @@ const LEGAL_I18N = {
   }
 };
 
+// WEB-2: 12 additional site languages. Legal text stays in English (shown) and German;
+// only the English and German texts are binding, which is stated in the note below.
+const LEGAL_NOTE_LANGS = {
+  es: "Solo los textos en inglés y alemán son jurídicamente vinculantes. El contenido de esta página se muestra en inglés.",
+  pt: "Somente os textos em inglês e alemão são juridicamente vinculantes. O conteúdo desta página é exibido em inglês.",
+  fr: "Seuls les textes en anglais et en allemand font foi juridiquement. Le contenu de cette page est affiché en anglais.",
+  it: "Hanno valore giuridico vincolante solo i testi in inglese e in tedesco. Il contenuto di questa pagina è mostrato in inglese.",
+  pl: "Prawnie wiążące są wyłącznie teksty w języku angielskim i niemieckim. Treść tej strony jest wyświetlana po angielsku.",
+  ar: "النصان الإنجليزي والألماني وحدهما هما الملزمان قانونًا. يُعرض محتوى هذه الصفحة بالإنجليزية.",
+  ru: "Юридически обязательны только тексты на английском и немецком языках. Содержимое этой страницы показано на английском.",
+  uk: "Юридично обов'язковими є лише тексти англійською та німецькою мовами. Вміст цієї сторінки показано англійською.",
+  hi: "कानूनी रूप से केवल अंग्रेज़ी और जर्मन पाठ बाध्यकारी हैं। इस पृष्ठ की सामग्री अंग्रेज़ी में दिखाई गई है।",
+  vi: "Chỉ bản tiếng Anh và tiếng Đức có giá trị ràng buộc pháp lý. Nội dung trang này được hiển thị bằng tiếng Anh.",
+  id: "Hanya teks bahasa Inggris dan Jerman yang mengikat secara hukum. Isi halaman ini ditampilkan dalam bahasa Inggris.",
+  zh: "只有英文和德文文本具有法律约束力。本页内容以英文显示。"
+};
+
 let legalCurrentLang = "tr";
 
 function detectLegalLang() {
   try {
     const params = new URLSearchParams(window.location.search);
     const qLang = params.get("lang");
-    if (qLang && LEGAL_I18N[qLang.toLowerCase()]) {
+    if (qLang && (LEGAL_I18N[qLang.toLowerCase()] || LEGAL_NOTE_LANGS[qLang.toLowerCase()])) {
       return qLang.toLowerCase();
     }
   } catch {}
 
   const saved = localStorage.getItem("lernfino_web_lang");
-  if (saved && LEGAL_I18N[saved]) return saved;
+  if (saved && (LEGAL_I18N[saved] || LEGAL_NOTE_LANGS[saved])) return saved;
 
   const nav = (navigator.language || "en").toLowerCase();
   if (nav.startsWith("tr")) return "tr";
@@ -228,11 +245,30 @@ function detectLegalLang() {
   return "en";
 }
 
-function setLegalLanguage(lang) {
-  if (!LEGAL_I18N[lang]) return;
+function setLegalLanguage(chosen) {
+  const isNote = !LEGAL_I18N[chosen] && !!LEGAL_NOTE_LANGS[chosen];
+  if (!LEGAL_I18N[chosen] && !isNote) return;
+  const lang = isNote ? "en" : chosen;
   legalCurrentLang = lang;
-  localStorage.setItem("lernfino_web_lang", lang);
-  document.documentElement.lang = lang;
+  localStorage.setItem("lernfino_web_lang", chosen);
+  document.documentElement.lang = chosen;
+  document.documentElement.dir = chosen === "ar" ? "rtl" : "ltr";
+
+  // Binding-language note for the 12 additional languages
+  const oldNote = document.getElementById("legalLangNote");
+  if (oldNote) oldNote.remove();
+  if (isNote) {
+    const host = document.querySelector(".legal-card") || document.querySelector(".legal-main");
+    if (host) {
+      const note = document.createElement("div");
+      note.id = "legalLangNote";
+      note.className = "callout-box callout-amber";
+      note.textContent = LEGAL_NOTE_LANGS[chosen];
+      host.insertBefore(note, host.firstChild);
+    }
+  }
+  const sel = document.getElementById("langSelect");
+  if (sel) sel.value = chosen;
 
   // 1. Update text elements with [data-i18n]
   document.querySelectorAll("[data-i18n]").forEach((el) => {
@@ -245,7 +281,7 @@ function setLegalLanguage(lang) {
 
   // 2. Toggle active language buttons
   document.querySelectorAll(".lang-btn").forEach((btn) => {
-    const active = btn.getAttribute("data-lang") === lang;
+    const active = btn.getAttribute("data-lang") === chosen;
     btn.classList.toggle("active", active);
     btn.setAttribute("aria-pressed", String(active));
   });
@@ -311,6 +347,9 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // 2. Language Switcher Buttons
+  const legalSelect = document.getElementById("langSelect");
+  if (legalSelect) legalSelect.addEventListener("change", () => setLegalLanguage(legalSelect.value));
+
   document.querySelectorAll(".lang-btn").forEach((btn) => {
     btn.addEventListener("click", () => {
       const targetLang = btn.getAttribute("data-lang");

@@ -243,6 +243,23 @@ h1, h2, h3, h4, p {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
 }
 
+/* Language select (15 languages): compact globe, same size as the theme toggle */
+.lang-select {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 34px;
+  height: 38px;
+  margin-left: -6px;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  background: var(--surface) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%236b7280' stroke-width='2' stroke-linecap='round'%3E%3Ccircle cx='12' cy='12' r='9'/%3E%3Cpath d='M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18'/%3E%3C/svg%3E") center / 18px no-repeat;
+  color: transparent;
+  cursor: pointer;
+}
+.lang-select option {
+  color: #1f2937;
+}
+
 /* Theme Toggle */
 .theme-toggle {
   width: 38px;

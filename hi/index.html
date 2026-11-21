@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="hi" data-theme="light" data-page-lang="hi" data-base="..">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lernfino — फ़ीनो के साथ हर पन्ने पर थोड़ी जर्मन | जल्द आ रहा है</title>
+  <meta name="description" content="Lernfino: स्तर के अनुसार जर्मन ऑडियो कहानियाँ (A1–B2), इंटरैक्टिव वीडियो एपिसोड, एक टैप में संदर्भ-आधारित शब्दकोश, और Goethe/ÖSD फ़ॉर्मेट में स्वतंत्र अभ्यास परीक्षाएँ व अभ्यास सेट। जल्द ही iOS और Android पर।" />
+  <meta name="theme-color" content="#181E29" />
+  <link rel="canonical" href="https://lernfino.com/hi/" />
+  <link rel="alternate" hreflang="en" href="https://lernfino.com/" />
+  <link rel="alternate" hreflang="tr" href="https://lernfino.com/tr/" />
+  <link rel="alternate" hreflang="de" href="https://lernfino.com/de/" />
+  <link rel="alternate" hreflang="es" href="https://lernfino.com/es/" />
+  <link rel="alternate" hreflang="pt" href="https://lernfino.com/pt/" />
+  <link rel="alternate" hreflang="fr" href="https://lernfino.com/fr/" />
+  <link rel="alternate" hreflang="it" href="https://lernfino.com/it/" />
+  <link rel="alternate" hreflang="pl" href="https://lernfino.com/pl/" />
+  <link rel="alternate" hreflang="ar" href="https://lernfino.com/ar/" />
+  <link rel="alternate" hreflang="ru" href="https://lernfino.com/ru/" />
+  <link rel="alternate" hreflang="uk" href="https://lernfino.com/uk/" />
+  <link rel="alternate" hreflang="hi" href="https://lernfino.com/hi/" />
+  <link rel="alternate" hreflang="vi" href="https://lernfino.com/vi/" />
+  <link rel="alternate" hreflang="id" href="https://lernfino.com/id/" />
+  <link rel="alternate" hreflang="zh" href="https://lernfino.com/zh/" />
+  <link rel="alternate" hreflang="x-default" href="https://lernfino.com/" />
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="hi_IN" />
+  <meta property="og:url" content="https://lernfino.com/hi/" />
+  <meta property="og:title" content="Lernfino — फ़ीनो के साथ हर पन्ने पर थोड़ी जर्मन" />
+  <meta property="og:description" content="A1 से B2 तक स्तर के अनुसार ऑडियो कहानियाँ, इंटरैक्टिव वीडियो एपिसोड, एक टैप में शब्दकोश और Goethe/ÖSD फ़ॉर्मेट में स्वतंत्र अभ्यास परीक्षाएँ। जल्द आ रहा है!" />
+  <meta property="og:image" content="https://lernfino.com/Lernfino%20Deutsch%20Fox%20Icon.png" />
+
+  <link rel="icon" type="image/png" href="../Lernfino%20Deutsch%20Fox%20Icon.png" />
+  <link rel="apple-touch-icon" href="../Lernfino%20Deutsch%20Fox%20Icon.png" />
+  <link rel="manifest" href="../site.webmanifest" />
+  <link rel="stylesheet" href="../styles.css?v=20261116-h6" />
+</head>
+<body>
+  <!-- Top German Flag Subtle Accent Bar -->
+  <div class="flag-topline" aria-hidden="true">
+    <span class="flag-black"></span>
+    <span class="flag-red"></span>
+    <span class="flag-gold"></span>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="brand-logo" aria-label="Lernfino Home">
+        <img src="../Lernfino%20Deutsch%20Fox%20Icon.png" alt="Lernfino Fino mascot logo" class="brand-img" />
+        <div class="brand-text-wrap">
+          <span class="brand-name">Lernfino</span>
+          <span class="brand-badge">Deutsch</span>
+        </div>
+      </a>
+
+      <nav class="main-nav" aria-label="Main Navigation">
+        <a href="#demo" data-i18n="nav.demo">लाइव डेमो</a>
+        <a href="#features" data-i18n="nav.features">अंदर क्या है?</a>
+        <a href="#compare" data-i18n="nav.compare">ऐप में अभी उपलब्ध</a>
+        <a href="#how" data-i18n="nav.how">यह कैसे काम करता है</a>
+        <a href="#channel" data-i18n="nav.channel">YouTube</a>
+        <a href="#launch" data-i18n="nav.launch">लॉन्च की स्थिति</a>
+        <a href="../level-test/" data-i18n="nav.tools">अध्ययन टूल</a>
+      </nav>
+
+      <div class="header-actions">
+        <!-- Language Switcher (TR | EN | DE) -->
+        <div class="lang-switcher" role="group" aria-label="Language Selection">
+          <button type="button" class="lang-btn" data-lang="tr" aria-pressed="false">TR</button>
+          <button type="button" class="lang-btn active" data-lang="en" aria-pressed="true">EN</button>
+          <button type="button" class="lang-btn" data-lang="de" aria-pressed="false">DE</button>
+        </div>
+
+        <!-- Language Selector (all 15 languages) -->
+        <select class="lang-select" id="langSelect" aria-label="Language">
+          <option value="en">English</option>
+          <option value="tr">Türkçe</option>
+          <option value="de">Deutsch</option>
+          <option value="es">Español</option>
+          <option value="pt">Português</option>
+          <option value="fr">Français</option>
+          <option value="it">Italiano</option>
+          <option value="pl">Polski</option>
+          <option value="ar">العربية</option>
+          <option value="ru">Русский</option>
+          <option value="uk">Українська</option>
+          <option value="hi" selected>हिन्दी</option>
+          <option value="vi">Tiếng Việt</option>
+          <option value="id">Bahasa Indonesia</option>
+          <option value="zh">中文</option>
+        </select>
+
+        <!-- Theme Toggle -->
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Toggle Theme">
+          <svg class="icon-moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+
+        <a href="#launch" class="btn btn-primary btn-sm header-cta" data-i18n="nav.cta">मुझे सूचित करें</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge-row">
+            <div class="status-pill">
+              <span class="status-dot"></span>
+              <span data-i18n="hero.badge">जल्द आ रहा है · iOS और Android (वेब संस्करण जल्द)</span>
+            </div>
+            <div class="hero-waving-fino" title="Hallo! Ich bin Fino!">
+              <img src="../02_Fino_Selam_Veriyor.png" alt="Fino waving" class="fino-avatar-wave" />
+              <span class="fino-bubble">Hallo! 👋</span>
+            </div>
+          </div>
+
+          <h1 class="hero-title" data-i18n="hero.title">फ़ीनो के साथ हर पन्ने पर थोड़ी <span class="highlight-gold">जर्मन</span>। छोटे कदम, बड़ी कहानियाँ।</h1>
+
+          <p class="hero-subtitle" data-i18n="hero.subtitle">स्तर के अनुसार ऑडियो कहानियों (A1–B2), इंटरैक्टिव वीडियो एपिसोड, एक टैप में संदर्भ-आधारित शब्दकोश और Goethe/ÖSD फ़ॉर्मेट की स्वतंत्र अभ्यास परीक्षाओं व अभ्यास सेट के साथ जर्मन सीखें। मुफ़्त शुरू करें; मुफ़्त प्लान में दैनिक उपयोग सीमाएँ हैं, जो सदस्यता लेने पर हट जाती हैं।</p>
+
+          <div class="hero-cta-row">
+            <a href="#launch" class="btn btn-primary btn-lg">
+              <span data-i18n="hero.ctaPrimary">लॉन्च पर मुझे सूचित करें</span>
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#demo" class="btn btn-secondary btn-lg">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+              </svg>
+              <span data-i18n="hero.ctaSecondary">इंटरैक्टिव डेमो आज़माएँ</span>
+            </a>
+          </div>
+
+          <!-- Key Metrics / Verified Stat Row -->
+          <div class="hero-stats-row">
+            <div class="hero-stat-card">
+              <div class="hero-stat-header">
+                <span class="hero-stat-num" data-i18n="hero.stat1Num">A1–B2</span>
+                <span class="hero-stat-label" data-i18n="hero.stat1Label">ऑडियो शब्दकोश</span>
+              </div>
+              <span class="hero-stat-sub" data-i18n="hero.stat1Sub">शब्दों की ऑडियो के साथ संदर्भ-आधारित शब्दकोश</span>
+            </div>
+
+            <div class="hero-stat-card">
+              <div class="hero-stat-header">
+                <span class="hero-stat-num" data-i18n="hero.stat2Num">A1–B2</span>
+                <span class="hero-stat-label" data-i18n="hero.stat2Label">परीक्षा अभ्यास सेट</span>
+              </div>
+              <span class="hero-stat-sub" data-i18n="hero.stat2Sub">Grammatik, Hören, Lesen और Wortschatz</span>
+            </div>
+
+            <div class="hero-stat-card">
+              <div class="hero-stat-header">
+                <span class="hero-stat-num" data-i18n="hero.stat3Num">फ़ॉर्मेट</span>
+                <span class="hero-stat-label" data-i18n="hero.stat3Label">Goethe और ÖSD फ़ॉर्मेट</span>
+              </div>
+              <span class="hero-stat-sub" data-i18n="hero.stat3Sub">Hören और Lesen अभ्यास परीक्षाएँ (स्वतंत्र)</span>
+            </div>
+          </div>
+
+          <!-- Store Badges (Coming Soon) -->
+          <div class="store-badges">
+            <div class="store-badge">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.96 6.33c.67-.81 1.12-1.94 1-3.08-.96.04-2.13.64-2.82 1.45-.61.7-.15 1.86-.99 2.98 1.08.08 2.15-.54 2.81-1.35z"/>
+              </svg>
+              <div>
+                <small data-i18n="store.soon">जल्द आ रहा है</small>
+                <strong>App Store</strong>
+              </div>
+            </div>
+
+            <div class="store-badge">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                <path d="M3 20.5v-17c0-.83.94-1.3 1.6-.8l14 8.5c.6.37.6 1.23 0 1.6l-14 8.5c-.66.5-1.6.03-1.6-.8z"/>
+              </svg>
+              <div>
+                <small data-i18n="store.soon">जल्द आ रहा है</small>
+                <strong>Google Play</strong>
+              </div>
+            </div>
+
+            <div class="store-badge">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="2" y1="12" x2="22" y2="12"></line>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+              </svg>
+              <div>
+                <small data-i18n="store.soon">जल्द आ रहा है</small>
+                <strong data-i18n="store.web">वेब संस्करण</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Right Visual: Official Fino Mascot + 4 Symmetric Floating UI Badges -->
+        <div class="hero-visual">
+          <div class="mascot-glow"></div>
+          <div class="mascot-card-frame">
+            <img src="../Lernfino%20Deutsch%20Fox%20Icon.png" alt="Lernfino Mascot Fino" class="hero-mascot-img" />
+
+            <!-- Floating Card Top Left: CEFR Levels -->
+            <div class="float-badge float-top-left">
+              <span class="float-icon">📚</span>
+              <div>
+                <strong>A1 · A2 · B1 · B2</strong>
+                <small data-i18n="hero.floatLevels">स्तर के अनुसार कहानियाँ</small>
+              </div>
+            </div>
+
+            <!-- Floating Card Top Right: Interactive Videos -->
+            <div class="float-badge float-top-right">
+              <span class="float-icon">🎬</span>
+              <div>
+                <strong data-i18n="hero.floatVideoTitle">इंटरैक्टिव वीडियो</strong>
+                <small data-i18n="hero.floatVideoSub">इंटरैक्टिव एपिसोड · Shorts</small>
+              </div>
+            </div>
+
+            <!-- Floating Card Bottom Left: Word Lookup -->
+            <div class="float-badge float-bottom-left">
+              <span class="float-icon">🔍</span>
+              <div>
+                <strong data-i18n="hero.floatDictTitle">der Brief · <span class="muted-inline">die Briefe</span></strong>
+                <small data-i18n="hero.floatDict">एक टैप में शब्दकोश</small>
+              </div>
+            </div>
+
+            <!-- Floating Card Bottom Right: Goethe/ÖSD Format Practice -->
+            <div class="float-badge float-bottom-right">
+              <span class="float-icon">🎓</span>
+              <div>
+                <strong data-i18n="hero.floatExamTitle">Goethe और ÖSD फ़ॉर्मेट</strong>
+                <small data-i18n="hero.floatExam">Hören · Lesen (स्वतंत्र)</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTERACTIVE DEMO SECTION -->
+    <section class="demo-section" id="demo">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow-tag" data-i18n="demo.eyebrow">ऐप का इंटरैक्टिव पूर्वावलोकन</span>
+          <h2 data-i18n="demo.title">अभी देखें कि Lernfino कैसे काम करता है</h2>
+          <p data-i18n="demo.subtitle">नीचे कहानी के वाक्य में CEFR स्तर (A1–B2) बदलें, किसी भी शब्द पर टैप करके उसका संदर्भ-आधारित व्याकरण कार्ड देखें, या जर्मन ऑडियो सुनें।</p>
+        </div>
+
+        <div class="interactive-workbench">
+          <!-- Left: Reader Paper -->
+          <div class="demo-reader-card">
+            <div class="reader-topbar">
+              <div class="story-meta-row">
+                <img src="../01_Fino_Kitap_Okuyor_Sade.png" alt="Fino reading a book" class="fino-reader-badge" />
+                <div class="story-meta">
+                  <span class="story-tag" data-i18n="demo.storyTag">कहानी और वीडियो एपिसोड</span>
+                  <strong id="demoStoryTitle">Der kleine Garten</strong>
+                </div>
+              </div>
+
+              <!-- CEFR Level Switcher -->
+              <div class="cefr-pills" role="tablist" aria-label="CEFR Level">
+                <button type="button" class="cefr-btn active" data-level="A1">A1</button>
+                <button type="button" class="cefr-btn" data-level="A2">A2</button>
+                <button type="button" class="cefr-btn" data-level="B1">B1</button>
+                <button type="button" class="cefr-btn" data-level="B2">B2</button>
+              </div>
+            </div>
+
+            <!-- Reader Mode Bar -->
+            <div class="reader-modes-bar">
+              <span class="mode-chip active">
+                <span class="dot-green"></span>
+                <span data-i18n="demo.modeRead">ऑडियो के साथ हाइलाइट वाला पाठ</span>
+              </span>
+              <span class="mode-chip" data-i18n="demo.modeListenFirst">🎧 «पहले सुनें» मोड</span>
+              <span class="mode-chip" data-i18n="demo.modeRoleplay">🎭 रोलप्ले किरदार</span>
+            </div>
+
+            <!-- Active Sentence Area -->
+            <div class="sentence-stage">
+              <div class="sentence-header">
+                <span class="level-indicator" id="demoLevelBadge">A1 · Beginner (Präsens)</span>
+                <button type="button" class="audio-play-btn" id="speakSentenceBtn">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                  </svg>
+                  <span data-i18n="demo.listenBtn">वाक्य सुनें</span>
+                </button>
+              </div>
+
+              <p class="german-sentence" id="demoGermanSentence" lang="de">
+                <!-- Populated dynamically by app.js -->
+              </p>
+
+              <p class="sentence-translation" id="demoSentenceTranslation">
+                <!-- Populated dynamically by app.js -->
+              </p>
+
+              <div class="tap-instruction">
+                <span class="pulse-ring"></span>
+                <span data-i18n="demo.tapHint">सुझाव: वाक्य का हर शब्द टैप किया जा सकता है। किसी शब्द पर टैप करें और तुरंत उसका आर्टिकल, व्याकरण टिप्पणी और जर्मन उच्चारण देखें।</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Live Contextual Dictionary Panel -->
+          <aside class="demo-dict-card" aria-live="polite">
+            <div class="dict-card-header">
+              <span data-i18n="demo.dictHeader">संदर्भ-आधारित शब्दकोश और व्याकरण</span>
+              <button type="button" class="dict-audio-btn" id="speakWordBtn" title="Play word audio">
+                🔊 <span id="dictWordAudioLabel" data-i18n="demo.listenWord">सुनें</span>
+              </button>
+            </div>
+
+            <div class="dict-card-body">
+              <div class="dict-article" id="dictArticle">Preposition</div>
+              <h3 class="dict-headword" id="dictHeadword" lang="de">Brief</h3>
+              <div class="dict-meaning" id="dictMeaning">letter</div>
+
+              <div class="dict-grammar-box">
+                <strong data-i18n="demo.grammarTitle">व्याकरण और संदर्भ टिप्पणी:</strong>
+                <p id="dictGrammarNote">Two-way preposition. Answers 'Where?' and therefore takes the Dative case: 'hinter ihrem Haus'.</p>
+              </div>
+
+              <div class="dict-example-box">
+                <small data-i18n="demo.exampleTitle">उदाहरण वाक्य</small>
+                <p class="dict-example-de" id="dictExampleDe" lang="de">Ich schreibe meiner Mutter einen langen Brief.</p>
+                <p class="dict-example-tr" id="dictExampleTr">The garden is behind the building.</p>
+              </div>
+
+              <button type="button" class="btn btn-srs full-w" id="saveWordBtn">
+                <span id="saveWordIcon">＋</span>
+                <span id="saveWordText" data-i18n="demo.saveBtn">मेरी शब्दावली में जोड़ें (SRS)</span>
+              </button>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4 CORE MODULES (BENTO GRID) -->
+    <section class="features-section" id="features">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow-tag" data-i18n="features.eyebrow">LERNFINO में क्या है?</span>
+          <h2 data-i18n="features.title">जर्मन सीखने का संपूर्ण तंत्र</h2>
+          <p data-i18n="features.subtitle">स्तर-आधारित पठन कहानियाँ, इंटरैक्टिव वीडियो पाठ, संदर्भ-आधारित शब्दकोश और Goethe/ÖSD परीक्षा-फ़ॉर्मेट का अभ्यास, सब एक ही ऐप में।</p>
+        </div>
+
+        <div class="bento-grid">
+          <!-- Feature 1: Stories -->
+          <article class="bento-card bento-large">
+            <div class="bento-card-top">
+              <span class="bento-badge badge-amber" data-i18n="f1.badge">A1 · A2 · B1 · B2 स्तर-आधारित पुस्तकालय</span>
+              <img src="../06_Fino_Kitap_Okuyor_Alternatif.png" alt="Fino reading" class="bento-mini-fino" />
+            </div>
+            <h3 data-i18n="f1.title">स्तर के अनुसार ऑडियो कहानियाँ और किताबें</h3>
+            <p data-i18n="f1.desc">जर्मन वाचन के साथ A1 से B2 तक की कहानियाँ और लेख पढ़ें।</p>
+            <ul class="feature-list">
+              <li data-i18n="f1.b1">शब्द-दर-शब्द ऑडियो के साथ हाइलाइट और प्लेबैक गति का नियंत्रण</li>
+              <li data-i18n="f1.b2">पाठ दिखाने से पहले कानों को तैयार करने के लिए <strong>«पहले सुनें»</strong> मोड</li>
+              <li data-i18n="f1.b3">कहानियों के संवादों में बारी-बारी से बोलने के लिए <strong>«रोलप्ले किरदार»</strong> मोड</li>
+              <li data-i18n="f1.b4">वाक्यों के अनुवाद और हर अध्याय के अंत में समझ के क्विज़</li>
+              <li data-i18n="f1.b5"><strong>शून्य से शुरुआत:</strong> छोटे पाठों के साथ A1 से B2 तक चरण-दर-चरण लर्निंग पाथ</li>
+            </ul>
+          </article>
+
+          <!-- Feature 2: Interactive Videos -->
+          <article class="bento-card">
+            <div class="bento-card-top">
+              <span class="bento-badge badge-gold" data-i18n="f2.badge">वीडियो पाठ और SHORTS</span>
+              <img src="../08_Fino_Klaper_Video.png" alt="Fino with clapperboard" class="bento-mini-fino fino-scale-up" />
+            </div>
+            <h3 data-i18n="f2.title">इंटरैक्टिव वीडियो और Shorts</h3>
+            <p data-i18n="f2.desc">इंटरैक्टिव एपिसोड <em>Brief im falschen Kasten</em> (टिम और लेआ, A2) और वर्टिकल Shorts क्लिप देखें, या दृश्य-दर-दृश्य चेकपॉइंट वाले <strong>«पाठ की तरह पढ़ें»</strong> मोड में जाएँ।</p>
+            <ul class="feature-list">
+              <li data-i18n="f2.b1">दृश्य के अंत पर अपने-आप रुकने वाले इंटरैक्टिव समझ-प्रश्न</li>
+              <li data-i18n="f2.b2">वीडियो ट्रांसक्रिप्ट के किसी भी शब्द पर टैप करके उसका शब्दकोश कार्ड खोलें</li>
+              <li data-i18n="f2.b3">तेज़ मिनी-क्विज़ वाले वर्टिकल <strong>Shorts</strong> पाठ</li>
+              <li data-i18n="f2.b4"><strong>जर्मनी में जीवन:</strong> संवादों, अभ्यासों और रोलप्ले के साथ रोज़मर्रा की स्थितियाँ</li>
+            </ul>
+          </article>
+
+          <!-- Feature 3: Smart Dictionary & SRS -->
+          <article class="bento-card">
+            <div class="bento-card-top">
+              <span class="bento-badge badge-crimson" data-i18n="f3.badge">स्मार्ट शब्दकोश और SRS</span>
+              <img src="../03_Fino_Basparmak_Gosteriyor.png" alt="Fino thumbs up" class="bento-mini-fino" />
+            </div>
+            <h3 data-i18n="f3.title">संदर्भ-आधारित शब्दावली नोटबुक</h3>
+            <p data-i18n="f3.desc">संज्ञाओं के आर्टिकल (<em>der/die/das</em>), बहुवचन और क्रिया-रूप हमेशा आपके हाथ में। हर सहेजा गया शब्द उन कहानियों और वीडियो के वाक्य सँजोए रखता है जहाँ आप उससे मिले थे।</p>
+
+            <div class="bento-stat-callout">
+              <div class="bento-stat-tag">
+                <span class="pulse-mini-dot"></span>
+                <span data-i18n="f3.statPill">ऑडियो शब्दकोश</span>
+              </div>
+              <p data-i18n="f3.statHighlight">Lernfino के शब्द-संग्रह में शब्दों की ऑडियो, आर्टिकल गाइड, बहुवचन और A1 से B2 तक की कहानियों के असली उदाहरण शामिल हैं।</p>
+            </div>
+
+            <ul class="feature-list">
+              <li data-i18n="f3.b1">संरचित दैनिक पुनरावृत्ति के लिए अंतराल-आधारित दोहराव एल्गोरिदम (SRS)</li>
+              <li data-i18n="f3.b2">सहेजी गई कहानियों के संदर्भ सीधे अपने फ़्लैशकार्ड पर देखें</li>
+              <li data-i18n="f3.b3">सीखने वालों के लिए स्पष्ट व्याकरण टिप्पणियाँ</li>
+              <li data-i18n="f3.b4"><strong>व्याकरण ट्रेनर:</strong> आर्टिकल, कारक और पूर्वसर्ग, वाक्य-निर्माण और क्रियाएँ</li>
+              <li data-i18n="f3.b5"><strong>15 इंटरफ़ेस भाषाएँ:</strong> ऐप को अपनी भाषा में इस्तेमाल करें</li>
+            </ul>
+          </article>
+
+          <!-- Feature 4: Goethe & ÖSD Format Practice -->
+          <article class="bento-card bento-large">
+            <div class="bento-card-top">
+              <span class="bento-badge badge-navy" data-i18n="f4.badge">GOETHE और ÖSD फ़ॉर्मेट का अभ्यास</span>
+              <img src="../05_Fino_Lernfino_Kitabiyla.png" alt="Fino holding exam book" class="bento-mini-fino fino-scale-up" />
+            </div>
+            <h3 data-i18n="f4.title">Goethe/ÖSD परीक्षा-फ़ॉर्मेट का अभ्यास</h3>
+            <p data-i18n="f4.desc">A1 से B2 तक Goethe/ÖSD फ़ॉर्मेट की समयबद्ध Hören और Lesen अभ्यास परीक्षाएँ, अभ्यास सेट, लेखन कार्य और बोलने के सेट, साथ ही वैकल्पिक AI फ़ीडबैक (18 वर्ष या उससे अधिक आयु के वयस्कों की स्पष्ट सहमति आवश्यक)।</p>
+            <ul class="feature-list">
+              <li data-i18n="f4.b1"><strong>Hören और Lesen अभ्यास परीक्षाएँ:</strong> A1 से B2 तक समयबद्ध Hören और Lesen परीक्षाएँ, चरण-दर-चरण नेविगेशन और ऑडियो में उत्तर वाले हिस्से पर सीधी छलाँग के साथ</li>
+              <li data-i18n="f4.b2"><strong>Schreiben और Sprechen कार्य:</strong> Schreiben के लेखन कार्य और Sprechen के बोलने के सेट, आदर्श पाठ और 18 वर्ष या उससे अधिक आयु के लिए वैकल्पिक AI मूल्यांकन के साथ (स्पष्ट सहमति से, प्लान की सीमाओं के भीतर)</li>
+              <li data-i18n="f4.b3"><strong>परीक्षा अभ्यास सेट:</strong> A1 से B2 तक Grammatik, Hören, Lesen और Wortschatz को कवर करने वाले सेट</li>
+              <li data-i18n="f4.b4"><strong>परीक्षा बनाम अध्ययन मोड:</strong> फ़ॉर्मेट टाइमर के साथ अभ्यास करें या अपनी सेटिंग से खुलकर पढ़ें</li>
+              <li data-i18n="f4.b5"><strong>8 पूर्ण अभ्यास परीक्षाएँ और telc फ़ॉर्मेट के सेट:</strong> Goethe/ÖSD फ़ॉर्मेट की आठ पूर्ण अभ्यास परीक्षाएँ, साथ में telc फ़ॉर्मेट के स्वतंत्र अभ्यास सेट</li>
+            </ul>
+            <small class="exam-disclaimer" data-i18n="f4.disclaimer">* यह Goethe-Institut, ÖSD या telc gGmbH की आधिकारिक परीक्षा सामग्री नहीं है। स्वतंत्र परीक्षा-फ़ॉर्मेट अभ्यास; किसी परीक्षा-परिणाम का संकेत नहीं देता।</small>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- LIVE IN THE APP SECTION (Lernfino-only, non-comparative) -->
+    <section class="compare-section" id="compare">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow-tag" data-i18n="compare.eyebrow">आज ऐप में उपलब्ध</span>
+          <h2 data-i18n="compare.title">आज Lernfino क्या देता है</h2>
+          <p data-i18n="compare.subtitle">नीचे दी गई हर सुविधा आज Lernfino में मौजूद है: A1–B2 लर्निंग पाथ की इकाइयाँ, स्तर के अनुसार ऑडियो कहानियाँ, संदर्भ-आधारित शब्दकोश और Goethe/ÖSD फ़ॉर्मेट में स्वतंत्र अभ्यास।</p>
+        </div>
+
+        <div class="live-features-grid">
+          <article class="live-feature-card">
+            <div class="live-feature-head">
+              <span class="live-feature-icon">📖</span>
+              <h3 data-i18n="compare.c1Title">स्तर के अनुसार कहानियाँ (A1–B2)</h3>
+            </div>
+            <p data-i18n="compare.c1Desc">A1 से B2 तक कहानियों के संस्करण, जिनमें शब्द-दर-शब्द ऑडियो के साथ हाइलाइट, वाक्यों के अनुवाद और समझ के क्विज़ हैं।</p>
+          </article>
+
+          <article class="live-feature-card">
+            <div class="live-feature-head">
+              <span class="live-feature-icon">🎙️</span>
+              <h3 data-i18n="compare.c2Title">हर वाक्य और हर शब्द ऑडियो के साथ</h3>
+            </div>
+            <p data-i18n="compare.c2Desc">शब्दों की ऑडियो फ़ाइलें, कहानियों का वाचन और सुनने के ट्रैक, जिनमें प्लेबैक की गति बदलने और «पहले सुनें» मोड की सुविधा है।</p>
+          </article>
+
+          <article class="live-feature-card">
+            <div class="live-feature-head">
+              <span class="live-feature-icon">🔍</span>
+              <h3 data-i18n="compare.c3Title">संदर्भ-आधारित शब्दकोश और SRS</h3>
+            </div>
+            <p data-i18n="compare.c3Desc">कहानियों या वीडियो ट्रांसक्रिप्ट के किसी भी शब्द पर टैप करके आर्टिकल (der/die/das), बहुवचन और व्याकरण संबंधी टिप्पणियाँ देखें, और सहेजे गए शब्दों को अंतराल-आधारित दोहराव से दोहराएँ।</p>
+          </article>
+
+          <article class="live-feature-card">
+            <div class="live-feature-head">
+              <span class="live-feature-icon">🎬</span>
+              <h3 data-i18n="compare.c4Title">इंटरैक्टिव वीडियो और पाथ इकाइयाँ</h3>
+            </div>
+            <p data-i18n="compare.c4Desc">A1 से B2 तक सुव्यवस्थित इकाइयाँ, दृश्य-दर-दृश्य चेकपॉइंट वाला इंटरैक्टिव वीडियो, Shorts पाठ, साथ ही आर्टिकल, संख्याओं और गलतियों के लिए टूल।</p>
+          </article>
+
+          <article class="live-feature-card">
+            <div class="live-feature-head">
+              <span class="live-feature-icon">🎓</span>
+              <h3 data-i18n="compare.c5Title">Goethe और ÖSD फ़ॉर्मेट में अभ्यास</h3>
+            </div>
+            <p data-i18n="compare.c5Desc">समयबद्ध Hören और Lesen अभ्यास परीक्षाएँ, अभ्यास सेट, Schreiben कार्य और Sprechen सेट। स्वतंत्र अभ्यास फ़ॉर्मेट; यह Goethe-Institut या ÖSD की आधिकारिक सामग्री नहीं है।</p>
+          </article>
+
+          <article class="live-feature-card">
+            <div class="live-feature-head">
+              <span class="live-feature-icon">⚡</span>
+              <h3 data-i18n="compare.c6Title">मुफ़्त में शुरू करें · स्टोर के ज़रिए सशुल्क प्लान</h3>
+            </div>
+            <p data-i18n="compare.c6Desc">A1 कहानियों और A2–B2 के नमूना अध्यायों के साथ मुफ़्त शुरू करें; मुफ़्त प्लान में दैनिक उपयोग सीमाएँ हैं, जो सदस्यता लेने पर हट जाती हैं।</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS / FINO ROUTINE -->
+    <section class="how-section" id="how">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow-tag" data-i18n="how.eyebrow">दैनिक सीखने का क्रम</span>
+          <h2 data-i18n="how.title">फ़ीनो के साथ शांत दैनिक दिनचर्या</h2>
+        </div>
+
+        <div class="steps-grid">
+          <div class="step-card">
+            <div class="step-top-row">
+              <div class="step-num">01</div>
+              <img src="../11_Fino_Kulaklikla_Dinliyor.png" alt="Fino listening" class="step-fino-img" />
+            </div>
+            <h3 data-i18n="how.s1Title">अपना स्तर चुनें, पढ़ें और सुनें</h3>
+            <p data-i18n="how.s1Desc">«आज» डैशबोर्ड से अपनी इकाई या कहानी फिर शुरू करें। स्पष्ट जर्मन ऑडियो को शब्द-दर-शब्द सुनें और अनजान शब्दों पर आसानी से टैप करें।</p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-top-row">
+              <div class="step-num">02</div>
+              <img src="../10_Fino_Mikrofon_Konusuyor.png" alt="Fino with studio microphone" class="step-fino-img" />
+            </div>
+            <h3 data-i18n="how.s2Title">एपिसोड देखें और SRS से दोहराएँ</h3>
+            <p data-i18n="how.s2Desc">वीडियो पाठों में दृश्य-जाँच के प्रश्नों के उत्तर दें और फ़ीनो के दैनिक अंतराल-आधारित दोहराव कार्ड से सहेजे गए शब्दों को पक्का करें।</p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-top-row">
+              <div class="step-num">03</div>
+              <img src="../09_Fino_Dusunuyor_Soru.png" alt="Fino solving exam question" class="step-fino-img" />
+            </div>
+            <h3 data-i18n="how.s3Title">परीक्षा-फ़ॉर्मेट में अभ्यास करें</h3>
+            <p data-i18n="how.s3Desc">Goethe/ÖSD फ़ॉर्मेट में Hören और Lesen अभ्यास परीक्षाएँ और A1–B2 अभ्यास सेट हल करें (स्वतंत्र अभ्यास, आधिकारिक परीक्षा सामग्री नहीं)।</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- YOUTUBE CHANNEL SHOWCASE -->
+    <section class="youtube-section" id="channel">
+      <div class="container">
+        <div class="yt-simple-card">
+          <div class="yt-simple-left">
+            <div class="yt-simple-eyebrow">
+              <span class="yt-dot-live"></span>
+              <span class="yt-brand-text" data-i18n="yt.brand">YOUTUBE पर LERNFINO · @LernfinoDeutsch</span>
+            </div>
+            <h2 data-i18n="yt.title">हमारे YouTube चैनल पर जर्मन सीखें</h2>
+            <p data-i18n="yt.subtitle">Goethe/ÖSD फ़ॉर्मेट के स्वतंत्र अभ्यास वीडियो, एनिमेटेड कहानियाँ और छोटे व्यावहारिक पाठ देखें और सुनें।</p>
+
+            <ul class="yt-pillars-list">
+              <li>
+                <span class="pillar-icon">🎓</span>
+                <div>
+                  <strong data-i18n="yt.p1Title">Goethe और ÖSD फ़ॉर्मेट का अभ्यास:</strong>
+                  <span data-i18n="yt.p1Desc">A1–B2 Hören और Sprechen परीक्षा-फ़ॉर्मेट में काउंटडाउन टाइमर और टाइमस्टैम्प सहित उत्तर के स्थान की व्याख्या वाला समयबद्ध वीडियो अभ्यास।</span>
+                </div>
+              </li>
+              <li>
+                <span class="pillar-icon">📖</span>
+                <div>
+                  <strong data-i18n="yt.p2Title">जर्मन एनिमेटेड कहानियाँ:</strong>
+                  <span data-i18n="yt.p2Desc">टिम और लेआ तथा अन्य पात्रों के साथ रोज़मर्रा के दृश्य, स्पष्ट जर्मन वाचन और कई भाषाओं के उपशीर्षकों के साथ:</span>
+                  <div class="yt-lang-pills" aria-label="YouTube subtitle languages">
+                    <span class="lang-tag">Deutsch</span>
+                    <span class="lang-tag">English</span>
+                    <span class="lang-tag">Türkçe</span>
+                    <span class="lang-tag">Español</span>
+                    <span class="lang-tag">Português</span>
+                    <span class="lang-tag">Français</span>
+                    <span class="lang-tag" dir="rtl">العربية</span>
+                    <span class="lang-tag">Русский</span>
+                    <span class="lang-tag">Українська</span>
+                    <span class="lang-tag">हिन्दी</span>
+                    <span class="lang-tag">Tiếng Việt</span>
+                    <span class="lang-tag">Bahasa Indonesia</span>
+                    <span class="lang-tag">中文</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <span class="pillar-icon">⚡</span>
+                <div>
+                  <strong data-i18n="yt.p3Title">Shorts और दैनिक सुझाव:</strong>
+                  <span data-i18n="yt.p3Desc">आर्टिकल (der/die/das), परीक्षा की आम गलतियों और रोज़मर्रा के वाक्यांशों पर छोटी क्लिप।</span>
+                </div>
+              </li>
+            </ul>
+
+            <div class="yt-cta-row">
+              <a href="https://www.youtube.com/@LernfinoDeutsch" target="_blank" rel="noopener noreferrer" class="btn btn-youtube">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                <span data-i18n="yt.btn">हमारे YouTube चैनल पर जाएँ</span>
+                <span>➔</span>
+              </a>
+              <span class="yt-cta-note" data-i18n="yt.ctaNote">कई भाषाओं के उपशीर्षक · स्वतंत्र अभ्यास</span>
+            </div>
+            <small class="yt-disclaimer" data-i18n="yt.disclaimer">* स्वतंत्र परीक्षा-फ़ॉर्मेट अभ्यास; यह आधिकारिक सामग्री नहीं है और Goethe-Institut, ÖSD या telc gGmbH से संबद्ध या उनके द्वारा समर्थित नहीं है।</small>
+          </div>
+
+          <div class="yt-simple-right">
+            <img src="../08_Fino_Klaper_Video.png" alt="Fino YouTube channel" class="yt-mascot-feature" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LAUNCH STATUS & WAITLIST CTA -->
+    <section class="launch-section" id="launch">
+      <div class="container">
+        <div class="launch-box">
+          <div class="launch-left">
+            <div class="launch-mascot-row">
+              <img src="../07_Fino_Kitapla_Selam_Veriyor.png" alt="Fino waving" class="launch-mini-mascot" />
+              <span class="eyebrow-tag" data-i18n="launch.eyebrow">लॉन्च सूचना</span>
+            </div>
+            <h2 data-i18n="launch.title">लॉन्च की सबसे पहले जानकारी पाएँ!</h2>
+            <p data-i18n="launch.desc">Lernfino स्तर के अनुसार ऑडियो कहानियाँ, इंटरैक्टिव वीडियो पाठ, संदर्भ-आधारित शब्दकोश और परीक्षा-फ़ॉर्मेट का स्वतंत्र अभ्यास एक साथ लाता है। मुफ़्त प्लान में दैनिक उपयोग सीमाएँ हैं, जो सदस्यता लेने पर हट जाती हैं।</p>
+
+            <!-- Verified Live App Summary -->
+            <div class="launch-highlights-grid">
+              <div class="launch-hl-card">
+                <div class="launch-hl-header">
+                  <span class="launch-hl-icon">📚</span>
+                  <span class="launch-hl-tag" data-i18n="launch.card1Tag">A1 · A2 · B1 · B2</span>
+                </div>
+                <h4 data-i18n="launch.card1Title">स्तर के अनुसार कहानियाँ और पठन</h4>
+                <p data-i18n="launch.card1Desc">स्पष्ट जर्मन उच्चारण के साथ A1 से B2 तक की कहानियाँ।</p>
+              </div>
+
+              <div class="launch-hl-card">
+                <div class="launch-hl-header">
+                  <span class="launch-hl-icon">🎬</span>
+                  <span class="launch-hl-tag" data-i18n="launch.card2Tag">इंटरैक्टिव अभ्यास</span>
+                </div>
+                <h4 data-i18n="launch.card2Title">वीडियो एपिसोड और Shorts</h4>
+                <p data-i18n="launch.card2Desc">दृश्य चेकपॉइंट वाला इंटरैक्टिव वीडियो एपिसोड और Shorts में मिनी-क्विज़।</p>
+              </div>
+
+              <div class="launch-hl-card">
+                <div class="launch-hl-header">
+                  <span class="launch-hl-icon">📝</span>
+                  <span class="launch-hl-tag" data-i18n="launch.card3Tag">परीक्षा फ़ॉर्मेट · A1–B2</span>
+                </div>
+                <h4 data-i18n="launch.card3Title">Goethe और ÖSD फ़ॉर्मेट का अभ्यास</h4>
+                <p data-i18n="launch.card3Desc">Hören और Lesen अभ्यास परीक्षाएँ, A1–B2 अभ्यास सेट, लेखन और बोलने के कार्य (स्वतंत्र)।</p>
+              </div>
+
+              <div class="launch-hl-card">
+                <div class="launch-hl-header">
+                  <span class="launch-hl-icon">🧠</span>
+                  <span class="launch-hl-tag" data-i18n="launch.card4Tag">ऑडियो शब्दकोश · A1–B2</span>
+                </div>
+                <h4 data-i18n="launch.card4Title">संदर्भ-आधारित शब्दकोश और SRS</h4>
+                <p data-i18n="launch.card4Desc">शब्दों की ऑडियो, आर्टिकल गाइड और SRS।</p>
+              </div>
+            </div>
+
+            <div class="launch-vip-banner">
+              <span class="vip-icon">📬</span>
+              <div class="vip-text" data-i18n="launch.vipNotice"><strong>विशेष लॉन्च छूट:</strong> प्रतीक्षा सूची के सदस्यों को पहली सदस्यता पर विशेष लॉन्च छूट मिलेगी। छूट की दर, अवधि और उसे भुनाने का तरीका लॉन्च से पहले इस पेज पर और ईमेल से बताया जाएगा। मुफ़्त प्लान में दैनिक उपयोग सीमाएँ हैं, जो सदस्यता लेने पर हट जाती हैं।</div>
+            </div>
+          </div>
+
+          <div class="launch-right">
+            <form class="notify-form" id="notifyForm">
+              <h3 data-i18n="launch.formTitle">लॉन्च सूचना</h3>
+              <p data-i18n="launch.formSub">प्रतीक्षा सूची के सदस्यों को पहली सदस्यता पर विशेष लॉन्च छूट मिलेगी। छूट की दर, अवधि और उसे भुनाने का तरीका लॉन्च से पहले इस पेज पर और ईमेल से बताया जाएगा। कोई स्पैम नहीं; कभी भी सदस्यता समाप्त की जा सकती है।</p>
+
+              <label class="form-label" for="emailInput" data-i18n="launch.emailLabel">आपका ईमेल पता</label>
+              <input
+                type="email"
+                id="emailInput"
+                class="form-input"
+                placeholder="you@example.com"
+                required
+              />
+
+              <div class="form-consent-wrap">
+                <label class="form-consent-label" for="consentCheckbox">
+                  <input type="checkbox" id="consentCheckbox" class="form-consent-checkbox" required />
+                  <span data-i18n="launch.consentHtml">मेरी सहमति है कि Lernfino मुझे लॉन्च, उत्पाद अपडेट और लॉन्च छूट की घोषणाओं वाले ईमेल भेजे। सदस्यता कभी भी समाप्त की जा सकती है। हमारी <a href="../privacy/#waitlist-privacy">गोपनीयता नीति</a> देखें।</span>
+                </label>
+              </div>
+
+              <label class="form-label" for="levelSelect" data-i18n="launch.levelLabel">जर्मन का आपका लक्षित स्तर</label>
+              <select id="levelSelect" class="form-select">
+                <option value="A1" data-i18n="launch.optA1">A1 — शुरुआती (Anfänger)</option>
+                <option value="A2" data-i18n="launch.optA2">A2 — प्रारंभिक (Grundlagen)</option>
+                <option value="B1" selected data-i18n="launch.optB1">B1 — मध्यम / प्रमाणपत्र (Mittelstufe)</option>
+                <option value="B2" data-i18n="launch.optB2">B2 — उच्च मध्यम (Gute Mittelstufe)</option>
+              </select>
+
+              <button type="submit" class="btn btn-primary btn-lg full-w" data-i18n="launch.submitBtn">लॉन्च पर मुझे सूचित करें 🦊</button>
+
+              <div class="form-feedback" id="formFeedback" style="display: none;">
+                <img src="../04_Fino_Kutlama_Yapiyor.png" alt="Fino" class="feedback-fino-img" />
+                <div class="form-feedback-body">
+                  <span id="feedbackMessage"></span>
+                  <button type="button" id="formRetryBtn" class="form-retry-btn" hidden data-i18n="launch.retryBtn">फिर कोशिश करें</button>
+                </div>
+              </div>
+              <p class="form-unsubscribe" data-i18n="launch.unsubscribeHtml">सदस्यता समाप्त करनी है या प्रतीक्षा सूची से अपनी प्रविष्टि हटवानी है? <a href="mailto:support@lernfino.com?subject=Lernfino%20Waitlist%20Unsubscribe">सदस्यता समाप्त करें / support@lernfino.com</a></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="../Lernfino%20Deutsch%20Fox%20Icon.png" alt="Lernfino" class="footer-logo" />
+        <div>
+          <strong>lernfino.com</strong>
+          <p data-i18n="footer.tagline">जर्मन की ओर खुलता एक आत्मीय पन्ना। जल्द ही iOS और Android पर (वेब जल्द)।</p>
+        </div>
+      </div>
+
+      <div class="footer-meta">
+        <div class="footer-socials">
+          <a href="https://www.youtube.com/@LernfinoDeutsch" target="_blank" rel="noopener noreferrer" class="footer-social-btn yt" aria-label="Lernfino YouTube">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+            <span>YouTube</span>
+          </a>
+          <a href="https://www.instagram.com/lernfinodeutsch/" target="_blank" rel="noopener noreferrer" class="footer-social-btn ig" aria-label="Lernfino Instagram">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            <span>Instagram</span>
+          </a>
+          <a href="https://www.facebook.com/lernfinodeutsch" target="_blank" rel="noopener noreferrer" class="footer-social-btn fb" aria-label="Lernfino Facebook">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            <span>Facebook</span>
+          </a>
+          <a href="https://www.tiktok.com/@lernfino.deutsch" target="_blank" rel="noopener noreferrer" class="footer-social-btn tt" aria-label="Lernfino TikTok">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64c.298-.002.595.042.88.13V9.4a6.33 6.33 0 0 0-1-.08A6.34 6.34 0 0 0 3 15.66a6.34 6.34 0 0 0 10.82 4.46 6.27 6.27 0 0 0 1.88-4.46V8.78a8.28 8.28 0 0 0 4.89 1.58V6.9a4.83 4.83 0 0 1-1-.21z"/></svg>
+            <span>TikTok</span>
+          </a>
+        </div>
+        <div class="footer-tools">
+          <span class="footer-tools-label" data-i18n="footer.toolsLabel">अध्ययन टूल:</span>
+          <a href="../exam-calculator/" class="footer-nav-link" data-i18n="footer.toolCalc">Goethe/ÖSD अंक कैलकुलेटर</a>
+          <span>·</span>
+          <a href="../word-counter/" class="footer-nav-link" data-i18n="footer.toolCounter">Schreiben शब्द काउंटर</a>
+          <span>·</span>
+          <a href="../level-test/" class="footer-nav-link" data-i18n="footer.toolLevel">A1–B2 स्तर परीक्षण</a>
+        </div>
+        <div class="footer-links">
+          <a href="../privacy/" class="footer-nav-link" data-i18n="footer.privacy">गोपनीयता नीति</a>
+          <span>·</span>
+          <a href="../terms/" class="footer-nav-link" data-i18n="footer.terms">सेवा की शर्तें</a>
+          <span>·</span>
+          <a href="../support/" class="footer-nav-link" data-i18n="footer.support">सहायता और FAQ</a>
+          <span>·</span>
+          <a href="../delete-account/" class="footer-nav-link" data-i18n="footer.deleteAccount">खाता हटाएँ</a>
+          <span>·</span>
+          <a href="../imprint/" class="footer-nav-link" data-i18n="footer.imprint">कानूनी सूचना</a>
+        </div>
+        <div class="footer-langs">
+          <button type="button" class="text-link" data-lang-switch="tr">Türkçe</button>
+          <span>·</span>
+          <button type="button" class="text-link" data-lang-switch="en">English</button>
+          <span>·</span>
+          <button type="button" class="text-link" data-lang-switch="de">Deutsch</button>
+        </div>
+        <p class="footer-disclaimer" data-i18n="footer.disclaimer">Goethe-Zertifikat, ÖSD और telc अपने-अपने स्वामियों के ट्रेडमार्क हैं। Lernfino एक स्वतंत्र शिक्षण मंच है और Goethe-Institut, ÖSD या telc gGmbH की आधिकारिक सामग्री नहीं है।</p>
+        <small>© 2026 Lernfino · Respecode. <span data-i18n="footer.rights">सर्वाधिकार सुरक्षित।</span></small>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../app.js?v=20261116-h7"></script>
+</body>
+</html>

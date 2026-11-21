@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="light" data-page-lang="es" data-base="..">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lernfino — Un poco de alemán en cada página con Fino | Próximamente</title>
+  <meta name="description" content="Lernfino: historias de audio en alemán por niveles (A1–B2), episodio de vídeo interactivo, diccionario contextual con un toque y exámenes de práctica y series de ejercicios independientes en formato Goethe/ÖSD. Próximamente en iOS y Android." />
+  <meta name="theme-color" content="#181E29" />
+  <link rel="canonical" href="https://lernfino.com/es/" />
+  <link rel="alternate" hreflang="en" href="https://lernfino.com/" />
+  <link rel="alternate" hreflang="tr" href="https://lernfino.com/tr/" />
+  <link rel="alternate" hreflang="de" href="https://lernfino.com/de/" />
+  <link rel="alternate" hreflang="es" href="https://lernfino.com/es/" />
+  <link rel="alternate" hreflang="pt" href="https://lernfino.com/pt/" />
+  <link rel="alternate" hreflang="fr" href="https://lernfino.com/fr/" />
+  <link rel="alternate" hreflang="it" href="https://lernfino.com/it/" />
+  <link rel="alternate" hreflang="pl" href="https://lernfino.com/pl/" />
+  <link rel="alternate" hreflang="ar" href="https://lernfino.com/ar/" />
+  <link rel="alternate" hreflang="ru" href="https://lernfino.com/ru/" />
+  <link rel="alternate" hreflang="uk" href="https://lernfino.com/uk/" />
+  <link rel="alternate" hreflang="hi" href="https://lernfino.com/hi/" />
+  <link rel="alternate" hreflang="vi" href="https://lernfino.com/vi/" />
+  <link rel="alternate" hreflang="id" href="https://lernfino.com/id/" />
+  <link rel="alternate" hreflang="zh" href="https://lernfino.com/zh/" />
+  <link rel="alternate" hreflang="x-default" href="https://lernfino.com/" />
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="es_ES" />
+  <meta property="og:url" content="https://lernfino.com/es/" />
+  <meta property="og:title" content="Lernfino — Un poco de alemán en cada página con Fino" />
+  <meta property="og:description" content="Historias de audio por niveles de A1 a B2, episodio de vídeo interactivo, diccionario de un toque y exámenes de práctica independientes en formato Goethe/ÖSD. ¡Próximamente!" />
+  <meta property="og:image" content="https://lernfino.com/Lernfino%20Deutsch%20Fox%20Icon.png" />
+
+  <link rel="icon" type="image/png" href="../Lernfino%20Deutsch%20Fox%20Icon.png" />
+  <link rel="apple-touch-icon" href="../Lernfino%20Deutsch%20Fox%20Icon.png" />
+  <link rel="manifest" href="../site.webmanifest" />
+  <link rel="stylesheet" href="../styles.css?v=20261116-h6" />
+</head>
+<body>
+  <!-- Top German Flag Subtle Accent Bar -->
+  <div class="flag-topline" aria-hidden="true">
+    <span class="flag-black"></span>
+    <span class="flag-red"></span>
+    <span class="flag-gold"></span>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="brand-logo" aria-label="Lernfino Home">
+        <img src="../Lernfino%20Deutsch%20Fox%20Icon.png" alt="Lernfino Fino mascot logo" class="brand-img" />
+        <div class="brand-text-wrap">
+          <span class="brand-name">Lernfino</span>
+          <span class="brand-badge">Deutsch</span>
+        </div>
+      </a>
+
+      <nav class="main-nav" aria-label="Main Navigation">
+        <a href="#demo" data-i18n="nav.demo">Demo en vivo</a>
+        <a href="#features" data-i18n="nav.features">¿Qué incluye?</a>
+        <a href="#compare" data-i18n="nav.compare">Ya en la app</a>
+        <a href="#how" data-i18n="nav.how">Cómo funciona</a>
+        <a href="#channel" data-i18n="nav.channel">YouTube</a>
+        <a href="#launch" data-i18n="nav.launch">Estado del lanzamiento</a>
+        <a href="../level-test/" data-i18n="nav.tools">Herramientas de estudio</a>
+      </nav>
+
+      <div class="header-actions">
+        <!-- Language Switcher (TR | EN | DE) -->
+        <div class="lang-switcher" role="group" aria-label="Language Selection">
+          <button type="button" class="lang-btn" data-lang="tr" aria-pressed="false">TR</button>
+          <button type="button" class="lang-btn active" data-lang="en" aria-pressed="true">EN</button>
+          <button type="button" class="lang-btn" data-lang="de" aria-pressed="false">DE</button>
+        </div>
+
+        <!-- Language Selector (all 15 languages) -->
+        <select class="lang-select" id="langSelect" aria-label="Language">
+          <option value="en">English</option>
+          <option value="tr">Türkçe</option>
+          <option value="de">Deutsch</option>
+          <option value="es" selected>Español</option>
+          <option value="pt">Português</option>
+          <option value="fr">Français</option>
+          <option value="it">Italiano</option>
+          <option value="pl">Polski</option>
+          <option value="ar">العربية</option>
+          <option value="ru">Русский</option>
+          <option value="uk">Українська</option>
+          <option value="hi">हिन्दी</option>
+          <option value="vi">Tiếng Việt</option>
+          <option value="id">Bahasa Indonesia</option>
+          <option value="zh">中文</option>
+        </select>
+
+        <!-- Theme Toggle -->
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Toggle Theme">
+          <svg class="icon-moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+
+        <a href="#launch" class="btn btn-primary btn-sm header-cta" data-i18n="nav.cta">Avísame</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="hero-badge-row">
+            <div class="status-pill">
+              <span class="status-dot"></span>
+              <span data-i18n="hero.badge">PRÓXIMAMENTE · iOS y Android (versión web próximamente)</span>
+            </div>
+            <div class="hero-waving-fino" title="Hallo! Ich bin Fino!">
+              <img src="../02_Fino_Selam_Veriyor.png" alt="Fino waving" class="fino-avatar-wave" />
+              <span class="fino-bubble">Hallo! 👋</span>
+            </div>
+          </div>
+
+          <h1 class="hero-title" data-i18n="hero.title">Un poco de <span class="highlight-gold">alemán</span> en cada página con Fino. Pasos pequeños, grandes historias.</h1>
+
+          <p class="hero-subtitle" data-i18n="hero.subtitle">Aprende alemán con historias de audio por niveles (A1–B2), un episodio de vídeo interactivo, un diccionario contextual de un toque y exámenes de práctica y series de ejercicios independientes en formato Goethe/ÖSD. Empieza gratis; el plan gratuito tiene límites de uso diarios que se eliminan con una suscripción.</p>
+
+          <div class="hero-cta-row">
+            <a href="#launch" class="btn btn-primary btn-lg">
+              <span data-i18n="hero.ctaPrimary">Avísame en el lanzamiento</span>
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#demo" class="btn btn-secondary btn-lg">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+              </svg>
+              <span data-i18n="hero.ctaSecondary">Probar la demo interactiva</span>
+            </a>
+          </div>
+
+          <!-- Key Metrics / Verified Stat Row -->
+          <div class="hero-stats-row">
+            <div class="hero-stat-card">
+              <div class="hero-stat-header">
+                <span class="hero-stat-num" data-i18n="hero.stat1Num">A1–B2</span>
+                <span class="hero-stat-label" data-i18n="hero.stat1Label">Diccionario con audio</span>
+              </div>
+              <span class="hero-stat-sub" data-i18n="hero.stat1Sub">Diccionario contextual con audio de palabras</span>
+            </div>
+
+            <div class="hero-stat-card">
+              <div class="hero-stat-header">
+                <span class="hero-stat-num" data-i18n="hero.stat2Num">A1–B2</span>
+                <span class="hero-stat-label" data-i18n="hero.stat2Label">Series de ejercicios de examen</span>
+              </div>
+              <span class="hero-stat-sub" data-i18n="hero.stat2Sub">Grammatik, Hören, Lesen y Wortschatz</span>
+            </div>
+
+            <div class="hero-stat-card">
+              <div class="hero-stat-header">
+                <span class="hero-stat-num" data-i18n="hero.stat3Num">Formato</span>
+                <span class="hero-stat-label" data-i18n="hero.stat3Label">Formato Goethe y ÖSD</span>
+              </div>
+              <span class="hero-stat-sub" data-i18n="hero.stat3Sub">Exámenes de práctica de Hören y Lesen (independientes)</span>
+            </div>
+          </div>
+
+          <!-- Store Badges (Coming Soon) -->
+          <div class="store-badges">
+            <div class="store-badge">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+                <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.96 6.33c.67-.81 1.12-1.94 1-3.08-.96.04-2.13.64-2.82 1.45-.61.7-.15 1.86-.99 2.98 1.08.08 2.15-.54 2.81-1.35z"/>
+              </svg>
+              <div>
+                <small data-i18n="store.soon">Próximamente</small>
+                <strong>App Store</strong>
+              </div>
+            </div>
+
+            <div class="store-badge">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                <path d="M3 20.5v-17c0-.83.94-1.3 1.6-.8l14 8.5c.6.37.6 1.23 0 1.6l-14 8.5c-.66.5-1.6.03-1.6-.8z"/>
+              </svg>
+              <div>
+                <small data-i18n="store.soon">Próximamente</small>
+                <strong>Google Play</strong>
+              </div>
+            </div>
+
+            <div class="store-badge">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <line x1="2" y1="12" x2="22" y2="12"></line>
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+              </svg>
+              <div>
+                <small data-i18n="store.soon">Próximamente</small>
+                <strong data-i18n="store.web">Versión web</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Right Visual: Official Fino Mascot + 4 Symmetric Floating UI Badges -->
+        <div class="hero-visual">
+          <div class="mascot-glow"></div>
+          <div class="mascot-card-frame">
+            <img src="../Lernfino%20Deutsch%20Fox%20Icon.png" alt="Lernfino Mascot Fino" class="hero-mascot-img" />
+
+            <!-- Floating Card Top Left: CEFR Levels -->
+            <div class="float-badge float-top-left">
+              <span class="float-icon">📚</span>
+              <div>
+                <strong>A1 · A2 · B1 · B2</strong>
+                <small data-i18n="hero.floatLevels">Historias por niveles</small>
+              </div>
+            </div>
+
+            <!-- Floating Card Top Right: Interactive Videos -->
+            <div class="float-badge float-top-right">
+              <span class="float-icon">🎬</span>
+              <div>
+                <strong data-i18n="hero.floatVideoTitle">Vídeo interactivo</strong>
+                <small data-i18n="hero.floatVideoSub">Episodio interactivo · Shorts</small>
+              </div>
+            </div>
+
+            <!-- Floating Card Bottom Left: Word Lookup -->
+            <div class="float-badge float-bottom-left">
+              <span class="float-icon">🔍</span>
+              <div>
+                <strong data-i18n="hero.floatDictTitle">der Brief · <span class="muted-inline">die Briefe</span></strong>
+                <small data-i18n="hero.floatDict">Diccionario de un toque</small>
+              </div>
+            </div>
+
+            <!-- Floating Card Bottom Right: Goethe/ÖSD Format Practice -->
+            <div class="float-badge float-bottom-right">
+              <span class="float-icon">🎓</span>
+              <div>
+                <strong data-i18n="hero.floatExamTitle">Formato Goethe y ÖSD</strong>
+                <small data-i18n="hero.floatExam">Hören · Lesen (independiente)</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTERACTIVE DEMO SECTION -->
+    <section class="demo-section" id="demo">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow-tag" data-i18n="demo.eyebrow">VISTA PREVIA INTERACTIVA DE LA APP</span>
+          <h2 data-i18n="demo.title">Descubre ahora mismo cómo funciona Lernfino</h2>
+          <p data-i18n="demo.subtitle">Cambia el nivel MCER (A1–B2) en la frase de la historia, toca cualquier palabra para ver su ficha gramatical contextual o escucha el audio en alemán.</p>
+        </div>
+
+        <div class="interactive-workbench">
+          <!-- Left: Reader Paper -->
+          <div class="demo-reader-card">
+            <div class="reader-topbar">
+              <div class="story-meta-row">
+                <img src="../01_Fino_Kitap_Okuyor_Sade.png" alt="Fino reading a book" class="fino-reader-badge" />
+                <div class="story-meta">
+                  <span class="story-tag" data-i18n="demo.storyTag">HISTORIA Y EPISODIO DE VÍDEO</span>
+                  <strong id="demoStoryTitle">Der kleine Garten</strong>
+                </div>
+              </div>
+
+              <!-- CEFR Level Switcher -->
+              <div class="cefr-pills" role="tablist" aria-label="CEFR Level">
+                <button type="button" class="cefr-btn active" data-level="A1">A1</button>
+                <button type="button" class="cefr-btn" data-level="A2">A2</button>
+                <button type="button" class="cefr-btn" data-level="B1">B1</button>
+                <button type="button" class="cefr-btn" data-level="B2">B2</button>
+              </div>
+            </div>
+
+            <!-- Reader Mode Bar -->
+            <div class="reader-modes-bar">
+              <span class="mode-chip active">
+                <span class="dot-green"></span>
+                <span data-i18n="demo.modeRead">Lectura sincronizada</span>
+              </span>
+              <span class="mode-chip" data-i18n="demo.modeListenFirst">🎧 Modo «Escuchar primero»</span>
+              <span class="mode-chip" data-i18n="demo.modeRoleplay">🎭 Personaje de rol</span>
+            </div>
+
+            <!-- Active Sentence Area -->
+            <div class="sentence-stage">
+              <div class="sentence-header">
+                <span class="level-indicator" id="demoLevelBadge">A1 · Beginner (Präsens)</span>
+                <button type="button" class="audio-play-btn" id="speakSentenceBtn">
+                  <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
+                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                  </svg>
+                  <span data-i18n="demo.listenBtn">Escuchar la frase</span>
+                </button>
+              </div>
+
+              <p class="german-sentence" id="demoGermanSentence" lang="de">
+                <!-- Populated dynamically by app.js -->
+              </p>
+
+              <p class="sentence-translation" id="demoSentenceTranslation">
+                <!-- Populated dynamically by app.js -->
+              </p>
+
+              <div class="tap-instruction">
+                <span class="pulse-ring"></span>
+                <span data-i18n="demo.tapHint">Consejo: cada palabra de la frase es pulsable. Toca una palabra para ver al instante su artículo, su nota gramatical y su pronunciación en alemán.</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Live Contextual Dictionary Panel -->
+          <aside class="demo-dict-card" aria-live="polite">
+            <div class="dict-card-header">
+              <span data-i18n="demo.dictHeader">DICCIONARIO CONTEXTUAL Y GRAMÁTICA</span>
+              <button type="button" class="dict-audio-btn" id="speakWordBtn" title="Play word audio">
+                🔊 <span id="dictWordAudioLabel" data-i18n="demo.listenWord">Escuchar</span>
+              </button>
+            </div>
+
+            <div class="dict-card-body">
+              <div class="dict-article" id="dictArticle">Preposition</div>
+              <h3 class="dict-headword" id="dictHeadword" lang="de">Brief</h3>
+              <div class="dict-meaning" id="dictMeaning">letter</div>
+
+              <div class="dict-grammar-box">
+                <strong data-i18n="demo.grammarTitle">Nota de gramática y contexto:</strong>
+                <p id="dictGrammarNote">Two-way preposition. Answers 'Where?' and therefore takes the Dative case: 'hinter ihrem Haus'.</p>
+              </div>
+
+              <div class="dict-example-box">
+                <small data-i18n="demo.exampleTitle">FRASE DE EJEMPLO</small>
+                <p class="dict-example-de" id="dictExampleDe" lang="de">Ich schreibe meiner Mutter einen langen Brief.</p>
+                <p class="dict-example-tr" id="dictExampleTr">The garden is behind the building.</p>
+              </div>
+
+              <button type="button" class="btn btn-srs full-w" id="saveWordBtn">
+                <span id="saveWordIcon">＋</span>
+                <span id="saveWordText" data-i18n="demo.saveBtn">Añadir a mi vocabulario (SRS)</span>
+              </button>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4 CORE MODULES (BENTO GRID) -->
+    <section class="features-section" id="features">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow-tag" data-i18n="features.eyebrow">¿QUÉ INCLUYE LERNFINO?</span>
+          <h2 data-i18n="features.title">Un ecosistema completo para aprender alemán</h2>
+          <p data-i18n="features.subtitle">Historias de lectura graduadas, lecciones de vídeo interactivas, un diccionario contextual y práctica en formato de examen Goethe/ÖSD reunidos en una sola app.</p>
+        </div>
+
+        <div class="bento-grid">
+          <!-- Feature 1: Stories -->
+          <article class="bento-card bento-large">
+            <div class="bento-card-top">
+              <span class="bento-badge badge-amber" data-i18n="f1.badge">BIBLIOTECA GRADUADA A1 · A2 · B1 · B2</span>
+              <img src="../06_Fino_Kitap_Okuyor_Alternatif.png" alt="Fino reading" class="bento-mini-fino" />
+            </div>
+            <h3 data-i18n="f1.title">Historias y libros de audio por niveles</h3>
+            <p data-i18n="f1.desc">Lee historias y artículos de A1 a B2 con narración en alemán.</p>
+            <ul class="feature-list">
+              <li data-i18n="f1.b1">Resaltado de audio sincronizado palabra por palabra y control de la velocidad de reproducción</li>
+              <li data-i18n="f1.b2">Modo <strong>«Escuchar primero»</strong> para entrenar el oído antes de ver el texto</li>
+              <li data-i18n="f1.b3">Modo <strong>«Personaje de rol»</strong> para hablar por turnos en los diálogos de las historias</li>
+              <li data-i18n="f1.b4">Traducciones de las frases y cuestionarios de comprensión al final de cada capítulo</li>
+              <li data-i18n="f1.b5"><strong>Empieza desde cero:</strong> una ruta de aprendizaje paso a paso de A1 a B2 con lecciones breves</li>
+            </ul>
+          </article>
+
+          <!-- Feature 2: Interactive Videos -->
+          <article class="bento-card">
+            <div class="bento-card-top">
+              <span class="bento-badge badge-gold" data-i18n="f2.badge">LECCIONES DE VÍDEO Y SHORTS</span>
+              <img src="../08_Fino_Klaper_Video.png" alt="Fino with clapperboard" class="bento-mini-fino fino-scale-up" />
+            </div>
+            <h3 data-i18n="f2.title">Vídeo interactivo y Shorts</h3>
+            <p data-i18n="f2.desc">Mira el episodio interactivo <em>Brief im falschen Kasten</em> (Tim y Lea, A2) y clips verticales Shorts, o cambia al modo <strong>«Estudiar como lección»</strong> con puntos de control escena por escena.</p>
+            <ul class="feature-list">
+              <li data-i18n="f2.b1">Preguntas de comprensión interactivas que se detienen automáticamente al final de cada escena</li>
+              <li data-i18n="f2.b2">Toca cualquier palabra de la transcripción del vídeo para abrir su ficha del diccionario</li>
+              <li data-i18n="f2.b3">Lecciones <strong>Shorts</strong> verticales con minicuestionarios rápidos</li>
+              <li data-i18n="f2.b4"><strong>La vida en Alemania:</strong> situaciones cotidianas con diálogos, ejercicios y juegos de rol</li>
+            </ul>
+          </article>
+
+          <!-- Feature 3: Smart Dictionary & SRS -->
+          <article class="bento-card">
+            <div class="bento-card-top">
+              <span class="bento-badge badge-crimson" data-i18n="f3.badge">DICCIONARIO INTELIGENTE Y SRS</span>
+              <img src="../03_Fino_Basparmak_Gosteriyor.png" alt="Fino thumbs up" class="bento-mini-fino" />
+            </div>
+            <h3 data-i18n="f3.title">Cuaderno de vocabulario contextual</h3>
+            <p data-i18n="f3.desc">Artículos de los sustantivos (<em>der/die/das</em>), plurales y conjugaciones verbales al alcance de la mano. Cada palabra guardada conserva las frases de las historias y los vídeos donde la encontraste.</p>
+
+            <div class="bento-stat-callout">
+              <div class="bento-stat-tag">
+                <span class="pulse-mini-dot"></span>
+                <span data-i18n="f3.statPill">DICCIONARIO CON AUDIO</span>
+              </div>
+              <p data-i18n="f3.statHighlight">El archivo de vocabulario de Lernfino incluye audio de palabras, guías de artículos, plurales y ejemplos reales de las historias de A1 a B2.</p>
+            </div>
+
+            <ul class="feature-list">
+              <li data-i18n="f3.b1">Algoritmo de repetición espaciada (SRS) para un repaso diario estructurado</li>
+              <li data-i18n="f3.b2">Consulta los contextos de las historias guardadas directamente en tu tarjeta</li>
+              <li data-i18n="f3.b3">Notas de gramática claras y pensadas para quien aprende</li>
+              <li data-i18n="f3.b4"><strong>Entrenadores de gramática:</strong> artículos, casos y preposiciones, construcción de frases y verbos</li>
+              <li data-i18n="f3.b5"><strong>Interfaz en 15 idiomas:</strong> usa la app en tu propio idioma</li>
+            </ul>
+          </article>
+
+          <!-- Feature 4: Goethe & ÖSD Format Practice -->
+          <article class="bento-card bento-large">
+            <div class="bento-card-top">
+              <span class="bento-badge badge-navy" data-i18n="f4.badge">PRÁCTICA EN FORMATO GOETHE Y ÖSD</span>
+              <img src="../05_Fino_Lernfino_Kitabiyla.png" alt="Fino holding exam book" class="bento-mini-fino fino-scale-up" />
+            </div>
+            <h3 data-i18n="f4.title">Práctica en formato de examen Goethe/ÖSD</h3>
+            <p data-i18n="f4.desc">Exámenes de práctica de Hören y Lesen con tiempo en formato Goethe/ÖSD de A1 a B2, series de ejercicios, tareas de escritura y series de expresión oral, además de comentarios opcionales de IA (se requiere consentimiento explícito de personas adultas, mayores de 18 años).</p>
+            <ul class="feature-list">
+              <li data-i18n="f4.b1"><strong>Exámenes de práctica de Hören y Lesen:</strong> exámenes de Hören y Lesen con tiempo de A1 a B2, con navegación por pasos y saltos a la prueba en el audio</li>
+              <li data-i18n="f4.b2"><strong>Tareas de Schreiben y Sprechen:</strong> tareas de escritura de Schreiben y series de expresión oral de Sprechen con textos modelo y evaluación opcional con IA para mayores de 18 años (con consentimiento y sujeta a los límites del plan)</li>
+              <li data-i18n="f4.b3"><strong>Series de ejercicios de examen:</strong> series de A1 a B2 de Grammatik, Hören, Lesen y Wortschatz</li>
+              <li data-i18n="f4.b4"><strong>Modo examen y modo estudio:</strong> practica con los tiempos del formato o estudia libremente con tus propios ajustes</li>
+              <li data-i18n="f4.b5"><strong>8 exámenes de práctica completos y series en formato telc:</strong> ocho simulacros completos en formato Goethe/ÖSD y series de ejercicios independientes en formato telc</li>
+            </ul>
+            <small class="exam-disclaimer" data-i18n="f4.disclaimer">* No es material oficial de examen del Goethe-Institut, del ÖSD ni de telc gGmbH. Práctica independiente en formato de examen; no implica ningún resultado en un examen.</small>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- LIVE IN THE APP SECTION (Lernfino-only, non-comparative) -->
+    <section class="compare-section" id="compare">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow-tag" data-i18n="compare.eyebrow">YA DISPONIBLE EN LA APP</span>
+          <h2 data-i18n="compare.title">Lo que Lernfino ofrece hoy</h2>
+          <p data-i18n="compare.subtitle">Todo lo que ves aquí ya forma parte de Lernfino: unidades de la ruta de aprendizaje A1–B2, historias de audio por niveles, un diccionario contextual y práctica independiente en formato Goethe/ÖSD.</p>
+        </div>
+
+        <div class="live-features-grid">
+          <article class="live-feature-card">
+            <div class="live-feature-head">
+              <span class="live-feature-icon">📖</span>
+              <h3 data-i18n="compare.c1Title">Historias por niveles (A1–B2)</h3>
+            </div>
+            <p data-i18n="compare.c1Desc">Versiones de las historias de A1 a B2 con resaltado sincronizado palabra por palabra, traducciones de las frases y cuestionarios de comprensión.</p>
+          </article>
+
+          <article class="live-feature-card">
+            <div class="live-feature-head">
+              <span class="live-feature-icon">🎙️</span>
+              <h3 data-i18n="compare.c2Title">Cada frase y cada palabra con audio</h3>
+            </div>
+            <p data-i18n="compare.c2Desc">Audios de palabras, narraciones de historias y pistas de escucha con velocidad de reproducción ajustable y modo «Escuchar primero».</p>
+          </article>
+
+          <article class="live-feature-card">
+            <div class="live-feature-head">
+              <span class="live-feature-icon">🔍</span>
+              <h3 data-i18n="compare.c3Title">Diccionario contextual y SRS</h3>
+            </div>
+            <p data-i18n="compare.c3Desc">Toca cualquier palabra de las historias o de las transcripciones de vídeo para ver artículos (der/die/das), plurales y notas gramaticales, y repasa las palabras guardadas con repetición espaciada.</p>
+          </article>
+
+          <article class="live-feature-card">
+            <div class="live-feature-head">
+              <span class="live-feature-icon">🎬</span>
+              <h3 data-i18n="compare.c4Title">Vídeo interactivo y unidades de la ruta</h3>
+            </div>
+            <p data-i18n="compare.c4Desc">Unidades estructuradas de A1 a B2, vídeo interactivo con puntos de control por escena, lecciones Shorts y herramientas para artículos, números y errores.</p>
+          </article>
+
+          <article class="live-feature-card">
+            <div class="live-feature-head">
+              <span class="live-feature-icon">🎓</span>
+              <h3 data-i18n="compare.c5Title">Práctica en formato Goethe y ÖSD</h3>
+            </div>
+            <p data-i18n="compare.c5Desc">Exámenes de práctica de Hören y Lesen con tiempo, series de ejercicios, tareas de Schreiben y series de Sprechen. Formato de práctica independiente; no es material oficial del Goethe-Institut ni del ÖSD.</p>
+          </article>
+
+          <article class="live-feature-card">
+            <div class="live-feature-head">
+              <span class="live-feature-icon">⚡</span>
+              <h3 data-i18n="compare.c6Title">Empieza gratis · Planes de pago en las tiendas</h3>
+            </div>
+            <p data-i18n="compare.c6Desc">Empieza gratis con las historias A1 y capítulos de muestra de A2–B2; el plan gratuito tiene límites de uso diarios que se eliminan con una suscripción.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS / FINO ROUTINE -->
+    <section class="how-section" id="how">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow-tag" data-i18n="how.eyebrow">FLUJO DE APRENDIZAJE DIARIO</span>
+          <h2 data-i18n="how.title">Una rutina diaria tranquila con Fino</h2>
+        </div>
+
+        <div class="steps-grid">
+          <div class="step-card">
+            <div class="step-top-row">
+              <div class="step-num">01</div>
+              <img src="../11_Fino_Kulaklikla_Dinliyor.png" alt="Fino listening" class="step-fino-img" />
+            </div>
+            <h3 data-i18n="how.s1Title">Elige tu nivel, lee y escucha</h3>
+            <p data-i18n="how.s1Desc">Retoma tu unidad o tu historia desde el panel «Hoy». Sigue el audio claro en alemán palabra por palabra y toca sin esfuerzo las palabras que no conozcas.</p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-top-row">
+              <div class="step-num">02</div>
+              <img src="../10_Fino_Mikrofon_Konusuyor.png" alt="Fino with studio microphone" class="step-fino-img" />
+            </div>
+            <h3 data-i18n="how.s2Title">Mira episodios y repasa con SRS</h3>
+            <p data-i18n="how.s2Desc">Responde a las preguntas de control de escena en las lecciones de vídeo y refuerza las palabras guardadas con las tarjetas diarias de repetición espaciada de Fino.</p>
+          </div>
+
+          <div class="step-card">
+            <div class="step-top-row">
+              <div class="step-num">03</div>
+              <img src="../09_Fino_Dusunuyor_Soru.png" alt="Fino solving exam question" class="step-fino-img" />
+            </div>
+            <h3 data-i18n="how.s3Title">Practica en formato de examen</h3>
+            <p data-i18n="how.s3Desc">Trabaja los exámenes de práctica de Hören y Lesen y las series de ejercicios de A1 a B2 en formato Goethe/ÖSD (práctica independiente, no material oficial de examen).</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- YOUTUBE CHANNEL SHOWCASE -->
+    <section class="youtube-section" id="channel">
+      <div class="container">
+        <div class="yt-simple-card">
+          <div class="yt-simple-left">
+            <div class="yt-simple-eyebrow">
+              <span class="yt-dot-live"></span>
+              <span class="yt-brand-text" data-i18n="yt.brand">LERNFINO EN YOUTUBE · @LernfinoDeutsch</span>
+            </div>
+            <h2 data-i18n="yt.title">Aprende alemán en nuestro canal de YouTube</h2>
+            <p data-i18n="yt.subtitle">Mira y escucha vídeos de práctica independientes en formato Goethe/ÖSD, historias animadas y lecciones prácticas breves.</p>
+
+            <ul class="yt-pillars-list">
+              <li>
+                <span class="pillar-icon">🎓</span>
+                <div>
+                  <strong data-i18n="yt.p1Title">Práctica en formato Goethe y ÖSD:</strong>
+                  <span data-i18n="yt.p1Desc">Práctica en vídeo con tiempo, en formato de examen de Hören y Sprechen de A1 a B2, con cuenta atrás y explicaciones con marcas de tiempo de dónde está la respuesta.</span>
+                </div>
+              </li>
+              <li>
+                <span class="pillar-icon">📖</span>
+                <div>
+                  <strong data-i18n="yt.p2Title">Historias animadas en alemán:</strong>
+                  <span data-i18n="yt.p2Desc">Escenas cotidianas con Tim y Lea y otros personajes, con narración clara en alemán y subtítulos en varios idiomas:</span>
+                  <div class="yt-lang-pills" aria-label="YouTube subtitle languages">
+                    <span class="lang-tag">Deutsch</span>
+                    <span class="lang-tag">English</span>
+                    <span class="lang-tag">Türkçe</span>
+                    <span class="lang-tag">Español</span>
+                    <span class="lang-tag">Português</span>
+                    <span class="lang-tag">Français</span>
+                    <span class="lang-tag" dir="rtl">العربية</span>
+                    <span class="lang-tag">Русский</span>
+                    <span class="lang-tag">Українська</span>
+                    <span class="lang-tag">हिन्दी</span>
+                    <span class="lang-tag">Tiếng Việt</span>
+                    <span class="lang-tag">Bahasa Indonesia</span>
+                    <span class="lang-tag">中文</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <span class="pillar-icon">⚡</span>
+                <div>
+                  <strong data-i18n="yt.p3Title">Shorts y consejos diarios:</strong>
+                  <span data-i18n="yt.p3Desc">Clips cortos sobre los artículos (der/die/das), errores frecuentes en los exámenes y frases de uso cotidiano.</span>
+                </div>
+              </li>
+            </ul>
+
+            <div class="yt-cta-row">
+              <a href="https://www.youtube.com/@LernfinoDeutsch" target="_blank" rel="noopener noreferrer" class="btn btn-youtube">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                <span data-i18n="yt.btn">Visita nuestro canal de YouTube</span>
+                <span>➔</span>
+              </a>
+              <span class="yt-cta-note" data-i18n="yt.ctaNote">Subtítulos en varios idiomas · Práctica independiente</span>
+            </div>
+            <small class="yt-disclaimer" data-i18n="yt.disclaimer">* Práctica independiente en formato de examen; no es material oficial ni está afiliada ni respaldada por el Goethe-Institut, el ÖSD ni telc gGmbH.</small>
+          </div>
+
+          <div class="yt-simple-right">
+            <img src="../08_Fino_Klaper_Video.png" alt="Fino YouTube channel" class="yt-mascot-feature" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LAUNCH STATUS & WAITLIST CTA -->
+    <section class="launch-section" id="launch">
+      <div class="container">
+        <div class="launch-box">
+          <div class="launch-left">
+            <div class="launch-mascot-row">
+              <img src="../07_Fino_Kitapla_Selam_Veriyor.png" alt="Fino waving" class="launch-mini-mascot" />
+              <span class="eyebrow-tag" data-i18n="launch.eyebrow">AVISO DE LANZAMIENTO</span>
+            </div>
+            <h2 data-i18n="launch.title">¡Entérate el primero del lanzamiento!</h2>
+            <p data-i18n="launch.desc">Lernfino reúne historias de audio por niveles, lecciones de vídeo interactivas, un diccionario contextual y práctica independiente en formato de examen. El plan gratuito tiene límites de uso diarios que se eliminan con una suscripción.</p>
+
+            <!-- Verified Live App Summary -->
+            <div class="launch-highlights-grid">
+              <div class="launch-hl-card">
+                <div class="launch-hl-header">
+                  <span class="launch-hl-icon">📚</span>
+                  <span class="launch-hl-tag" data-i18n="launch.card1Tag">A1 · A2 · B1 · B2</span>
+                </div>
+                <h4 data-i18n="launch.card1Title">Historias y lectura por niveles</h4>
+                <p data-i18n="launch.card1Desc">Historias de A1 a B2 con una pronunciación clara en alemán.</p>
+              </div>
+
+              <div class="launch-hl-card">
+                <div class="launch-hl-header">
+                  <span class="launch-hl-icon">🎬</span>
+                  <span class="launch-hl-tag" data-i18n="launch.card2Tag">Práctica interactiva</span>
+                </div>
+                <h4 data-i18n="launch.card2Title">Episodio de vídeo y Shorts</h4>
+                <p data-i18n="launch.card2Desc">Episodio de vídeo interactivo con puntos de control por escena y minicuestionarios en los Shorts.</p>
+              </div>
+
+              <div class="launch-hl-card">
+                <div class="launch-hl-header">
+                  <span class="launch-hl-icon">📝</span>
+                  <span class="launch-hl-tag" data-i18n="launch.card3Tag">Formato de examen · A1–B2</span>
+                </div>
+                <h4 data-i18n="launch.card3Title">Práctica en formato Goethe y ÖSD</h4>
+                <p data-i18n="launch.card3Desc">Exámenes de práctica de Hören y Lesen, series de ejercicios de A1 a B2 y tareas de escritura y expresión oral (independientes).</p>
+              </div>
+
+              <div class="launch-hl-card">
+                <div class="launch-hl-header">
+                  <span class="launch-hl-icon">🧠</span>
+                  <span class="launch-hl-tag" data-i18n="launch.card4Tag">Diccionario con audio · A1–B2</span>
+                </div>
+                <h4 data-i18n="launch.card4Title">Diccionario contextual y SRS</h4>
+                <p data-i18n="launch.card4Desc">Audio de palabras, guía de artículos y SRS.</p>
+              </div>
+            </div>
+
+            <div class="launch-vip-banner">
+              <span class="vip-icon">📬</span>
+              <div class="vip-text" data-i18n="launch.vipNotice"><strong>Descuento especial de lanzamiento:</strong> las personas de la lista de espera recibirán un descuento especial de lanzamiento en su primera suscripción. El porcentaje, la duración y la forma de canjearlo se anunciarán en esta página y por correo electrónico antes del lanzamiento. El plan gratuito tiene límites de uso diarios que se eliminan con una suscripción.</div>
+            </div>
+          </div>
+
+          <div class="launch-right">
+            <form class="notify-form" id="notifyForm">
+              <h3 data-i18n="launch.formTitle">Aviso de lanzamiento</h3>
+              <p data-i18n="launch.formSub">Las personas de la lista de espera recibirán un descuento especial de lanzamiento en su primera suscripción. El porcentaje, la duración y la forma de canjearlo se anunciarán en esta página y por correo electrónico antes del lanzamiento. Sin spam; puedes darte de baja en cualquier momento.</p>
+
+              <label class="form-label" for="emailInput" data-i18n="launch.emailLabel">Tu correo electrónico</label>
+              <input
+                type="email"
+                id="emailInput"
+                class="form-input"
+                placeholder="tu@ejemplo.com"
+                required
+              />
+
+              <div class="form-consent-wrap">
+                <label class="form-consent-label" for="consentCheckbox">
+                  <input type="checkbox" id="consentCheckbox" class="form-consent-checkbox" required />
+                  <span data-i18n="launch.consentHtml">Acepto recibir de Lernfino correos con anuncios del lanzamiento, novedades del producto y del descuento de lanzamiento. Puedo darme de baja en cualquier momento. Consulta nuestra <a href="../privacy/#waitlist-privacy">Política de privacidad</a>.</span>
+                </label>
+              </div>
+
+              <label class="form-label" for="levelSelect" data-i18n="launch.levelLabel">Tu nivel de alemán objetivo</label>
+              <select id="levelSelect" class="form-select">
+                <option value="A1" data-i18n="launch.optA1">A1 — Principiante (Anfänger)</option>
+                <option value="A2" data-i18n="launch.optA2">A2 — Elemental (Grundlagen)</option>
+                <option value="B1" selected data-i18n="launch.optB1">B1 — Intermedio / Certificado (Mittelstufe)</option>
+                <option value="B2" data-i18n="launch.optB2">B2 — Intermedio alto (Gute Mittelstufe)</option>
+              </select>
+
+              <button type="submit" class="btn btn-primary btn-lg full-w" data-i18n="launch.submitBtn">Avísame en el lanzamiento 🦊</button>
+
+              <div class="form-feedback" id="formFeedback" style="display: none;">
+                <img src="../04_Fino_Kutlama_Yapiyor.png" alt="Fino" class="feedback-fino-img" />
+                <div class="form-feedback-body">
+                  <span id="feedbackMessage"></span>
+                  <button type="button" id="formRetryBtn" class="form-retry-btn" hidden data-i18n="launch.retryBtn">Intentar de nuevo</button>
+                </div>
+              </div>
+              <p class="form-unsubscribe" data-i18n="launch.unsubscribeHtml">¿Quieres darte de baja o eliminar tu registro de la lista de espera? <a href="mailto:support@lernfino.com?subject=Lernfino%20Waitlist%20Unsubscribe">Darse de baja / support@lernfino.com</a></p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="../Lernfino%20Deutsch%20Fox%20Icon.png" alt="Lernfino" class="footer-logo" />
+        <div>
+          <strong>lernfino.com</strong>
+          <p data-i18n="footer.tagline">Una página cálida que se abre al alemán. Próximamente en iOS y Android (web próximamente).</p>
+        </div>
+      </div>
+
+      <div class="footer-meta">
+        <div class="footer-socials">
+          <a href="https://www.youtube.com/@LernfinoDeutsch" target="_blank" rel="noopener noreferrer" class="footer-social-btn yt" aria-label="Lernfino YouTube">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+            <span>YouTube</span>
+          </a>
+          <a href="https://www.instagram.com/lernfinodeutsch/" target="_blank" rel="noopener noreferrer" class="footer-social-btn ig" aria-label="Lernfino Instagram">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            <span>Instagram</span>
+          </a>
+          <a href="https://www.facebook.com/lernfinodeutsch" target="_blank" rel="noopener noreferrer" class="footer-social-btn fb" aria-label="Lernfino Facebook">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            <span>Facebook</span>
+          </a>
+          <a href="https://www.tiktok.com/@lernfino.deutsch" target="_blank" rel="noopener noreferrer" class="footer-social-btn tt" aria-label="Lernfino TikTok">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64c.298-.002.595.042.88.13V9.4a6.33 6.33 0 0 0-1-.08A6.34 6.34 0 0 0 3 15.66a6.34 6.34 0 0 0 10.82 4.46 6.27 6.27 0 0 0 1.88-4.46V8.78a8.28 8.28 0 0 0 4.89 1.58V6.9a4.83 4.83 0 0 1-1-.21z"/></svg>
+            <span>TikTok</span>
+          </a>
+        </div>
+        <div class="footer-tools">
+          <span class="footer-tools-label" data-i18n="footer.toolsLabel">Herramientas de estudio:</span>
+          <a href="../exam-calculator/" class="footer-nav-link" data-i18n="footer.toolCalc">Calculadora de puntuación Goethe/ÖSD</a>
+          <span>·</span>
+          <a href="../word-counter/" class="footer-nav-link" data-i18n="footer.toolCounter">Contador de palabras para Schreiben</a>
+          <span>·</span>
+          <a href="../level-test/" class="footer-nav-link" data-i18n="footer.toolLevel">Test de nivel A1–B2</a>
+        </div>
+        <div class="footer-links">
+          <a href="../privacy/" class="footer-nav-link" data-i18n="footer.privacy">Política de privacidad</a>
+          <span>·</span>
+          <a href="../terms/" class="footer-nav-link" data-i18n="footer.terms">Condiciones de uso</a>
+          <span>·</span>
+          <a href="../support/" class="footer-nav-link" data-i18n="footer.support">Soporte y preguntas frecuentes</a>
+          <span>·</span>
+          <a href="../delete-account/" class="footer-nav-link" data-i18n="footer.deleteAccount">Eliminar cuenta</a>
+          <span>·</span>
+          <a href="../imprint/" class="footer-nav-link" data-i18n="footer.imprint">Aviso legal</a>
+        </div>
+        <div class="footer-langs">
+          <button type="button" class="text-link" data-lang-switch="tr">Türkçe</button>
+          <span>·</span>
+          <button type="button" class="text-link" data-lang-switch="en">English</button>
+          <span>·</span>
+          <button type="button" class="text-link" data-lang-switch="de">Deutsch</button>
+        </div>
+        <p class="footer-disclaimer" data-i18n="footer.disclaimer">Goethe-Zertifikat, ÖSD y telc son marcas de sus respectivos titulares. Lernfino es una plataforma de aprendizaje independiente y no es material oficial del Goethe-Institut, del ÖSD ni de telc gGmbH.</p>
+        <small>© 2026 Lernfino · Respecode. <span data-i18n="footer.rights">Todos los derechos reservados.</span></small>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../app.js?v=20261116-h7"></script>
+</body>
+</html>
