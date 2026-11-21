@@ -3087,24 +3087,3 @@ h1, h2, h3, h4, p {
   border-color: rgba(251, 113, 133, 0.45);
   color: #fecdd3;
 }
-
-.tool-language.form-select {
-  width: auto;
-  max-width: min(10.5rem, 42vw);
-  min-height: 44px;
-  font-size: .875rem;
-  margin-bottom: 0;
-}
-
-[dir="rtl"] .tool-language.form-select {
-  background-position: left 10px center;
-  padding-inline: 12px 32px;
-}
-
-@media (max-width: 700px) {
-  [data-tool] .header-cta { display: none; }
-  [data-tool] .header-inner { gap: 8px; }
-  [data-tool] .header-actions { gap: 6px; }
-  [data-tool] .brand-badge { display: none; }
-  [data-tool] .brand-img { width: 38px; height: 38px; }
-}

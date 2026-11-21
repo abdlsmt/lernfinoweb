@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Lernfino Serverless Free Tools Engine
+   Lernfino Serverless Free Tools Engine (TR | EN | DE)
    Shared logic with lernfinoapp: exam-readiness.ts, practice.ts, placement.ts
    ========================================================================== */
 
@@ -438,7 +438,7 @@
       tabCalc: "Sınav Puan Hesaplayıcı",
       tabCounter: "Schreiben Kelime Sayacı",
       tabLevel: "Seviye Tespit (A1–B2)",
-      ctaTitle: "Fino ile Almanca öğren",
+      ctaTitle: "Hikâyeler, yapay zekâ sesleri ve süreli denemeler Lernfino'da",
       ctaDesc: "Seviyeni lansman bekleme listesine kaydet, uygulama çıktığında haberin olsun.",
       ctaBtn: "Lansman Listesine Katıl",
       skillListen: "Hören (Dinleme)",
@@ -516,7 +516,7 @@
       tabCalc: "Prüfungspunkterechner",
       tabCounter: "Schreiben-Wortzähler",
       tabLevel: "Einstufungstest (A1–B2)",
-      ctaTitle: "Lerne Deutsch mit Fino",
+      ctaTitle: "Geschichten, klares Audio & Prüfungsübungen in Lernfino",
       ctaDesc: "Wählen Sie Ihr Zielniveau auf der Warteliste, um zum Start direkt benachrichtigt zu werden.",
       ctaBtn: "Auf die Warteliste",
       skillListen: "Hören",
@@ -603,22 +603,19 @@
   function initBrowserTools() {
     if (typeof document === "undefined") return;
 
-    var locales = typeof TOOL_LOCALES === "undefined" ? {} : TOOL_LOCALES;
-    Object.keys(locales).forEach(function (lang) {
-      if (locales[lang].messages) TOOL_I18N[lang] = locales[lang].messages;
-    });
     var currentLang = (function () {
       try {
-        var q = new URLSearchParams(window.location.search).get("lang")?.toLowerCase().split("-")[0];
-        if (q && Object.hasOwn(TOOL_I18N, q)) return q;
+        var q = new URLSearchParams(window.location.search).get("lang");
+        if (q && TOOL_I18N[q.toLowerCase()]) return q.toLowerCase();
       } catch (e) {}
       try {
         var saved = localStorage.getItem("lernfino_web_lang");
-        if (saved && Object.hasOwn(TOOL_I18N, saved)) return saved;
+        if (saved && TOOL_I18N[saved]) return saved;
       } catch (e) {}
-      return (navigator.languages || [navigator.language])
-        .map(function (tag) { return tag.toLowerCase().split("-")[0]; })
-        .find(function (lang) { return Object.hasOwn(TOOL_I18N, lang); }) || "en";
+      var nav = (navigator.language || "en").toLowerCase();
+      if (nav.indexOf("tr") === 0) return "tr";
+      if (nav.indexOf("de") === 0) return "de";
+      return "en";
     })();
 
     var savedTheme = null;
@@ -643,56 +640,31 @@
 
     function homeRouteFor(lang, levelParam) {
       var suffix = levelParam ? "?level=" + encodeURIComponent(levelParam) + "#launch" : "";
-      return "../" + (lang === "en" ? "" : lang + "/") + suffix;
-    }
-
-    var languageSelect = document.getElementById("toolLanguage");
-    if (languageSelect) {
-      if (Object.keys(locales).length) languageSelect.replaceChildren();
-      Object.keys(locales).forEach(function (lang) {
-        var option = new Option(locales[lang].name, lang);
-        option.lang = locales[lang].locale;
-        languageSelect.add(option);
-      });
-      languageSelect.addEventListener("change", function () {
-        currentLang = languageSelect.value;
-        try { localStorage.setItem("lernfino_web_lang", currentLang); } catch (e) {}
-        var url = new URL(window.location.href);
-        url.searchParams.set("lang", currentLang);
-        window.history.replaceState(null, "", url);
-        applySharedI18n();
-      });
+      if (lang === "tr") return "../tr/" + suffix;
+      if (lang === "de") return "../de/" + suffix;
+      return "../" + suffix;
     }
 
     var renderCurrentTool = function () {};
 
     function applySharedI18n() {
       var t = TOOL_I18N[currentLang] || TOOL_I18N.en;
-      var locale = locales[currentLang];
-      document.documentElement.lang = locale?.locale || currentLang;
-      document.documentElement.dir = currentLang === "ar" ? "rtl" : "ltr";
-      if (locale && languageSelect) {
-        languageSelect.value = currentLang;
-        languageSelect.setAttribute("aria-label", locale.languageLabel);
-        themeToggle?.setAttribute("aria-label", locale.theme);
-      }
+      document.documentElement.lang = currentLang;
 
       document.querySelectorAll("[data-tool-i18n]").forEach(function (el) {
         var key = el.getAttribute("data-tool-i18n");
         if (t[key] !== undefined) el.textContent = t[key];
       });
 
+      document.querySelectorAll(".lang-btn").forEach(function (btn) {
+        var active = btn.getAttribute("data-lang") === currentLang;
+        btn.classList.toggle("active", active);
+        btn.setAttribute("aria-pressed", String(active));
+      });
+
       document.querySelectorAll("[data-home-link]").forEach(function (link) {
         var useLaunch = link.getAttribute("data-home-link") === "launch";
         link.setAttribute("href", homeRouteFor(currentLang, "") + (useLaunch ? "#launch" : ""));
-      });
-      document.querySelectorAll("[data-tool-route]").forEach(function (link) {
-        link.href = "../" + link.dataset.toolRoute + "/?lang=" + currentLang;
-      });
-      document.querySelectorAll("[data-local-route]").forEach(function (link) {
-        var page = link.dataset.localRoute;
-        link.href = homeRouteFor(currentLang, "") + page + "/";
-        if (locale?.pages[page]) link.textContent = locale.pages[page];
       });
 
       var toolType = document.body.getAttribute("data-tool");
@@ -702,6 +674,18 @@
 
       renderCurrentTool();
     }
+
+    document.querySelectorAll(".lang-btn").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var lang = btn.getAttribute("data-lang");
+        if (!lang || !TOOL_I18N[lang]) return;
+        currentLang = lang;
+        try {
+          localStorage.setItem("lernfino_web_lang", lang);
+        } catch (e) {}
+        applySharedI18n();
+      });
+    });
 
     var toolType = document.body.getAttribute("data-tool");
 
@@ -926,7 +910,7 @@
           Object.keys(WRITING_PROFILES).forEach(function (id) {
             var opt = document.createElement("option");
             opt.value = id;
-            opt.textContent = locales[currentLang]?.profileLabels?.[id] || WRITING_PROFILES[id].label[currentLang];
+            opt.textContent = WRITING_PROFILES[id].label[currentLang];
             if (id === prevVal) opt.selected = true;
             profileSel.appendChild(opt);
           });
@@ -1050,8 +1034,8 @@
             '<div class="tool-progress-wrap"><div class="tool-progress-fill" style="width:' +
             Math.round(((quizState.idx + 1) / PLACEMENT_ITEMS.length) * 100) +
             '%"></div></div>' +
-            '<div class="tool-quiz-prompt" id="quizPrompt" lang="de" dir="ltr"></div>' +
-            '<div class="tool-options-grid" id="quizOptions" lang="de" dir="ltr"></div>' +
+            '<div class="tool-quiz-prompt" id="quizPrompt"></div>' +
+            '<div class="tool-options-grid" id="quizOptions"></div>' +
             '<div class="tool-quiz-actions">' +
             '<div style="display:flex;gap:8px;flex-wrap:wrap;">' +
             '<button type="button" class="btn btn-secondary btn-sm" id="quizPrevBtn"></button>' +
@@ -1178,7 +1162,7 @@
   };
 
   if (typeof module !== "undefined" && module.exports) {
-    module.exports = {...api, TOOL_I18N};
+    module.exports = api;
   }
   globalScope.LernfinoTools = api;
 })(typeof window !== "undefined" ? window : globalThis);
