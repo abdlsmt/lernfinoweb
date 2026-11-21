@@ -1,16 +1,16 @@
 {
   "name": "Lernfino Deutsch",
   "short_name": "Lernfino",
-  "description": "Fino ile her sayfada biraz Almanca — Seviyelendirilmiş sesli hikâyeler, etkileşimli videolar, bağlamsal sözlük ve Goethe/ÖSD sınav hazırlığı.",
-  "start_url": "./index.html",
+  "description": "Learn German with Fino from your first words to B2. Practice everyday dialogues, short lessons and full mock exams.",
+  "start_url": "./",
   "display": "standalone",
   "background_color": "#FAF7F2",
   "theme_color": "#181E29",
   "icons": [
     {
-      "src": "./Lernfino%20Deutsch%20Fox%20Icon.png",
+      "src": "./assets/fino-app.webp",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/webp"
     }
   ]
 }

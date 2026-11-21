@@ -1,0 +1,453 @@
+{
+  "home": {
+    "pageTitle": "Lernfino — Apprenez l'allemand de A1 à B2 avec Fino",
+    "navigation": "Navigation principale",
+    "languageLabel": "Choisir la langue",
+    "suggestion": "Cette page est disponible dans la langue de votre navigateur.",
+    "dismiss": "Ignorer la suggestion",
+    "theme": "Activer le mode sombre",
+    "home": "Maison",
+    "features": "Ce que vous apprendrez",
+    "featuresIntro": "Développez les quatre compétences en allemand, puis mettez-les en pratique lors des examens et dans des situations quotidiennes.",
+    "how": "Comment fonctionne Lernfino",
+    "tools": "Outils Web gratuits",
+    "signup": "Rejoignez la liste de lancement",
+    "launchStatus": "À venir sur iOS et Android",
+    "heroTitle": "Apprenez l'allemand avec Fino.",
+    "heroAccent": "Du premier « Hallo » au niveau B2.",
+    "heroIntro": "Suivez un parcours d'apprentissage de l'allemand depuis vos premiers mots jusqu'au B2. Entraînez-vous avec des mini-leçons, des dialogues quotidiens et des examens blancs complets.",
+    "languagesTitle": "Apprenez en 15 langues",
+    "path": "Parcours d'apprentissage",
+    "exams": "Examens blancs complets",
+    "scenarios": "Scénarios quotidiens",
+    "startLabel": "Commencer la leçon",
+    "pathText": "Commencez par S1 – S10, puis passez de A1 à B2. De courtes leçons s’inscrivent entre vos autres projets.",
+    "examsText": "Préparez-vous avec huit examens blancs complets et indépendants aux formats Goethe et ÖSD. Entraînez-vous aussi séparément à Hören et Lesen, et faites des exercices au format telc.",
+    "ai": "Commentaires sur Sprechen et Schreiben",
+    "aiText": "Obtenez des commentaires facultatifs de l'IA sur les réponses orales et écrites. L'évaluation nécessite le consentement et est soumise aux limites du compte et du plan.",
+    "life": "La vie en Allemagne",
+    "lifeText": "Pratiquez 28 scénarios quotidiens, de la recherche d'un appartement à la visite chez le médecin. Lisez les dialogues, faites des exercices et prenez la parole dans des jeux de rôle.",
+    "trainers": "Entraîneurs de grammaire",
+    "articles": "Entraîneur d'articles",
+    "cases": "Cas et prépositions",
+    "sentences": "Sprint de construction de phrases",
+    "prepVerbs": "Verbes avec prépositions",
+    "verbs": "Entraîneur de verbes",
+    "games": "Jeux d'entraînement allemands",
+    "rain": "Pluie d'articles",
+    "race": "Course aux paires",
+    "wordle": "Wordle allemand",
+    "reading": "Histoires et vocabulaire",
+    "readingText": "Lisez et écoutez des histoires nivelées. Recherchez les mots dans leur contexte, puis enregistrez-les dans Mes mots.",
+    "review": "Bilan et progrès",
+    "reviewText": "Utilisez le cahier d'erreurs pour revoir les erreurs et les répétitions espacées pour pratiquer les mots. Passez en mode sombre quand vous le souhaitez.",
+    "step1": "Trouvez votre niveau",
+    "step1Text": "Partez de zéro ou passez le test de placement sur le Web pour savoir par où commencer.",
+    "step2": "Prenez une courte leçon",
+    "step2Text": "Suivez le parcours d'apprentissage et pratiquez petit à petit.",
+    "step3": "Utilisez ce que vous avez appris",
+    "step3Text": "Essayez un dialogue réel, révisez des mots ou passez un examen blanc chronométré.",
+    "tryDemo": "Essayez la démo interactive",
+    "demoIntro": "Choisissez un niveau, écoutez un exemple de phrase et appuyez sur un mot allemand pour voir sa signification dans son contexte.",
+    "dictionary": "Dictionnaire",
+    "listenSentence": "Écoute la phrase",
+    "listenWord": "Écoute le mot",
+    "saveWord": "Ajouter à Mes mots",
+    "savedWord": "Enregistré dans cette démo",
+    "levelTest": "Test de classement en allemand",
+    "levelTestText": "Répondez à jusqu'à 12 questions pour estimer votre niveau d'allemand de A1 à B2.",
+    "calculator": "Calculateur de notes d'examen",
+    "calculatorText": "Entrez les scores de votre module et vérifiez-les par rapport aux règles Goethe ou ÖSD prises en charge.",
+    "discount": "Rejoignez la liste pour bénéficier d'une réduction spéciale sur votre premier abonnement. Le taux, la durée et les détails d'échange seront annoncés ici et par e-mail avant le lancement.",
+    "limits": "Le forfait gratuit a des limites d’utilisation quotidienne. Les allocations d’accès et d’évaluation de l’IA varient selon le plan.",
+    "emailLabel": "Adresse email",
+    "levelLabel": "Niveau d'allemand visé",
+    "consent": "J'accepte de recevoir des e-mails concernant le lancement, les mises à jour du produit et la remise de lancement. Je peux me désinscrire à tout moment.",
+    "pending": "Soumettre votre demande…",
+    "success": "Vous êtes sur la liste de lancement. Nous vous enverrons les détails par e-mail.",
+    "duplicate": "Cet email est déjà sur la liste de lancement.",
+    "error": "Nous n'avons pas pu confirmer votre inscription. Veuillez réessayer.",
+    "retry": "Essayer à nouveau",
+    "unsubscribe": "Désabonnez-vous ou supprimez votre entrée sur la liste d'attente",
+    "javascript": "Pour rejoindre sans JavaScript, contactez",
+    "privacy": "politique de confidentialité",
+    "terms": "Conditions d’utilisation",
+    "imprint": "Mentions légales",
+    "support": "Soutien",
+    "deleteAccount": "Supprimer le compte",
+    "rights": "Tous droits réservés.",
+    "independent": "Lernfino est une application d'apprentissage indépendante. Les noms des fournisseurs d’examens identifient les formats de pratique.",
+    "officialNotice": "Cette traduction est fournie à titre indicatif. Les versions anglaise et allemande font foi.",
+    "updated": "Mis à jour le 21 novembre 2026",
+    "languagesNote": "Choisissez la langue de l?interface. Les exemples et les audios restent en allemand."
+  },
+  "legal": {
+    "privacy": "<div class=\"callout-box callout-emerald\"><strong>Résumé et promesse principale :</strong> Lernfino est conçu pour protéger votre parcours d&#x27;apprentissage personnel. Votre historique de lecture, vos fiches de vocabulaire et vos résultats d&#x27;examen blanc restent stockés par défaut sur votre propre appareil et vos données personnelles ne sont jamais vendues à des tiers.</div>\n\n          <h2>1. Responsable du traitement des données</h2>\n          <p>Cette politique de confidentialité s&#x27;applique aux applications mobiles Lernfino (iOS et Android) et au site Web <code>lernfino.com</code> développé et exploité par le développeur individuel <strong>Abdulsamet Saygı</strong> (Respecode / Lernfino).</p>\n          <p><strong>Titulaire des données :</strong> Abdulsamet Saygı<br /> <strong>Adresse :</strong> Mehmet Akif Ersoy Mah. 295. Cd C12 Blok No:46, Yenimahalle / Ankara, Türkiye<br /> <strong>E-mail :</strong> <a href=\"mailto:support@lernfino.com\">support@lernfino.com</a></p>\n\n          <h2>2. Données que nous collectons et principes de stockage</h2>\n          <p>Lernfino adhère strictement aux principes de minimisation des données. Nous traitons uniquement les données nécessaires pour fournir nos fonctionnalités d&#x27;apprentissage et les communications demandées :</p>\n          <ul>\n            <li><strong>Stockage (local) sur l&#x27;appareil :</strong> Les chapitres d&#x27;histoire terminés, la progression de l&#x27;écoute, les cartes mémoire à répétition espacée (SRS), les partitions d&#x27;entraînement au format Goethe/ÖSD et les préférences de thème visuel sont stockés localement sur votre appareil par défaut. Ces données ne sont pas téléchargées sur nos serveurs, sauf si vous créez et synchronisez un compte.</li>\n            <li><strong>Données facultatives du compte cloud :</strong> Si vous créez volontairement un compte pour la synchronisation entre appareils, nous stockons votre adresse e-mail, votre identifiant utilisateur, vos progrès d&#x27;apprentissage et les résultats facultatifs de l&#x27;évaluation de l&#x27;IA dans notre backend cloud (Supabase).</li>\n            <li><strong>Microphone et reconnaissance vocale :</strong> Les enregistrements locaux restent sur cet appareil. La reconnaissance vocale utilise le service de votre système d’exploitation et peut nécessiter une connexion Internet. Ce n&#x27;est qu&#x27;avec le consentement explicite d&#x27;un adulte (18 ans et plus) que Lernfino envoie de l&#x27;audio ou du texte via Supabase à Google Gemini. Lernfino traite l&#x27;audio en mémoire, ne stocke pas les fichiers audio sur ses serveurs et supprime le brouillon local après avoir enregistré les commentaires. Les transcriptions et les commentaires restent dans le compte. Après avoir consenti et soumis votre réponse hors ligne, votre réponse pourra être envoyée lorsque la connexion sera rétablie. Dans l&#x27;offre gratuite, Google peut utiliser les soumissions pour améliorer ses produits ; ses conditions de conservation s’appliquent.</li>\n            <li><strong>Diagnostics techniques :</strong> Les diagnostics anonymisés (tels que les codes d&#x27;erreur, les décomptes et les horodatages approximatifs) peuvent être traités uniquement pour maintenir la stabilité de l&#x27;application.</li>\n          </ul>\n\n          <h2 id=\"waitlist-privacy\">3. Lancer le formulaire de liste d&#x27;attente</h2>\n          <p>Lorsque vous soumettez le formulaire de notification de lancement sur <code>lernfino.com</code>, nous traitons les données suivantes :</p>\n          <ul>\n            <li><strong>Données collectées :</strong> Votre adresse e-mail, la date/heure de soumission, la langue d&#x27;interface sélectionnée et le niveau d&#x27;allemand cible facultatif.</li>\n            <li><strong>Objectif :</strong> Envoi de notifications de lancement et de mises à jour de produits concernant Lernfino uniquement.</li>\n            <li><strong>Base juridique :</strong> Votre consentement explicite (RGPD Art. 6(1)(a), KVKK turc Art. 5(1), UWG allemand § 7). Les soumissions sont bloquées sauf si la case de consentement est activement cochée.</li>\n            <li><strong>Traitement et transfert :</strong> Les soumissions sont stockées via Google Apps Script dans Google Sheets (Google LLC, États-Unis), ce qui implique un transfert international de données vers les États-Unis.</li>\n            <li><strong>Conservation :</strong> les enregistrements de la liste d&#x27;attente sont supprimés au plus tard <strong>6 mois</strong> après le lancement de l&#x27;application, ou immédiatement après votre demande de retrait/suppression.</li>\n            <li><strong>Désinscription :</strong> Vous pouvez retirer votre consentement et vous désinscrire à tout moment en envoyant un e-mail à <code>support@lernfino.com</code>.</li>\n          </ul>\n\n          <h2>4. Sous-traitants et transferts internationaux de données</h2>\n          <p>Nous nous appuyons sur les prestataires de services tiers (processeurs) suivants pour exploiter Lernfino :</p>\n          <ul>\n            <li><strong>Supabase :</strong> Comptes d&#x27;utilisateurs cloud, authentification et synchronisation des progrès d&#x27;apprentissage.</li>\n            <li><strong>Google Gemini :</strong> évaluations orales et écrites facultatives de l&#x27;IA, envoyées uniquement après le consentement explicite d&#x27;un adulte (18 ans et plus).</li>\n            <li><strong>Google AdMob :</strong> Publicité sur le niveau gratuit (avec gestion du consentement Google UMP dans l&#x27;EEE/Royaume-Uni).</li>\n            <li><strong>RevenueCat, Apple App Store et Google Play :</strong> Achats intégrés, statut de l&#x27;abonnement et validation des reçus.</li>\n            <li><strong>Connectez-vous avec Google et connectez-vous avec Apple :</strong> Fournisseurs de connexion sociale facultatifs.</li>\n            <li><strong>Google Apps Script / Google Sheets :</strong> Stockage de la liste d&#x27;attente de lancement du site Web.</li>\n            <li><strong>Renvoyer :</strong> Envoi d&#x27;e-mails de vérification du compte et de réinitialisation du mot de passe (l&#x27;adresse e-mail et les journaux de livraison sont traités ; fournisseur basé aux États-Unis, transférés sous des garanties appropriées telles que des clauses contractuelles types et/ou votre consentement — <a href=\"https://resend.com/legal/privacy-policy\" target=\"_blank\" rel=\"noopener noreferrer\">Politique de confidentialité</a>).</li>\n            <li><strong>Cloudflare (Cloudflare R2) :</strong> Livraison des ressources audio et image de l&#x27;application via <code>media.lernfino.com</code> (l&#x27;adresse IP et les journaux de demandes sont traités ; réseau mondial/américain, transférés sous des garanties appropriées telles que des clauses contractuelles types et/ou votre consentement – <a href=\"https://www.cloudflare.com/privacypolicy/\" target=\"_blank\" rel=\"noopener noreferrer\">Politique de confidentialité</a>).</li>\n          </ul>\n          <p><strong>Transferts internationaux :</strong> Certains des fournisseurs répertoriés ci-dessus traitent les données en dehors de la Turquie et de l&#x27;Espace économique européen (EEE), y compris aux États-Unis. Les transferts sont effectués sous des garanties appropriées (telles que des clauses contractuelles types) et/ou votre consentement explicite.</p>\n\n          <div class=\"callout-box callout-navy\"><strong>Aucune vente de données · Politique publicitaire transparente :</strong> Nous ne vendons, louons ou n&#x27;échangeons jamais vos informations personnelles ou votre historique d&#x27;apprentissage à des courtiers en données. Pour prendre en charge notre offre gratuite, les annonces peuvent être diffusées via Google AdMob ; Les abonnements Plus et Pro suppriment les publicités.</div>\n\n          <h2>5. Droits des utilisateurs et droit de réclamation (RGPD, KVKK et droits mondiaux)</h2>\n          <p>Chaque utilisateur de Lernfino garde un contrôle total sur ses données :</p>\n          <ul>\n            <li><strong>Accès et portabilité des données :</strong> Vous pouvez exporter votre historique de vocabulaire et vos journaux d&#x27;apprentissage sous forme de fichier JSON ouvert à tout moment via <em>Paramètres → Sauvegarder les données d&#x27;apprentissage</em>.</li>\n            <li><strong>Rectification, restriction et retrait :</strong> Vous pouvez mettre à jour vos coordonnées, vous opposer au traitement ou retirer votre consentement à tout moment.</li>\n            <li><strong>Droit à l&#x27;effacement (suppression) :</strong> La suppression d&#x27;un compte efface les transcriptions synchronisées et les commentaires de l&#x27;IA. La suppression dans l&#x27;application efface également la progression du compte et les brouillons en file d&#x27;attente sur ce téléphone. Des mesures de coûts anonymes et un reçu de suppression aléatoire sont conservés. Les invités peuvent effacer la progression de l&#x27;apprentissage local dans Paramètres → Réinitialiser les données d&#x27;apprentissage, ou demander une suppression permanente sur <a href=\"{deleteAccountPath}\">lernfino.com/delete-account</a> ou en envoyant un e-mail à <code>support@lernfino.com</code>.</li>\n            <li><strong>Droit de déposer une plainte :</strong> Vous avez le droit de déposer une plainte auprès d&#x27;une autorité de contrôle de la protection des données dans l&#x27;UE/EEE (par exemple, l&#x27;autorité de protection des données de votre État allemand local) ou auprès du <strong>Comité de protection des données personnelles (KVKK Kurulu)</strong> en Turquie.</li>\n          </ul>\n\n          <h2>6. Condition d&#x27;âge (18+)</h2>\n          <p>Lernfino et ses fonctionnalités d&#x27;évaluation de l&#x27;IA sont destinés aux adultes âgés de <strong>18 ans et plus</strong>. Nous ne collectons pas sciemment de données personnelles auprès de personnes de moins de 18 ans. Avant de soumettre un audio ou un texte pour évaluation de l&#x27;IA, les utilisateurs confirment explicitement qu&#x27;ils ont plus de 18 ans. Les parents ou tuteurs peuvent contacter <code>support@lernfino.com</code> pour demander la suppression de toute donnée soumise par erreur.</p>\n\n          <h2>7. Sécurité des données et coordonnées</h2>\n          <p>Toutes les communications réseau sont protégées par le cryptage TLS/HTTPS. Pour toute question ou demande de données, veuillez contacter :<br /> <strong>E-mail :</strong> <a href=\"mailto:support@lernfino.com\">support@lernfino.com</a><br /> <strong>Site Web :</strong> <a href=\"https://lernfino.com\">lernfino.com</a></p>",
+    "terms": "<h2>1. Acceptation des conditions et condition d&#x27;âge (18+)</h2>\n          <p>En téléchargeant, en installant ou en utilisant les applications mobiles Lernfino ou la plateforme <code>lernfino.com</code>, vous acceptez les présentes Conditions d&#x27;utilisation et notre <a href=\"{privacyPath}\">Politique de confidentialité</a>. Si vous n’êtes pas d’accord, n’accédez pas et n’utilisez pas l’application.</p>\n          <p>Lernfino et ses fonctionnalités facultatives d&#x27;évaluation de l&#x27;IA sont destinés aux adultes âgés de <strong>18 ans et plus</strong>. Avant de soumettre du contenu oral ou écrit pour l’évaluation de l’IA, l’utilisateur confirme explicitement qu’il a plus de 18 ans.</p>\n\n          <h2>2. Description du service, niveau gratuit et licence</h2>\n          <p>Lernfino propose des histoires audio allemandes nivelées (A1 – B2), un épisode vidéo interactif et des courts métrages, des outils de vocabulaire à répétition espacée et des tests pratiques indépendants au format d&#x27;examen Goethe/ÖSD.</p>\n          <p>Vous pouvez commencer avec le forfait gratuit, qui comporte des publicités et des limites d&#x27;utilisation quotidienne. L&#x27;accès au contenu, les publicités et les allocations d&#x27;évaluation de l&#x27;IA varient selon le plan. Respecode vous accorde une licence personnelle, non exclusive, non transférable et révocable pour une utilisation éducative non commerciale.</p>\n\n          <h2>3. Propriété intellectuelle</h2>\n          <p>Tout le contenu, y compris l&#x27;illustration de la mascotte Fino, les adaptations de textes allemands, les traductions, les enregistrements audio, les questions pratiques, les éléments de conception et le code source, est la propriété exclusive de Respecode et est protégé par les lois sur la propriété intellectuelle.</p>\n\n          <h2>4. Clause de non-responsabilité relative aux marques (Goethe &amp; ÖSD)</h2>\n          <div class=\"callout-box callout-amber\"><strong>Avis d&#x27;indépendance institutionnelle :</strong> Les tests pratiques disponibles dans Lernfino sont des exercices pédagogiques indépendants au format d&#x27;examen Goethe/ÖSD conçus pour aider les apprenants à se préparer. Lernfino et Respecode ne sont <strong>pas affiliés, approuvés, accrédités ou sponsorisés par le Goethe-Institut ou l&#x27;ÖSD (Österreichisches Sprachdiplom Deutsch)</strong>. Toutes les marques appartiennent à leurs propriétaires respectifs et sont référencées uniquement pour indiquer la compatibilité des formats. Lernfino n&#x27;est pas un matériel d&#x27;examen officiel du Goethe-Institut ou de l&#x27;ÖSD.</div>\n\n          <h2>5. Utilisation acceptable et sécurité du compte</h2>\n          <p>Les utilisateurs sont responsables de la protection de leurs identifiants de connexion. Le scraping automatisé, l’ingénierie inverse non autorisée ou les tentatives de perturber l’infrastructure des applications sont strictement interdits.</p>\n\n          <h2>6. Achats intégrés, abonnements, remboursements et annulation</h2>\n          <p>Les abonnements et laissez-passer payants (Lernfino Plus, Lernfino Pro, Exam Pass) sont traités exclusivement via la facturation intégrée à l&#x27;<strong>Apple App Store</strong> ou au <strong>Google Play Store</strong> ; nous n&#x27;exploitons pas de système de paiement séparé.</p>\n          <ul>\n            <li>Tous les paiements, renouvellements, droits de rétractation légaux et demandes de remboursement sont régis exclusivement par les conditions du magasin concerné (Apple Media Services ou Google Play).</li>\n            <li>Vous pouvez gérer ou annuler votre abonnement à tout moment directement dans les paramètres de votre compte <strong>App Store</strong> ou <strong>Google Play</strong>.</li>\n          </ul>\n\n          <h2>7. Avis de non-responsabilité et limitation de responsabilité</h2>\n          <p>Lernfino est fourni « TEL QUEL » et « TEL QUE DISPONIBLE ». Les scores de pratique, y compris les évaluations facultatives de l&#x27;IA, sont des estimations à des fins d&#x27;étude uniquement ; Respecode ne fait aucune promesse concernant les résultats officiels des examens Goethe ou ÖSD ou les résultats de réussite.</p>\n\n          <h2>8. Coordonnées</h2>\n          <p>Les questions concernant ces conditions d&#x27;utilisation peuvent être soumises à : <strong>support@lernfino.com</strong>.</p>",
+    "imprint": "<h2>1. Opérateur et fournisseur de services</h2>\n          <p><strong>Opérateur / Développeur :</strong> Abdulsamet Saygı (Développeur individuel — Respecode / Lernfino)<br /> <strong>Adresse :</strong> Mehmet Akif Ersoy Mah. 295. Cd C12 Blok No:46, Yenimahalle / Ankara, Türkiye<br /> <strong>E-mail :</strong> <a href=\"mailto:support@lernfino.com\">support@lernfino.com</a><br /> <strong>Site Web :</strong> <a href=\"https://lernfino.com\">https://lernfino.com</a></p>\n\n          <h2>2. Statut juridique</h2>\n          <p>Lernfino est développé et exploité par le développeur individuel <strong>Abdulsamet Saygı</strong> ; il n&#x27;y a actuellement aucun enregistrement de société constituée en société.</p>\n\n          <h2>3. Personne responsable du contenu</h2>\n          <p><strong>Personne responsable :</strong> Abdulsamet Saygı<br /> <strong>Adresse :</strong> Mehmet Akif Ersoy Mah. 295. Cd C12 Blok No:46, Yenimahalle / Ankara, Türkiye</p>\n\n          <h2>4. Avis de marque</h2>\n          <p>Goethe-Zertifikat et ÖSD sont des marques déposées de leurs propriétaires respectifs. Lernfino est une plateforme d&#x27;apprentissage indépendante et non un matériel officiel du Goethe-Institut ou de l&#x27;ÖSD.</p>"
+  },
+  "demo": {
+    "sentences": {
+      "A1": "Derrière sa maison il y a un petit jardin.",
+      "A2": "Je viens d'ouvrir ma boîte aux lettres et j'ai trouvé cette enveloppe jaune.",
+      "B1": "Lorsque Jonas arrive à la gare, le dernier train vient de partir.",
+      "B2": "Avant de pouvoir rénover l’ancienne librairie, Nora a dû vider tous les tiroirs."
+    },
+    "dictionary": {
+      "hinter": {
+        "article": "Préposition",
+        "meaning": "derrière",
+        "grammar": "Préposition à double sens. Répond « Où ? » et prend donc le cas datif : « hinter ihrem Haus ».",
+        "exampleTr": "Le jardin est derrière le bâtiment."
+      },
+      "ihrem": {
+        "article": "Article possessif",
+        "meaning": "son",
+        "grammar": "Déterminant possessif de la 3ème personne du singulier féminin (Mia). Prend la terminaison dative neutre '-em' par 'Haus'.",
+        "exampleTr": "Mia travaille dans son bureau."
+      },
+      "haus": {
+        "article": "das Haus · pluriel : die Häuser",
+        "meaning": "maison / maison",
+        "grammar": "Nom neutre. Apparaît au Datif singulier après la préposition « hinter ».",
+        "exampleTr": "Notre maison a des fenêtres blanches."
+      },
+      "ist": {
+        "article": "Verbe irrégulier (sein)",
+        "meaning": "est/existe",
+        "grammar": "Présent (Präsens) Conjugaison à la 3ème personne du singulier du verbe 'sein'.",
+        "exampleTr": "Berlin est une ville animée."
+      },
+      "ein": {
+        "article": "Article indéfini",
+        "meaning": "un / un",
+        "grammar": "Article indéfini au nominatif masculin, modifiant 'der Garten'.",
+        "exampleTr": "Il y a un grand arbre."
+      },
+      "kleiner": {
+        "article": "Adjectif",
+        "meaning": "petit / peu",
+        "grammar": "Déclinaison d'adjectif mixte : reçoit la terminaison « -er » après « ein » avec le nom nominatif masculin.",
+        "exampleTr": "Elle a un petit chien."
+      },
+      "garten": {
+        "article": "der Garten · pluriel : die Gärten",
+        "meaning": "jardin",
+        "grammar": "Nom masculin. Agit comme sujet de la phrase dans le cas nominatif.",
+        "exampleTr": "Des fleurs colorées poussent dans le jardin."
+      },
+      "ich": {
+        "article": "Pronom personnel",
+        "meaning": "je",
+        "grammar": "Pronom sujet à la première personne du singulier (nominatif).",
+        "exampleTr": "J'apprends l'allemand tous les jours."
+      },
+      "habe": {
+        "article": "Verbe auxiliaire",
+        "meaning": "avoir / auxiliaire pour Perfekt",
+        "grammar": "Verbe auxiliaire conjugué formant le présent parfait (Perfekt) avec 'geöffnet' et 'gefunden'.",
+        "exampleTr": "J'ai lu un livre hier."
+      },
+      "gerade": {
+        "article": "Adverbe temporel",
+        "meaning": "juste maintenant / actuellement",
+        "grammar": "Adverbe indiquant que l'action s'est terminée il y a un instant.",
+        "exampleTr": "Le train arrive à l'instant."
+      },
+      "meinen": {
+        "article": "Déterminant possessif",
+        "meaning": "mon",
+        "grammar": "Forme d'objet direct accusatif masculin avec terminaison '-en' : 'meinen Briefkasten'.",
+        "exampleTr": "Je cherche ma clé."
+      },
+      "briefkasten": {
+        "article": "der Briefkasten · pluriel: die Briefkästen",
+        "meaning": "boîte aux lettres / boîte aux lettres",
+        "grammar": "Nom masculin composé (Bref + Kasten). Objet direct dans le cas accusatif.",
+        "exampleTr": "La boîte aux lettres est pleine de journaux."
+      },
+      "geoffnet": {
+        "article": "Verbe régulier (participe passé)",
+        "meaning": "ouvert",
+        "grammar": "Participe passé (Partizip II) du verbe régulier 'öffnen', formant Perfekt avec 'habe'.",
+        "exampleTr": "Elle ouvrit doucement la porte."
+      },
+      "und": {
+        "article": "Conjonction de coordination",
+        "meaning": "et",
+        "grammar": "Conjonction de coordination joignant les deux phrases verbales complétées sans modifier l’ordre des mots.",
+        "exampleTr": "Le café et le gâteau sont prêts."
+      },
+      "diesen": {
+        "article": "Déterminant démonstratif",
+        "meaning": "ce",
+        "grammar": "Déterminant démonstratif modifiant le nom accusatif masculin 'Umschlag'.",
+        "exampleTr": "Je connais bien cet auteur."
+      },
+      "gelben": {
+        "article": "Adjectif",
+        "meaning": "jaune",
+        "grammar": "Faible déclinaison de l'adjectif : prend la terminaison '-en' après 'diesen' à l'accusatif masculin.",
+        "exampleTr": "Elle porte une écharpe jaune."
+      },
+      "umschlag": {
+        "article": "der Umschlag · pluriel : die Umschläge",
+        "meaning": "enveloppe",
+        "grammar": "Nom masculin à l'accusatif singulier, faisant office de deuxième objet direct.",
+        "exampleTr": "La lettre est à l'intérieur de l'enveloppe."
+      },
+      "gefunden": {
+        "article": "Verbe irrégulier (participe passé)",
+        "meaning": "trouvé",
+        "grammar": "Participe passé du verbe irrégulier fort 'finden' (finden - fand - gefunden).",
+        "exampleTr": "J'ai enfin trouvé mes lunettes."
+      },
+      "als": {
+        "article": "Conjonction de subordination",
+        "meaning": "quand / comme (événement unique passé)",
+        "grammar": "Conjonction de subordination pour un seul événement passé, envoyant le verbe conjugué à la fin de la proposition.",
+        "exampleTr": "Quand je suis arrivé, il pleuvait."
+      },
+      "jonas": {
+        "article": "Nom propre",
+        "meaning": "Jonas (nom masculin)",
+        "grammar": "Nom propre servant de sujet grammatical de la proposition subordonnée.",
+        "exampleTr": "Jonas aime voyager en train."
+      },
+      "den": {
+        "article": "Article défini",
+        "meaning": "le",
+        "grammar": "Article défini pour l'objet direct masculin singulier dans le cas accusatif.",
+        "exampleTr": "Il entre dans la pièce."
+      },
+      "bahnhof": {
+        "article": "der Bahnhof · pluriel : die Bahnhöfe",
+        "meaning": "gare",
+        "grammar": "Nom masculin composé (Bahn + Hof) à l'accusatif singulier.",
+        "exampleTr": "Nous nous retrouvons devant la gare."
+      },
+      "erreicht": {
+        "article": "Verbe régulier",
+        "meaning": "atteint / arrive à",
+        "grammar": "Verbe préfixe inséparable (« er- ») à la 3ème personne du singulier au présent à la fin de la clause.",
+        "exampleTr": "Elle arrive à destination à temps."
+      },
+      "faehrt": {
+        "article": "Verbe irrégulier",
+        "meaning": "départ/conduite",
+        "grammar": "Verbe fort comportant une mutation de voyelle (a -> ä) à la 3ème personne du singulier du présent.",
+        "exampleTr": "Le bus part toutes les dix minutes."
+      },
+      "der": {
+        "article": "Article défini",
+        "meaning": "le",
+        "grammar": "Article défini modifiant le sujet masculin singulier au nominatif.",
+        "exampleTr": "Le train n'est pas en retard."
+      },
+      "letzte": {
+        "article": "Adjectif",
+        "meaning": "dernier",
+        "grammar": "Faible déclinaison de l'adjectif avec '-e' se terminant après l'article défini 'der'.",
+        "exampleTr": "C'est la dernière opportunité."
+      },
+      "zug": {
+        "article": "der Zug · pluriel : die Züge",
+        "meaning": "former",
+        "grammar": "Nom masculin servant de sujet grammatical de la proposition principale.",
+        "exampleTr": "Le train pour Munich arrive sur la voie 4."
+      },
+      "gerade_b1": {
+        "article": "Adverbe temporel",
+        "meaning": "juste à ce moment",
+        "grammar": "Adverbe soulignant que l’action se produit exactement au même moment.",
+        "exampleTr": "Il dort en ce moment."
+      },
+      "ab": {
+        "article": "Préfixe de verbe séparable",
+        "meaning": "partir (abfahren)",
+        "grammar": "Préfixe verbal séparable de 'abfahren'. Placé à la toute fin d’une proposition principale indépendante.",
+        "exampleTr": "Le train part ponctuellement à 14 heures."
+      },
+      "bevor": {
+        "article": "Conjonction de subordination",
+        "meaning": "avant",
+        "grammar": "Conjonction de subordination qui introduit une clause temporelle, nécessitant l'ordre des mots verbe-final.",
+        "exampleTr": "Avant de partir, veuillez fermer la fenêtre."
+      },
+      "die": {
+        "article": "Article défini",
+        "meaning": "le",
+        "grammar": "Article défini féminin modifiant le sujet 'die Buchhandlung'.",
+        "exampleTr": "La ville se réveille tôt le matin."
+      },
+      "alte": {
+        "article": "Adjectif",
+        "meaning": "vieux",
+        "grammar": "Faible déclinaison de l'adjectif avec '-e' se terminant après l'article défini 'mourir'.",
+        "exampleTr": "Des maisons historiques se dressent dans la vieille ruelle."
+      },
+      "buchhandlung": {
+        "article": "die Buchhandlung · pluriel : die Buchhandlungen",
+        "meaning": "librairie / librairie",
+        "grammar": "Nom féminin composé (das Buch + die Handlung). Les noms se terminant par « -ung » sont toujours féminins.",
+        "exampleTr": "Elle adore feuilleter dans la petite librairie."
+      },
+      "renoviert": {
+        "article": "Verbe (participe passé)",
+        "meaning": "rénové",
+        "grammar": "Participe passé sans préfixe « ge- » (typique des verbes « -ieren »), formant une voix passive.",
+        "exampleTr": "Le bâtiment a été entièrement rénové l'année dernière."
+      },
+      "werden": {
+        "article": "Verbe auxiliaire passif",
+        "meaning": "be (auxiliaire passif)",
+        "grammar": "Auxiliaire vocal passif à l'infinitif, combiné avec le verbe modal 'konnte'.",
+        "exampleTr": "La lettre doit être envoyée aujourd'hui."
+      },
+      "konnte": {
+        "article": "Verbe modal (passé)",
+        "meaning": "pouvait / était capable de",
+        "grammar": "Passé (Präteritum) 3ème personne du singulier du verbe modal 'können', placé à la fin de la proposition subordonnée.",
+        "exampleTr": "Il a pu répondre immédiatement à la question."
+      },
+      "musste": {
+        "article": "Verbe modal (passé)",
+        "meaning": "devait / était obligé de",
+        "grammar": "Passé (Präteritum) 3ème personne du singulier du verbe modal 'müssen', régissant l'infinitif 'ausräumen'.",
+        "exampleTr": "Elle a dû se lever tôt."
+      },
+      "nora": {
+        "article": "Nom propre",
+        "meaning": "Nora (prénom féminin)",
+        "grammar": "Nom propre faisant office de sujet grammatical de la proposition principale.",
+        "exampleTr": "Nora adore les livres anciens."
+      },
+      "saemtliche": {
+        "article": "Déterminant indéfini",
+        "meaning": "tout/tout",
+        "grammar": "Synonyme emphatique de « alle » à l'accusatif pluriel, modifiant « Schubladen ».",
+        "exampleTr": "Tous les documents ont été soigneusement examinés."
+      },
+      "schubladen": {
+        "article": "die Schublade · pluriel : die Schubladen",
+        "meaning": "tiroirs",
+        "grammar": "Nom féminin au pluriel accusatif, fonctionnant comme l'objet direct de « ausräumen ».",
+        "exampleTr": "De vieilles lettres traînent dans le tiroir."
+      },
+      "ausraeumen": {
+        "article": "Verbe séparable (infinitif)",
+        "meaning": "vider / vider",
+        "grammar": "Infinitif du verbe séparable régi par le verbe modal passé 'musste' à la fin de la proposition.",
+        "exampleTr": "Nous devons vider le placard avant de déménager."
+      }
+    }
+  },
+  "help": {
+    "contact": "Assistance par e-mail",
+    "contactText": "Écrivez-nous avec des questions techniques, des commentaires ou des suggestions de traduction.",
+    "offlineQuestion": "Puis-je étudier hors ligne ?",
+    "offlineAnswer": "Lernfino stocke le vocabulaire, la progression de l'histoire et les résultats des entraînements sur votre appareil. Téléchargez les supports de cours disponibles lorsque vous êtes connecté pour les utiliser hors ligne. Le contenu disponible dépend de votre forfait. L’évaluation de l’IA nécessite un accès à Internet.",
+    "backupQuestion": "Comment puis-je déplacer ma progression vers un nouvel appareil ?",
+    "backupAnswer": "Sur l'ancien appareil, ouvrez Paramètres, choisissez Sauvegarder les données d'apprentissage et transférez le fichier JSON résultant sur votre nouvel appareil. Dans Paramètres sur le nouvel appareil, choisissez le fichier de sauvegarde pour restaurer votre progression.",
+    "examQuestion": "Comment se déroule la pratique des examens ?",
+    "examAnswer": "Les huit examens blancs complets sont du matériel d'étude indépendant aux formats Goethe et ÖSD. Passez un examen complet chronométré ou entraînez-vous Lesen, Hören, Schreiben et Sprechen séparément. Les évaluations facultatives de l'IA pour Schreiben et Sprechen nécessitent le consentement explicite d'un adulte âgé de 18 ans ou plus.",
+    "audioQuestion": "Comment utiliser l’audio de l’histoire et du dictionnaire ?",
+    "audioAnswer": "Jouez une histoire à suivre avec son texte en surbrillance. Vous pouvez régler la vitesse de lecture ou appuyer sur un mot pour connaître son entrée de dictionnaire contextuelle et l'audio disponible.",
+    "deletionQuestion": "Comment puis-je supprimer mon compte ou mes données d'apprentissage ?",
+    "localTitle": "Supprimer les données d'apprentissage sur cet appareil",
+    "localText": "Si vous utilisez Lernfino sans compte, ouvrez Paramètres et choisissez Réinitialiser les données d'apprentissage. Vous pouvez également désinstaller l'application pour supprimer ses données locales de l'appareil.",
+    "accountTitle": "Supprimer un compte Lernfino",
+    "accountText": "Dans l'application, ouvrez Paramètres, choisissez Mon compte, puis Supprimer le compte et confirmez. Cela supprime le compte et les données synchronisées, y compris les détails d'authentification, la progression de l'apprentissage, le vocabulaire enregistré, les scores, les relevés de notes et les commentaires de l'IA. La suppression dans l'application efface également la progression du compte et les brouillons en file d'attente sur ce téléphone. Des mesures de coûts anonymes et un reçu de suppression aléatoire sont conservés.",
+    "emailTitle": "Demander la suppression par email",
+    "emailText": "Si vous ne parvenez pas à ouvrir l'application, préparez une demande de suppression et envoyez-la depuis l'adresse e-mail associée à votre compte Lernfino. Les demandes sont traitées et vérifiées dans un délai de sept jours ouvrables. Les données supprimées ne peuvent pas être récupérées.",
+    "emailLabel": "Adresse e-mail Lernfino enregistrée",
+    "emailButton": "Préparer l'e-mail de suppression",
+    "emailSubject": "Compte Lernfino et demande de suppression de données",
+    "emailBody": "Veuillez supprimer définitivement mon compte Lernfino et les données associées. Veuillez confirmer une fois la suppression terminée."
+  },
+  "tools": {
+    "backHome": "Retour à la maison de Lernfino",
+    "tabCalc": "Calculateur de résultats d'examen",
+    "tabCounter": "Schreiben Compteur de mots",
+    "tabLevel": "Test de niveau de placement",
+    "ctaTitle": "Apprenez l'allemand avec Fino.",
+    "ctaDesc": "Enregistrez votre niveau cible sur la liste d'attente de lancement pour être averti le jour de la sortie.",
+    "ctaBtn": "Rejoignez la liste de lancement",
+    "skillListen": "Hören (Écoute)",
+    "skillRead": "Lesen (Lecture)",
+    "skillWrite": "Schreiben (Écriture)",
+    "skillSpeak": "Sprechen (Parlant)",
+    "calcPageTitle": "Goethe & ÖSD Calculateur de résultats d'examen (A1–B2) | Lernfino",
+    "calcTitle": "Goethe & ÖSD Calculateur de scores",
+    "calcSubtitle": "Saisissez les scores des modules séparément sur une échelle de 0 à 100. Les modules ne sont jamais moyennés ensemble ; les règles de réussite suivent chaque format d’examen.",
+    "calcInstitution": "Format de l'examen",
+    "calcLevel": "Niveau du CECR",
+    "calcReset": "Réinitialiser les scores",
+    "calcInputLabel": "Score (0 à 100, laisser vide si non mesuré)",
+    "calcPlaceholder": "par ex. 72",
+    "calcRuleA1A2": "Format combiné (écrit/75 + oral/25)",
+    "calcRuleModular": "Format modulaire (chaque module >= 60)",
+    "calcRuleOsd": "Règle externe non vérifiée (modules affichés séparément)",
+    "calcStatusMissing": "Non mesuré",
+    "calcStatusMeasured": "Enregistré",
+    "calcStatusPass": "Réussite (>= 60)",
+    "calcStatusFail": "En dessous de 60",
+    "calcPointsOf25": "{val} / 25pts",
+    "calcVerdictIncompleteTitle": "Incomplet — Entrez les 4 modules pour vérifier le résultat",
+    "calcVerdictIncompleteDesc": "Les modules vides sont traités comme non mesurés et non comme 0. Enregistré : {count}/4.",
+    "calcVerdictPassTitle": "Goethe {level} Seuil de réussite atteint",
+    "calcVerdictPassA1Desc": "Écrit : {w}/75 · Oral : {o}/25 · Total : {t}/100 (minimum 60).",
+    "calcVerdictPassA2Desc": "Écrit : {w}/75 (min 45) · Oral : {o}/25 (min 15) · Total : {t}/100 (min 60).",
+    "calcVerdictPassModDesc": "Les 4 modules ont atteint au moins 60 points indépendamment.",
+    "calcVerdictFailTitle": "En dessous de l'exigence de réussite",
+    "calcVerdictFailA2Written": "La composante écrite est {w}/75 (minimum 45 requis pour Goethe A2 même si le total >= 60). Total : {t}/100.",
+    "calcVerdictFailA2Oral": "La composante orale est {o}/25 (minimum 15 requis pour Goethe A2). Total : {t}/100.",
+    "calcVerdictFailTotal": "Le total combiné est {t}/100 (minimum 60 requis). Écrit : {w}/75 · Oral : {o}/25.",
+    "calcVerdictFailMod": "Modules inférieurs à 60 : {list}. Dans les examens modulaires {level}, chaque module doit atteindre 60 indépendamment.",
+    "calcVerdictOsdTitle": "ÖSD Modules affichés individuellement (pas de verdict automatique)",
+    "calcVerdictOsdDesc": "Lernfino ne code pas en dur ÖSD les règles de transmission comme vérifiées ; les scores des modules sont affichés individuellement sans faire de moyenne ni prétendre à une note globale.",
+    "counterPageTitle": "Goethe & ÖSD Schreiben Compteur de mots (A1–B2) | Lernfino",
+    "counterTitle": "Schreiben Compteur de mots et vérification des connecteurs",
+    "counterSubtitle": "Vérifiez les mots cibles exacts correspondant aux tâches Goethe et ÖSD Schreiben de A1 à B2, ainsi que la couverture des salutations, des fermetures et des connecteurs.",
+    "counterProfileLabel": "Niveau d'examen et tâche de rédaction",
+    "counterTextareaLabel": "Écrivez ou collez votre texte allemand",
+    "counterTextareaPlaceholder": "Sehr geehrte Damen und Herren,\nich schreibe Ihnen wegen...",
+    "counterClear": "Texte clair",
+    "counterWords": "Mots",
+    "counterTarget": "Plage cible",
+    "counterSentences": "Phrases (>=3 mots)",
+    "counterChars": "Personnages",
+    "counterLenEmpty": "Commencez à taper pour mesurer votre brouillon par rapport à {min}–{max} mots.",
+    "counterLenUnder": "{diff} mots supplémentaires nécessaires pour atteindre l'objectif minimum ({min}–{max}).",
+    "counterLenIn": "Dans la plage cible ({min}–{max} mots) !",
+    "counterLenOver": "{diff} mots au-dessus de la limite supérieure ({min}–{max}). Soyez concis.",
+    "counterStructTitle": "Structure et connecteurs ({level})",
+    "counterOpeningOk": "Message d'accueil détecté",
+    "counterOpeningMiss": "Ajoutez un message d'accueil (par exemple Hallo / Sehr geehrte...)",
+    "counterSignoffOk": "Fermeture détectée",
+    "counterSignoffMiss": "Ajoutez une fermeture (par exemple Viele Grüße / Mit freundlichen Grüßen)",
+    "counterConnLabel": "Connecteurs détectés pour {level} ({hit}/{total}) :",
+    "levelPageTitle": "Test de classement rapide en allemand (A1–B2) | Lernfino",
+    "levelTitle": "Vérifiez votre niveau (A1–B2)",
+    "levelSubtitle": "12 articles courts de A1 à B2. Arrête d'avancer au premier niveau en dessous de 2/3 de bonnes réponses.",
+    "levelQuestionProgress": "Question {n} / {total}",
+    "levelPrev": "Précédent",
+    "levelNext": "Suivant",
+    "levelFinish": "Voir le résultat",
+    "levelDontKnow": "Je ne sais pas - arrêtez-vous ici et évaluez",
+    "levelResultTitle": "Niveau de départ suggéré : {level}",
+    "levelResultNote": "Auto-vérification rapide uniquement, pas de certificat de placement officiel. Il s'arrête au premier niveau en dessous de 2/3.",
+    "levelRetake": "Reprendre le test",
+    "levelUseCta": "Continuer avec {level} sur la liste d'attente"
+  },
+  "profiles": {
+    "a1-t2": "A1 Teil 2 — E-mail/Note courte (30 à 50 mots)",
+    "a1-t1": "A1 Teil 1 — Entrées de formulaire (10 à 25 mots)",
+    "a2-t1": "A2 Teil 1 — SMS/Message court (20 à 40 mots)",
+    "a2-t2": "A2 Teil 2 — E-mail formel/semi-formel (30 à 50 mots)",
+    "b1-t12": "B1 Teil 1 & 2 — E-mail/message sur le forum (80 à 110 mots)",
+    "b1-t3": "B1 Teil 3 — E-mail formel court (40 à 60 mots)",
+    "b2-t1": "B2 Teil 1 — Message du forum / Argumentation (150 à 190 mots)",
+    "b2-t2": "B2 Teil 2 — E-mail formel (100 à 140 mots)"
+  }
+}

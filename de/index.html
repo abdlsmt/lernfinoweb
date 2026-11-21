@@ -1,756 +1,161 @@
-<!DOCTYPE html>
-<html lang="de" data-theme="light" data-page-lang="de" data-base="..">
+<!doctype html>
+<html lang="de" dir="ltr" data-theme="light" data-page-lang="de" data-base="..">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lernfino — Mit Fino auf jeder Seite ein Stück Deutsch | Demnächst</title>
-  <meta name="description" content="Lernfino: Gestufte deutsche Hörgeschichten (A1–B2), interaktive Video-Episode, Kontextwörterbuch und unabhängige Übungsprüfungen sowie Übungssets im Goethe-/ÖSD-Format. Demnächst für iOS und Android." />
-  <meta name="theme-color" content="#181E29" />
-  <link rel="canonical" href="https://lernfino.com/de/" />
-  <link rel="alternate" hreflang="en" href="https://lernfino.com/" />
-  <link rel="alternate" hreflang="tr" href="https://lernfino.com/tr/" />
-  <link rel="alternate" hreflang="de" href="https://lernfino.com/de/" />
-  <link rel="alternate" hreflang="x-default" href="https://lernfino.com/" />
-
-  <!-- Open Graph / Social Sharing -->
-  <meta property="og:type" content="website" />
-  <meta property="og:locale" content="de_DE" />
-  <meta property="og:url" content="https://lernfino.com/de/" />
-  <meta property="og:title" content="Lernfino — Mit Fino auf jeder Seite ein Stück Deutsch" />
-  <meta property="og:description" content="Gestufte Hörgeschichten von A1 bis B2, interaktive Video-Episode, Kontextwörterbuch und unabhängige Übungsprüfungen im Goethe-/ÖSD-Format. Demnächst verfügbar!" />
-  <meta property="og:image" content="https://lernfino.com/Lernfino%20Deutsch%20Fox%20Icon.png" />
-
-  <link rel="icon" type="image/png" href="../Lernfino%20Deutsch%20Fox%20Icon.png" />
-  <link rel="apple-touch-icon" href="../Lernfino%20Deutsch%20Fox%20Icon.png" />
-  <link rel="manifest" href="../site.webmanifest" />
-  <link rel="stylesheet" href="../styles.css?v=20261116-h6" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#181e29">
+  <title>Lernfino – Lernen Sie Deutsch von A1 bis B2 mit Fino</title>
+  <meta name="description" content="Lerne deine ersten deutschen Wörter und folge dem Lernpfad bis B2. Übe mit Minilektionen, Alltagsdialogen und vollständigen Probeprüfungen.">
+  <link rel="canonical" href="https://lernfino.com/de/">
+  <link rel="alternate" hreflang="en" href="https://lernfino.com/">
+  <link rel="alternate" hreflang="de" href="https://lernfino.com/de/">
+  <link rel="alternate" hreflang="tr" href="https://lernfino.com/tr/">
+  <link rel="alternate" hreflang="es" href="https://lernfino.com/es/">
+  <link rel="alternate" hreflang="pt-BR" href="https://lernfino.com/pt/">
+  <link rel="alternate" hreflang="fr" href="https://lernfino.com/fr/">
+  <link rel="alternate" hreflang="it" href="https://lernfino.com/it/">
+  <link rel="alternate" hreflang="pl" href="https://lernfino.com/pl/">
+  <link rel="alternate" hreflang="ar" href="https://lernfino.com/ar/">
+  <link rel="alternate" hreflang="ru" href="https://lernfino.com/ru/">
+  <link rel="alternate" hreflang="uk" href="https://lernfino.com/uk/">
+  <link rel="alternate" hreflang="hi" href="https://lernfino.com/hi/">
+  <link rel="alternate" hreflang="vi" href="https://lernfino.com/vi/">
+  <link rel="alternate" hreflang="id" href="https://lernfino.com/id/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://lernfino.com/zh/">
+  <link rel="alternate" hreflang="x-default" href="https://lernfino.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Lernfino – Lernen Sie Deutsch von A1 bis B2 mit Fino">
+  <meta property="og:description" content="Lerne deine ersten deutschen Wörter und folge dem Lernpfad bis B2. Übe mit Minilektionen, Alltagsdialogen und vollständigen Probeprüfungen.">
+  <meta property="og:url" content="https://lernfino.com/de/">
+  <meta property="og:image" content="https://lernfino.com/assets/fino-hero.webp">
+  <link rel="icon" href="../assets/fino-icon.webp" type="image/webp">
+  <link rel="manifest" href="../site.webmanifest">
+  <link rel="stylesheet" href="../styles.css?v=web1">
+  <link rel="stylesheet" href="../home.css?v=web1">
+  <script src="../app.js?v=web1" defer></script>
 </head>
-<body>
-  <!-- Top German Flag Subtle Accent Bar -->
-  <div class="flag-topline" aria-hidden="true">
-    <span class="flag-black"></span>
-    <span class="flag-red"></span>
-    <span class="flag-gold"></span>
-  </div>
-
-  <!-- Header -->
-  <header class="site-header">
-    <div class="container header-inner">
-      <a href="#" class="brand-logo" aria-label="Lernfino Startseite">
-        <img src="../Lernfino%20Deutsch%20Fox%20Icon.png" alt="Lernfino Maskottchen Logo" class="brand-img" />
-        <div class="brand-text-wrap">
-          <span class="brand-name">Lernfino</span>
-          <span class="brand-badge">Deutsch</span>
-        </div>
-      </a>
-
-      <nav class="main-nav" aria-label="Hauptmenü">
-        <a href="#demo" data-i18n="nav.demo">Live-Demo</a>
-        <a href="#features" data-i18n="nav.features">Funktionen</a>
-        <a href="#compare" data-i18n="nav.compare">Heute in der App</a>
-        <a href="#how" data-i18n="nav.how">Ablauf</a>
-        <a href="#channel" data-i18n="nav.channel">YouTube</a>
-        <a href="#launch" data-i18n="nav.launch">Startstatus</a>
-        <a href="../level-test/" data-i18n="nav.tools">Lern-Tools</a>
+<body class="web-home">
+  <div class="flag-topline" aria-hidden="true"><span class="flag-black"></span><span class="flag-red"></span><span class="flag-gold"></span></div>
+  <header class="web-header">
+    <div class="container web-header-inner">
+      <a class="web-brand" href="../de/" aria-label="Lernfino · Heim"><img src="../assets/fino-icon.webp" width="37" height="37" alt=""><span>Lernfino</span></a>
+      <nav class="web-nav" aria-label="Hauptnavigation">
+        <a href="#features">Was Sie lernen werden</a><a href="#how">So funktioniert Lernfino</a><a href="#tools">Kostenlose Web-Tools</a>
       </nav>
-
-      <div class="header-actions">
-        <!-- Language Switcher (TR | EN | DE) -->
-        <div class="lang-switcher" role="group" aria-label="Sprachauswahl">
-          <button type="button" class="lang-btn" data-lang="tr" aria-pressed="false">TR</button>
-          <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
-          <button type="button" class="lang-btn active" data-lang="de" aria-pressed="true">DE</button>
-        </div>
-
-        <!-- Theme Toggle -->
-        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Theme wechseln">
-          <svg class="icon-moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-          </svg>
-          <svg class="icon-sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
-            <circle cx="12" cy="12" r="5"></circle>
-            <line x1="12" y1="1" x2="12" y2="3"></line>
-            <line x1="12" y1="21" x2="12" y2="23"></line>
-            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-            <line x1="1" y1="12" x2="3" y2="12"></line>
-            <line x1="21" y1="12" x2="23" y2="12"></line>
-            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-          </svg>
-        </button>
-
-        <a href="#launch" class="btn btn-primary btn-sm header-cta" data-i18n="nav.cta">Benachrichtigen</a>
+      <div class="web-header-actions">
+        <details class="web-language"><summary aria-label="Sprache auswählen · Deutsch"><span aria-hidden="true">◎</span><span lang="de">Deutsch</span><span aria-hidden="true">⌄</span></summary><ul><li><a href="../" hreflang="en" lang="en" dir="auto" data-language="en">English</a></li><li><a href="../de/" hreflang="de" lang="de" dir="auto" data-language="de" aria-current="page">Deutsch</a></li><li><a href="../tr/" hreflang="tr" lang="tr" dir="auto" data-language="tr">Türkçe</a></li><li><a href="../es/" hreflang="es" lang="es" dir="auto" data-language="es">Español</a></li><li><a href="../pt/" hreflang="pt-BR" lang="pt-BR" dir="auto" data-language="pt">Português (Brasil)</a></li><li><a href="../fr/" hreflang="fr" lang="fr" dir="auto" data-language="fr">Français</a></li><li><a href="../it/" hreflang="it" lang="it" dir="auto" data-language="it">Italiano</a></li><li><a href="../pl/" hreflang="pl" lang="pl" dir="auto" data-language="pl">Polski</a></li><li><a href="../ar/" hreflang="ar" lang="ar" dir="auto" data-language="ar">العربية</a></li><li><a href="../ru/" hreflang="ru" lang="ru" dir="auto" data-language="ru">Русский</a></li><li><a href="../uk/" hreflang="uk" lang="uk" dir="auto" data-language="uk">Українська</a></li><li><a href="../hi/" hreflang="hi" lang="hi" dir="auto" data-language="hi">हिन्दी</a></li><li><a href="../vi/" hreflang="vi" lang="vi" dir="auto" data-language="vi">Tiếng Việt</a></li><li><a href="../id/" hreflang="id" lang="id" dir="auto" data-language="id">Bahasa Indonesia</a></li><li><a href="../zh/" hreflang="zh-Hans" lang="zh-Hans" dir="auto" data-language="zh">简体中文</a></li></ul></details>
+        <button type="button" id="themeToggle" class="web-theme" aria-label="Schalten Sie den Dunkelmodus um" aria-pressed="false"><span class="moon" aria-hidden="true">☾</span><span class="sun" aria-hidden="true">☀</span></button>
+        <a class="web-button web-button-primary header-signup" href="#launch">Für den Start vormerken</a>
       </div>
     </div>
   </header>
-
+  <aside class="language-suggestion" id="languageSuggestion" hidden>
+    <div class="container suggestion-inner"><span id="suggestionText"></span><a id="suggestionLink"></a><button type="button" id="dismissSuggestion" aria-label="Vorschlag ablehnen">×</button></div>
+  </aside>
   <main>
-    <!-- HERO SECTION -->
-    <section class="hero-section">
-      <div class="container hero-grid">
-        <div class="hero-content">
-          <div class="hero-badge-row">
-            <div class="status-pill">
-              <span class="status-dot"></span>
-              <span data-i18n="hero.badge">DEMNÄCHST · iOS &amp; Android (Web demnächst)</span>
-            </div>
-            <div class="hero-waving-fino" title="Hallo! Ich bin Fino!">
-              <img src="../02_Fino_Selam_Veriyor.png" alt="Fino winkt" class="fino-avatar-wave" />
-              <span class="fino-bubble">Hallo! 👋</span>
-            </div>
-          </div>
-
-          <h1 class="hero-title" data-i18n="hero.title">Mit Fino auf jeder Seite ein Stück <span class="highlight-gold">Deutsch.</span> Kleine Schritte, große Geschichten.</h1>
-
-          <p class="hero-subtitle" data-i18n="hero.subtitle">Deutsch lernen mit gestuften Hörgeschichten (A1–B2), einer interaktiven Video-Episode, Kontextwörterbuch und unabhängigen Übungsprüfungen sowie Übungssets im Goethe-/ÖSD-Format. Kostenlos starten; im kostenlosen Tarif gelten tägliche Nutzungslimits, die mit einem Abonnement aufgehoben werden.</p>
-
-          <div class="hero-cta-row">
-            <a href="#launch" class="btn btn-primary btn-lg">
-              <span data-i18n="hero.ctaPrimary">Zum Start benachrichtigen</span>
-              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2">
-                <line x1="5" y1="12" x2="19" y2="12"></line>
-                <polyline points="12 5 19 12 12 19"></polyline>
-              </svg>
-            </a>
-            <a href="#demo" class="btn btn-secondary btn-lg">
-              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
-                <polygon points="5 3 19 12 5 21 5 3"></polygon>
-              </svg>
-              <span data-i18n="hero.ctaSecondary">Live-Demo ausprobieren</span>
-            </a>
-          </div>
-
-          <!-- Key Metrics / Verified Stat Row -->
-          <div class="hero-stats-row">
-            <div class="hero-stat-card">
-              <div class="hero-stat-header">
-                <span class="hero-stat-num" data-i18n="hero.stat1Num">A1–B2</span>
-                <span class="hero-stat-label" data-i18n="hero.stat1Label">Audio-Wörterbuch</span>
-              </div>
-              <span class="hero-stat-sub" data-i18n="hero.stat1Sub">Kontextwörterbuch mit Wort-Audio</span>
-            </div>
-
-            <div class="hero-stat-card">
-              <div class="hero-stat-header">
-                <span class="hero-stat-num" data-i18n="hero.stat2Num">A1–B2</span>
-                <span class="hero-stat-label" data-i18n="hero.stat2Label">Prüfungs-Übungssets</span>
-              </div>
-              <span class="hero-stat-sub" data-i18n="hero.stat2Sub">Grammatik, Hören, Lesen &amp; Wortschatz</span>
-            </div>
-
-            <div class="hero-stat-card">
-              <div class="hero-stat-header">
-                <span class="hero-stat-num" data-i18n="hero.stat3Num">Format</span>
-                <span class="hero-stat-label" data-i18n="hero.stat3Label">Goethe- &amp; ÖSD-Format</span>
-              </div>
-              <span class="hero-stat-sub" data-i18n="hero.stat3Sub">Hören- &amp; Lesen-Übungen (unabhängig)</span>
-            </div>
-          </div>
-
-          <!-- Store Badges (Coming Soon) -->
-          <div class="store-badges">
-            <div class="store-badge">
-              <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
-                <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.96 6.33c.67-.81 1.12-1.94 1-3.08-.96.04-2.13.64-2.82 1.45-.61.7-.15 1.86-.99 2.98 1.08.08 2.15-.54 2.81-1.35z"/>
-              </svg>
-              <div>
-                <small data-i18n="store.soon">Demnächst</small>
-                <strong>App Store</strong>
-              </div>
-            </div>
-
-            <div class="store-badge">
-              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
-                <path d="M3 20.5v-17c0-.83.94-1.3 1.6-.8l14 8.5c.6.37.6 1.23 0 1.6l-14 8.5c-.66.5-1.6.03-1.6-.8z"/>
-              </svg>
-              <div>
-                <small data-i18n="store.soon">Demnächst</small>
-                <strong>Google Play</strong>
-              </div>
-            </div>
-
-            <div class="store-badge">
-              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
-                <circle cx="12" cy="12" r="10"></circle>
-                <line x1="2" y1="12" x2="22" y2="12"></line>
-                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
-              </svg>
-              <div>
-                <small data-i18n="store.soon">Demnächst</small>
-                <strong data-i18n="store.web">Web-Version</strong>
-              </div>
-            </div>
-          </div>
+    <section class="web-hero">
+      <div class="container web-hero-grid">
+        <div class="web-hero-copy">
+          <p class="web-kicker"><span aria-hidden="true"></span>Kommt für iOS und Android</p>
+          <h1>Lerne Deutsch mit Fino. <em>Vom ersten Hallo bis B2.</em></h1>
+          <p class="web-hero-intro">Lerne deine ersten deutschen Wörter und folge dem Lernpfad bis B2. Übe mit Minilektionen, Alltagsdialogen und vollständigen Probeprüfungen.</p>
+          <div class="web-actions"><a href="#launch" class="web-button web-button-primary">Für den Start vormerken <span aria-hidden="true" class="web-arrow">→</span></a><a href="#demo" class="web-button web-button-secondary">Demo ausprobieren</a></div>
+          <ul class="web-stats">
+            <li><strong dir="ltr">A1–B2</strong><span>Lernpfad</span></li>
+            <li><strong>8</strong><span>Vollständige Probeprüfungen</span></li>
+            <li><strong>28</strong><span>Alltagsszenarien</span></li>
+          </ul>
         </div>
-
-        <!-- Hero Right Visual: Official Fino Mascot + 4 Symmetric Floating UI Badges -->
-        <div class="hero-visual">
-          <div class="mascot-glow"></div>
-          <div class="mascot-card-frame">
-            <img src="../Lernfino%20Deutsch%20Fox%20Icon.png" alt="Lernfino Maskottchen Fino" class="hero-mascot-img" />
-
-            <!-- Floating Card Top Left: CEFR Levels -->
-            <div class="float-badge float-top-left">
-              <span class="float-icon">📚</span>
-              <div>
-                <strong>A1 · A2 · B1 · B2</strong>
-                <small data-i18n="hero.floatLevels">Gestufte Geschichten</small>
-              </div>
-            </div>
-
-            <!-- Floating Card Top Right: Interactive Videos -->
-            <div class="float-badge float-top-right">
-              <span class="float-icon">🎬</span>
-              <div>
-                <strong data-i18n="hero.floatVideoTitle">Interaktives Video</strong>
-                <small data-i18n="hero.floatVideoSub">Interaktive Episode · Shorts</small>
-              </div>
-            </div>
-
-            <!-- Floating Card Bottom Left: Word Lookup -->
-            <div class="float-badge float-bottom-left">
-              <span class="float-icon">🔍</span>
-              <div>
-                <strong data-i18n="hero.floatDictTitle">der Brief · <span class="muted-inline">die Briefe</span></strong>
-                <small data-i18n="hero.floatDict">Tipp-Wörterbuch</small>
-              </div>
-            </div>
-
-            <!-- Floating Card Bottom Right: Goethe/ÖSD Format Practice -->
-            <div class="float-badge float-bottom-right">
-              <span class="float-icon">🎓</span>
-              <div>
-                <strong data-i18n="hero.floatExamTitle">Goethe- &amp; ÖSD-Format</strong>
-                <small data-i18n="hero.floatExam">Hören · Lesen (Unabhängig)</small>
-              </div>
-            </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="hero-orbit"></div>
+          <div class="preview-phone">
+            <div class="phone-head"><span>‹</span><strong>Lernfino</strong><span>⋯</span></div>
+            <div class="phone-learning"><bdi>A1</bdi><span>Lernpfad</span><i></i></div>
+            <div class="phone-lesson" lang="de" dir="ltr"><small>Lektion 1</small><strong>Hallo!</strong><span>Ich heiße Fino.</span></div>
+            <div class="phone-levels" dir="ltr"><b>A1</b><span>A2</span><span>B1</span><span>B2</span></div>
+            <div class="phone-bottom">Unterricht beginnen <span class="web-arrow">→</span></div>
           </div>
+          <img class="hero-fino" src="../assets/fino-hero.webp" alt="" width="420" height="538" fetchpriority="high">
+          <div class="fino-greeting" lang="de" dir="ltr">Hallo!</div>
         </div>
       </div>
     </section>
-
-    <!-- INTERACTIVE DEMO SECTION -->
-    <section class="demo-section" id="demo">
-      <div class="container">
-        <div class="section-header">
-          <span class="eyebrow-tag" data-i18n="demo.eyebrow">INTERAKTIVE APP-VORSCHAU</span>
-          <h2 data-i18n="demo.title">Probieren Sie Lernfino direkt hier aus</h2>
-          <p data-i18n="demo.subtitle">Wechseln Sie unten die GER-Stufe (A1–B2), tippen Sie auf ein beliebiges Wort für Grammatikdetails oder hören Sie sich das deutsche Audio an.</p>
-        </div>
-
-        <div class="interactive-workbench">
-          <!-- Left: Reader Paper -->
-          <div class="demo-reader-card">
-            <div class="reader-topbar">
-              <div class="story-meta-row">
-                <img src="../01_Fino_Kitap_Okuyor_Sade.png" alt="Fino liest ein Buch" class="fino-reader-badge" />
-                <div class="story-meta">
-                  <span class="story-tag" data-i18n="demo.storyTag">GESCHICHTE &amp; VIDEO-EPISODE</span>
-                  <strong id="demoStoryTitle">Der kleine Garten</strong>
-                </div>
-              </div>
-
-              <!-- CEFR Level Switcher -->
-              <div class="cefr-pills" role="tablist" aria-label="GER-Stufe">
-                <button type="button" class="cefr-btn active" data-level="A1">A1</button>
-                <button type="button" class="cefr-btn" data-level="A2">A2</button>
-                <button type="button" class="cefr-btn" data-level="B1">B1</button>
-                <button type="button" class="cefr-btn" data-level="B2">B2</button>
-              </div>
-            </div>
-
-            <!-- Reader Mode Bar -->
-            <div class="reader-modes-bar">
-              <span class="mode-chip active">
-                <span class="dot-green"></span>
-                <span data-i18n="demo.modeRead">Wort-synchrones Lesen</span>
-              </span>
-              <span class="mode-chip" data-i18n="demo.modeListenFirst">🎧 Zuerst-Hören-Modus</span>
-              <span class="mode-chip" data-i18n="demo.modeRoleplay">🎭 Rolle sprechen</span>
-            </div>
-
-            <!-- Active Sentence Area -->
-            <div class="sentence-stage">
-              <div class="sentence-header">
-                <span class="level-indicator" id="demoLevelBadge">A1 · Anfänger (Präsens)</span>
-                <button type="button" class="audio-play-btn" id="speakSentenceBtn">
-                  <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor">
-                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
-                  </svg>
-                  <span data-i18n="demo.listenBtn">Satz anhören</span>
-                </button>
-              </div>
-
-              <p class="german-sentence" id="demoGermanSentence" lang="de">
-                <!-- Populated dynamically by app.js -->
-              </p>
-
-              <p class="sentence-translation" id="demoSentenceTranslation">
-                <!-- Populated dynamically by app.js -->
-              </p>
-
-              <div class="tap-instruction">
-                <span class="pulse-ring"></span>
-                <span data-i18n="demo.tapHint">Tipp: Jedes Wort im Satz ist anklickbar. Tippen Sie ein Wort an, um Artikel, Grammatik und die deutsche Aussprache zu sehen.</span>
-              </div>
-            </div>
+    <section class="language-band" aria-labelledby="languageHeading">
+      <div class="container language-band-inner"><div><h2 id="languageHeading">Lernen Sie in 15 Sprachen</h2><p>W?hle deine Sprache f?r die Oberfl?che. Beispiele und Audio bleiben auf Deutsch.</p></div><ul class="language-flags"><li><a href="../" hreflang="en" lang="en" dir="auto" data-language="en" aria-label="EN · English" title="English"><span class="language-flag" style="background-position:0 -0px" aria-hidden="true"></span><small aria-hidden="true">EN</small></a></li><li><a href="../de/" hreflang="de" lang="de" dir="auto" data-language="de" aria-current="page" aria-label="DE · Deutsch" title="Deutsch"><span class="language-flag" style="background-position:0 -18px" aria-hidden="true"></span><small aria-hidden="true">DE</small></a></li><li><a href="../tr/" hreflang="tr" lang="tr" dir="auto" data-language="tr" aria-label="TR · Türkçe" title="Türkçe"><span class="language-flag" style="background-position:0 -36px" aria-hidden="true"></span><small aria-hidden="true">TR</small></a></li><li><a href="../es/" hreflang="es" lang="es" dir="auto" data-language="es" aria-label="ES · Español" title="Español"><span class="language-flag" style="background-position:0 -54px" aria-hidden="true"></span><small aria-hidden="true">ES</small></a></li><li><a href="../pt/" hreflang="pt-BR" lang="pt-BR" dir="auto" data-language="pt" aria-label="PT · Português (Brasil)" title="Português (Brasil)"><span class="language-flag" style="background-position:0 -72px" aria-hidden="true"></span><small aria-hidden="true">PT</small></a></li><li><a href="../fr/" hreflang="fr" lang="fr" dir="auto" data-language="fr" aria-label="FR · Français" title="Français"><span class="language-flag" style="background-position:0 -90px" aria-hidden="true"></span><small aria-hidden="true">FR</small></a></li><li><a href="../it/" hreflang="it" lang="it" dir="auto" data-language="it" aria-label="IT · Italiano" title="Italiano"><span class="language-flag" style="background-position:0 -108px" aria-hidden="true"></span><small aria-hidden="true">IT</small></a></li><li><a href="../pl/" hreflang="pl" lang="pl" dir="auto" data-language="pl" aria-label="PL · Polski" title="Polski"><span class="language-flag" style="background-position:0 -126px" aria-hidden="true"></span><small aria-hidden="true">PL</small></a></li><li><a href="../ar/" hreflang="ar" lang="ar" dir="auto" data-language="ar" aria-label="AR · العربية" title="العربية"><span class="language-flag" style="background-position:0 -144px" aria-hidden="true"></span><small aria-hidden="true">AR</small></a></li><li><a href="../ru/" hreflang="ru" lang="ru" dir="auto" data-language="ru" aria-label="RU · Русский" title="Русский"><span class="language-flag" style="background-position:0 -162px" aria-hidden="true"></span><small aria-hidden="true">RU</small></a></li><li><a href="../uk/" hreflang="uk" lang="uk" dir="auto" data-language="uk" aria-label="UK · Українська" title="Українська"><span class="language-flag" style="background-position:0 -180px" aria-hidden="true"></span><small aria-hidden="true">UK</small></a></li><li><a href="../hi/" hreflang="hi" lang="hi" dir="auto" data-language="hi" aria-label="HI · हिन्दी" title="हिन्दी"><span class="language-flag" style="background-position:0 -198px" aria-hidden="true"></span><small aria-hidden="true">HI</small></a></li><li><a href="../vi/" hreflang="vi" lang="vi" dir="auto" data-language="vi" aria-label="VI · Tiếng Việt" title="Tiếng Việt"><span class="language-flag" style="background-position:0 -216px" aria-hidden="true"></span><small aria-hidden="true">VI</small></a></li><li><a href="../id/" hreflang="id" lang="id" dir="auto" data-language="id" aria-label="ID · Bahasa Indonesia" title="Bahasa Indonesia"><span class="language-flag" style="background-position:0 -234px" aria-hidden="true"></span><small aria-hidden="true">ID</small></a></li><li><a href="../zh/" hreflang="zh-Hans" lang="zh-Hans" dir="auto" data-language="zh" aria-label="ZH · 简体中文" title="简体中文"><span class="language-flag" style="background-position:0 -252px" aria-hidden="true"></span><small aria-hidden="true">ZH</small></a></li></ul></div>
+    </section>
+    <div id="compare"></div>
+    <section class="web-section container" id="features">
+      <header class="web-section-head" data-reveal><h2>Was Sie lernen werden</h2><p>Bauen Sie alle vier Deutschkenntnisse auf und wenden Sie sie dann in der Prüfungspraxis und in Alltagssituationen an.</p></header>
+      <div class="web-features"><article class="web-feature" data-reveal><span class="web-feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19h4v-6h5V7h7M16 3l4 4-4 4"/></svg></span><h3>Lernpfad</h3><p>Beginne mit Start S1–S10. Danach führt dich der Lernpfad mit kurzen Lektionen von A1 bis B2.</p></article>
+<article class="web-feature" data-reveal><span class="web-feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M8 4H5v16h14V4h-3M9 3h6v4H9zM8 12h8m-8 4h8"/></svg></span><h3>Vollständige Probeprüfungen</h3><p>Übe mit acht unabhängigen Probeprüfungen im Goethe- und ÖSD-Format. Hören und Lesen kannst du auch einzeln trainieren. Dazu gibt es Übungssets im telc-Format.</p></article>
+<article class="web-feature" data-reveal><span class="web-feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16v11H9l-5 4V5Zm4 6h.01m4 0h.01m4 0h.01"/></svg></span><h3>Feedback zu Sprechen und Schreiben</h3><p>Erhalten Sie optional KI-Feedback zu gesprochenen und schriftlichen Antworten. Für die Auswertung ist eine Einwilligung erforderlich und es gelten Konto- und Planbeschränkungen.</p></article>
+<article class="web-feature" data-reveal><span class="web-feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 5-8 10-8 10S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg></span><h3>Leben in Deutschland</h3><p>Übe mit 28 Alltagssituationen, von der Wohnungssuche bis zum Arztbesuch. Lies Dialoge, löse Aufgaben und sprich im Rollenspiel mit.</p></article>
+<article class="web-feature" data-reveal><span class="web-feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 7h14M5 12h14M5 17h14"/><circle cx="8" cy="7" r="2" fill="var(--surface)"/><circle cx="15" cy="12" r="2" fill="var(--surface)"/><circle cx="10" cy="17" r="2" fill="var(--surface)"/></svg></span><h3>Grammatiktrainer</h3><ul><li>Artikeltrainer</li><li>Kasus &amp; Präpositionen</li><li>Satzbau-Sprint</li><li>Verben mit Präpositionen</li><li>Verbtrainer</li></ul></article>
+<article class="web-feature" data-reveal><span class="web-feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10a4 4 0 0 1 4 4l1 5a2 2 0 0 1-3 2l-4-3H9l-4 3a2 2 0 0 1-3-2l1-5a4 4 0 0 1 4-4Zm1 3v4m-2-2h4m6 0h.01m2 1h.01"/></svg></span><h3>Deutsche Übungsspiele</h3><ul><li>Artikel-Regen</li><li>Paare-Rennen</li><li>Deutsches Wordle</li></ul></article>
+<article class="web-feature" data-reveal><span class="web-feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 6c-3-2-6-2-9-1v13c3-1 6-1 9 1 3-2 6-2 9-1V5c-3-1-6-1-9 1Zm0 0v13"/></svg></span><h3>Geschichten und Vokabeln</h3><p>Lies und höre Geschichten auf deinem Niveau. Schlage Wörter im Kontext nach und speichere sie unter „Wörter“.</p></article>
+<article class="web-feature" data-reveal><span class="web-feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10a8 8 0 1 0 0 5m0-10v5h-5m-6 3 2 2 4-4"/></svg></span><h3>Rückblick und Fortschritt</h3><p>Wiederhole Fehler aus dem Fehlerheft und lerne Wörter in zeitlichen Abständen. Du kannst jederzeit in den Dunkelmodus wechseln.</p></article></div>
+    </section>
+    <section class="web-section web-soft" id="how">
+      <div class="container"><header class="web-section-head" data-reveal><h2>So funktioniert Lernfino</h2></header><ol class="web-steps" data-reveal><li><h3>Finden Sie Ihr Niveau</h3><p>Beginnen Sie ganz von vorne oder machen Sie den Web-Einstufungstest, um herauszufinden, wo Sie anfangen sollen.</p></li><li><h3>Nehmen Sie eine kurze Lektion</h3><p>Folgen Sie dem Lernpfad und üben Sie nach und nach.</p></li><li><h3>Nutzen Sie, was Sie gelernt haben</h3><p>Versuchen Sie es mit einem realen Dialog, wiederholen Sie Wörter oder absolvieren Sie eine zeitgesteuerte Probeprüfung.</p></li></ol></div>
+    </section>
+    <section class="web-section container" id="demo">
+      <header class="web-section-head" data-reveal><h2>Demo ausprobieren</h2><p>Wählen Sie eine Ebene, hören Sie sich einen Beispielsatz an und tippen Sie auf ein deutsches Wort, um seine Bedeutung im Kontext zu sehen.</p></header>
+      <div class="interactive-workbench" data-reveal>
+        <div class="demo-reader-card">
+          <div class="reader-topbar">
+            <div class="story-meta-row"><img src="../assets/fino-reader.webp" alt="" width="56" height="56" loading="lazy" decoding="async"><strong id="demoStoryTitle" lang="de" dir="ltr">Der kleine Garten</strong></div>
+            <div class="cefr-pills" role="group" aria-label="Angestrebtes Deutschniveau" dir="ltr"><button type="button" class="cefr-btn active" data-level="A1" aria-pressed="true">A1</button><button type="button" class="cefr-btn" data-level="A2" aria-pressed="false">A2</button><button type="button" class="cefr-btn" data-level="B1" aria-pressed="false">B1</button><button type="button" class="cefr-btn" data-level="B2" aria-pressed="false">B2</button></div>
           </div>
-
-          <!-- Right: Live Contextual Dictionary Panel -->
-          <aside class="demo-dict-card" aria-live="polite">
-            <div class="dict-card-header">
-              <span data-i18n="demo.dictHeader">KONTEXTWÖRTERBUCH &amp; GRAMMATIK</span>
-              <button type="button" class="dict-audio-btn" id="speakWordBtn" title="Wort anhören">
-                🔊 <span id="dictWordAudioLabel" data-i18n="demo.listenWord">Wort-Audio</span>
-              </button>
-            </div>
-
-            <div class="dict-card-body">
-              <div class="dict-article" id="dictArticle">Wechselpräposition</div>
-              <h3 class="dict-headword" id="dictHeadword" lang="de">Brief</h3>
-              <div class="dict-meaning" id="dictMeaning">Brief</div>
-
-              <div class="dict-grammar-box">
-                <strong data-i18n="demo.grammarTitle">Grammatik- &amp; Kontexthinweis:</strong>
-                <p id="dictGrammarNote">Wechselpräposition. Steht hier auf die Frage 'Wo?' mit Dativ: 'hinter ihrem Haus'.</p>
-              </div>
-
-              <div class="dict-example-box">
-                <small data-i18n="demo.exampleTitle">BEISPIELSATZ</small>
-                <p class="dict-example-de" id="dictExampleDe" lang="de">Ich schreibe meiner Mutter einen langen Brief.</p>
-                <p class="dict-example-tr" id="dictExampleTr">Der Garten liegt hinter dem Gebäude.</p>
-              </div>
-
-              <button type="button" class="btn btn-srs full-w" id="saveWordBtn">
-                <span id="saveWordIcon">＋</span>
-                <span id="saveWordText" data-i18n="demo.saveBtn">Zum Vokabelheft hinzufügen (SRS)</span>
-              </button>
-            </div>
-          </aside>
+          <div class="sentence-stage">
+            <div class="sentence-header"><span class="level-indicator" id="demoLevelBadge" dir="ltr">A1</span><button type="button" class="audio-play-btn" id="speakSentenceBtn"><span aria-hidden="true">▶</span> Hören Sie sich den Satz an</button></div>
+            <p class="german-sentence" id="demoGermanSentence" lang="de" dir="ltr">Hinter ihrem Haus ist ein kleiner Garten.</p>
+            <p class="sentence-translation" id="demoSentenceTranslation"></p>
+          </div>
+        </div>
+        <aside class="demo-dict-card" aria-live="polite">
+          <div class="dict-card-header"><span>Wörterbuch</span><button type="button" class="dict-audio-btn" id="speakWordBtn">Hören Sie auf das Wort</button></div>
+          <div class="dict-card-body">
+            <p class="dict-article" id="dictArticle" dir="auto"></p><h3 class="dict-headword" id="dictHeadword" lang="de" dir="ltr">hinter</h3><p class="dict-meaning" id="dictMeaning"></p>
+            <div class="dict-grammar-box"><p id="dictGrammarNote"></p></div>
+            <div class="dict-example-box"><p class="dict-example-de" id="dictExampleDe" lang="de" dir="ltr"></p><p class="dict-example-tr" id="dictExampleTr"></p></div>
+            <button type="button" class="btn btn-srs full-w" id="saveWordBtn"><span id="saveWordIcon" aria-hidden="true">＋</span> <span id="saveWordText">Unter „Wörter“ speichern</span></button>
+          </div>
+        </aside>
+      </div>
+    </section>
+    <section class="web-section web-soft" id="tools">
+      <div class="container"><header class="web-section-head" data-reveal><h2>Kostenlose Web-Tools</h2></header>
+        <div class="web-tools" data-reveal>
+          <a href="../level-test/?lang=de"><span aria-hidden="true">◎</span><div><h3>Deutsch-Einstufungstest</h3><p>Beantworten Sie bis zu 12 Fragen, um Ihr Deutschniveau von A1 bis B2 einzuschätzen.</p></div><b class="web-arrow" aria-hidden="true">→</b></a>
+          <a href="../exam-calculator/?lang=de"><span aria-hidden="true">▤</span><div><h3>Prüfungsergebnisrechner</h3><p>Geben Sie Ihre Modulergebnisse ein und vergleichen Sie diese mit den unterstützten Goethe- oder ÖSD-Regeln.</p></div><b class="web-arrow" aria-hidden="true">→</b></a>
         </div>
       </div>
     </section>
-
-    <!-- 4 CORE MODULES (BENTO GRID) -->
-    <section class="features-section" id="features">
-      <div class="container">
-        <div class="section-header">
-          <span class="eyebrow-tag" data-i18n="features.eyebrow">WAS ERWARTET SIE IN LERNFINO?</span>
-          <h2 data-i18n="features.title">Ein komplettes Ökosystem zum Deutschlernen</h2>
-          <p data-i18n="features.subtitle">Gestufte Lesegeschichten, interaktive Videos, Kontextwörterbuch und Übungsprüfungen im Goethe-/ÖSD-Format vereint in einer App.</p>
-        </div>
-
-        <div class="bento-grid">
-          <!-- Feature 1: Stories -->
-          <article class="bento-card bento-large">
-            <div class="bento-card-top">
-              <span class="bento-badge badge-amber" data-i18n="f1.badge">A1 · A2 · B1 · B2 BIBLIOTHEK</span>
-              <img src="../06_Fino_Kitap_Okuyor_Alternatif.png" alt="Fino liest" class="bento-mini-fino" />
-            </div>
-            <h3 data-i18n="f1.title">Gestufte Hörgeschichten &amp; Bücher</h3>
-            <p data-i18n="f1.desc">Lesen Sie gestufte Geschichten und Artikel von A1 bis B2 mit deutscher Vertonung.</p>
-            <ul class="feature-list">
-              <li data-i18n="f1.b1">Wortgenau synchronisierte Audio-Markierung und Tempoauswahl</li>
-              <li data-i18n="f1.b2"><strong>„Zuerst hören“</strong>-Modus für gezieltes Hörverständnis</li>
-              <li data-i18n="f1.b3"><strong>„Rolle spielen“</strong>-Modus zum aktiven Mitsprechen in Dialogen</li>
-              <li data-i18n="f1.b4">Satzübersetzungen und Verständnisfragen am Kapitelende</li>
-            </ul>
-          </article>
-
-          <!-- Feature 2: Interactive Videos -->
-          <article class="bento-card">
-            <div class="bento-card-top">
-              <span class="bento-badge badge-gold" data-i18n="f2.badge">VIDEOLEKTIONEN &amp; SHORTS</span>
-              <img src="../08_Fino_Klaper_Video.png" alt="Fino mit Filmklappe" class="bento-mini-fino fino-scale-up" />
-            </div>
-            <h3 data-i18n="f2.title">Interaktive Video-Episode &amp; Shorts</h3>
-            <p data-i18n="f2.desc">Schauen Sie die interaktive Episode <em>Brief im falschen Kasten</em> (Tim &amp; Lea, A2) sowie vertikale Shorts oder wechseln Sie in den <strong>„Als Lektion lernen“</strong>-Modus mit Szenenfragen.</p>
-            <ul class="feature-list">
-              <li data-i18n="f2.b1">Automatische Zwischenfragen am Ende jeder Szene</li>
-              <li data-i18n="f2.b2">Jedes Wort im Videotranskript ist direkt anklickbar</li>
-              <li data-i18n="f2.b3">Vertikale <strong>Shorts</strong> mit kompakten Mini-Tests</li>
-            </ul>
-          </article>
-
-          <!-- Feature 3: Smart Dictionary & SRS -->
-          <article class="bento-card">
-            <div class="bento-card-top">
-              <span class="bento-badge badge-crimson" data-i18n="f3.badge">SMARTES WÖRTERBUCH &amp; SRS</span>
-              <img src="../03_Fino_Basparmak_Gosteriyor.png" alt="Fino Daumen hoch" class="bento-mini-fino" />
-            </div>
-            <h3 data-i18n="f3.title">Kontextbasiertes Vokabelheft</h3>
-            <p data-i18n="f3.desc">Artikel (<em>der/die/das</em>), Pluralformen und Verbformen sofort griffbereit. Jedes gespeicherte Wort bewahrt die Sätze aus Geschichten und Videos.</p>
-
-            <div class="bento-stat-callout">
-              <div class="bento-stat-tag">
-                <span class="pulse-mini-dot"></span>
-                <span data-i18n="f3.statPill">WÖRTERBUCH MIT AUDIO</span>
-              </div>
-              <p data-i18n="f3.statHighlight">Das Lernfino-Wortschatzarchiv bietet Wort-Audiodateien mit Artikelhilfe, Pluralformen und Beispielsätzen von A1 bis B2.</p>
-            </div>
-
-            <ul class="feature-list">
-              <li data-i18n="f3.b1">Intelligente Wiederholungsintervalle (SRS) für tägliches Lernen</li>
-              <li data-i18n="f3.b2">Gespeicherte Kontextsätze direkt auf der Karteikarte ansehen</li>
-              <li data-i18n="f3.b3">Verständliche Grammatikerklärungen im jeweiligen Satzkontext</li>
-            </ul>
-          </article>
-
-          <!-- Feature 4: Goethe & ÖSD Format Practice -->
-          <article class="bento-card bento-large">
-            <div class="bento-card-top">
-              <span class="bento-badge badge-navy" data-i18n="f4.badge">ÜBUNGEN IM GOETHE- &amp; ÖSD-FORMAT</span>
-              <img src="../05_Fino_Lernfino_Kitabiyla.png" alt="Fino mit Prüfungsbuch" class="bento-mini-fino fino-scale-up" />
-            </div>
-            <h3 data-i18n="f4.title">Übungsprüfungen im Goethe-/ÖSD-Format</h3>
-            <p data-i18n="f4.desc">Zeitgesteuerte Übungsprüfungen (Hören und Lesen von A1 bis B2), Übungssets, Schreibaufgaben und Sprechsets – inklusive optionaler KI-Auswertung (Einwilligung ab 18 Jahren erforderlich).</p>
-            <ul class="feature-list">
-              <li data-i18n="f4.b1"><strong>Hören &amp; Lesen:</strong> Zeitgesteuerte Hören- und Lesen-Übungsprüfungen von A1 bis B2 mit Schritt-Navigation und Audio-Belegstellen</li>
-              <li data-i18n="f4.b2"><strong>Schreiben &amp; Sprechen:</strong> Schreibaufgaben und Sprechsets mit Musterlösungen sowie optionaler KI-Bewertung ab 18 Jahren</li>
-              <li data-i18n="f4.b3"><strong>Prüfungs-Übungssets:</strong> Gezielte Übungssets von A1 bis B2 zu Grammatik, Hören, Lesen und Wortschatz</li>
-              <li data-i18n="f4.b4"><strong>Prüfungs- &amp; Übungsmodus:</strong> Entweder mit Countdown-Timer oder flexibel im eigenen Übungsmodus</li>
-            </ul>
-            <small class="exam-disclaimer" data-i18n="f4.disclaimer">* Kein offizielles Prüfungsmaterial des Goethe-Instituts oder des ÖSD. Unabhängiges Training im Prüfungsformat; ohne Zusage bestimmter Prüfungsergebnisse.</small>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- LIVE IN THE APP SECTION (Lernfino-only, non-comparative) -->
-    <section class="compare-section" id="compare">
-      <div class="container">
-        <div class="section-header">
-          <span class="eyebrow-tag" data-i18n="compare.eyebrow">HEUTE IN DER APP</span>
-          <h2 data-i18n="compare.title">Was Lernfino heute bietet</h2>
-          <p data-i18n="compare.subtitle">Alle folgenden Funktionen sind bereits heute in Lernfino enthalten: Lernpfad-Einheiten von A1 bis B2, gestufte Hörgeschichten, Kontextwörterbuch und unabhängige Übungen im Goethe-/ÖSD-Format.</p>
-        </div>
-
-        <div class="live-features-grid">
-          <article class="live-feature-card">
-            <div class="live-feature-head">
-              <span class="live-feature-icon">📖</span>
-              <h3 data-i18n="compare.c1Title">Gestufte Geschichten (A1–B2)</h3>
-            </div>
-            <p data-i18n="compare.c1Desc">Gestufte Geschichtenversionen von A1 bis B2 mit wortgenauer Markierung, Satzübersetzungen und Verständnisfragen.</p>
-          </article>
-
-          <article class="live-feature-card">
-            <div class="live-feature-head">
-              <span class="live-feature-icon">🎙️</span>
-              <h3 data-i18n="compare.c2Title">Jeder Satz und jedes Wort vertont</h3>
-            </div>
-            <p data-i18n="compare.c2Desc">Wort-Audiodateien, Geschichtenerzählungen und Hörtexte bieten anpassbares Tempo und einen „Zuerst hören“-Modus.</p>
-          </article>
-
-          <article class="live-feature-card">
-            <div class="live-feature-head">
-              <span class="live-feature-icon">🔍</span>
-              <h3 data-i18n="compare.c3Title">Kontextwörterbuch &amp; SRS</h3>
-            </div>
-            <p data-i18n="compare.c3Desc">Tippen Sie auf jedes Wort in Texten oder Videotranskripten, um Artikel (der/die/das), Plural und Grammatiknotiz zu prüfen und es im SRS-Heft zu üben.</p>
-          </article>
-
-          <article class="live-feature-card">
-            <div class="live-feature-head">
-              <span class="live-feature-icon">🎬</span>
-              <h3 data-i18n="compare.c4Title">Interaktives Video &amp; Lernpfad-Einheiten</h3>
-            </div>
-            <p data-i18n="compare.c4Desc">Strukturierte Lernpfad-Einheiten (A1–B2), interaktives Video mit Szenenfragen, Shorts-Lektionen sowie Artikel-, Zahlen- und Fehlerheft-Tools.</p>
-          </article>
-
-          <article class="live-feature-card">
-            <div class="live-feature-head">
-              <span class="live-feature-icon">🎓</span>
-              <h3 data-i18n="compare.c5Title">Übungen im Goethe- &amp; ÖSD-Format</h3>
-            </div>
-            <p data-i18n="compare.c5Desc">Zeitgesteuerte Hören- und Lesen-Übungsprüfungen, Übungssets, Schreibaufgaben und Sprechsets. Unabhängiges Übungsformat; kein offizielles Goethe- oder ÖSD-Material.</p>
-          </article>
-
-          <article class="live-feature-card">
-            <div class="live-feature-head">
-              <span class="live-feature-icon">⚡</span>
-              <h3 data-i18n="compare.c6Title">Kostenlos starten · Abos über Stores</h3>
-            </div>
-            <p data-i18n="compare.c6Desc">Starten Sie kostenlos mit A1-Geschichten und A2–B2-Leseproben; im kostenlosen Tarif gelten tägliche Nutzungslimits, die mit einem Abonnement aufgehoben werden.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- HOW IT WORKS / FINO ROUTINE -->
-    <section class="how-section" id="how">
-      <div class="container">
-        <div class="section-header">
-          <span class="eyebrow-tag" data-i18n="how.eyebrow">TÄGLICHER LERNFLUSS</span>
-          <h2 data-i18n="how.title">Ihre ruhige tägliche Routine mit Fino</h2>
-        </div>
-
-        <div class="steps-grid">
-          <div class="step-card">
-            <div class="step-top-row">
-              <div class="step-num">01</div>
-              <img src="../11_Fino_Kulaklikla_Dinliyor.png" alt="Fino hört zu" class="step-fino-img" />
-            </div>
-            <h3 data-i18n="how.s1Title">Niveau wählen, lesen &amp; hören</h3>
-            <p data-i18n="how.s1Desc">Setzen Sie Ihre Einheit oder Geschichte auf dem Heute-Bildschirm fort. Folgen Sie der klaren deutschen Stimme Wort für Wort und tippen Sie neue Wörter an.</p>
+    <section class="web-section container" id="launch">
+      <div class="web-launch" data-reveal>
+        <div><h2>Für den Start vormerken</h2><p>Mit der Anmeldung zur Warteliste erhältst du einen Startrabatt auf dein erstes Abonnement. Höhe, Dauer und Einlösung geben wir vor dem Start hier und per E-Mail bekannt.</p><p>Im kostenlosen Tarif gelten tägliche Nutzungslimits. Zugriff und Kontingente für KI-Auswertungen hängen vom Tarif ab.</p><div class="web-stores" aria-label="Kommt für iOS und Android"><span>App Store</span><span>Google Play</span></div></div>
+        <form class="notify-form" id="notifyForm">
+          <label class="form-label" for="emailInput">E-Mail-Adresse</label>
+          <input type="email" id="emailInput" class="form-input" autocomplete="email" placeholder="you@example.com" required dir="ltr">
+          <label class="form-label" for="levelSelect">Angestrebtes Deutschniveau</label>
+          <select id="levelSelect" class="form-select" dir="ltr"><option>A1</option><option>A2</option><option selected>B1</option><option>B2</option></select>
+          <div class="form-consent-wrap"><label class="form-consent-label"><input type="checkbox" id="consentCheckbox" class="form-consent-checkbox" required><span>Ich möchte E-Mails von Lernfino zum Start, zu Produktneuigkeiten und zum Startrabatt erhalten. Ich kann mich jederzeit abmelden. <a href="../de/privacy/#waitlist-privacy">Datenschutzerklärung</a>.</span></label></div>
+          <button type="submit" class="web-button web-button-primary full-w">Für den Start vormerken</button>
+          <div class="form-feedback" id="formFeedback" hidden>
+            <div class="form-feedback-body"><span id="feedbackMessage" role="status"></span><button type="button" id="formRetryBtn" class="form-retry-btn" hidden>Versuchen Sie es erneut</button></div>
           </div>
-
-          <div class="step-card">
-            <div class="step-top-row">
-              <div class="step-num">02</div>
-              <img src="../10_Fino_Mikrofon_Konusuyor.png" alt="Fino mit Mikrofon" class="step-fino-img" />
-            </div>
-            <h3 data-i18n="how.s2Title">Videos erleben &amp; Vokabeln festigen</h3>
-            <p data-i18n="how.s2Desc">Beantworten Sie Szenenfragen im Video und wiederholen Sie fällige Wörter mit Finos täglichen SRS-Karten.</p>
-          </div>
-
-          <div class="step-card">
-            <div class="step-top-row">
-              <div class="step-num">03</div>
-              <img src="../09_Fino_Dusunuyor_Soru.png" alt="Fino löst eine Aufgabe" class="step-fino-img" />
-            </div>
-            <h3 data-i18n="how.s3Title">Im Prüfungsformat üben</h3>
-            <p data-i18n="how.s3Desc">Üben Sie mit Hören- und Lesen-Übungsprüfungen sowie A1–B2-Übungssets im Goethe-/ÖSD-Format (unabhängiges Training, kein offizielles Prüfungsmaterial).</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- YOUTUBE CHANNEL SHOWCASE -->
-    <section class="youtube-section" id="channel">
-      <div class="container">
-        <div class="yt-simple-card">
-          <div class="yt-simple-left">
-            <div class="yt-simple-eyebrow">
-              <span class="yt-dot-live"></span>
-              <span class="yt-brand-text" data-i18n="yt.brand">LERNFINO AUF YOUTUBE · @LernfinoDeutsch</span>
-            </div>
-            <h2 data-i18n="yt.title">Deutsch lernen auf unserem YouTube-Kanal</h2>
-            <p data-i18n="yt.subtitle">Vertiefen Sie Ihr Deutsch mit unabhängigen Übungsvideos im Goethe-/ÖSD-Format, animierten Geschichten und kurzen Praxislektionen.</p>
-
-            <ul class="yt-pillars-list">
-              <li>
-                <span class="pillar-icon">🎓</span>
-                <div>
-                  <strong data-i18n="yt.p1Title">Übungen im Goethe- &amp; ÖSD-Prüfungsformat:</strong>
-                  <span data-i18n="yt.p1Desc">Unabhängige Übungsvideos mit Countdown für A1–B2 Hören und Sprechen inklusive Belegstellen-Lösungen.</span>
-                </div>
-              </li>
-              <li>
-                <span class="pillar-icon">📖</span>
-                <div>
-                  <strong data-i18n="yt.p2Title">Animierte Geschichten:</strong>
-                  <span data-i18n="yt.p2Desc">Alltagsszenen mit Tim &amp; Lea und weiteren Figuren – mit klarer deutscher Vertonung und mehrsprachigen Untertiteln:</span>
-                  <div class="yt-lang-pills" aria-label="YouTube-Untertitelsprachen">
-                    <span class="lang-tag">Deutsch</span>
-                    <span class="lang-tag">English</span>
-                    <span class="lang-tag">Türkçe</span>
-                    <span class="lang-tag">Español</span>
-                    <span class="lang-tag">Português</span>
-                    <span class="lang-tag">Français</span>
-                    <span class="lang-tag" dir="rtl">العربية</span>
-                    <span class="lang-tag">Русский</span>
-                    <span class="lang-tag">Українська</span>
-                    <span class="lang-tag">हिन्दी</span>
-                    <span class="lang-tag">Tiếng Việt</span>
-                    <span class="lang-tag">Bahasa Indonesia</span>
-                    <span class="lang-tag">中文</span>
-                  </div>
-                </div>
-              </li>
-              <li>
-                <span class="pillar-icon">⚡</span>
-                <div>
-                  <strong data-i18n="yt.p3Title">Shorts &amp; Alltagstipps:</strong>
-                  <span data-i18n="yt.p3Desc">Kurze Clips zu Artikeln (der/die/das), typischen Prüfungsfallen und nützlichen Redewendungen.</span>
-                </div>
-              </li>
-            </ul>
-
-            <div class="yt-cta-row">
-              <a href="https://www.youtube.com/@LernfinoDeutsch" target="_blank" rel="noopener noreferrer" class="btn btn-youtube">
-                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
-                <span data-i18n="yt.btn">Unseren YouTube-Kanal besuchen</span>
-                <span>➔</span>
-              </a>
-              <span class="yt-cta-note" data-i18n="yt.ctaNote">Mehrsprachige Untertitel · Unabhängiges Training</span>
-            </div>
-            <small class="yt-disclaimer" data-i18n="yt.disclaimer">* Unabhängiges Training im Prüfungsformat; kein offizielles Produkt des Goethe-Instituts oder des ÖSD und nicht mit diesen verbunden.</small>
-          </div>
-
-          <div class="yt-simple-right">
-            <img src="../08_Fino_Klaper_Video.png" alt="Fino YouTube-Kanal" class="yt-mascot-feature" />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- LAUNCH STATUS & WAITLIST CTA -->
-    <section class="launch-section" id="launch">
-      <div class="container">
-        <div class="launch-box">
-          <div class="launch-left">
-            <div class="launch-mascot-row">
-              <img src="../07_Fino_Kitapla_Selam_Veriyor.png" alt="Fino winkt" class="launch-mini-mascot" />
-              <span class="eyebrow-tag" data-i18n="launch.eyebrow">START-BENACHRICHTIGUNG</span>
-            </div>
-            <h2 data-i18n="launch.title">Erfahren Sie als Erste vom Start!</h2>
-            <p data-i18n="launch.desc">Lernfino vereint gestufte Hörgeschichten, interaktive Videolektionen, Kontextwörterbuch und unabhängige Übungen im Prüfungsformat. Im kostenlosen Tarif gelten tägliche Nutzungslimits, die mit einem Abonnement aufgehoben werden.</p>
-
-            <!-- Verified Live App Summary -->
-            <div class="launch-highlights-grid">
-              <div class="launch-hl-card">
-                <div class="launch-hl-header">
-                  <span class="launch-hl-icon">📚</span>
-                  <span class="launch-hl-tag" data-i18n="launch.card1Tag">A1 · A2 · B1 · B2</span>
-                </div>
-                <h4 data-i18n="launch.card1Title">Gestufte Geschichten &amp; Lesen</h4>
-                <p data-i18n="launch.card1Desc">Gestufte Geschichten von A1 bis B2 mit klarer Aussprache.</p>
-              </div>
-
-              <div class="launch-hl-card">
-                <div class="launch-hl-header">
-                  <span class="launch-hl-icon">🎬</span>
-                  <span class="launch-hl-tag" data-i18n="launch.card2Tag">Interaktive Praxis</span>
-                </div>
-                <h4 data-i18n="launch.card2Title">Video-Episode &amp; Shorts</h4>
-                <p data-i18n="launch.card2Desc">Interaktive Video-Episode mit Szenenfragen und Shorts-Mini-Tests.</p>
-              </div>
-
-              <div class="launch-hl-card">
-                <div class="launch-hl-header">
-                  <span class="launch-hl-icon">📝</span>
-                  <span class="launch-hl-tag" data-i18n="launch.card3Tag">Prüfungsformat · A1–B2</span>
-                </div>
-                <h4 data-i18n="launch.card3Title">Goethe- &amp; ÖSD-Format</h4>
-                <p data-i18n="launch.card3Desc">Hören- &amp; Lesen-Übungsprüfungen, A1–B2-Sets, Schreib- &amp; Sprechaufgaben (unabhängig).</p>
-              </div>
-
-              <div class="launch-hl-card">
-                <div class="launch-hl-header">
-                  <span class="launch-hl-icon">🧠</span>
-                  <span class="launch-hl-tag" data-i18n="launch.card4Tag">Audio-Wörterbuch · A1–B2</span>
-                </div>
-                <h4 data-i18n="launch.card4Title">Kontextwörterbuch &amp; SRS</h4>
-                <p data-i18n="launch.card4Desc">Wort-Audios, Artikelhilfe und SRS.</p>
-              </div>
-            </div>
-
-            <div class="launch-vip-banner">
-              <span class="vip-icon">📬</span>
-              <div class="vip-text" data-i18n="launch.vipNotice"><strong>Besonderer Startrabatt:</strong> Teilnehmende der Warteliste erhalten einen besonderen Startrabatt auf ihr erstes Abonnement. Rabattsatz, Dauer und Einlösung werden vor dem Start auf dieser Seite sowie per E-Mail bekannt gegeben. Im kostenlosen Tarif gelten tägliche Nutzungslimits, die mit einem Abonnement aufgehoben werden.</div>
-            </div>
-          </div>
-
-          <div class="launch-right">
-            <form class="notify-form" id="notifyForm">
-              <h3 data-i18n="launch.formTitle">Start-Benachrichtigung</h3>
-              <p data-i18n="launch.formSub">Teilnehmende der Warteliste erhalten einen besonderen Startrabatt auf ihr erstes Abonnement. Rabattsatz, Dauer und Einlösung werden vor dem Start auf dieser Seite sowie per E-Mail bekannt gegeben. Kein Spam; Abmeldung jederzeit möglich.</p>
-
-              <label class="form-label" for="emailInput" data-i18n="launch.emailLabel">Ihre E-Mail-Adresse</label>
-              <input
-                type="email"
-                id="emailInput"
-                class="form-input"
-                placeholder="name@beispiel.de"
-                required
-              />
-
-              <div class="form-consent-wrap">
-                <label class="form-consent-label" for="consentCheckbox">
-                  <input type="checkbox" id="consentCheckbox" class="form-consent-checkbox" required />
-                  <span data-i18n="launch.consentHtml">Ich möchte Start-, Produkt- und Startrabatt-Ankündigungen von Lernfino per E-Mail erhalten. Ich kann mich jederzeit abmelden. Hinweise in der <a href="../privacy/#waitlist-privacy">Datenschutzerklärung</a>.</span>
-                </label>
-              </div>
-
-              <label class="form-label" for="levelSelect" data-i18n="launch.levelLabel">Ihr gewünschtes Sprachniveau</label>
-              <select id="levelSelect" class="form-select">
-                <option value="A1" data-i18n="launch.optA1">A1 — Anfänger (A1)</option>
-                <option value="A2" data-i18n="launch.optA2">A2 — Grundlagen (A2)</option>
-                <option value="B1" selected data-i18n="launch.optB1">B1 — Mittelstufe / Zertifikat (B1)</option>
-                <option value="B2" data-i18n="launch.optB2">B2 — Gute Mittelstufe (B2)</option>
-              </select>
-
-              <button type="submit" class="btn btn-primary btn-lg full-w" data-i18n="launch.submitBtn">Zum Start benachrichtigen 🦊</button>
-
-              <div class="form-feedback" id="formFeedback" style="display: none;">
-                <img src="../04_Fino_Kutlama_Yapiyor.png" alt="Fino" class="feedback-fino-img" />
-                <div class="form-feedback-body">
-                  <span id="feedbackMessage"></span>
-                  <button type="button" id="formRetryBtn" class="form-retry-btn" hidden data-i18n="launch.retryBtn">Erneut versuchen</button>
-                </div>
-              </div>
-              <p class="form-unsubscribe" data-i18n="launch.unsubscribeHtml">Möchten Sie sich abmelden oder Ihren Eintrag löschen lassen? <a href="mailto:support@lernfino.com?subject=Lernfino%20Warteliste%20Abmelden">Abmelden / support@lernfino.com</a></p>
-            </form>
-          </div>
-        </div>
+          <p class="form-unsubscribe"><a href="mailto:support@lernfino.com?subject=Lernfino%20Waitlist%20Unsubscribe">Melden Sie sich ab oder entfernen Sie Ihren Wartelisteneintrag</a></p>
+          <noscript><p>Um ohne JavaScript beizutreten, wenden Sie sich an <a href="mailto:support@lernfino.com">support@lernfino.com</a></p></noscript>
+        </form>
       </div>
     </section>
   </main>
-
-  <!-- FOOTER -->
-  <footer class="site-footer">
-    <div class="container footer-inner">
-      <div class="footer-brand">
-        <img src="../Lernfino%20Deutsch%20Fox%20Icon.png" alt="Lernfino" class="footer-logo" />
-        <div>
-          <strong>lernfino.com</strong>
-          <p data-i18n="footer.tagline">Eine herzliche Seite zur deutschen Sprache. Demnächst für iOS und Android (Web demnächst).</p>
-        </div>
-      </div>
-
-      <div class="footer-meta">
-        <div class="footer-socials">
-          <a href="https://www.youtube.com/@LernfinoDeutsch" target="_blank" rel="noopener noreferrer" class="footer-social-btn yt" aria-label="Lernfino YouTube">
-            <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
-            <span>YouTube</span>
-          </a>
-          <a href="https://www.instagram.com/lernfinodeutsch/" target="_blank" rel="noopener noreferrer" class="footer-social-btn ig" aria-label="Lernfino Instagram">
-            <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
-            <span>Instagram</span>
-          </a>
-          <a href="https://www.facebook.com/lernfinodeutsch" target="_blank" rel="noopener noreferrer" class="footer-social-btn fb" aria-label="Lernfino Facebook">
-            <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-            <span>Facebook</span>
-          </a>
-          <a href="https://www.tiktok.com/@lernfino.deutsch" target="_blank" rel="noopener noreferrer" class="footer-social-btn tt" aria-label="Lernfino TikTok">
-            <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64c.298-.002.595.042.88.13V9.4a6.33 6.33 0 0 0-1-.08A6.34 6.34 0 0 0 3 15.66a6.34 6.34 0 0 0 10.82 4.46 6.27 6.27 0 0 0 1.88-4.46V8.78a8.28 8.28 0 0 0 4.89 1.58V6.9a4.83 4.83 0 0 1-1-.21z"/></svg>
-            <span>TikTok</span>
-          </a>
-        </div>
-        <div class="footer-tools">
-          <span class="footer-tools-label" data-i18n="footer.toolsLabel">Lern-Tools:</span>
-          <a href="../exam-calculator/" class="footer-nav-link" data-i18n="footer.toolCalc">Goethe/ÖSD-Punkterechner</a>
-          <span>·</span>
-          <a href="../word-counter/" class="footer-nav-link" data-i18n="footer.toolCounter">Schreiben-Wortzähler</a>
-          <span>·</span>
-          <a href="../level-test/" class="footer-nav-link" data-i18n="footer.toolLevel">A1–B2 Einstufungstest</a>
-        </div>
-        <div class="footer-links">
-          <a href="../privacy/" class="footer-nav-link" data-i18n="footer.privacy">Datenschutz</a>
-          <span>·</span>
-          <a href="../terms/" class="footer-nav-link" data-i18n="footer.terms">Nutzungsbedingungen</a>
-          <span>·</span>
-          <a href="../support/" class="footer-nav-link" data-i18n="footer.support">Support &amp; FAQ</a>
-          <span>·</span>
-          <a href="../delete-account/" class="footer-nav-link" data-i18n="footer.deleteAccount">Konto löschen</a>
-          <span>·</span>
-          <a href="../imprint/" class="footer-nav-link" data-i18n="footer.imprint">Impressum</a>
-        </div>
-        <div class="footer-langs">
-          <button type="button" class="text-link" data-lang-switch="tr">Türkçe</button>
-          <span>·</span>
-          <button type="button" class="text-link" data-lang-switch="en">English</button>
-          <span>·</span>
-          <button type="button" class="text-link" data-lang-switch="de">Deutsch</button>
-        </div>
-        <p class="footer-disclaimer" data-i18n="footer.disclaimer">Goethe-Zertifikat und ÖSD sind eingetragene Marken der jeweiligen Inhaber. Lernfino ist ein unabhängiges Bildungsangebot und kein offizielles Prüfungsmaterial des Goethe-Instituts oder des ÖSD.</p>
-        <small>© 2026 Lernfino · Respecode. <span data-i18n="footer.rights">Alle Rechte vorbehalten.</span></small>
-      </div>
-    </div>
-  </footer>
-
-  <script src="../app.js?v=20261116-h7"></script>
+  <footer class="web-footer" id="channel"><div class="container web-footer-inner">
+  <strong>Lernfino</strong>
+  <div class="web-footer-links"><a href="../de/privacy/">Datenschutzerklärung</a><a href="../de/terms/">Nutzungsbedingungen</a><a href="../de/imprint/">Impressum</a><a href="../de/support/">Unterstützung</a><a href="../de/delete-account/">Konto löschen</a></div>
+  <div class="web-footer-links" dir="ltr"><a href="https://www.youtube.com/@LernfinoDeutsch" rel="noopener noreferrer">YouTube</a><a href="https://www.instagram.com/lernfinodeutsch/" rel="noopener noreferrer">Instagram</a><a href="https://www.facebook.com/lernfinodeutsch" rel="noopener noreferrer">Facebook</a><a href="https://www.tiktok.com/@lernfino.deutsch" rel="noopener noreferrer">TikTok</a></div>
+  <small>Lernfino ist eine unabhängige Lern-App. Die Namen der Prüfungsanbieter kennzeichnen Übungsformate.</small><small>© 2026 Lernfino · Respecode. Alle Rechte vorbehalten.</small>
+  </div></footer>
+  <script id="home-messages" type="application/json">{"levels":{"A1":{"storyTitle":"Der kleine Garten","badge":"A1 · Anfänger (Präsens)","audioFile":"./audio/sentence_a1_garten.mp3","words":[{"key":"hinter","label":"Hinter"},{"key":"ihrem","label":"ihrem"},{"key":"haus","label":"Haus"},{"key":"ist","label":"ist"},{"key":"ein","label":"ein"},{"key":"kleiner","label":"kleiner"},{"key":"garten","label":"Garten."}],"translation":"Hinter ihrem Haus befindet sich ein kleiner Garten."},"A2":{"storyTitle":"Brief im falschen Kasten","badge":"A2 · Grundlagen (Perfekt)","audioFile":"./audio/sentence_a2.mp3","words":[{"key":"ich","label":"Ich"},{"key":"habe","label":"habe"},{"key":"gerade","label":"gerade"},{"key":"meinen","label":"meinen"},{"key":"briefkasten","label":"Briefkasten"},{"key":"geoffnet","label":"geöffnet"},{"key":"und","label":"und"},{"key":"diesen","label":"diesen"},{"key":"gelben","label":"gelben"},{"key":"umschlag","label":"Umschlag"},{"key":"gefunden","label":"gefunden."}],"translation":"Ich habe soeben meinen Briefkasten geöffnet und diesen gelben Briefumschlag gefunden."},"B1":{"storyTitle":"Der letzte Zug","badge":"B1 · Mittelstufe (Nebensatz)","audioFile":"./audio/sentence_b1.mp3","words":[{"key":"als","label":"Als"},{"key":"jonas","label":"Jonas"},{"key":"den","label":"den"},{"key":"bahnhof","label":"Bahnhof"},{"key":"erreicht","label":"erreicht,"},{"key":"faehrt","label":"fährt"},{"key":"der","label":"der"},{"key":"letzte","label":"letzte"},{"key":"zug","label":"Zug"},{"key":"gerade_b1","label":"gerade"},{"key":"ab","label":"ab."}],"translation":"Als Jonas am Bahnhof ankommt, fährt der letzte Zug gerade ab."},"B2":{"storyTitle":"Briefe von morgen","badge":"B2 · Gute Mittelstufe (Passiv & Modal)","audioFile":"./audio/sentence_b2_clear.mp3","words":[{"key":"bevor","label":"Bevor"},{"key":"die","label":"die"},{"key":"alte","label":"alte"},{"key":"buchhandlung","label":"Buchhandlung"},{"key":"renoviert","label":"renoviert"},{"key":"werden","label":"werden"},{"key":"konnte","label":"konnte,"},{"key":"musste","label":"musste"},{"key":"nora","label":"Nora"},{"key":"saemtliche","label":"sämtliche"},{"key":"schubladen","label":"Schubladen"},{"key":"ausraeumen","label":"ausräumen."}],"translation":"Bevor die alte Buchhandlung renoviert werden konnte, musste Nora sämtliche Schubladen ausräumen."}},"dictionary":{"hinter":{"headword":"hinter","exampleDe":"Der Garten liegt hinter dem Gebäude.","audioFile":"./audio/word_hinter.mp3","article":"Wechselpräposition","meaning":"auf der Rückseite von","grammar":"Wechselpräposition. Steht hier auf die Frage 'Wo?' mit Dativ: 'hinter ihrem Haus'.","exampleTr":"Der Garten liegt hinter dem Gebäude."},"ihrem":{"headword":"ihr","exampleDe":"Mia arbeitet in ihrem Büro.","audioFile":"./audio/word_ihr.mp3","article":"Possessivartikel (Dativ Sg. n.)","meaning":"ihr / zu ihr gehörend","grammar":"Possessivartikel im Dativ Singular Neutrum (bezogen auf 'das Haus').","exampleTr":"Mia arbeitet in ihrem Arbeitszimmer."},"haus":{"headword":"Haus","exampleDe":"Unser Haus hat weiße Fenster.","audioFile":"./audio/word_haus.mp3","article":"das Haus · Plural: die Häuser","meaning":"Gebäude zum Wohnen","grammar":"Neutrales Nomen im Dativ Singular nach der Präposition 'hinter'.","exampleTr":"Unser Haus hat helle Holzfenster."},"ist":{"headword":"sein","exampleDe":"Berlin ist eine lebendige Stadt.","audioFile":"./audio/word_sein.mp3","article":"Unregelmäßiges Verb (3. Pers. Sg.)","meaning":"ist vorhanden / existiert","grammar":"Form des Verbs 'sein' in der 3. Person Singular Präsens.","exampleTr":"Berlin ist eine pulsierende Metropole."},"ein":{"headword":"ein","exampleDe":"Dort steht ein großer Baum.","audioFile":"./audio/word_ein.mp3","article":"Unbestimmter Artikel (Maskulinum Nominativ)","meaning":"ein (Zählwort / Artikel)","grammar":"Unbestimmter Artikel im Nominativ Singular Maskulinum zu 'Garten'.","exampleTr":"Dort steht ein hoher Baum."},"kleiner":{"headword":"klein","exampleDe":"Sie hat einen kleinen Hund.","audioFile":"./audio/word_klein.mp3","article":"Adjektiv (gemischte Deklination)","meaning":"von geringer Größe","grammar":"Gemischte Adjektivdeklination: Endung '-er' nach unbestimmtem Artikel im Maskulinum Nominativ.","exampleTr":"Sie besitzt einen kleinen Dackel."},"garten":{"headword":"Garten","exampleDe":"Im Garten wachsen bunte Blumen.","audioFile":"./audio/word_garten.mp3","article":"der Garten · Plural: die Gärten","meaning":"Gartenanlage","grammar":"Maskulines Nomen im Nominativ Singular; Subjekt des Satzes.","exampleTr":"Im Garten blühen rote Rosen."},"ich":{"headword":"ich","exampleDe":"Ich lerne jeden Tag Deutsch.","audioFile":"./audio/word_ich.mp3","article":"Personalpronomen (1. Pers. Sg.)","meaning":"sprechende Person","grammar":"Personalpronomen der 1. Person Singular im Nominativ.","exampleTr":"Ich übe täglich neue Vokabeln."},"habe":{"headword":"haben","exampleDe":"Ich habe gestern ein Buch gelesen.","audioFile":"./audio/word_haben.mp3","article":"Hilfsverb (Präsens 1. Sg.)","meaning":"haben / Perfekt-Hilfsverb","grammar":"Hilfsverb zur Bildung des Perfekts in der 1. Person Singular Präsens.","exampleTr":"Ich habe gestern einen Roman gelesen."},"gerade":{"headword":"gerade","exampleDe":"Der Zug kommt gerade an.","audioFile":"./audio/word_gerade.mp3","article":"Temporaladverb","meaning":"soeben / im Moment","grammar":"Adverb mit der Bedeutung 'soeben / vor wenigen Augenblicken'.","exampleTr":"Der Zug fährt gerade ein."},"meinen":{"headword":"mein","exampleDe":"Ich suche meinen Schlüssel.","audioFile":"./audio/word_mein.mp3","article":"Possessivartikel (Maskulinum Akkusativ)","meaning":"mein (Akkusativ Singular Maskulinum)","grammar":"Possessivartikel im Akkusativ Singular Maskulinum als direktes Objekt.","exampleTr":"Ich habe meinen Schlüssel verlegt."},"briefkasten":{"headword":"Briefkasten","exampleDe":"Der Briefkasten ist voll mit Zeitungen.","audioFile":"./audio/word_brief.mp3","article":"der Briefkasten · Plural: die Briefkästen","meaning":"Kasten für Postsendungen","grammar":"Zusammengesetztes maskulines Nomen im Akkusativ Singular.","exampleTr":"Der Briefkasten quillt über."},"geoffnet":{"headword":"öffnen","exampleDe":"Sie hat die Tür leise geöffnet.","audioFile":"./audio/word_oeffnen.mp3","article":"Partizip II des Verbs öffnen","meaning":"aufgemacht","grammar":"Partizip II des schwachen Verbs 'öffnen' zur Bildung des Perfekts.","exampleTr":"Er hat das Fenster geöffnet."},"und":{"headword":"und","exampleDe":"Kaffee und Kuchen stehen bereit.","audioFile":"./audio/word_und.mp3","article":"Nebenordnende Konjunktion","meaning":"und (verbindendes Wort)","grammar":"Koordinierende Konjunktion; verbindet zwei Prädikatsteile.","exampleTr":"Tee und Gebäck stehen auf dem Tisch."},"diesen":{"headword":"dieser","exampleDe":"Ich kenne diesen Autor gut.","audioFile":"./audio/word_dieser.mp3","article":"Demonstrativartikel (Akkusativ Maskulinum)","meaning":"dieser / diesen","grammar":"Demonstrativartikel im Akkusativ Singular Maskulinum.","exampleTr":"Diesen Roman habe ich schon gelesen."},"gelben":{"headword":"gelb","exampleDe":"Sie trägt einen gelben Schal.","audioFile":"./audio/word_gelb.mp3","article":"Adjektiv (schwache Deklination)","meaning":"von gelber Farbe","grammar":"Schwache Adjektivendung '-en' nach Demonstrativartikel im Akkusativ Maskulinum.","exampleTr":"Er hat eine gelbe Jacke an."},"umschlag":{"headword":"Umschlag","exampleDe":"Der Brief liegt im Umschlag.","audioFile":"./audio/word_umschlag.mp3","article":"der Umschlag · Plural: die Umschläge","meaning":"Briefumschlag / Kuvert","grammar":"Maskulines Nomen im Akkusativ Singular.","exampleTr":"Auf dem Umschlag steht eine Briefmarke."},"gefunden":{"headword":"finden","exampleDe":"Ich habe meine Brille endlich gefunden.","audioFile":"./audio/word_finden.mp3","article":"Partizip II des starken Verbs finden","meaning":"entdeckt / gefunden","grammar":"Partizip II des starken Verbs 'finden' (Ablautreihe i - a - u).","exampleTr":"Er hat die passende Lösung gefunden."},"als":{"headword":"als","exampleDe":"Als ich ankam, regnete es.","audioFile":"./audio/word_als.mp3","article":"Temporale Subjunktion","meaning":"zu dem Zeitpunkt, als","grammar":"Nebensatzeinleitende Konjunktion für einmalige Ereignisse in der Vergangenheit; Verb am Satzende.","exampleTr":"Als der Wecker klingelte, stand er auf."},"jonas":{"headword":"Jonas","exampleDe":"Jonas reist gerne mit dem Zug.","audioFile":"./audio/word_jonas.mp3","article":"Eigenname (Subjekt)","meaning":"männlicher Vorname","grammar":"Eigenname als Subjekt des Nebensatzes im Nominativ.","exampleTr":"Jonas wartet auf dem Bahnsteig."},"den":{"headword":"der","exampleDe":"Er betritt den Raum.","audioFile":"./audio/word_der.mp3","article":"Bestimmter Artikel (Akkusativ Maskulinum)","meaning":"der / den","grammar":"Bestimmter Artikel im Akkusativ Maskulinum zum Nomen 'Bahnhof'.","exampleTr":"Er sieht den Fahrplan an."},"bahnhof":{"headword":"Bahnhof","exampleDe":"Wir treffen uns vor dem Bahnhof.","audioFile":"./audio/word_bahnhof.mp3","article":"der Bahnhof · Plural: die Bahnhöfe","meaning":"Zugstation","grammar":"Maskulines Kompositum im Akkusativ Singular als Objekt von 'erreicht'.","exampleTr":"Der Zug hält am Hauptbahnhof."},"erreicht":{"headword":"erreichen","exampleDe":"Sie erreicht ihr Ziel pünktlich.","audioFile":"./audio/word_erreichen.mp3","article":"Regelmäßiges Verb (Präsens 3. Sg.)","meaning":"ankommen an / erzielen","grammar":"3. Person Singular Präsens des Verbs 'erreichen' am Ende des Nebensatzes.","exampleTr":"Er hat den Gipfel erreicht."},"faehrt":{"headword":"fahren","exampleDe":"Der Bus fährt alle zehn Minuten.","audioFile":"./audio/word_fahren.mp3","article":"Starkes Verb mit Vokalwechsel (a -> ä)","meaning":"bewegt sich fort / fährt ab","grammar":"Starkes Verb mit Vokalwechsel von 'a' zu 'ä' in der 3. Person Singular Präsens.","exampleTr":"Das Schiff fährt über den See."},"der":{"headword":"der","exampleDe":"Der Zug hat keine Verspätung.","audioFile":"./audio/word_der.mp3","article":"Bestimmter Artikel (Maskulinum Nominativ)","meaning":"bestimmter Artikel","grammar":"Bestimmter Artikel im Nominativ Singular Maskulinum zu 'Zug'.","exampleTr":"Der Schaffner kontrolliert die Fahrkarten."},"letzte":{"headword":"letzt","exampleDe":"Das ist die letzte Gelegenheit.","audioFile":"./audio/word_letzte.mp3","article":"Adjektiv (schwache Deklination)","meaning":"letzter / am Schluss kommend","grammar":"Schwache Adjektivendung '-e' nach bestimmtem Artikel im Nominativ Maskulinum.","exampleTr":"Er nahm den letzten Bus nach Hause."},"zug":{"headword":"Zug","exampleDe":"Der Zug nach München fährt auf Gleis 4 ein.","audioFile":"./audio/word_zug.mp3","article":"der Zug · Plural: die Züge","meaning":"Eisenbahnzug","grammar":"Maskulines Nomen im Nominativ Singular; Subjekt des Hauptsatzes.","exampleTr":"Der ICE fährt mit hoher Geschwindigkeit."},"gerade_b1":{"headword":"gerade","exampleDe":"Er schläft gerade.","audioFile":"./audio/word_gerade.mp3","article":"Temporaladverb","meaning":"in diesem Moment","grammar":"Adverb zur Betonung der Gleichzeitigkeit.","exampleTr":"Sie kocht gerade das Abendessen."},"ab":{"headword":"abfahren","exampleDe":"Der Zug fährt pünktlich um 14 Uhr ab.","audioFile":"./audio/word_abfahren.mp3","article":"Abtrennbares Präfix (ab-)","meaning":"abfahren (Präfix am Satzende)","grammar":"Abtrennbares Verbpräfix von 'abfahren'; steht im Hauptsatz an der Satzklammer ganz hinten.","exampleTr":"Wann fährt die Fähre ab?"},"bevor":{"headword":"bevor","exampleDe":"Bevor du gehst, schließe bitte das Fenster.","audioFile":"./audio/word_bevor.mp3","article":"Temporale Subjunktion","meaning":"zeitlich vorangehend","grammar":"Subjunktion, die einen temporalen Nebensatz einleitet; finites Verb am Satzende.","exampleTr":"Bevor die Frist abläuft, müssen wir antworten."},"die":{"headword":"die","exampleDe":"Die Stadt erwacht am frühen Morgen.","audioFile":"./audio/word_der.mp3","article":"Bestimmter Artikel (Femininum Nominativ)","meaning":"bestimmter Artikel","grammar":"Bestimmter Artikel im Nominativ Singular Femininum zu 'Buchhandlung'.","exampleTr":"Die Bibliothek öffnet um neun Uhr."},"alte":{"headword":"alt","exampleDe":"In der alten Gasse stehen historische Häuser.","audioFile":"./audio/word_alt.mp3","article":"Adjektiv (schwache Deklination)","meaning":"von hohem Alter / historisch","grammar":"Schwache Adjektivendung '-e' nach bestimmtem Artikel im Femininum Nominativ.","exampleTr":"Das alte Gebäude steht unter Denkmalschutz."},"buchhandlung":{"headword":"Buchhandlung","exampleDe":"Sie stöbert gerne in der kleinen Buchhandlung.","audioFile":"./audio/word_buchhandlung.mp3","article":"die Buchhandlung · Plural: die Buchhandlungen","meaning":"Buchgeschäft","grammar":"Feminines Kompositum; Suffix '-ung' bedingt das feminine Genus.","exampleTr":"Die Buchhandlung führt seltene Erstausgaben."},"renoviert":{"headword":"renovieren","exampleDe":"Das Gebäude wurde im letzten Jahr komplett renoviert.","audioFile":"./audio/word_renovieren.mp3","article":"Partizip II des Verbs renovieren","meaning":"instandgesetzt / saniert","grammar":"Partizip II ohne 'ge-'-Präfix; Teil des Passivs mit Modalverb ('renoviert werden konnte').","exampleTr":"Die Wohnung wird von Grund auf renoviert."},"werden":{"headword":"werden","exampleDe":"Der Brief muss heute noch verschickt werden.","audioFile":"./audio/word_werden.mp3","article":"Passiv-Hilfsverb im Infinitiv","meaning":"Vorgangspassiv-Hilfsverb","grammar":"Infinitiv des Passiv-Hilfsverbs im Passiv mit Modalverb.","exampleTr":"Das Problem wird gelöst werden."},"konnte":{"headword":"können","exampleDe":"Er konnte die Frage sofort beantworten.","audioFile":"./audio/word_koennen.mp3","article":"Modalverb im Präteritum","meaning":"in der Lage war / möglich war","grammar":"3. Person Singular Präteritum des Modalverbs 'können' am Nebensatzende.","exampleTr":"Niemand konnte die Schrift entziffern."},"musste":{"headword":"müssen","exampleDe":"Sie musste früh aufstehen.","audioFile":"./audio/word_muessen.mp3","article":"Modalverb im Präteritum","meaning":"war verpflichtet / musste","grammar":"Präteritum des Modalverbs 'müssen' zur Bezeichnung einer vergangenen Notwendigkeit.","exampleTr":"Er musste lange im Regen warten."},"nora":{"headword":"Nora","exampleDe":"Nora liebt alte Bücher.","audioFile":"./audio/word_nora.mp3","article":"Weiblicher Vorname (Subjekt)","meaning":"weiblicher Vorname","grammar":"Eigenname als Subjekt des Hauptsatzes im Nominativ.","exampleTr":"Nora liest jeden Abend vor dem Schlafen."},"saemtliche":{"headword":"sämtlich","exampleDe":"Sämtliche Unterlagen wurden sorgfältig geprüft.","audioFile":"./audio/word_saemtlich.mp3","article":"Indefinitpronomen (Plural Akkusativ)","meaning":"ausnahmslos alle","grammar":"Pluralform im Akkusativ; stilistisch gehobenes Synonym für 'alle'.","exampleTr":"Sämtliche Türen waren verschlossen."},"schubladen":{"headword":"Schublade","exampleDe":"In der Schublade liegen alte Briefe.","audioFile":"./audio/word_schublade.mp3","article":"die Schublade · Plural: die Schubladen","meaning":"ausziehbare Fächer","grammar":"Feminines Nomen im Akkusativ Plural als direktes Objekt von 'ausräumen'.","exampleTr":"Die Schublade klemmt schon wieder."},"ausraeumen":{"headword":"ausräumen","exampleDe":"Wir müssen den Schrank vor dem Umzug ausräumen.","audioFile":"./audio/word_ausraeumen.mp3","article":"Abtrennbares Verb im Infinitiv","meaning":"den Inhalt vollständig entnehmen","grammar":"Infinitiv des trennbaren Verbs am Satzende, abhängig vom Modalverb 'musste'.","exampleTr":"Er räumte den Keller komplett aus."}},"status":{"pending":"Senden Ihrer Anfrage…","success":"Sie stehen auf der Startliste. Wir senden Ihnen die Details per E-Mail zu.","duplicate":"Diese E-Mail ist bereits auf der Startliste.","error":"Wir konnten Ihre Anmeldung nicht bestätigen. Bitte versuchen Sie es erneut.","retry":"Versuchen Sie es erneut","saveWord":"Unter „Wörter“ speichern","savedWord":"In dieser Demo gespeichert"},"suggestions":{"en":{"name":"English","locale":"en","text":"This page is available in your browser language.","href":"../"},"de":{"name":"Deutsch","locale":"de","text":"Diese Seite ist in Ihrer Browsersprache verfügbar.","href":"../de/"},"tr":{"name":"Türkçe","locale":"tr","text":"Bu sayfa tarayıcınızın dilinde mevcuttur.","href":"../tr/"},"es":{"name":"Español","locale":"es","text":"Esta página está disponible en el idioma de su navegador.","href":"../es/"},"pt":{"name":"Português (Brasil)","locale":"pt-BR","text":"Esta página está disponível no idioma do seu navegador.","href":"../pt/"},"fr":{"name":"Français","locale":"fr","text":"Cette page est disponible dans la langue de votre navigateur.","href":"../fr/"},"it":{"name":"Italiano","locale":"it","text":"Questa pagina è disponibile nella lingua del tuo browser.","href":"../it/"},"pl":{"name":"Polski","locale":"pl","text":"Ta strona jest dostępna w języku Twojej przeglądarki.","href":"../pl/"},"ar":{"name":"العربية","locale":"ar","text":"هذه الصفحة متاحة بلغة المتصفّح.","href":"../ar/"},"ru":{"name":"Русский","locale":"ru","text":"Эта страница доступна на языке вашего браузера.","href":"../ru/"},"uk":{"name":"Українська","locale":"uk","text":"Ця сторінка доступна мовою вашого браузера.","href":"../uk/"},"hi":{"name":"हिन्दी","locale":"hi","text":"यह पृष्ठ आपकी ब्राउज़र भाषा में उपलब्ध है.","href":"../hi/"},"vi":{"name":"Tiếng Việt","locale":"vi","text":"Trang này có sẵn bằng ngôn ngữ trình duyệt của bạn.","href":"../vi/"},"id":{"name":"Bahasa Indonesia","locale":"id","text":"Halaman ini tersedia dalam bahasa browser Anda.","href":"../id/"},"zh":{"name":"简体中文","locale":"zh-Hans","text":"此页面可使用您的浏览器语言。","href":"../zh/"}}}</script>
 </body>
 </html>

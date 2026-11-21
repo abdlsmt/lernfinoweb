@@ -1,0 +1,453 @@
+{
+  "home": {
+    "pageTitle": "Lernfino — Học tiếng Đức từ A1 đến B2 cùng Fino",
+    "navigation": "Điều hướng chính",
+    "languageLabel": "Chọn ngôn ngữ",
+    "suggestion": "Trang này có sẵn bằng ngôn ngữ trình duyệt của bạn.",
+    "dismiss": "Loại bỏ đề xuất",
+    "theme": "Chuyển đổi chế độ tối",
+    "home": "Trang chủ",
+    "features": "Bạn sẽ học được gì",
+    "featuresIntro": "Xây dựng tất cả bốn kỹ năng tiếng Đức, sau đó áp dụng chúng vào thực hành thi cử và các tình huống hàng ngày.",
+    "how": "Lernfino hoạt động như thế nào",
+    "tools": "Công cụ web miễn phí",
+    "signup": "Tham gia danh sách khởi chạy",
+    "launchStatus": "Đến với iOS và Android",
+    "heroTitle": "Học tiếng Đức với Fino.",
+    "heroAccent": "Từ Hallo đầu tiên của bạn đến B2.",
+    "heroIntro": "Thực hiện theo lộ trình học tiếng Đức từ những từ đầu tiên của bạn đến B2. Luyện tập với các bài học nhỏ, các đoạn hội thoại hàng ngày và các bài thi thử đầy đủ.",
+    "languagesTitle": "Học bằng 15 ngôn ngữ",
+    "path": "Lộ trình học",
+    "exams": "Đề thi thử đầy đủ",
+    "scenarios": "Kịch bản hàng ngày",
+    "startLabel": "Bắt đầu bài học",
+    "pathText": "Bắt đầu từ S1–S10, sau đó từ A1 đến B2. Các bài học ngắn phù hợp giữa các kế hoạch khác của bạn.",
+    "examsText": "Làm tám bài thi thử hoàn chỉnh, độc lập theo định dạng Goethe và ÖSD. Có thể luyện riêng Hören và Lesen, hoặc làm các bộ bài tập theo định dạng telc.",
+    "ai": "Phản hồi về Sprechen và Schreiben",
+    "aiText": "Nhận phản hồi AI tùy chọn về câu trả lời nói và viết. Việc đánh giá cần có sự đồng ý và tuân theo các giới hạn về tài khoản và kế hoạch.",
+    "life": "Cuộc sống ở Đức",
+    "lifeText": "Thực hành 28 tình huống hàng ngày, từ việc tìm căn hộ đến việc đi khám bác sĩ. Đọc các đoạn hội thoại, làm bài tập và lần lượt đóng vai nói.",
+    "trainers": "Giảng viên ngữ pháp",
+    "articles": "Luyện quán từ",
+    "cases": "Trường hợp và giới từ",
+    "sentences": "Chạy nước rút xây dựng câu",
+    "prepVerbs": "Động từ có giới từ",
+    "verbs": "Luyện động từ",
+    "games": "Trò chơi luyện tập tiếng Đức",
+    "rain": "Mưa quán từ",
+    "race": "Đua ghép đôi",
+    "wordle": "Wordle tiếng Đức",
+    "reading": "Câu chuyện và từ vựng",
+    "readingText": "Đọc và nghe những câu chuyện có trình độ. Tra cứu các từ trong ngữ cảnh, sau đó lưu chúng vào Lời của tôi.",
+    "review": "Xem xét và tiến bộ",
+    "reviewText": "Sử dụng sổ ghi chép lỗi để xem lại lỗi và lặp lại cách nhau để luyện từ. Chuyển sang chế độ tối bất cứ khi nào bạn muốn.",
+    "step1": "Tìm trình độ của bạn",
+    "step1Text": "Bắt đầu lại từ đầu hoặc làm bài kiểm tra vị trí trên web để xem nên bắt đầu từ đâu.",
+    "step2": "Học một bài học ngắn",
+    "step2Text": "Đi theo lộ trình học tập và thực hành từng chút một.",
+    "step3": "Sử dụng những gì bạn đã học",
+    "step3Text": "Hãy thử một đoạn hội thoại thực tế, ôn lại các từ hoặc làm bài thi thử theo thời gian.",
+    "tryDemo": "Hãy thử bản demo tương tác",
+    "demoIntro": "Chọn một cấp độ, nghe một câu ví dụ và nhấn vào một từ tiếng Đức để xem nghĩa của nó trong ngữ cảnh.",
+    "dictionary": "Từ điển",
+    "listenSentence": "Nghe câu",
+    "listenWord": "Hãy nghe lời",
+    "saveWord": "Thêm vào Lời của tôi",
+    "savedWord": "Đã lưu trong bản demo này",
+    "levelTest": "Kỳ thi xếp lớp tiếng Đức",
+    "levelTestText": "Trả lời tối đa 12 câu hỏi để ước tính trình độ tiếng Đức của bạn từ A1 đến B2.",
+    "calculator": "Máy tính điểm thi",
+    "calculatorText": "Nhập điểm học phần của bạn và kiểm tra chúng theo các quy tắc Goethe hoặc ÖSD được hỗ trợ.",
+    "discount": "Tham gia danh sách để được giảm giá đặc biệt cho lần đăng ký đầu tiên của bạn. Chi tiết về tỷ lệ, thời lượng và quy đổi sẽ được thông báo tại đây và qua email trước khi ra mắt.",
+    "limits": "Gói miễn phí có giới hạn sử dụng hàng ngày. Quyền truy cập và đánh giá AI khác nhau tùy theo gói.",
+    "emailLabel": "Địa chỉ email",
+    "levelLabel": "Mục tiêu trình độ tiếng Đức",
+    "consent": "Tôi đồng ý nhận email về việc ra mắt, cập nhật sản phẩm và giảm giá khi ra mắt. Tôi có thể hủy đăng ký bất cứ lúc nào.",
+    "pending": "Đang gửi yêu cầu của bạn…",
+    "success": "Bạn đang ở trong danh sách khởi chạy. Chúng tôi sẽ gửi chi tiết qua email.",
+    "duplicate": "Email này đã có trong danh sách khởi chạy.",
+    "error": "Chúng tôi không thể xác nhận đăng ký của bạn. Vui lòng thử lại.",
+    "retry": "Thử lại",
+    "unsubscribe": "Hủy đăng ký hoặc xóa mục nhập danh sách chờ của bạn",
+    "javascript": "Để tham gia mà không cần JavaScript, hãy liên hệ",
+    "privacy": "Chính sách bảo mật",
+    "terms": "Điều khoản dịch vụ",
+    "imprint": "Thông báo pháp lý",
+    "support": "Ủng hộ",
+    "deleteAccount": "Xóa tài khoản",
+    "rights": "Mọi quyền được bảo lưu.",
+    "independent": "Lernfino là một ứng dụng học tập độc lập. Tên nhà cung cấp bài kiểm tra xác định các hình thức thực hành.",
+    "officialNotice": "Bản dịch này được cung cấp để cung cấp thông tin. Phiên bản tiếng Anh và tiếng Đức có tính ràng buộc.",
+    "updated": "Cập nhật vào ngày 21 tháng 11 năm 2026",
+    "languagesNote": "Ch?n ng?n ng? giao di?n. V? d? v? ?m thanh v?n d?ng ti?ng ??c."
+  },
+  "legal": {
+    "privacy": "<div class=\"callout-box callout-emerald\"><strong>Tóm tắt &amp; Lời hứa cốt lõi:</strong> Lernfino được thiết kế để bảo vệ hành trình học tập cá nhân của bạn. Lịch sử đọc, thẻ từ vựng và kết quả thi thử của bạn vẫn được lưu trữ trên thiết bị của bạn theo mặc định và dữ liệu cá nhân của bạn không bao giờ được bán cho bên thứ ba.</div>\n\n          <h2>1. Bộ điều khiển dữ liệu</h2>\n          <p>Chính sách quyền riêng tư này áp dụng cho các ứng dụng di động Lernfino (iOS &amp; Android) và trang web <code>lernfino.com</code> do nhà phát triển cá nhân <strong>Abdulsamet Saygı</strong> (Repecode / Lernfino) phát triển và vận hành.</p>\n          <p><strong>Bộ điều khiển dữ liệu:</strong> Abdulsamet Saygı<br /> <strong>Địa chỉ:</strong> Mehmet Akif Ersoy Mah. 295. Cd C12 Blok No:46, Yenimahalle / Ankara, Türkiye<br /> <strong>Email:</strong> <a href=\"mailto:support@lernfino.com\">support@lernfino.com</a></p>\n\n          <h2>2. Nguyên tắc chúng tôi thu thập và lưu trữ dữ liệu</h2>\n          <p>Lernfino tuân thủ nghiêm ngặt các nguyên tắc giảm thiểu dữ liệu. Chúng tôi chỉ xử lý dữ liệu cần thiết để cung cấp các tính năng học tập và thông tin liên lạc được yêu cầu:</p>\n          <ul>\n            <li><strong>Bộ lưu trữ trên thiết bị (cục bộ):</strong> Các chương câu chuyện đã hoàn thành, tiến trình nghe, thẻ nhớ lặp lại cách quãng (SRS), điểm thực hành ở định dạng Goethe/ÖSD và tùy chọn chủ đề hình ảnh được lưu trữ cục bộ trên thiết bị của bạn theo mặc định. Dữ liệu này không được tải lên máy chủ của chúng tôi trừ khi bạn tạo và đồng bộ hóa tài khoản.</li>\n            <li><strong>Dữ liệu tài khoản đám mây tùy chọn:</strong> Nếu bạn tự nguyện tạo tài khoản để đồng bộ hóa trên nhiều thiết bị, chúng tôi sẽ lưu trữ địa chỉ email, ID người dùng, tiến trình học tập và kết quả đánh giá AI tùy chọn của bạn trong phần phụ trợ đám mây của chúng tôi (Supabase).</li>\n            <li><strong>Nhận dạng micrô và giọng nói:</strong> Bản ghi cục bộ vẫn còn trên thiết bị này. Nhận dạng giọng nói sử dụng dịch vụ của hệ điều hành của bạn và có thể cần kết nối Internet. Chỉ khi có sự đồng ý rõ ràng của người lớn (18+), Lernfino mới gửi âm thanh hoặc văn bản qua Supabase tới Google Gemini. Lernfino xử lý âm thanh trong bộ nhớ, không lưu trữ tệp âm thanh trên máy chủ của mình và xóa bản nháp cục bộ sau khi lưu phản hồi. Bảng điểm và phản hồi vẫn còn trong tài khoản. Sau khi bạn đồng ý và gửi ngoại tuyến, câu trả lời của bạn có thể được gửi khi kết nối trở lại. Ở cấp miễn phí, Google có thể sử dụng nội dung gửi để cải thiện sản phẩm của mình; điều khoản lưu giữ của nó được áp dụng.</li>\n            <li><strong>Chẩn đoán kỹ thuật:</strong> Chẩn đoán ẩn danh (chẳng hạn như mã lỗi, số lượng và dấu thời gian gần đúng) chỉ có thể được xử lý để duy trì tính ổn định của ứng dụng.</li>\n          </ul>\n\n          <h2 id=\"waitlist-privacy\">3. Khởi chạy biểu mẫu danh sách chờ</h2>\n          <p>Khi bạn gửi biểu mẫu thông báo khởi chạy trên <code>lernfino.com</code>, chúng tôi xử lý dữ liệu sau:</p>\n          <ul>\n            <li><strong>Dữ liệu được thu thập:</strong> Địa chỉ email của bạn, ngày/giờ gửi, ngôn ngữ giao diện đã chọn và trình độ tiếng Đức mục tiêu tùy chọn.</li>\n            <li><strong>Mục đích:</strong> Chỉ gửi thông báo ra mắt và cập nhật sản phẩm về Lernfino.</li>\n            <li><strong>Cơ sở pháp lý:</strong> Sự đồng ý rõ ràng của bạn (Điều khoản GDPR. 6(1)(a), Điều khoản KVKK của Thổ Nhĩ Kỳ. 5(1), UWG của Đức § 7). Việc gửi bị chặn trừ khi hộp đồng ý được tích cực đánh dấu.</li>\n            <li><strong>Người xử lý và chuyển giao:</strong> Nội dung gửi được lưu trữ qua Google Apps Script trong Google Trang tính (Google LLC, Hoa Kỳ), liên quan đến việc truyền dữ liệu quốc tế tới Hoa Kỳ.</li>\n            <li><strong>Lưu giữ:</strong> Các bản ghi danh sách chờ sẽ bị xóa không muộn hơn <strong>6 tháng</strong> sau khi khởi chạy ứng dụng hoặc ngay lập tức khi bạn yêu cầu rút/xóa.</li>\n            <li><strong>Chọn không tham gia:</strong> Bạn có thể rút lại sự đồng ý và hủy đăng ký bất cứ lúc nào bằng cách gửi email đến <code>support@lernfino.com</code>.</li>\n          </ul>\n\n          <h2>4. Bộ xử lý và truyền dữ liệu quốc tế</h2>\n          <p>Chúng tôi dựa vào các nhà cung cấp dịch vụ (bộ xử lý) bên thứ ba sau để vận hành Lernfino:</p>\n          <ul>\n            <li><strong>Supabase:</strong> Tài khoản người dùng đám mây, xác thực và đồng bộ hóa tiến trình học tập.</li>\n            <li><strong>Google Gemini:</strong> Đánh giá khả năng nói và viết bằng AI tùy chọn, chỉ được gửi sau khi có sự đồng ý rõ ràng của người lớn (18+).</li>\n            <li><strong>Google AdMob:</strong> Quảng cáo ở cấp độ miễn phí (với tính năng quản lý sự đồng ý của Google UMP ở EEA/UK).</li>\n            <li><strong>RevenueCat, Apple App Store và Google Play:</strong> Mua hàng trong ứng dụng, trạng thái đăng ký và xác thực biên nhận.</li>\n            <li><strong>Đăng nhập bằng Google &amp; Đăng nhập bằng Apple:</strong> Nhà cung cấp đăng nhập xã hội tùy chọn.</li>\n            <li><strong>Google Apps Script / Google Trang tính:</strong> Bộ nhớ danh sách chờ khởi chạy trang web.</li>\n            <li><strong>Gửi lại:</strong> Gửi email xác minh tài khoản và đặt lại mật khẩu (địa chỉ email và nhật ký gửi được xử lý; nhà cung cấp có trụ sở tại Hoa Kỳ, được chuyển giao theo các biện pháp bảo vệ thích hợp như Điều khoản hợp đồng tiêu chuẩn và/hoặc sự đồng ý của bạn — <a href=\"https://resend.com/legal/privacy-policy\" target=\"_blank\" rel=\"noopener noreferrer\">Chính sách quyền riêng tư</a>).</li>\n            <li><strong>Cloudflare (Cloudflare R2):</strong> Cung cấp nội dung hình ảnh và âm thanh của ứng dụng qua <code>media.lernfino.com</code> (Địa chỉ IP và nhật ký yêu cầu được xử lý; mạng toàn cầu/Hoa Kỳ, được chuyển giao theo các biện pháp bảo vệ thích hợp như Điều khoản hợp đồng tiêu chuẩn và/hoặc sự đồng ý của bạn — <a href=\"https://www.cloudflare.com/privacypolicy/\" target=\"_blank\" rel=\"noopener noreferrer\">Chính sách quyền riêng tư</a>).</li>\n          </ul>\n          <p><strong>Chuyển tiền quốc tế:</strong> Một số nhà cung cấp được liệt kê ở trên xử lý dữ liệu bên ngoài Türkiye và Khu vực kinh tế Châu Âu (EEA), bao gồm cả ở Hoa Kỳ. Việc chuyển giao được thực hiện dưới các biện pháp bảo vệ thích hợp (như Điều khoản hợp đồng tiêu chuẩn) và/hoặc sự đồng ý rõ ràng của bạn.</p>\n\n          <div class=\"callout-box callout-navy\"><strong>Không bán dữ liệu · Chính sách quảng cáo minh bạch:</strong> Chúng tôi không bao giờ bán, cho thuê hoặc trao đổi thông tin cá nhân hoặc lịch sử tìm hiểu của bạn với các nhà môi giới dữ liệu. Để hỗ trợ cấp miễn phí của chúng tôi, quảng cáo có thể được phân phối qua Google AdMob; Đăng ký Plus và Pro sẽ loại bỏ quảng cáo.</div>\n\n          <h2>5. Quyền của Người dùng &amp; Quyền Khiếu nại (GDPR, KVKK &amp; Quyền Toàn cầu)</h2>\n          <p>Mọi người dùng Lernfino đều duy trì toàn quyền kiểm soát dữ liệu của mình:</p>\n          <ul>\n            <li><strong>Truy cập &amp; Khả năng di chuyển dữ liệu:</strong> Bạn có thể xuất lịch sử từ vựng và nhật ký học tập của mình dưới dạng tệp JSON mở bất kỳ lúc nào thông qua <em>Cài đặt → Sao lưu dữ liệu học tập</em>.</li>\n            <li><strong>Sửa đổi, hạn chế và rút lại:</strong> Bạn có thể cập nhật thông tin chi tiết của mình, phản đối việc xử lý hoặc rút lại sự đồng ý bất cứ lúc nào.</li>\n            <li><strong>Quyền xóa (Xóa):</strong> Việc xóa tài khoản sẽ xóa các bản ghi đã được đồng bộ hóa và phản hồi AI. Việc xóa trong ứng dụng cũng xóa tiến trình tài khoản và các bản nháp được xếp hàng đợi trên điện thoại đó. Số liệu chi phí ẩn danh và biên nhận xóa ngẫu nhiên được giữ lại. Khách có thể xóa tiến trình học tập cục bộ trong Cài đặt → Đặt lại dữ liệu học tập hoặc yêu cầu xóa vĩnh viễn tại <a href=\"{deleteAccountPath}\">lernfino.com/delete-account</a> hoặc bằng cách gửi email <code>support@lernfino.com</code>.</li>\n            <li><strong>Quyền khiếu nại:</strong> Bạn có quyền khiếu nại với cơ quan giám sát bảo vệ dữ liệu ở EU/EEA (ví dụ: cơ quan bảo vệ dữ liệu của tiểu bang Đức tại địa phương của bạn) hoặc với <strong>Ban bảo vệ dữ liệu cá nhân (KVKK Kurulu)</strong> ở Türkiye.</li>\n          </ul>\n\n          <h2>6. Yêu cầu về độ tuổi (18+)</h2>\n          <p>Lernfino và các tính năng đánh giá AI của nó dành cho người lớn từ <strong>18 tuổi trở lên</strong>. Chúng tôi không cố ý thu thập dữ liệu cá nhân từ các cá nhân dưới 18 tuổi. Trước khi gửi âm thanh hoặc văn bản để đánh giá AI, người dùng xác nhận rõ ràng rằng họ trên 18 tuổi. Cha mẹ hoặc người giám hộ có thể liên hệ <code>support@lernfino.com</code> để yêu cầu xóa mọi dữ liệu được gửi do nhầm lẫn.</p>\n\n          <h2>7. Bảo mật dữ liệu và thông tin liên hệ</h2>\n          <p>Tất cả thông tin liên lạc trên mạng được bảo vệ bằng mã hóa TLS/HTTPS. Mọi thắc mắc hoặc yêu cầu dữ liệu, vui lòng liên hệ:<br /> <strong>Email:</strong> <a href=\"mailto:support@lernfino.com\">support@lernfino.com</a><br /> <strong>Trang web:</strong> <a href=\"https://lernfino.com\">lernfino.com</a></p>",
+    "terms": "<h2>1. Chấp nhận Điều khoản &amp; Yêu cầu về độ tuổi (18+)</h2>\n          <p>Bằng cách tải xuống, cài đặt hoặc sử dụng ứng dụng di động Lernfino hoặc nền tảng <code>lernfino.com</code>, bạn đồng ý với các Điều khoản dịch vụ này và <a href=\"{privacyPath}\">Chính sách quyền riêng tư</a> của chúng tôi. Nếu bạn không đồng ý, không truy cập hoặc sử dụng ứng dụng.</p>\n          <p>Lernfino và các tính năng đánh giá AI tùy chọn của nó dành cho người lớn từ <strong>18 tuổi trở lên</strong>. Trước khi gửi nội dung nói hoặc viết để đánh giá AI, người dùng phải xác nhận rõ ràng rằng họ trên 18 tuổi.</p>\n\n          <h2>2. Mô tả dịch vụ, cấp miễn phí và giấy phép</h2>\n          <p>Lernfino cung cấp các câu chuyện bằng âm thanh tiếng Đức theo trình độ (A1–B2), một tập video và video ngắn tương tác, các công cụ từ vựng lặp lại có khoảng cách và các bài kiểm tra thực hành độc lập ở dạng bài thi Goethe/ÖSD.</p>\n          <p>Bạn có thể bắt đầu với gói miễn phí, có quảng cáo và giới hạn sử dụng hàng ngày. Quyền truy cập nội dung, quảng cáo và quyền đánh giá AI khác nhau tùy theo gói. Repecode cấp cho bạn giấy phép cá nhân, không độc quyền, không thể chuyển nhượng, có thể thu hồi để sử dụng cho mục đích giáo dục phi thương mại.</p>\n\n          <h2>3. Sở hữu trí tuệ</h2>\n          <p>Tất cả nội dung, bao gồm tác phẩm nghệ thuật linh vật Fino, bản chuyển thể văn bản tiếng Đức, bản dịch, bản ghi âm, câu hỏi thực hành, nội dung thiết kế và mã nguồn, là tài sản độc quyền của Repecode và được bảo vệ theo luật sở hữu trí tuệ.</p>\n\n          <h2>4. Tuyên bố từ chối trách nhiệm về nhãn hiệu (Goethe &amp; ÖSD)</h2>\n          <div class=\"callout-box callout-amber\"><strong>Thông báo về tính độc lập của tổ chức:</strong> Các bài kiểm tra thực hành có sẵn trong Lernfino là các bài tập giáo dục độc lập theo dạng bài thi Goethe/ÖSD được thiết kế để giúp người học chuẩn bị. Lernfino và Respecode <strong>không được liên kết, xác nhận, công nhận hoặc tài trợ bởi Goethe-Institut hoặc ÖSD (Österreichisches Sprachdiplom Deutsch)</strong>. Tất cả các nhãn hiệu đều thuộc về chủ sở hữu tương ứng và chỉ được tham chiếu để biểu thị khả năng tương thích về định dạng. Lernfino không phải là tài liệu thi chính thức của Viện Goethe hoặc ÖSD.</div>\n\n          <h2>5. Sử dụng được chấp nhận và bảo mật tài khoản</h2>\n          <p>Người dùng có trách nhiệm bảo vệ thông tin đăng nhập của họ. Việc quét tự động, kỹ thuật đảo ngược trái phép hoặc cố gắng phá vỡ cơ sở hạ tầng ứng dụng đều bị nghiêm cấm.</p>\n\n          <h2>6. Mua hàng, đăng ký, hoàn tiền và hủy trong ứng dụng</h2>\n          <p>Các gói đăng ký và thẻ trả phí (Lernfino Plus, Lernfino Pro, Exam Pass) được xử lý độc quyền thông qua <strong>Apple App Store</strong> hoặc <strong>Google Play Store</strong> thanh toán trong ứng dụng; chúng tôi không vận hành một hệ thống thanh toán riêng.</p>\n          <ul>\n            <li>Tất cả các khoản thanh toán, gia hạn, quyền rút tiền theo luật định và yêu cầu hoàn tiền đều được điều chỉnh độc quyền bởi các điều khoản của cửa hàng tương ứng (Apple Media Services hoặc Google Play).</li>\n            <li>Bạn có thể quản lý hoặc hủy đăng ký của mình bất cứ lúc nào trực tiếp trong cài đặt tài khoản <strong>App Store</strong> hoặc <strong>Google Play</strong> của bạn.</li>\n          </ul>\n\n          <h2>7. Tuyên bố miễn trừ trách nhiệm và giới hạn trách nhiệm pháp lý</h2>\n          <p>Lernfino được cung cấp trên cơ sở &quot;NGUYÊN TRẠNG&quot; và &quot;SẴN CÓ&quot;. Điểm thực hành—bao gồm cả các đánh giá AI tùy chọn—chỉ là ước tính cho mục đích nghiên cứu; Repecode không hứa hẹn về điểm thi chính thức của Goethe hoặc ÖSD hoặc kết quả vượt qua.</p>\n\n          <h2>8. Thông tin liên hệ</h2>\n          <p>Các câu hỏi liên quan đến Điều khoản dịch vụ này có thể được gửi tới: <strong>support@lernfino.com</strong>.</p>",
+    "imprint": "<h2>1. Nhà điều hành &amp; Nhà cung cấp dịch vụ</h2>\n          <p><strong>Nhà điều hành / Nhà phát triển:</strong> Abdulsamet Saygı (Nhà phát triển cá nhân — Repecode / Lernfino)<br /> <strong>Địa chỉ:</strong> Mehmet Akif Ersoy Mah. 295. Cd C12 Blok No:46, Yenimahalle / Ankara, Türkiye<br /> <strong>Email:</strong> <a href=\"mailto:support@lernfino.com\">support@lernfino.com</a><br /> <strong>Trang web:</strong> <a href=\"https://lernfino.com\">https://lernfino.com</a></p>\n\n          <h2>2. Tình trạng pháp lý</h2>\n          <p>Lernfino được phát triển và vận hành bởi nhà phát triển cá nhân <strong>Abdulsamet Saygı</strong>; hiện tại không có đăng ký công ty thành lập.</p>\n\n          <h2>3. Người chịu trách nhiệm về nội dung</h2>\n          <p><strong>Người chịu trách nhiệm:</strong> Abdulsamet Saygı<br /> <strong>Địa chỉ:</strong> Mehmet Akif Ersoy Mah. 295. Cd C12 Blok No:46, Yenimahalle / Ankara, Türkiye</p>\n\n          <h2>4. Thông báo nhãn hiệu</h2>\n          <p>Goethe-Zertifikat và ÖSD là thương hiệu đã đăng ký của chủ sở hữu tương ứng. Lernfino là một nền tảng học tập độc lập và không phải là tài liệu chính thức của Viện Goethe hoặc ÖSD.</p>"
+  },
+  "demo": {
+    "sentences": {
+      "A1": "Phía sau nhà cô có một khu vườn nhỏ.",
+      "A2": "Tôi vừa mở hộp thư và tìm thấy chiếc phong bì màu vàng này.",
+      "B1": "Khi Jonas đến ga xe lửa, chuyến tàu cuối cùng vừa khởi hành.",
+      "B2": "Trước khi hiệu sách cũ được cải tạo, Nora phải dọn sạch tất cả các ngăn kéo."
+    },
+    "dictionary": {
+      "hinter": {
+        "article": "giới từ",
+        "meaning": "phía sau",
+        "grammar": "Giới từ hai chiều. Câu trả lời 'Ở đâu?' và do đó lấy trường hợp tặng cách: 'hinter ihrem Haus'.",
+        "exampleTr": "Khu vườn nằm phía sau tòa nhà."
+      },
+      "ihrem": {
+        "article": "Bài viết sở hữu",
+        "meaning": "cô ấy",
+        "grammar": "Từ xác định sở hữu cho ngôi thứ 3 số ít nữ tính (Mia). Lấy Dative trung tính kết thúc '-em' bằng 'Haus'.",
+        "exampleTr": "Mia đang làm việc ở văn phòng của cô ấy."
+      },
+      "haus": {
+        "article": "das Haus · số nhiều: die Häuser",
+        "meaning": "nhà / nhà",
+        "grammar": "Danh từ trung tính. Xuất hiện ở dạng tặng cách số ít sau giới từ 'gợi ý'.",
+        "exampleTr": "Nhà chúng tôi có cửa sổ màu trắng."
+      },
+      "ist": {
+        "article": "Động từ bất quy tắc (sein)",
+        "meaning": "đang / tồn tại",
+        "grammar": "Thì hiện tại (Präsens) Cách chia động từ ngôi thứ 3 số ít của động từ 'sein'.",
+        "exampleTr": "Berlin là một thành phố sôi động."
+      },
+      "ein": {
+        "article": "Điều không xác định",
+        "meaning": "một / một",
+        "grammar": "Bài viết không xác định trong Danh từ nam tính, sửa đổi 'der Garten'.",
+        "exampleTr": "Có một cái cây lớn."
+      },
+      "kleiner": {
+        "article": "tính từ",
+        "meaning": "nhỏ / nhỏ",
+        "grammar": "Biến cách tính từ hỗn hợp: nhận đuôi '-er' sau 'ein' với danh từ chỉ định nam tính.",
+        "exampleTr": "Cô ấy có một con chó nhỏ."
+      },
+      "garten": {
+        "article": "der Garten · số nhiều: die Gärten",
+        "meaning": "vườn",
+        "grammar": "Danh từ nam tính. Đóng vai trò là chủ ngữ của câu trong trường hợp Chỉ định.",
+        "exampleTr": "Những bông hoa đầy màu sắc mọc trong vườn."
+      },
+      "ich": {
+        "article": "Đại từ cá nhân",
+        "meaning": "TÔI",
+        "grammar": "Đại từ chủ ngữ ngôi thứ nhất số ít (Danh từ).",
+        "exampleTr": "Tôi học tiếng Đức mỗi ngày."
+      },
+      "habe": {
+        "article": "Động từ phụ",
+        "meaning": "có / phụ trợ cho Perfekt",
+        "grammar": "Động từ phụ trợ liên hợp tạo thành thì hiện tại hoàn thành (Perfekt) với 'geöffnet' và 'gefunden'.",
+        "exampleTr": "Hôm qua tôi đã đọc một cuốn sách."
+      },
+      "gerade": {
+        "article": "Trạng từ tạm thời",
+        "meaning": "vừa rồi/hiện tại",
+        "grammar": "Trạng từ chỉ hành động vừa mới được hoàn thành.",
+        "exampleTr": "Tàu đang đến ngay bây giờ."
+      },
+      "meinen": {
+        "article": "Tính chất sở hữu",
+        "meaning": "Của tôi",
+        "grammar": "Hình thức tân ngữ trực tiếp mang tính buộc tội nam tính có đuôi '-en': 'meinen Briefkasten'.",
+        "exampleTr": "Tôi đang tìm chìa khóa của mình."
+      },
+      "briefkasten": {
+        "article": "der Briefkasten · số nhiều: die Briefkästen",
+        "meaning": "hộp thư/hộp thư",
+        "grammar": "Danh từ ghép nam tính (Tóm tắt + Kasten). Đối tượng trực tiếp trong trường hợp buộc tội.",
+        "exampleTr": "Hộp thư chứa đầy báo."
+      },
+      "geoffnet": {
+        "article": "Động từ thông thường (Phân từ quá khứ)",
+        "meaning": "đã mở",
+        "grammar": "Phân từ quá khứ (Partizip II) của động từ thông thường 'öffnen', tạo thành Perfekt với 'habe'.",
+        "exampleTr": "Cô lặng lẽ mở cửa."
+      },
+      "und": {
+        "article": "Phối hợp liên hợp",
+        "meaning": "Và",
+        "grammar": "Liên từ phối hợp nối hai cụm động từ đã hoàn thành mà không làm thay đổi thứ tự từ.",
+        "exampleTr": "Cà phê và bánh đã sẵn sàng."
+      },
+      "diesen": {
+        "article": "Công cụ xác định minh họa",
+        "meaning": "cái này",
+        "grammar": "Từ hạn định biểu thị sửa đổi danh từ buộc tội nam tính 'Umschlag'.",
+        "exampleTr": "Tôi biết rõ tác giả này."
+      },
+      "gelben": {
+        "article": "tính từ",
+        "meaning": "màu vàng",
+        "grammar": "Biến cách tính từ yếu: có đuôi '-en' theo sau 'diesen' trong thể buộc tội nam tính.",
+        "exampleTr": "Cô ấy đeo một chiếc khăn màu vàng."
+      },
+      "umschlag": {
+        "article": "der Umschlag · số nhiều: die Umschläge",
+        "meaning": "phong bì",
+        "grammar": "Danh từ nam tính ở số ít đối cách, đóng vai trò là tân ngữ trực tiếp thứ hai.",
+        "exampleTr": "Bức thư nằm bên trong phong bì."
+      },
+      "gefunden": {
+        "article": "Động từ bất quy tắc (Phân từ quá khứ)",
+        "meaning": "thành lập",
+        "grammar": "Phân từ quá khứ của động từ bất quy tắc mạnh 'finden' (finden - fand - gefunden).",
+        "exampleTr": "Cuối cùng tôi đã tìm thấy chiếc kính của mình."
+      },
+      "als": {
+        "article": "Liên từ phụ thuộc",
+        "meaning": "khi/như (sự kiện đơn lẻ trong quá khứ)",
+        "grammar": "Liên từ phụ thuộc cho một sự kiện trong quá khứ, gửi động từ liên hợp đến cuối mệnh đề.",
+        "exampleTr": "Khi tôi đến thì trời đang mưa."
+      },
+      "jonas": {
+        "article": "Danh từ riêng",
+        "meaning": "Jonas (tên nam)",
+        "grammar": "Tên riêng đóng vai trò là chủ ngữ ngữ pháp của mệnh đề phụ.",
+        "exampleTr": "Jonas thích đi du lịch bằng tàu hỏa."
+      },
+      "den": {
+        "article": "Mạo từ xác định",
+        "meaning": "cái",
+        "grammar": "Mạo từ xác định cho tân ngữ trực tiếp số ít giống đực trong trường hợp Đối cách.",
+        "exampleTr": "Anh ta bước vào phòng."
+      },
+      "bahnhof": {
+        "article": "der Bahnhof · số nhiều: die Bahnhöfe",
+        "meaning": "ga xe lửa",
+        "grammar": "Danh từ nam tính ghép (Bahn + Hof) ở dạng đối cách số ít.",
+        "exampleTr": "Chúng tôi gặp nhau trước nhà ga."
+      },
+      "erreicht": {
+        "article": "Động từ thông thường",
+        "meaning": "đạt tới/đến ở",
+        "grammar": "Động từ có tiền tố không thể tách rời ('er-') ở thì hiện tại ngôi thứ 3 số ít ở cuối mệnh đề.",
+        "exampleTr": "Cô ấy đến đích đúng giờ."
+      },
+      "faehrt": {
+        "article": "Động từ bất quy tắc",
+        "meaning": "khởi hành / lái xe",
+        "grammar": "Động từ mạnh có sự đột biến nguyên âm (a -> ä) ở thì hiện tại ngôi thứ 3 số ít.",
+        "exampleTr": "Xe buýt khởi hành cứ mười phút một lần."
+      },
+      "der": {
+        "article": "Mạo từ xác định",
+        "meaning": "cái",
+        "grammar": "Mạo từ xác định sửa đổi chủ ngữ nam tính số ít trong trường hợp đề cử.",
+        "exampleTr": "Tàu không bị trễ."
+      },
+      "letzte": {
+        "article": "tính từ",
+        "meaning": "cuối cùng",
+        "grammar": "Biến cách tính từ yếu với đuôi '-e' ở sau mạo từ xác định 'der'.",
+        "exampleTr": "Đây là cơ hội cuối cùng."
+      },
+      "zug": {
+        "article": "der Zug · số nhiều: die Züge",
+        "meaning": "xe lửa",
+        "grammar": "Danh từ nam tính đóng vai trò là chủ ngữ ngữ pháp của mệnh đề chính.",
+        "exampleTr": "Chuyến tàu tới Munich đến trên đường số 4."
+      },
+      "gerade_b1": {
+        "article": "Trạng từ tạm thời",
+        "meaning": "ngay lúc này",
+        "grammar": "Trạng từ nhấn mạnh rằng hành động đang xảy ra tại cùng một thời điểm.",
+        "exampleTr": "Bây giờ anh ấy đang ngủ."
+      },
+      "ab": {
+        "article": "Tiền tố động từ có thể tách rời",
+        "meaning": "khởi hành (abfahren)",
+        "grammar": "Tiền tố động từ có thể tách rời của 'abfahren'. Được đặt ở cuối mệnh đề chính độc lập.",
+        "exampleTr": "Tàu khởi hành đúng giờ lúc 2 giờ chiều."
+      },
+      "bevor": {
+        "article": "Liên từ phụ thuộc",
+        "meaning": "trước",
+        "grammar": "Liên từ phụ thuộc giới thiệu một mệnh đề thời gian, yêu cầu trật tự từ cuối động từ.",
+        "exampleTr": "Trước khi rời đi, vui lòng đóng cửa sổ lại."
+      },
+      "die": {
+        "article": "Mạo từ xác định",
+        "meaning": "cái",
+        "grammar": "Mạo từ xác định mang tính nữ tính sửa đổi chủ ngữ 'die Buchhandlung'.",
+        "exampleTr": "Thành phố thức dậy vào buổi sáng sớm."
+      },
+      "alte": {
+        "article": "tính từ",
+        "meaning": "cũ",
+        "grammar": "Biến cách tính từ yếu với đuôi '-e' ở sau mạo từ xác định 'die'.",
+        "exampleTr": "Những ngôi nhà lịch sử nằm trong con hẻm cũ."
+      },
+      "buchhandlung": {
+        "article": "die Buchhandlung · số nhiều: die Buchhandlungen",
+        "meaning": "hiệu sách/hiệu sách",
+        "grammar": "Danh từ ghép giống cái (das Buch + die Handlung). Những danh từ kết thúc bằng '-ung' luôn nữ tính.",
+        "exampleTr": "Cô ấy thích dạo quanh hiệu sách nhỏ."
+      },
+      "renoviert": {
+        "article": "Động từ (Phân từ quá khứ)",
+        "meaning": "đã được cải tạo",
+        "grammar": "Phân từ quá khứ không có tiền tố 'ge-' (điển hình cho động từ '-ieren'), tạo thành thể bị động.",
+        "exampleTr": "Tòa nhà đã được tân trang lại hoàn toàn vào năm ngoái."
+      },
+      "werden": {
+        "article": "Động từ phụ thụ động",
+        "meaning": "be (phụ trợ thụ động)",
+        "grammar": "Trợ động từ bị động ở dạng nguyên thể, kết hợp với động từ khiếm khuyết 'konnte'.",
+        "exampleTr": "Bức thư phải được gửi ngay hôm nay."
+      },
+      "konnte": {
+        "article": "Động từ phương thức (Thì quá khứ)",
+        "meaning": "có thể / đã có thể",
+        "grammar": "Thì quá khứ (Präteritum) ngôi thứ 3 số ít của động từ khiếm khuyết 'können', đặt ở cuối mệnh đề phụ.",
+        "exampleTr": "Anh ấy đã có thể trả lời câu hỏi ngay lập tức."
+      },
+      "musste": {
+        "article": "Động từ phương thức (Thì quá khứ)",
+        "meaning": "đã phải / buộc phải",
+        "grammar": "Thì quá khứ (Präteritum) ngôi thứ 3 số ít của động từ khiếm khuyết 'müssen', chi phối động từ nguyên mẫu 'ausräumen'.",
+        "exampleTr": "Cô phải dậy sớm."
+      },
+      "nora": {
+        "article": "Danh từ riêng",
+        "meaning": "Nora (tên nữ)",
+        "grammar": "Tên riêng đóng vai trò là chủ ngữ ngữ pháp của mệnh đề chính.",
+        "exampleTr": "Nora thích sách cổ."
+      },
+      "saemtliche": {
+        "article": "Xác định không xác định",
+        "meaning": "tất cả/tất cả những",
+        "grammar": "Từ đồng nghĩa nhấn mạnh cho 'all' ở dạng buộc tội số nhiều, bổ nghĩa cho 'Schubladen'.",
+        "exampleTr": "Tất cả các tài liệu đã được kiểm tra cẩn thận."
+      },
+      "schubladen": {
+        "article": "die Schublade · số nhiều: die Schubladen",
+        "meaning": "ngăn kéo",
+        "grammar": "Danh từ giống cái trong trường hợp buộc tội số nhiều, có chức năng như tân ngữ trực tiếp của 'ausräumen'.",
+        "exampleTr": "Những lá thư cũ nằm trong ngăn kéo."
+      },
+      "ausraeumen": {
+        "article": "Động từ có thể tách rời (nguyên mẫu)",
+        "meaning": "dọn sạch/dọn sạch",
+        "grammar": "Động từ nguyên mẫu có thể tách rời được điều chỉnh bởi động từ khiếm khuyết quá khứ 'musste' ở cuối mệnh đề.",
+        "exampleTr": "Chúng ta phải dọn tủ trước khi chuyển đi."
+      }
+    }
+  },
+  "help": {
+    "contact": "Hỗ trợ qua email",
+    "contactText": "Viết thư cho chúng tôi với các câu hỏi kỹ thuật, phản hồi hoặc đề xuất dịch thuật.",
+    "offlineQuestion": "Tôi có thể học ngoại tuyến không?",
+    "offlineAnswer": "Lernfino lưu trữ từ vựng, diễn biến câu chuyện và kết quả luyện tập trên thiết bị của bạn. Tải xuống phương tiện bài học có sẵn trong khi kết nối để sử dụng ngoại tuyến. Nội dung có sẵn tùy thuộc vào kế hoạch của bạn. Đánh giá AI cần truy cập internet.",
+    "backupQuestion": "Làm cách nào để chuyển tiến trình của tôi sang một thiết bị mới?",
+    "backupAnswer": "Trên thiết bị cũ, hãy mở Cài đặt, chọn Sao lưu dữ liệu học tập và chuyển tệp JSON thu được sang thiết bị mới của bạn. Trong Cài đặt trên thiết bị mới, chọn tệp sao lưu để khôi phục tiến trình của bạn.",
+    "examQuestion": "Việc luyện thi diễn ra như thế nào?",
+    "examAnswer": "Tám bài thi thử đầy đủ là tài liệu học tập độc lập ở định dạng Goethe và ÖSD. Làm bài kiểm tra hoặc thực hành đầy đủ theo thời gian Lesen, Hören, Schreiben và Sprechen riêng biệt. Việc đánh giá AI tùy chọn cho Schreiben và Sprechen cần có sự đồng ý rõ ràng của người lớn từ 18 tuổi trở lên.",
+    "audioQuestion": "Làm cách nào để sử dụng câu chuyện và âm thanh từ điển?",
+    "audioAnswer": "Phát một câu chuyện để theo dõi cùng với văn bản được đánh dấu. Bạn có thể điều chỉnh tốc độ phát lại hoặc nhấn vào một từ để nhập từ điển theo ngữ cảnh và âm thanh có sẵn.",
+    "deletionQuestion": "Làm cách nào để xóa tài khoản hoặc dữ liệu học tập của tôi?",
+    "localTitle": "Xóa dữ liệu học tập trên thiết bị này",
+    "localText": "Nếu bạn sử dụng Lernfino mà không có tài khoản, hãy mở Cài đặt và chọn Đặt lại dữ liệu học tập. Bạn cũng có thể gỡ cài đặt ứng dụng để xóa dữ liệu cục bộ của ứng dụng khỏi thiết bị.",
+    "accountTitle": "Xóa tài khoản Lernfino",
+    "accountText": "Trong ứng dụng, hãy mở Cài đặt, chọn Tài khoản của tôi, sau đó Xóa tài khoản và xác nhận. Thao tác này sẽ xóa tài khoản và dữ liệu đã đồng bộ hóa, bao gồm chi tiết xác thực, tiến độ học tập, từ vựng đã lưu, điểm số, bảng điểm và phản hồi AI. Việc xóa trong ứng dụng cũng xóa tiến trình tài khoản và các bản nháp được xếp hàng đợi trên điện thoại đó. Số liệu chi phí ẩn danh và biên nhận xóa ngẫu nhiên được giữ lại.",
+    "emailTitle": "Yêu cầu xóa qua email",
+    "emailText": "Nếu bạn không thể mở ứng dụng, hãy chuẩn bị yêu cầu xóa và gửi nó từ địa chỉ email được liên kết với tài khoản Lernfino của bạn. Yêu cầu được xử lý và xác minh trong vòng bảy ngày làm việc. Dữ liệu đã xóa không thể phục hồi được.",
+    "emailLabel": "Địa chỉ email Lernfino đã đăng ký",
+    "emailButton": "Chuẩn bị email xóa",
+    "emailSubject": "Yêu cầu xóa dữ liệu và tài khoản Lernfino",
+    "emailBody": "Vui lòng xóa vĩnh viễn tài khoản Lernfino của tôi và dữ liệu liên quan. Vui lòng xác nhận sau khi quá trình xóa hoàn tất."
+  },
+  "tools": {
+    "backHome": "Quay lại trang chủ Lernfino",
+    "tabCalc": "Máy tính điểm thi",
+    "tabCounter": "Schreiben Bộ đếm từ",
+    "tabLevel": "Kiểm tra trình độ xếp lớp",
+    "ctaTitle": "Học tiếng Đức với Fino.",
+    "ctaDesc": "Lưu cấp độ mục tiêu của bạn vào danh sách chờ khởi chạy để được thông báo vào ngày phát hành.",
+    "ctaBtn": "Tham gia danh sách khởi chạy",
+    "skillListen": "Hören (Nghe)",
+    "skillRead": "Lesen (Đọc)",
+    "skillWrite": "Schreiben (Viết)",
+    "skillSpeak": "Sprechen (Nói)",
+    "calcPageTitle": "Goethe & ÖSD Máy tính điểm thi (A1–B2) | Lernfino",
+    "calcTitle": "Goethe & ÖSD Máy tính điểm",
+    "calcSubtitle": "Nhập điểm học phần riêng biệt theo thang điểm 0–100. Các mô-đun không bao giờ được tính trung bình cùng nhau; quy tắc vượt qua theo từng dạng bài thi.",
+    "calcInstitution": "Hình thức thi",
+    "calcLevel": "Cấp độ CEFR",
+    "calcReset": "Đặt lại điểm",
+    "calcInputLabel": "Điểm (0–100, để trống nếu không đo)",
+    "calcPlaceholder": "ví dụ. 72",
+    "calcRuleA1A2": "Hình thức kết hợp (viết / 75 + nói / 25)",
+    "calcRuleModular": "Định dạng mô-đun (mỗi mô-đun >= 60)",
+    "calcRuleOsd": "Quy tắc bên ngoài chưa được xác minh (các mô-đun được hiển thị riêng)",
+    "calcStatusMissing": "Không đo được",
+    "calcStatusMeasured": "Đã ghi lại",
+    "calcStatusPass": "Đạt (>= 60)",
+    "calcStatusFail": "Dưới 60",
+    "calcPointsOf25": "{val} / 25 điểm",
+    "calcVerdictIncompleteTitle": "Chưa hoàn thành — Nhập tất cả 4 mô-đun để kiểm tra kết quả",
+    "calcVerdictIncompleteDesc": "Các mô-đun trống được coi là không đo được, không phải 0. Đã ghi: {count}/4.",
+    "calcVerdictPassTitle": "Goethe {level} Đạt ngưỡng",
+    "calcVerdictPassA1Desc": "Viết: {w}/75 · Nói: {o}/25 · Tổng: {t}/100 (tối thiểu 60).",
+    "calcVerdictPassA2Desc": "Viết: {w}/75 (phút 45) · Nói: {o}/25 (phút 15) · Tổng cộng: {t}/100 (phút 60).",
+    "calcVerdictPassModDesc": "Cả 4 học phần độc lập đều đạt tối thiểu 60 điểm.",
+    "calcVerdictFailTitle": "Dưới mức đạt yêu cầu",
+    "calcVerdictFailA2Written": "Thành phần viết là {w}/75 (yêu cầu tối thiểu 45 cho Goethe A2 ngay cả khi tổng số >= 60). Tổng cộng: {t}/100.",
+    "calcVerdictFailA2Oral": "Thành phần qua đường miệng là {o}/25 (cần tối thiểu 15 cho Goethe A2). Tổng cộng: {t}/100.",
+    "calcVerdictFailTotal": "Tổng cộng là {t}/100 (yêu cầu tối thiểu 60). Viết: {w}/75 · Nói: {o}/25.",
+    "calcVerdictFailMod": "Các mô-đun dưới 60: {list}. Trong các kỳ thi mô-đun {level}, mỗi mô-đun phải đạt 60 điểm một cách độc lập.",
+    "calcVerdictOsdTitle": "ÖSD Mô-đun được hiển thị riêng lẻ (Không có phán đoán tự động)",
+    "calcVerdictOsdDesc": "Lernfino không mã hóa cứng các quy tắc chuyển ÖSD như đã được xác minh; điểm số học phần được hiển thị riêng lẻ mà không tính trung bình hoặc yêu cầu đạt điểm tổng thể.",
+    "counterPageTitle": "Goethe & ÖSD Schreiben Bộ đếm từ (A1–B2) | Lernfino",
+    "counterTitle": "Schreiben Kiểm tra bộ đếm từ và đầu nối",
+    "counterSubtitle": "Kiểm tra các mục tiêu từ chính xác khớp với các tác vụ Goethe & ÖSD Schreiben từ A1 đến B2, cùng với mức độ bao phủ của lời chào, kết thúc và trình kết nối.",
+    "counterProfileLabel": "Cấp độ thi & Bài viết",
+    "counterTextareaLabel": "Viết hoặc dán văn bản tiếng Đức của bạn",
+    "counterTextareaPlaceholder": "Sehr geehrte Damen und Herren,\nich schreibe Ihnen wegen...",
+    "counterClear": "Xóa văn bản",
+    "counterWords": "Từ",
+    "counterTarget": "Phạm vi mục tiêu",
+    "counterSentences": "Câu (>=3 từ)",
+    "counterChars": "nhân vật",
+    "counterLenEmpty": "Bắt đầu nhập để đo bản nháp của bạn theo các từ {min}–{max}.",
+    "counterLenUnder": "Cần thêm {diff} thêm từ để đạt được mục tiêu tối thiểu ({min}–{max}).",
+    "counterLenIn": "Bên trong phạm vi mục tiêu ({min}–{max} từ)!",
+    "counterLenOver": "{diff} từ nằm trên giới hạn trên ({min}–{max}). Giữ nó ngắn gọn.",
+    "counterStructTitle": "Cấu trúc & Đầu nối ({level})",
+    "counterOpeningOk": "Đã phát hiện thấy lời chào",
+    "counterOpeningMiss": "Thêm lời chào (ví dụ: Hallo / Sehr geehrte...)",
+    "counterSignoffOk": "Đã phát hiện đóng cửa",
+    "counterSignoffMiss": "Thêm phần kết thúc (ví dụ: Viele Grüße / Mit freundlichen Grüßen)",
+    "counterConnLabel": "Đã phát hiện các đầu nối cho {level} ({hit}/{total}):",
+    "levelPageTitle": "Bài kiểm tra đầu vào tiếng Đức nhanh (A1–B2) | Lernfino",
+    "levelTitle": "Kiểm tra cấp độ của bạn (A1–B2)",
+    "levelSubtitle": "12 mục ngắn từ A1 đến B2. Dừng tiến lên ở cấp độ đầu tiên khi có 2/3 câu trả lời đúng.",
+    "levelQuestionProgress": "Câu hỏi {n} / {total}",
+    "levelPrev": "Trước",
+    "levelNext": "Kế tiếp",
+    "levelFinish": "Xem kết quả",
+    "levelDontKnow": "Tôi không biết - dừng lại ở đây và đánh giá",
+    "levelResultTitle": "Cấp độ bắt đầu được đề xuất: {level}",
+    "levelResultNote": "Chỉ tự kiểm tra nhanh, không phải chứng chỉ xếp lớp chính thức. Nó dừng ở mức đầu tiên dưới 2/3.",
+    "levelRetake": "Thi lại bài kiểm tra",
+    "levelUseCta": "Tiếp tục với {level} trên Danh sách chờ"
+  },
+  "profiles": {
+    "a1-t2": "A1 Teil 2 — Email / Ghi chú ngắn (30–50 từ)",
+    "a1-t1": "A1 Teil 1 — Mục nhập biểu mẫu (10–25 từ)",
+    "a2-t1": "A2 Teil 1 — SMS / Tin nhắn ngắn (20–40 từ)",
+    "a2-t2": "A2 Teil 2 — Email chính thức/bán chính thức (30–50 từ)",
+    "b1-t12": "B1 Teil 1 & 2 — Email / Bài đăng trên diễn đàn (80–110 từ)",
+    "b1-t3": "B1 Teil 3 — Email trang trọng ngắn (40–60 từ)",
+    "b2-t1": "B2 Teil 1 — Bài đăng / Lập luận trên diễn đàn (150–190 từ)",
+    "b2-t2": "B2 Teil 2 — Email trang trọng (100–140 từ)"
+  }
+}
