@@ -137,6 +137,11 @@ h1, h2, h3, h4, p {
 .flag-red { background: #d62828; }
 .flag-gold { background: #f7b500; }
 
+/* Keep the privacy deep link clear of the sticky header. */
+h2[id^="waitlist-privacy-"] {
+  scroll-margin-block-start: 96px;
+}
+
 /* Header */
 .site-header {
   position: sticky;
@@ -1814,6 +1819,41 @@ h1, h2, h3, h4, p {
   background: var(--crimson-soft);
   border-left-color: var(--crimson);
   color: var(--ink);
+}
+
+.legal-table-wrap {
+  width: 100%;
+  overflow-x: auto;
+  margin: 20px 0 24px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface-elevated);
+}
+
+.legal-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13.5px;
+  line-height: 1.55;
+  text-align: left;
+}
+
+.legal-table th,
+.legal-table td {
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+
+.legal-table th {
+  font-weight: 700;
+  color: var(--ink);
+  background: var(--bg-soft, rgba(0, 0, 0, 0.03));
+  white-space: nowrap;
+}
+
+.legal-table tbody tr:last-child td {
+  border-bottom: 0;
 }
 
 /* FAQ Accordion Styles */

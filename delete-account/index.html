@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Hesap ve Veri Silme — Lernfino</title>
-  <meta name="description" content="Lernfino hesap ve veri silme süreci: Google Play ve Apple App Store standartlarına uygun olarak hesabınızı, bulut yedeklerinizi ve yerel verilerinizi kalıcı silme adımları." />
+  <meta name="description" content="Lernfino hesap ve veri silme süreci (Geliştirici: Abdulsamet Saygı): Uygulama içi ve web üzerinden hesap, bulut yedeği ve cihaz içi verileri kalıcı silme, saklama süreleri ve abonelik iptal uyarısı." />
   <meta name="theme-color" content="#181E29" />
 
   <link rel="icon" type="image/png" href="../Lernfino%20Deutsch%20Fox%20Icon.png" />
@@ -34,7 +34,7 @@
         <a href="../#demo" data-i18n="nav.home">Ana Sayfa</a>
         <a href="../privacy/" data-i18n="nav.privacy">Gizlilik</a>
         <a href="../terms/" data-i18n="nav.terms">Koşullar</a>
-        <a href="../support/" data-i18n="nav.support">Destek & SSS</a>
+        <a href="../support/" data-i18n="nav.support">Destek &amp; SSS</a>
         <a href="../delete-account/" class="active" data-i18n="nav.deleteAccount">Hesap Silme</a>
         <a href="../imprint/" data-i18n="nav.imprint">Künye</a>
       </nav>
@@ -91,19 +91,19 @@
       <div class="legal-title-wrap">
         <h1 data-i18n="delete.title">Hesap ve Veri Silme</h1>
         <p class="legal-subtitle" data-i18n="delete.subtitle">
-          Lernfino hesabınızı, bulut yedeklerinizi ve cihazınızdaki tüm öğrenme verilerini dilediğiniz an kalıcı olarak silebilirsiniz.
+          Lernfino hesabınızı, bulut yedeklerinizi ve cihazınızdaki öğrenme verilerini uygulama içinden veya web üzerinden kalıcı olarak silebilirsiniz.
         </p>
         <div class="legal-meta-row">
+          <span class="legal-meta-pill" data-i18n="meta.updated">Son Güncelleme: 25 Kasım 2026</span>
+          <span class="legal-meta-pill" data-i18n="meta.controller">Veri Sorumlusu: Abdulsamet Saygı (Lernfino / Respecode)</span>
           <span class="legal-meta-pill" data-i18n="meta.supportEmail">Destek: support@lernfino.com</span>
-          <span class="legal-meta-pill" data-i18n="meta.controller">Hizmet Sağlayıcı: Respecode</span>
-          <span class="legal-meta-pill">🛡️ Google Play & Apple App Store Onaylı Süreç</span>
         </div>
       </div>
 
       <nav class="legal-nav-tabs" aria-label="Yasal Belgeler">
         <a href="../privacy/" class="legal-nav-tab" data-i18n="nav.privacy">Gizlilik Politikası</a>
         <a href="../terms/" class="legal-nav-tab" data-i18n="nav.terms">Kullanım Koşulları</a>
-        <a href="../support/" class="legal-nav-tab" data-i18n="nav.support">Destek & SSS</a>
+        <a href="../support/" class="legal-nav-tab" data-i18n="nav.support">Destek &amp; SSS</a>
         <a href="../delete-account/" class="legal-nav-tab active" data-i18n="nav.deleteAccount">Hesap Silme</a>
         <a href="../imprint/" class="legal-nav-tab" data-i18n="nav.imprint">Künye</a>
       </nav>
@@ -118,66 +118,78 @@
         <!-- ==================== TÜRKÇE İÇERİK ==================== -->
         <article class="legal-prose" data-lang-content="tr">
           <div class="callout-box callout-emerald">
-            <strong>Verilerinizin Kontrolü Sizde:</strong> Lernfino "önce-yerel" (local-first) geliştirildiği için kullanıcılarımızın büyük bölümü zaten hiçbir hesap açmadan uygulamayı tamamen çevrimdışı ve anonim olarak kullanabilmektedir. Hem yerel verilerinizi hem de bulut hesabınızı dilediğiniz an kalıcı olarak silebilirsiniz.
+            <strong>Uygulama ve Geliştirici Bilgisi:</strong> Bu sayfa, bireysel geliştirici <strong>Abdulsamet Saygı</strong> (Lernfino / Respecode) tarafından sunulan <strong>Lernfino</strong> (iOS &amp; Android) hesabı ve verilerinin silinmesine ilişkindir. Misafir kullanıcılar hiçbir hesap açmadan tüm ilerlemeyi cihazda tutar; kayıtlı kullanıcılar da hesaplarını istedikleri an kalıcı olarak silebilir.
+          </div>
+
+          <div class="callout-box callout-amber">
+            <strong>Önemli Abonelik Uyarısı:</strong> Hesabınızı veya uygulamayı silmek aktif <strong>Apple App Store</strong> ya da <strong>Google Play</strong> aboneliğinizi otomatik olarak iptal etmez. Ücretlendirmenin durması için aboneliğinizi ayrıca mağaza hesap ayarlarından iptal etmelisiniz:
+            <a href="https://apps.apple.com/account/subscriptions" target="_blank" rel="noopener noreferrer">Apple Abonelikleri Yönet</a> ·
+            <a href="https://play.google.com/store/account/subscriptions" target="_blank" rel="noopener noreferrer">Google Play Abonelikleri Yönet</a>.
+            (Hesap silme hakkınız abonelik iptaline bağlı değildir; silme işlemi aktif aboneliğiniz olsa bile engellenmez.)
           </div>
 
           <h2>1. Cihaz İçi (Yerel) Verileri Silme</h2>
           <p>
-            Eğer Lernfino'yu e-posta ile kayıt olmadan, çevrimdışı modda kullanıyorsanız:
+            Lernfino'yu hesap açmadan misafir modda kullanıyorsanız:
           </p>
           <ul class="delete-steps-list">
-            <li>Uygulama içinde <strong>Ayarlar</strong> sekmesine gidin.</li>
-            <li><strong>"Öğrenme Verilerini Sıfırla"</strong> seçeneğine dokunun.</li>
-            <li>Veya uygulamayı cihazınızdan kaldırın (uninstall). Tüm yerel veritabanı, SRS kelimeleriniz ve okuma kayıtlarınız anında ve geri döndürülemez biçimde silinir.</li>
+            <li>Uygulama içinde <strong>Ayarlar → Verilerim</strong> bölümüne gidin ve <strong>"Öğrenme Verilerini Sıfırla"</strong> seçeneğine dokunun.</li>
+            <li>Veya uygulamayı cihazınızdan kaldırın (uninstall). Uygulama içindeki yerel veritabanı, SRS kelimeleriniz ve okuma kayıtlarınız silinir. Not: İşletim sisteminizin otomatik cihaz yedekleme özelliği (ör. iCloud / Google Drive cihaz yedeği) açıksa sistem yedeğinde kopya bulunabilir; ayrıca daha önce bulut hesabı açtıysanız sunucudaki veriler için aşağıdaki 2. adımı uygulamanız gerekir.</li>
           </ul>
 
-          <h2>2. Bulut Hesabını ve Sunucudaki Tüm Verileri Kalıcı Silme</h2>
+          <h2>2. Bulut Hesabını ve Sunucudaki Verileri Kalıcı Silme</h2>
           <p>
-            Eğer bir Lernfino hesabı oluşturduysanız, hesabınız ve sunucularımızda saklanan tüm veriler talebiniz üzerine kalıcı olarak silinir.
+            Kayıtlı bir Lernfino hesabınız varsa, silme talebiniz üzerine hesabınız ve ilişkili kişisel verileriniz kalıcı olarak silinir.
           </p>
 
-          <h3>Silinen Verilerin Listesi:</h3>
+          <h3>Silinen Veriler:</h3>
           <ul>
-            <li>Kullanıcı hesap kaydı ve e-posta adresiniz,</li>
-            <li>Buluta yedeklenmiş tüm hikâye okuma geçmişi ve seviye istatistikleriniz,</li>
-            <li>SRS aralıklı tekrar kelime listeniz ve notlarınız,</li>
-            <li>Goethe & ÖSD deneme sınavı sonuçlarınız ve yazma modülü kayıtlarınız,</li>
-            <li>Cihaz eşleştirme anahtarları ve oturum kayıtları.</li>
+            <li>Supabase kimlik doğrulama kaydı, kullanıcı kimliği ve e-posta adresiniz,</li>
+            <li>Bulutta eşitlenmiş tüm hikâye okuma geçmişi ve seviye istatistikleriniz,</li>
+            <li>SRS kelime defteriniz, notlarınız ve alıştırma/deneme sonuçlarınız,</li>
+            <li>Konuşma dökümleri (transkriptler) ve yapay zekâ geri bildirim kayıtlarınız,</li>
+            <li>Bu telefondaki hesap verileri, oturum belirteçleri ve gönderilmeyi bekleyen AI taslakları (uygulama içi silmede anında temizlenir; diğer cihazlarda oturum sonlandığında silinmiş hesap verisi geri eşitlenmez).</li>
           </ul>
 
-          <p>Hesap silindiğinde buluttaki konuşma dökümleri ve yapay zekâ geri bildirimleri silinir. Bu telefondaki hesap verileri ve bekleyen taslaklar uygulama içi silmede temizlenir. Hesap bilgisi içermeyen maliyet ölçümleri ve rastgele silme makbuzu saklanır.</p>
+          <h3>Sınırlı Süre Saklanan Teknik / Yasal Kayıtlar:</h3>
+          <ul>
+            <li><strong>Anonim maliyet ölçümleri ve rastgele silme makbuzu:</strong> Bu kayıtlar hesap veya içerik bilgisi içermez. AI bütçesi için tutulan maliyet kayıtları AI kotasındaki son rezervasyondan, silmeyi doğrulayan makbuzlar oluşturulmalarından 90 gün sonra günlük temizlikte silinir. Tarihsiz eski makbuzlar için süre, bu saklama kuralının devreye alındığı gün başlar.</li>
+            <li><strong>Takma adlandırılmış teknik hata raporları:</strong> Hesabınızla ilişkilendirilmez ve IP adresi içermez; oluşturulduktan sonra <strong>90 gün</strong> içinde otomatik silinir.</li>
+            <li><strong>Veritabanı yedekleri:</strong> Sunucu yedeklerindeki kopyalar sağlayıcı yedekleme döngüsü (en fazla <strong>30 gün</strong>) sonunda otomatik kaldırılır; aktif sistemden silinen hesap geri yüklenmez.</li>
+            <li><strong>Satın alma ve vergi kayıtları:</strong> Apple App Store, Google Play ve RevenueCat tarafındaki ödeme/fatura kayıtları, ilgili yasal mali ve zamanaşımı süreleri boyunca saklanır.</li>
+          </ul>
 
           <div class="callout-box callout-navy">
-            <strong>İşlem Süresi:</strong> Silme talebiniz ulaştıktan sonra, kimlik doğrulaması yapılarak verileriniz <strong>en geç 7 iş günü içerisinde</strong> tüm aktif sunucularımızdan kalıcı olarak silinir ve geri döndürülemez hale getirilir.
+            <strong>İşlem Süresi:</strong> Uygulama içinden yapılan silme işlemi anında başlatılır ve sunucu verileri kalıcı olarak kaldırılır. Web / e-posta yoluyla yapılan taleplerde, kimlik doğrulaması sonrasında verileriniz <strong>en geç 7 iş günü</strong> içinde aktif sunuculardan kalıcı olarak silinir.
           </div>
 
-          <h2>3. Web Üzerinden Silme Talebi Gönderme</h2>
+          <h2>3. Web Üzerinden Silme Talebi Hazırlama</h2>
           <p>
-            Uygulamaya şu an erişemiyorsanız, aşağıdaki aracı kullanarak kayıtlı e-posta adresiniz üzerinden doğrudan silme talebi oluşturabilirsiniz:
+            Uygulamaya erişemiyorsanız, aşağıdaki aracı kullanarak kendi e-posta istemciniz üzerinden kayıtlı e-posta adresinizle <code>support@lernfino.com</code> adresine gönderilmek üzere hazır bir silme talebi e-postası oluşturabilirsiniz:
           </p>
 
-          <!-- Interactive Tool Box -->
+          <!-- Interactive Tool Box (TR) -->
           <div class="delete-tool-box">
             <h3 style="margin-top:0;" data-i18n="delete.toolTitle">Hesap Silme Talep Aracı</h3>
             <p data-i18n="delete.toolDesc">
-              Aşağıdaki alana Lernfino'ya kayıtlı e-posta adresinizi girin ve 'Hesap Silme E-postası Gönder' butonuna dokunun:
+              Aşağıdaki alana Lernfino'ya kayıtlı e-posta adresinizi girin ve butona dokunun; e-posta uygulamanız hazır mesajla açılacaktır:
             </p>
 
             <div style="margin: 16px 0;">
-              <label for="deleteEmailInput" style="display:block; font-size:13px; font-weight:700; margin-bottom:6px; color:var(--ink);" data-i18n="delete.inputLabel">
+              <label for="deleteEmailInput-tr" style="display:block; font-size:13px; font-weight:700; margin-bottom:6px; color:var(--ink);" data-i18n="delete.inputLabel">
                 Lernfino Kayıtlı E-posta Adresiniz:
               </label>
               <input
                 type="email"
-                id="deleteEmailInput"
+                id="deleteEmailInput-tr"
                 class="form-input"
                 placeholder="ornek@eposta.com"
                 style="max-width: 420px; margin-bottom: 14px;"
               />
               <br />
               <a
-                id="sendDeleteEmailBtn"
-                href="mailto:support@lernfino.com?subject=Lernfino%20Hesap%20ve%20Veri%20Silme%20Talebi&body=Merhaba%20Lernfino%20Destek%20Ekibi%2C%0A%0ALernfino%20hesab%C4%B1m%C4%B1%20ve%20ba%C4%9Fl%C4%B1%20t%C3%BCm%20verilerimi%20kal%C4%B1c%C4%B1%20olarak%20silmek%20istiyorum.%0A%0AKay%C4%B1tl%C4%B1%20E-posta%20Adresim%3A%20%0A%0A%C4%B0%C5%9Flem%20tamamland%C4%B1%C4%9F%C4%B1nda%20l%C3%BCtfen%20taraf%C4%B1ma%20bilgi%20veriniz.%0A%0ATe%C5%9Fekk%C3%BCrler."
+                id="sendDeleteEmailBtn-tr"
+                href="mailto:support@lernfino.com?subject=Lernfino%20Hesap%20ve%20Veri%20Silme%20Talebi"
                 class="btn btn-primary btn-md"
                 data-i18n="delete.btnAction"
               >
@@ -186,79 +198,87 @@
             </div>
 
             <p style="font-size:12.5px; color:var(--muted); margin-bottom:0;" data-i18n="delete.directNotice">
-              Veya doğrudan kayıtlı e-posta adresinizden konu kısmına 'Lernfino Hesap Silme Talebi' yazarak <strong>support@lernfino.com</strong> adresine gönderebilirsiniz.
+              Veya doğrudan kayıtlı e-posta adresinizden konu kısmına 'Lernfino Hesap Silme Talebi' yazarak <strong>support@lernfino.com</strong> adresine e-posta gönderebilirsiniz.
             </p>
           </div>
 
-          <h2>4. Uygulama İçinden Silme</h2>
+          <h2>4. Uygulama İçinden Kalıcı Silme Adımları</h2>
           <p>
-            Uygulama içerisinden silmek için: <strong>Lernfino → Ayarlar → Hesabım → Hesabı sil</strong> adımlarını takip edip onay vermeniz yeterlidir.
+            Uygulama içerisinden hesabınızı hemen silmek için: <strong>Lernfino → Ayarlar → Hesabım → Hesabı sil</strong> adımlarını izleyin, abonelik uyarısını inceleyin ve onaylayın.
           </p>
         </article>
 
         <!-- ==================== ENGLISH CONTENT ==================== -->
         <article class="legal-prose" data-lang-content="en" style="display: none;">
           <div class="callout-box callout-emerald">
-            <strong>You Are in Full Control:</strong> Because Lernfino is built with a local-first philosophy, most learners use the app completely offline without creating an account. You can permanently delete both your local learning logs and cloud-synced account data anytime.
+            <strong>App &amp; Developer Info:</strong> This page covers account and data deletion for <strong>Lernfino</strong> (iOS &amp; Android), operated by individual developer <strong>Abdulsamet Saygı</strong> (Lernfino / Respecode). Guests store progress locally without an account; registered users can permanently delete their cloud account anytime.
+          </div>
+
+          <div class="callout-box callout-amber">
+            <strong>Important Subscription Notice:</strong> Deleting your account or uninstalling the app does <strong>not</strong> automatically cancel an active <strong>Apple App Store</strong> or <strong>Google Play</strong> subscription. To prevent future renewals, cancel separately in your store settings:
+            <a href="https://apps.apple.com/account/subscriptions" target="_blank" rel="noopener noreferrer">Manage Apple Subscriptions</a> ·
+            <a href="https://play.google.com/store/account/subscriptions" target="_blank" rel="noopener noreferrer">Manage Google Play Subscriptions</a>.
+            (Account deletion is never blocked or conditioned on canceling a subscription first.)
           </div>
 
           <h2>1. Deleting On-Device (Local) Data</h2>
-          <p>
-            If you use Lernfino in offline/local mode without an account:
-          </p>
+          <p>If you use Lernfino in guest mode without an account:</p>
           <ul class="delete-steps-list">
-            <li>Go to the <strong>Settings</strong> tab in Lernfino.</li>
-            <li>Tap <strong>"Reset Learning Data"</strong>.</li>
-            <li>Or simply uninstall the application. All local databases, flashcards, and reading statistics are permanently wiped from your device.</li>
+            <li>Open <strong>Settings → My data</strong> inside Lernfino and tap <strong>"Reset Learning Data"</strong>.</li>
+            <li>Or uninstall the application. Local databases, flashcards, and progress on the device are removed. Note: OS-level cloud backups (e.g., iCloud or Google device backup) are governed by your device settings, and if you previously created a cloud account you must follow step 2 below to erase server records.</li>
           </ul>
 
-          <h2>2. Permanent Deletion of Cloud Account & Server Records</h2>
-          <p>
-            If you created a registered Lernfino cloud account, you may request permanent deletion of your profile and all associated data at any time.
-          </p>
+          <h2>2. Permanent Deletion of Cloud Account &amp; Server Records</h2>
+          <p>If you created a Lernfino cloud account, you may permanently delete your profile and associated personal data.</p>
 
-          <h3>Types of Data Deleted:</h3>
+          <h3>Data Deleted:</h3>
           <ul>
-            <li>User credentials, authentication IDs, and registered email address,</li>
-            <li>Cloud-synchronized reading history, audio progress, and level metrics,</li>
-            <li>Spaced repetition (SRS) flashcards, custom notes, and review intervals,</li>
-            <li>Goethe & ÖSD mock examination scores and writing module submissions,</li>
-            <li>Device sync tokens and session tokens.</li>
+            <li>Supabase authentication record, user ID, and registered email address,</li>
+            <li>Cloud-synchronized reading history, learning path progress, and level metrics,</li>
+            <li>Spaced repetition (SRS) flashcards, custom notes, and mock exam records,</li>
+            <li>Synced speech transcripts and AI evaluation feedback,</li>
+            <li>On-device account data, session tokens, and pending AI drafts (erased immediately upon in-app deletion; other devices cannot re-upload deleted account data once signed out).</li>
           </ul>
 
-          <p>Deleting an account erases synced transcripts and AI feedback. In-app deletion also clears account progress and queued drafts on that phone. Anonymous cost metrics and a random deletion receipt are retained.</p>
+          <h3>Limited Records Retained &amp; Retention Periods:</h3>
+          <ul>
+            <li><strong>Anonymous cost metrics &amp; random deletion receipt:</strong> These records contain no email, name, or content. A daily cleanup removes AI budget cost records 90 days after the last AI quota reservation and receipts confirming deletion 90 days after they are created. For older receipts without a date, the period starts when this retention rule takes effect.</li>
+            <li><strong>Pseudonymized technical error reports:</strong> Not linked to your account and contain no IP address; automatically deleted after <strong>90 days</strong>.</li>
+            <li><strong>Database backups:</strong> Copies in server backups are purged at the end of the provider backup cycle (up to <strong>30 days</strong>); deleted accounts are not restored.</li>
+            <li><strong>Purchase &amp; statutory tax records:</strong> Store transaction records with Apple, Google, and RevenueCat are retained for statutory financial, accounting, and limitation periods.</li>
+          </ul>
 
           <div class="callout-box callout-navy">
-            <strong>Retention Period & Processing Time:</strong> Deletion requests are processed and verified within <strong>7 business days</strong>. Once deleted, data cannot be recovered.
+            <strong>Processing Time:</strong> In-app deletion triggers immediate erasure from active systems. Web/email deletion requests are verified and permanently erased from active servers within <strong>7 business days</strong>.
           </div>
 
-          <h2>3. Submit Deletion Request via Web</h2>
+          <h2>3. Prepare Deletion Request via Web</h2>
           <p>
-            If you do not currently have the app installed, use the interactive generator below to email our support team directly from your registered email address:
+            If you do not have access to the app, enter your registered email address below to prepare an email to <code>support@lernfino.com</code> in your default email client:
           </p>
 
-          <!-- Interactive Tool Box -->
+          <!-- Interactive Tool Box (EN) -->
           <div class="delete-tool-box">
             <h3 style="margin-top:0;" data-i18n="delete.toolTitle">Account Deletion Request Tool</h3>
             <p data-i18n="delete.toolDesc">
-              Enter your registered Lernfino email address below and click 'Send Account Deletion Email':
+              Enter the email address registered with Lernfino below and click 'Send Account Deletion Email'. Your email app will open with a prefilled request:
             </p>
 
             <div style="margin: 16px 0;">
-              <label for="deleteEmailInput" style="display:block; font-size:13px; font-weight:700; margin-bottom:6px; color:var(--ink);" data-i18n="delete.inputLabel">
+              <label for="deleteEmailInput-en" style="display:block; font-size:13px; font-weight:700; margin-bottom:6px; color:var(--ink);" data-i18n="delete.inputLabel">
                 Registered Lernfino Email Address:
               </label>
               <input
                 type="email"
-                id="deleteEmailInput"
+                id="deleteEmailInput-en"
                 class="form-input"
                 placeholder="example@email.com"
                 style="max-width: 420px; margin-bottom: 14px;"
               />
               <br />
               <a
-                id="sendDeleteEmailBtn"
-                href="mailto:support@lernfino.com?subject=Lernfino%20Account%20%26%20Data%20Deletion%20Request&body=Hello%20Lernfino%20Support%20Team%2C%0A%0AI%20would%20like%20to%20permanently%20delete%20my%20Lernfino%20account%20and%20all%20associated%20cloud%20data.%0A%0ARegistered%20Email%3A%20%0A%0APlease%20confirm%20once%20the%20deletion%20is%20completed.%0A%0AThank%20you."
+                id="sendDeleteEmailBtn-en"
+                href="mailto:support@lernfino.com?subject=Lernfino%20Account%20%26%20Data%20Deletion%20Request"
                 class="btn btn-primary btn-md"
                 data-i18n="delete.btnAction"
               >
@@ -267,47 +287,102 @@
             </div>
 
             <p style="font-size:12.5px; color:var(--muted); margin-bottom:0;" data-i18n="delete.directNotice">
-              Alternatively, you can email <strong>support@lernfino.com</strong> directly from your registered account with the subject 'Lernfino Account Deletion Request'.
+              Alternatively, email <strong>support@lernfino.com</strong> directly from your registered address with the subject 'Lernfino Account Deletion Request'.
             </p>
           </div>
 
           <h2>4. In-App Deletion Steps</h2>
           <p>
-            Inside the mobile app, navigate to: <strong>Settings → My account → Delete account</strong> and confirm the prompt.
+            Inside the app, open <strong>Settings → My account → Delete account</strong>, review the subscription notice, and confirm permanent deletion.
           </p>
         </article>
 
         <!-- ==================== DEUTSCH CONTENT ==================== -->
         <article class="legal-prose" data-lang-content="de" style="display: none;">
           <div class="callout-box callout-emerald">
-            <strong>Volle Datenkontrolle:</strong> Da Lernfino auf einer Local-First-Architektur aufbaut, können Sie sowohl Ihre lokalen Daten als auch Ihr Cloud-Konto jederzeit vollständig und dauerhaft löschen.
+            <strong>App- &amp; Anbieterhinweis:</strong> Diese Seite beschreibt die Kontolöschung für <strong>Lernfino</strong> (iOS &amp; Android), betrieben vom Einzelentwickler <strong>Abdulsamet Saygı</strong> (Lernfino / Respecode). Gastnutzer speichern alle Daten lokal; registrierte Nutzer können ihr Cloud-Konto jederzeit dauerhaft löschen.
+          </div>
+
+          <div class="callout-box callout-amber">
+            <strong>Wichtiger Abo-Hinweis:</strong> Die Löschung Ihres Kontos oder die Deinstallation der App kündigt ein aktives <strong>Apple App Store</strong>- oder <strong>Google Play</strong>-Abonnement <strong>nicht</strong> automatisch. Um weitere Abbuchungen zu stoppen, kündigen Sie bitte gesondert im Store:
+            <a href="https://apps.apple.com/account/subscriptions" target="_blank" rel="noopener noreferrer">Apple-Abos verwalten</a> ·
+            <a href="https://play.google.com/store/account/subscriptions" target="_blank" rel="noopener noreferrer">Google-Play-Abos verwalten</a>.
+            (Ihr Recht auf Kontolöschung ist niemals von einer vorherigen Abo-Kündigung abhängig.)
           </div>
 
           <h2>1. Lokale Daten auf dem Gerät löschen</h2>
-          <p>
-            Wenn Sie Lernfino ohne Registrierung nutzen: Öffnen Sie <strong>Einstellungen → Lerndaten zurücksetzen</strong> oder deinstallieren Sie die App. Alle lokalen Daten werden sofort gelöscht.
-          </p>
-
-          <h2>2. Cloud-Konto und Serverdaten dauerhaft löschen</h2>
-          <p>
-            Wenn Sie ein Konto registriert haben, werden auf Ihren Wunsch alle Daten gelöscht:
-          </p>
-          <ul>
-            <li>Benutzerkonto und E-Mail-Adresse,</li>
-            <li>Cloud-gesicherte Lesestatistiken und Kapitelverläufe,</li>
-            <li>SRS-Vokabelkarten und Notizen,</li>
-            <li>Goethe- & ÖSD-Prüfungsergebnisse und geschriebene Texte.</li>
+          <p>Wenn Sie Lernfino im Gastmodus ohne Konto verwenden:</p>
+          <ul class="delete-steps-list">
+            <li>Öffnen Sie in Lernfino <strong>Einstellungen → Meine Daten</strong> und tippen Sie auf <strong>„Lerndaten zurücksetzen“</strong>.</li>
+            <li>Oder deinstallieren Sie die App. Lokale Datenbanken und Karteikarten auf dem Gerät werden entfernt. Hinweis: Betriebssystem-Backups (z. B. iCloud / Google Drive) unterliegen Ihren Geräteeinstellungen; für ein bestehendes Cloud-Konto befolgen Sie bitte Schritt 2.</li>
           </ul>
 
-          <p>Unter Einstellungen → Mein Konto → Konto löschen werden die synchronisierten Transkripte und KI-Rückmeldungen sowie die Kontodaten und Entwürfe auf diesem Gerät gelöscht. Anonyme Kostenmesswerte und eine zufällige Löschquittung bleiben erhalten.</p>
+          <h2>2. Cloud-Konto und Serverdaten dauerhaft löschen</h2>
+          <p>Wenn Sie ein Lernfino-Konto registriert haben, werden auf Ihren Wunsch Ihr Profil und alle zugehörigen personenbezogenen Daten gelöscht.</p>
+
+          <h3>Gelöschte Daten:</h3>
+          <ul>
+            <li>Supabase-Authentifizierungseintrag, Nutzer-ID und E-Mail-Adresse,</li>
+            <li>Cloud-synchronisierter Leseverlauf, Lernpfadfortschritt und Niveaustatistiken,</li>
+            <li>SRS-Vokabelkarten, Notizen und Prüfungsergebnisse,</li>
+            <li>Synchronisierte Sprachtranskripte und KI-Feedbacks,</li>
+            <li>Kontodaten, Sitzungs-Tokens und wartende KI-Entwürfe auf diesem Gerät (werden bei In-App-Löschung sofort entfernt; nach Abmeldung werden gelöschte Daten von anderen Geräten nicht erneut hochgeladen).</li>
+          </ul>
+
+          <h3>Begrenzt aufbewahrte technische / gesetzliche Nachweise:</h3>
+          <ul>
+            <li><strong>Anonyme Kostenmesswerte &amp; zufällige Löschquittung:</strong> Diese Daten enthalten weder Namen noch E-Mail-Adressen oder Inhalte. Eine tägliche Bereinigung löscht Kostendaten zum KI-Budget 90 Tage nach der letzten KI-Kontingentreservierung und Quittungen zur Bestätigung der Löschung 90 Tage nach ihrer Erstellung. Für ältere Quittungen ohne Datum beginnt die Frist mit Inkrafttreten dieser Aufbewahrungsregel.</li>
+            <li><strong>Pseudonymisierte Fehlerberichte:</strong> Nicht mit Ihrem Konto verknüpft und ohne IP-Adresse; automatische Löschung nach <strong>90 Tagen</strong>.</li>
+            <li><strong>Datenbank-Backups:</strong> Kopien in Sicherungen werden nach Ablauf des Backup-Zyklus (höchstens <strong>30 Tage</strong>) entfernt; gelöschte Konten werden nicht wiederhergestellt.</li>
+            <li><strong>Kauf- und Steuerunterlagen:</strong> Transaktionsdaten bei Apple, Google und RevenueCat werden gemäß gesetzlichen steuer- und handelsrechtlichen Aufbewahrungsfristen aufbewahrt.</li>
+          </ul>
 
           <div class="callout-box callout-navy">
-            <strong>Bearbeitungszeit:</strong> Die endgültige Löschung auf unseren Servern erfolgt innerhalb von <strong>spätestens 7 Werktagen</strong>.
+            <strong>Bearbeitungszeit:</strong> Die In-App-Löschung startet sofort. Web- und E-Mail-Anfragen werden nach Identitätsprüfung innerhalb von <strong>spätestens 7 Werktagen</strong> dauerhaft aus den aktiven Systemen gelöscht.
           </div>
 
-          <h2>3. Löschungsanfrage per E-Mail stellen</h2>
+          <h2>3. Löschungsanfrage über das Web vorbereiten</h2>
           <p>
-            Senden Sie einfach eine formlose E-Mail von Ihrer registrierten Adresse an <strong>support@lernfino.com</strong> mit dem Betreff 'Lernfino Konto-Löschungsanfrage'.
+            Wenn Sie aktuell keinen Zugriff auf die App haben, geben Sie Ihre registrierte E-Mail-Adresse ein, um eine vorbereitete Löschungsanfrage an <code>support@lernfino.com</code> in Ihrem E-Mail-Programm zu öffnen:
+          </p>
+
+          <!-- Interactive Tool Box (DE) -->
+          <div class="delete-tool-box">
+            <h3 style="margin-top:0;" data-i18n="delete.toolTitle">Tool zur Konto-Löschungsanfrage</h3>
+            <p data-i18n="delete.toolDesc">
+              Geben Sie unten Ihre bei Lernfino registrierte E-Mail-Adresse ein und klicken Sie auf 'Löschungs-E-Mail absenden'. Ihr E-Mail-Programm öffnet sich mit einer vorbereiteten Nachricht:
+            </p>
+
+            <div style="margin: 16px 0;">
+              <label for="deleteEmailInput-de" style="display:block; font-size:13px; font-weight:700; margin-bottom:6px; color:var(--ink);" data-i18n="delete.inputLabel">
+                Registrierte Lernfino E-Mail-Adresse:
+              </label>
+              <input
+                type="email"
+                id="deleteEmailInput-de"
+                class="form-input"
+                placeholder="beispiel@email.com"
+                style="max-width: 420px; margin-bottom: 14px;"
+              />
+              <br />
+              <a
+                id="sendDeleteEmailBtn-de"
+                href="mailto:support@lernfino.com?subject=Lernfino%20Konto-%20und%20Datenl%C3%B6schung"
+                class="btn btn-primary btn-md"
+                data-i18n="delete.btnAction"
+              >
+                Löschungs-E-Mail absenden ✉️
+              </a>
+            </div>
+
+            <p style="font-size:12.5px; color:var(--muted); margin-bottom:0;" data-i18n="delete.directNotice">
+              Alternativ können Sie eine E-Mail mit dem Betreff 'Lernfino Konto-Löschungsanfrage' von Ihrer registrierten Adresse an <strong>support@lernfino.com</strong> senden.
+            </p>
+          </div>
+
+          <h2>4. Schritte zur Löschung in der App</h2>
+          <p>
+            Öffnen Sie in der App <strong>Einstellungen → Mein Konto → Konto löschen</strong>, prüfen Sie den Hinweis zu Abonnements und bestätigen Sie die dauerhafte Löschung.
           </p>
         </article>
 
@@ -332,7 +407,7 @@
           <span>·</span>
           <a href="../terms/" class="footer-nav-link" data-i18n="footer.terms">Kullanım Koşulları</a>
           <span>·</span>
-          <a href="../support/" class="footer-nav-link" data-i18n="footer.support">Destek & SSS</a>
+          <a href="../support/" class="footer-nav-link" data-i18n="footer.support">Destek &amp; SSS</a>
           <span>·</span>
           <a href="../delete-account/" class="footer-nav-link" data-i18n="footer.deleteAccount">Hesap Silme</a>
           <span>·</span>
@@ -346,7 +421,7 @@
           <button type="button" class="text-link" data-lang-switch="de">Deutsch</button>
         </div>
         <p class="footer-disclaimer" data-i18n="footer.disclaimer">Goethe-Zertifikat, ÖSD ve telc, ilgili sahiplerinin markalarıdır. Lernfino bağımsız bir eğitim platformudur; Goethe-Institut, ÖSD veya telc gGmbH'nin resmî bir materyali, ortağı veya ürünü değildir.</p>
-        <small>© 2026 Lernfino · Respecode. <span data-i18n="footer.rights">Tüm hakları saklıdır.</span></small>
+        <small>© 2026 Lernfino · Abdulsamet Saygı (Respecode). <span data-i18n="footer.rights">Tüm hakları saklıdır.</span></small>
       </div>
     </div>
   </footer>

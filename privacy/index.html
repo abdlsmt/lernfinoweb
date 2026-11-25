@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Gizlilik Politikası — Lernfino</title>
-  <meta name="description" content="Lernfino Gizlilik Politikası: Önce-yerel veri mimarimiz, KVKK ve DSGVO aydınlatması, işleyenler listesi, lansman listesi verileri ve kullanıcı hakları." />
+  <meta name="description" content="Lernfino Gizlilik Politikası: Veri sorumlusu, hukuki dayanaklar ve saklama süreleri, ücretli Google Gemini API, AdMob UMP/ATT, AB AI Act şeffaflığı, KVKK m. 11 ve GDPR hakları." />
   <meta name="theme-color" content="#181E29" />
 
   <link rel="icon" type="image/png" href="../Lernfino%20Deutsch%20Fox%20Icon.png" />
@@ -94,8 +94,8 @@
           Lernfino, gizliliğinizi en üst düzeyde korumak üzere 'önce-yerel' (local-first) mimariyle geliştirilmiştir. Verilerinizin sahibi daima sizsiniz.
         </p>
         <div class="legal-meta-row">
-          <span class="legal-meta-pill" data-i18n="meta.updated">Son Güncelleme: 19 Kasım 2026</span>
-          <span class="legal-meta-pill" data-i18n="meta.controller">Veri Sorumlusu: Respecode</span>
+          <span class="legal-meta-pill" data-i18n="meta.updated">Son Güncelleme: 25 Kasım 2026</span>
+          <span class="legal-meta-pill" data-i18n="meta.controller">Veri Sorumlusu: Abdulsamet Saygı (Lernfino / Respecode)</span>
           <span class="legal-meta-pill" data-i18n="meta.supportEmail">Destek: support@lernfino.com</span>
         </div>
       </div>
@@ -118,286 +118,511 @@
         <!-- ==================== TÜRKÇE İÇERİK ==================== -->
         <article class="legal-prose" data-lang-content="tr">
           <div class="callout-box callout-emerald">
-            <strong>Özet &amp; Temel Taahhüdümüz:</strong> Lernfino, kullanıcılarının kişisel öğrenme geçmişini korumak üzere tasarlanmıştır. Okuma ilerlemeniz, kelime listeniz ve deneme sınavı sonuçlarınız varsayılan olarak kendi cihazınızda saklanır ve kişisel verileriniz üçüncü taraflara satılmaz.
+            <strong>Özet &amp; Temel Taahhüdümüz:</strong> Lernfino, 18 yaş ve üzeri yetişkinler için geliştirilmiş bir Almanca öğrenme uygulamasıdır. Okuma ilerlemeniz, kelime defteriniz ve deneme sonuçlarınız varsayılan olarak cihazınızda yerel tutulur; kişisel verileriniz hiçbir veri simsarına satılmaz. Bu Gizlilik Politikası, sözleşmeden ayrı bir bilgilendirme (aydınlatma) metnidir.
           </div>
 
           <h2>1. Veri Sorumlusu</h2>
           <p>
-            Bu Gizlilik Politikası, bireysel geliştirici <strong>Abdulsamet Saygı</strong> (Respecode / Lernfino) tarafından geliştirilen ve işletilen Lernfino mobil uygulamaları (iOS &amp; Android) ve <code>lernfino.com</code> web hizmeti için geçerlidir.
+            Bu Gizlilik Politikası, <strong>Lernfino / Respecode</strong> markaları altında faaliyet gösteren Türkiye'de yerleşik bireysel geliştirici <strong>Abdulsamet Saygı</strong> tarafından işletilen Lernfino mobil uygulamaları (iOS ve Android) ve <code>lernfino.com</code> internet sitesi için geçerlidir. Respecode ayrı bir tüzel kişilik veya şirket değildir.
           </p>
           <p>
-            <strong>Veri Sorumlusu:</strong> Abdulsamet Saygı<br />
+            <strong>Veri Sorumlusu:</strong> Abdulsamet Saygı (Lernfino / Respecode markaları altında bireysel geliştirici)<br />
             <strong>Adres:</strong> Mehmet Akif Ersoy Mah. 295. Cd C12 Blok No:46, Yenimahalle / Ankara, Türkiye<br />
-            <strong>E-posta:</strong> <a href="mailto:support@lernfino.com">support@lernfino.com</a>
+            <strong>E-posta:</strong> <a href="mailto:support@lernfino.com">support@lernfino.com</a><br />
+            <strong>Web:</strong> <a href="https://lernfino.com">https://lernfino.com</a>
           </p>
 
-          <h2>2. Toplanan Veriler ve Saklama Prensipleri</h2>
+          <h2>2. İşlenen Veriler, Amaçlar, Hukuki Dayanaklar ve Saklama Süreleri</h2>
           <p>
-            Lernfino, veri minimizasyonu ilkesini benimser. Yalnızca eğitim deneyiminizi ve talep ettiğiniz hizmetleri sunmak için gerekli veriler işlenir:
+            Kişisel verileriniz doğrudan sizden, uygulama ve internet sitesi aracılığıyla otomatik yollarla ve ilgili hizmet sağlayıcılarından elde edilir. Temel öğrenme özelliklerini hesap oluşturmadan (misafir modunda) kullanabilirsiniz; ancak reklam gösterimi, medya indirme, hata raporlama veya satın alma işlemleri ilgili tercihlerinize bağlı olarak veri işlenmesini gerektirebilir.
           </p>
+          <div class="legal-table-wrap">
+            <table class="legal-table">
+              <thead>
+                <tr>
+                  <th>Veri Kategorisi</th>
+                  <th>Amaç</th>
+                  <th>Hukuki Dayanak (KVKK m. 5 / GDPR m. 6)</th>
+                  <th>Saklama Süresi</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Hesap ve Kimlik Doğrulama</strong><br />E-posta adresi, kimlik doğrulama kaydı (parola özeti Supabase Auth tarafından yönetilir), kullanıcı kimliği, Google/Apple ile Giriş belirteci</td>
+                  <td>İsteğe bağlı bulut hesabı oluşturma, giriş güvenliği ve cihazlar arası eşitleme</td>
+                  <td>Sözleşmenin kurulması ve ifası (KVKK m. 5/2-c, GDPR m. 6(1)(b))</td>
+                  <td>Hesabınız aktif olduğu sürece; silme talebinde aktif sistemlerden kaldırılır (veya 24 ay pasiflik sonrası bildirimle silinir)</td>
+                </tr>
+                <tr>
+                  <td><strong>Öğrenme İlerlemesi ve SRS Kelime Defteri</strong><br />Okuma ilerlemesi, kelime kartları, alıştırma ve deneme sonuçları, tema/dil tercihleri</td>
+                  <td>Eğitim ilerlemenizi cihazda saklama ve giriş yaptığınızda bulutta eşitleme</td>
+                  <td>Sözleşmenin ifası (KVKK m. 5/2-c, GDPR m. 6(1)(b))</td>
+                  <td>Yerel veriler uygulamayı kaldırana veya sıfırlayana kadar; bulut verileri hesap silinene kadar</td>
+                </tr>
+                <tr>
+                  <td><strong>İsteğe Bağlı Yapay Zekâ Değerlendirmesi</strong><br />Yazma metinleri, konuşma ses kaydı, yazıya döküm (transkript), puan ve geri bildirim</td>
+                  <td>Yetişkin (18+) kullanıcının talebi üzerine konuşma ve yazma geri bildirimi üretilmesi</td>
+                  <td>Açık rıza (KVKK m. 5/1, GDPR m. 6(1)(a), Apple 5.1.2(i)) ve talep edilen hizmetin sunulması</td>
+                  <td>Ham ses kaydı bellekte işlenir ve değerlendirme sonrası silinir; transkript ve sonuçlar hesap silinene kadar (Google ücretli API kötüye kullanım kayıtları en fazla 55 gün)</td>
+                </tr>
+                <tr>
+                  <td><strong>Abonelik ve Satın Alma Kayıtları</strong><br />İşlem kimliği, ürün/paket durumu, makbuz doğrulama (ödeme kartı bilgileriniz tarafımızca görülmez ve saklanmaz)</td>
+                  <td>Plus, Pro ve 12 haftalık tek seferlik Sınav Paketi haklarının doğrulanması</td>
+                  <td>Sözleşmenin ifası ve hukuki yükümlülük (KVKK m. 5/2-c,ç; GDPR m. 6(1)(b),(c))</td>
+                  <td>Abonelik/paket süresince ve ilgili mali/vergi ile zamanaşımı mevzuatının öngördüğü süreler boyunca</td>
+                </tr>
+                <tr>
+                  <td><strong>Reklam Verileri (Yalnız Ücretsiz Sürüm)</strong><br />Reklam kimliği (IDFA/AAID), yaklaşık IP tabanlı konum, cihaz bilgisi, reklam etkileşimleri (Google AdMob)</td>
+                  <td>Ücretsiz sürümün sunulması için reklam gösterimi ve ölçümü</td>
+                  <td>Kişiselleştirilmiş reklamlar için açık rıza (KVKK m. 5/1, GDPR m. 6(1)(a), ePrivacy m. 5/3, iOS ATT); rıza yoksa kişiselleştirilmemiş reklam (NPA)</td>
+                  <td>Tercih geri çekilene kadar ve Google AdMob saklama politikaları çerçevesinde</td>
+                </tr>
+                <tr>
+                  <td><strong>Çökme ve Hata Raporları</strong><br />Uygulama/OS sürümü, parametresiz ekran yolu, hata türü, mesajı ve maskelenmiş teknik iz (en fazla 4 KB), arayüz dili, zaman, rastgele kurulum kimliği</td>
+                  <td>Uygulama güvenliği, hata tespiti ve kararlılığın sağlanması (hesapla eşleştirilmez, IP adresi saklanmaz)</td>
+                  <td>Meşru menfaat (KVKK m. 5/2-f, GDPR m. 6(1)(f)); Ayarlar → Gizlilik üzerinden her zaman kapatılabilir</td>
+                  <td><strong>90 gün</strong> sonra otomatik olarak silinir</td>
+                </tr>
+                <tr>
+                  <td><strong>Çalışma Hatırlatmaları (Bildirimler)</strong><br />Cihaz içi yerel zamanlama tercihleri (ve ileride uzak bildirim kullanılırsa cihaz bildirim belirteci)</td>
+                  <td>İsteğe bağlı günlük çalışma hatırlatmalarının gösterilmesi</td>
+                  <td>Açık rıza / işletim sistemi bildirim izni (KVKK m. 5/1, GDPR m. 6(1)(a))</td>
+                  <td>İzin kapatılana veya uygulama kaldırılana kadar</td>
+                </tr>
+                <tr>
+                  <td><strong>Web Bekleme Listesi (<code>lernfino.com</code>)</strong><br />E-posta adresi, kayıt zamanı, site dili, isteğe bağlı hedef seviye</td>
+                  <td>Yalnızca lansman bildirimi ve onay verilen ürün duyurularının gönderilmesi</td>
+                  <td>Açık rıza (KVKK m. 5/1, GDPR m. 6(1)(a), UWG § 7, 6563 sayılı ETK)</td>
+                  <td>Lansmandan itibaren en geç <strong>6 ay</strong> sonra veya rıza geri çekildiğinde derhâl</td>
+                </tr>
+                <tr>
+                  <td><strong>Medya Dağıtımı ve İşlemsel E-postalar</strong><br />IP adresi, medya istek kaydı (Cloudflare R2), doğrulama/sıfırlama e-posta gönderim kaydı (Resend)</td>
+                  <td>Ses/görsel dosyalarının dağıtımı ve hesap doğrulama/şifre sıfırlama iletilerinin ulaştırılması</td>
+                  <td>Sözleşmenin ifası / meşru menfaat (KVKK m. 5/2-c,f; GDPR m. 6(1)(b),(f))</td>
+                  <td>Sağlayıcı güvenlik günlükleri için gerekli asgari süre (genellikle en fazla 30 gün)</td>
+                </tr>
+                <tr>
+                  <td><strong>Silme Makbuzu, Anonim Maliyet Ölçümü ve Yedekler</strong><br />Rastgele silme makbuzu, hesap kimliği içermeyen maliyet sayacı, veritabanı yedekleri</td>
+                  <td>Mükerrer hesap silme doğrulaması, AI bütçe koruması ve sistem yedekleme güvenliği</td>
+                  <td>Hukuki yükümlülük ve meşru menfaat (KVKK m. 5/2-ç,f; GDPR m. 6(1)(c),(f))</td>
+                  <td>Maliyet kayıtları AI kotasındaki son rezervasyondan, makbuzlar oluşturulmalarından 90 gün sonra günlük temizlikte silinir. Tarihsiz eski makbuzlar için süre, bu saklama kuralının devreye alındığı gün başlar. Veritabanı yedekleri en fazla 30 gün tutulur.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p>
+            <strong>Hata raporları (takma adlandırılmış teknik veriler).</strong> Uygulama çökerse veya beklenmedik bir hata alırsa, sorunu çözebilmemiz için kısa bir teknik rapor gönderebilir. Rapor yalnızca uygulama sürümünü, platformu (Android, iOS veya web), işletim sistemi sürümünü, parametresiz ekran yolunu, hata türünü/mesajını ve en fazla 4 KB'lık teknik izi (e-posta adresleri, uzun sayılar ve belirteç benzeri diziler maskelenir), arayüz dilinizi, zamanı ve rastgele üretilmiş bir kurulum kimliğini (<code>install_id</code>) içerir. Kurulum kimliği hesabınızla ilişkilendirilmez ve IP adresi saklanmaz; ancak teknik kayıtlar cihaz veya kurulumla dolaylı olarak ilişkilendirilebileceğinden takma adlandırılmış kişisel veri korumasına tabi tutulur. Aynı hata 24 saatte en çok 1 kez, günde en çok 20 rapor gönderilir ve <strong>90 gün</strong> sonra otomatik silinir. Kullanım istatistiği toplanmaz. Raporlamayı istediğiniz zaman <strong>Ayarlar → Gizlilik → "Hata raporlarını gönder"</strong> bölümünden kapatabilirsiniz.
+          </p>
+
+          <h2>3. Yapay Zekâ Şeffaflığı (AB AI Act m. 50) ve Mikrofon Kullanımı</h2>
           <ul>
-            <li>
-              <strong>Cihaz İçi (Yerel) Depolama:</strong> Okuduğunuz hikâye bölümleri, ses dinleme kayıtları, SRS kelime defterinize eklediğiniz sözcükler, Goethe/ÖSD formatındaki deneme puanlarınız ve uygulama tema tercihleriniz varsayılan olarak kendi cihazınızda (cihaz içi yerel veritabanında) saklanır. Hesap eşitlemesini seçerseniz ilerlemeniz hesabınıza da kaydedilir.
-            </li>
-            <li>
-              <strong>İsteğe Bağlı Bulut Hesabı Verileri:</strong> Cihazlar arası senkronizasyon amacıyla hesap oluşturmayı tercih ederseniz, e-posta adresiniz, kullanıcı kimliğiniz, öğrenme ilerlemeniz ve isteğe bağlı yapay zekâ değerlendirme sonuçlarınız bulut altyapımızda (Supabase) tutulur.
-            </li>
-            <li>
-              <strong>Mikrofon &amp; Konuşma Tanıma İzni:</strong> Yerel kayıtlar cihazınızda kalır. Konuşma tanıma, işletim sisteminin hizmetini kullanır ve cihaza göre internet gerektirebilir. Yalnız 18 yaşından büyük yetişkinin açık onayıyla ses veya metin Supabase üzerinden Google Gemini’ye gönderilir. Lernfino sesi bellekte işler; sonuç kaydedilince yerel taslağı siler. Döküm ve geri bildirim hesapta kalır. Ücretsiz katmanda Google gönderileri ürünlerini geliştirmek için kullanabilir; kendi saklama koşulları geçerlidir.
-            </li>
-            <li>
-              <strong>Teknik Tanılama:</strong> Yalnızca hata kodları, sayımlar ve yaklaşık zamanlar gibi anonimleştirilmiş tanılama kayıtları uygulama kararlılığını korumak amacıyla işlenebilir.
-            </li>
-            <li>
-              <strong>Hata Raporları:</strong> Çökme veya beklenmedik hata durumunda gönderilen kısa teknik rapor (kişisel veri içermez; Ayarlar → Gizlilik bölümünden kapatılabilir). Ayrıntılar aşağıdaki “Hata raporları” paragrafındadır.
-            </li>
+            <li><strong>Yapay Zekâ ile Üretilmiş Seslendirmeler:</strong> Lernfino'daki kelime sesleri, hikâye anlatımları ve dinleme parçalarının tamamı yapay zekâ ile üretilmiştir; gerçek kişilerin sesleri klonlanmaz.</li>
+            <li><strong>Mikrofon ve Sistem Konuşma Tanıma:</strong> Alıştırmalardaki yerel ses kayıtları cihazınızda kalır. Konuşma tanıma özelliği işletim sisteminizin (Apple/Google) kendi servisini kullanır ve cihaza göre internet bağlantısı gerektirebilir.</li>
+            <li><strong>Ücretli Google Gemini API Katmanı:</strong> İsteğe bağlı yazma ve konuşma değerlendirmeleri yalnızca önceden açık izin vermeniz hâlinde Supabase üzerinden <strong>ücretli Google Gemini API</strong> katmanına gönderilir. Ücretli API koşulları uyarınca değerlendirme girdi ve çıktılarınız Google'ın modellerini ve ürünlerini eğitmek veya geliştirmek için kullanılmaz; Google kötüye kullanımın önlenmesi amacıyla sınırlı süre (en fazla 55 gün) güvenlik kaydı tutabilir. Ham ses dosyası Lernfino sunucusu belleğinde anlık işlenir ve sonuç üretildikten sonra silinir; yazıya döküm ve geri bildirim hesabınızda kalır.</li>
+            <li><strong>Biyometrik Veri ve Resmî Sınav Niteliği:</strong> Benzersiz kimlik doğrulama amacıyla ses izi (biyometrik veri) çıkarılmaz ve eğitim ortamında duygu tespiti yapılmaz. Yapay zekâ puanları yalnızca tahminî çalışma geri bildirimidir; resmî sınav sonucu değildir ve GDPR m. 22 kapsamında hukuki sonuç doğuran otomatik karar niteliği taşımaz. Alıştırmalarınıza sağlık, din, siyasi görüş veya üçüncü kişilere ait hassas bilgileri eklemeyiniz.</li>
           </ul>
 
+          <h2>4. Reklam Tercihleri, Google UMP ve Apple ATT</h2>
           <p>
-            <strong>Hata raporları.</strong> Uygulama çökerse ya da beklenmedik bir hata alırsa, sorunu düzeltebilmemiz için kısa bir teknik rapor gönderebilir. Rapor yalnızca şunları içerir: uygulama sürümü, platform (Android, iOS veya web), işletim sistemi sürümü, ekran yolu (parametresiz), hata türü, mesajı ve teknik izi (en çok 4 KB; e-posta adresleri, uzun sayılar ve belirteç benzeri diziler maskelenir), arayüz dilin, zaman ve rastgele bir kurulum kimliği. Kurulum kimliği hesabınla ilişkilendirilmez; adını, e-posta adresini, hesap kimliğini, cihaz kimliğini, cevaplarını veya kayıtlarını toplamayız ve IP adresi saklamayız. Aynı hata 24 saatte en çok bir kez, günde en çok 20 rapor gönderilir. Raporlar 90 gün sonra otomatik silinir. Kullanım istatistiği toplanmaz. Bunu istediğin zaman Ayarlar → Gizlilik → "Hata raporlarını gönder" bölümünden kapatabilirsin.
+            Ücretsiz sürümde reklam gösterimi için <strong>Google AdMob</strong> kullanılır (Plus, Pro ve aktif Sınav Paketi kullanıcılarına reklam gösterilmez). Google'ın reklam ürünlerinde verileri nasıl kullandığı hakkında ayrıntılı bilgi için: <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">Google İş Ortağı Siteleri ve Uygulamaları Politikası</a>.
           </p>
+          <ul>
+            <li><strong>AB/AEA, Birleşik Krallık ve İsviçre:</strong> Reklam gösterimi öncesinde Google sertifikalı <strong>UMP (User Messaging Platform)</strong> onay penceresi sunulur.</li>
+            <li><strong>Türkiye ve AB Dışı Bölgeler:</strong> Kişiselleştirilmiş reklam gösterilmeden önce uygulama içi açık onay istenir; onay verilmezse yalnızca <strong>kişiselleştirilmemiş reklamlar (NPA)</strong> gösterilir.</li>
+            <li><strong>iOS Uygulama Takibi Şeffaflığı (ATT):</strong> iOS cihazlarda Apple ATT izni verilmediği sürece izleme yapılmaz ve yalnızca kişiselleştirilmemiş reklamlar sunulur.</li>
+            <li><strong>Tercih Değiştirme:</strong> Reklam tercihlerinizi ve verdiğiniz rızayı dilediğiniz zaman <strong>Uygulama → Ayarlar → Gizlilik → Reklam gizlilik tercihleri</strong> üzerinden güncelleyebilir veya geri alabilirsiniz. Kişiselleştirilmiş reklamı reddetmek temel öğrenme özelliklerini kullanmanızı engellemez.</li>
+          </ul>
 
-          <h2 id="waitlist-privacy">3. Lansman Listesi Formu (Bekleme Listesi)</h2>
+          <h2 id="waitlist-privacy-tr">5. Lansman Listesi Formu (Bekleme Listesi)</h2>
           <p>
             <code>lernfino.com</code> üzerindeki lansman bildirim formunu doldurduğunuzda aşağıdaki veriler işlenir:
           </p>
           <ul>
             <li><strong>İşlenen Veriler:</strong> E-posta adresiniz, kayıt tarih/saati, seçili site dili ve isteğe bağlı hedef Almanca seviyeniz.</li>
-            <li><strong>Amaç:</strong> Yalnızca Lernfino'nun yayınlanmasına ilişkin lansman bildirimi ve ürün haberlerini göndermek.</li>
-            <li><strong>Hukuki Dayanak:</strong> Açık rızanız (6698 sayılı KVKK m. 5/1, DSGVO/GDPR m. 6/1-a, UWG § 7 ve 6563 sayılı Kanun kapsamında ticari elektronik ileti onayı). Onay kutusu işaretlenmeden form gönderilmez.</li>
-            <li><strong>Veri İşleyen &amp; Aktarım:</strong> Form yanıtları Google Apps Script aracılığıyla Google Sheets (Google LLC, ABD) altyapısına kaydedilir; bu kapsamda verileriniz yurt dışına (ABD) aktarılır.</li>
-            <li><strong>Saklama Süresi:</strong> Uygulama lansmanından itibaren en geç <strong>6 ay</strong> sonra veya talebiniz üzerine derhâl silinir.</li>
-            <li><strong>Çıkış Yolu:</strong> Verdiğiniz rızayı dilediğiniz zaman geri alabilir ve listeden çıkmak için <code>support@lernfino.com</code> adresine e-posta gönderebilirsiniz.</li>
+            <li><strong>Amaç ve Hukuki Dayanak:</strong> Yalnızca açık rızanızla (KVKK m. 5/1, GDPR m. 6(1)(a), UWG § 7, 6563 sayılı ETK) lansman bildirimi göndermek. Onay kutusu işaretlenmeden form gönderilmez.</li>
+            <li><strong>Veri İşleyen &amp; Saklama:</strong> Yanıtlar Google Apps Script üzerinden Google Sheets (Google LLC, ABD) altyapısına kaydedilir ve lansmandan itibaren en geç <strong>6 ay</strong> sonra veya talebinizle derhâl silinir.</li>
+            <li><strong>Çıkış Yolu:</strong> İletişim ve abonelikten çıkma için <code>support@lernfino.com</code> adresine yazabilirsiniz.</li>
           </ul>
 
-          <h2>4. Veri İşleyenler ve Yurt Dışına Veri Aktarımı</h2>
-          <p>Hizmetlerimizin çalışabilmesi için aşağıdaki üçüncü taraf hizmet sağlayıcılar (veri işleyenler) kullanılmaktadır:</p>
+          <h2>6. Alıcılar, Hizmet Sağlayıcılar ve Uluslararası Veri Aktarımı</h2>
+          <p>Hizmetlerimizin çalışabilmesi için aşağıdaki hizmet sağlayıcılarla (veri işleyenler veya ilgili mağaza/OS hizmetlerinde bağımsız veri sorumluları) çalışılmaktadır:</p>
           <ul>
-            <li><strong>Supabase:</strong> Hesap oluşturma, kimlik doğrulama ve bulut ilerleme eşitlemesi.</li>
-            <li><strong>Google Gemini:</strong> Yalnız yetişkin kullanıcının (18+) açık onayıyla gönderilen isteğe bağlı konuşma ve yazma değerlendirmeleri.</li>
-            <li><strong>Google AdMob:</strong> Ücretsiz katmanda reklam sunumu (AB/AEA bölgesinde Google UMP onay yönetimi ile).</li>
-            <li><strong>RevenueCat, Apple App Store &amp; Google Play:</strong> Uygulama içi satın alma işlemleri, abonelik durumu ve makbuz doğrulama.</li>
-            <li><strong>Google ile Giriş &amp; Apple ile Giriş:</strong> İsteğe bağlı üçüncü taraf hesap girişi.</li>
-            <li><strong>Google Apps Script / Google Sheets:</strong> Web sitesindeki lansman bekleme listesi kayıtları.</li>
-            <li><strong>Resend:</strong> Hesap doğrulama ve parola sıfırlama e-postalarının gönderimi (e-posta adresi ve gönderim kaydı işlenir; ABD merkezli sağlayıcı, uygun güvenceler ve/veya standart sözleşme hükümleri çerçevesinde aktarım — <a href="https://resend.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">Gizlilik Politikası</a>).</li>
-            <li><strong>Cloudflare (Cloudflare R2):</strong> Uygulamanın ses ve görsel dosyalarının <code>media.lernfino.com</code> üzerinden dağıtımı (IP adresi ve istek kaydı işlenir; küresel/ABD ağı, uygun güvenceler ve/veya standart sözleşme hükümleri çerçevesinde aktarım — <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener noreferrer">Gizlilik Politikası</a>).</li>
+            <li><strong>Supabase:</strong> Hesap oluşturma, kimlik doğrulama ve bulut ilerleme eşitlemesi (<a href="https://supabase.com/privacy" target="_blank" rel="noopener noreferrer">Gizlilik Politikası</a>).
+              <div data-hosting-disclosure lang="tr">Lernfino, hesaplar ve bulut eşitlemesi için Supabase’in Frankfurt, Almanya (AB, AWS eu-central-1) bölgesini kullanır. Otomatik hata raporları da aynı bölgedeki Supabase sunucusuna gönderilir.</div>
+            </li>
+            <li><strong>Google LLC (ABD):</strong> Ücretli Gemini API (isteğe bağlı AI değerlendirmesi), Google AdMob (reklam — <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">partner-sites</a>), Google ile Giriş, Google Sheets (bekleme listesi) (<a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Gizlilik Politikası</a>).</li>
+            <li><strong>RevenueCat Inc. (ABD):</strong> Uygulama içi satın alma ve abonelik haklarının doğrulanması (<a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener noreferrer">Gizlilik Politikası</a>).</li>
+            <li><strong>Apple Inc. (ABD):</strong> App Store satın alımları, Apple ile Giriş ve cihaz konuşma tanıma servisi (<a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">Gizlilik Politikası</a>).</li>
+            <li><strong>Cloudflare Inc. (Küresel / ABD):</strong> <code>media.lernfino.com</code> (Cloudflare R2) üzerinden medya dağıtımı ve Turnstile güvenlik doğrulaması (<a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener noreferrer">Gizlilik Politikası</a>).</li>
+            <li><strong>Resend Inc. (ABD):</strong> Hesap doğrulama ve parola sıfırlama e-postalarının gönderimi (<a href="https://resend.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">Gizlilik Politikası</a>).</li>
           </ul>
           <p>
-            <strong>Yurt Dışına Aktarım:</strong> Yukarıda belirtilen hizmet sağlayıcıların sunucuları Türkiye ve Avrupa Ekonomik Alanı (AEA) dışında (başta ABD olmak üzere) bulunabilir. Kişisel verileriniz, ilgili mevzuatın öngördüğü açık rıza ve/veya standart sözleşme hükümleri gibi uygun güvenceler çerçevesinde yurt dışına aktarılır.
+            <strong>Uluslararası Aktarım Güvenceleri:</strong> Yukarıdaki sağlayıcıların bir kısmı Türkiye ve Avrupa Ekonomik Alanı (AEA) dışında (başta ABD olmak üzere) faaliyet göstermektedir. AEA/BK dışına yapılan aktarımlar, ilgili sağlayıcının sertifikasyonu kapsamında AB-ABD Veri Gizliliği Çerçevesi (DPF), AB Standart Sözleşme Maddeleri (SCC 2021/914) ve Veri İşleme Sözleşmeleri (DPA) çerçevesinde yürütülür. Türkiye'den yurt dışına yapılan sürekli aktarımlar 6698 sayılı KVKK'nın 9. maddesi hükümlerine tabidir.
           </p>
 
+          <h2>7. Yaş Sınırı (18+)</h2>
+          <p>
+            Lernfino, <strong>18 yaş ve üzeri yetişkin</strong> kullanıcılar için tasarlanmıştır. 18 yaşından küçük kişilerin uygulamayı kullanmasına izin verilmez; ilk açılışta doğum yılı ile yaş kontrolü yapılır ve 18 yaş altı kullanıcıların devam etmesine izin verilmez. 18 yaşından küçük bir kişiye ait verinin işlendiğini fark ederseniz silinmesi için <code>support@lernfino.com</code> adresine yazabilirsiniz.
+          </p>
+
+          <h2>8. Kullanıcı Hakları (KVKK m. 11 ve GDPR m. 15–22)</h2>
+          <p>
+            6698 sayılı KVKK'nın 11. maddesi uyarınca; (a) kişisel verilerinizin işlenip işlenmediğini öğrenme, (b) işlenmişse buna ilişkin bilgi talep etme, (c) işlenme amacını ve bunların amacına uygun kullanılıp kullanılmadığını öğrenme, (ç) yurt içinde veya yurt dışında aktarıldığı üçüncü kişileri bilme, (d) eksik veya yanlış işlenmiş olması hâlinde düzeltilmesini isteme, (e) mevzuat çerçevesinde silinmesini veya yok edilmesini isteme, (f) düzeltme ve silme işlemlerinin aktarıldığı üçüncü kişilere bildirilmesini isteme, (g) <strong>işlenen verilerin münhasıran otomatik sistemler vasıtasıyla analiz edilmesi suretiyle aleyhinize bir sonucun ortaya çıkmasına itiraz etme</strong> ve (ğ) <strong>kanuna aykırı işleme sebebiyle zarara uğramanız hâlinde zararın giderilmesini talep etme</strong> haklarına sahipsiniz.
+          </p>
+          <p>
+            GDPR (m. 15–22) uyarınca erişim, düzeltme, silme, işlemeyi kısıtlama, JSON formatında veri taşınabilirliği (<em>Ayarlar → Öğrenme verilerimi yedekle</em> veya <em>Ayarlar → Gizlilik → Verilerimi dışa aktar</em>) ve verdiğiniz rızayı dilediğiniz zaman geri çekme haklarınız mevcuttur.
+          </p>
           <div class="callout-box callout-navy">
-            <strong>Veri Ticareti Yok · Şeffaf Reklam Politikası:</strong> Lernfino, kişisel bilgilerinizi veya öğrenme geçmişinizi hiçbir veri simsarına satmaz, kiralamaz ve pazarlamaz. Ücretsiz sürümü desteklemek amacıyla Google AdMob üzerinden reklam gösterilebilir; Plus veya Pro aboneliği reklamları kaldırır.
+            <strong>Özel İtiraz Hakkı (GDPR m. 21):</strong> Meşru menfaatimize (GDPR m. 6(1)(f) — örneğin çökme ve hata raporları) dayalı kişisel veri işlemelerine, özel durumunuzla ilgili gerekçelere dayanarak her zaman itiraz etme hakkına sahipsiniz. Ayrıca Ayarlar → Gizlilik üzerinden hata raporlamayı tek dokunuşla kapatabilirsiniz.
           </div>
-
-          <h2>5. KVKK Aydınlatma ve Kullanıcı Hakları (KVKK, GDPR / DSGVO)</h2>
-          <p>
-            6698 sayılı Kişisel Verilerin Korunması Kanunu ("KVKK") m. 11 ve Avrupa Birliği Genel Veri Koruma Tüzüğü ("GDPR / DSGVO") kapsamında kullanıcılarımız aşağıdaki haklara sahiptir:
-          </p>
           <ul>
-            <li><strong>Bilgi Edinme &amp; Dışa Aktarma:</strong> Kişisel verilerinizin işlenip işlenmediğini öğrenme, işlenme amacını ve aktarıldığı üçüncü kişileri talep etme; uygulama içindeki <em>Ayarlar → Öğrenme verilerimi yedekle</em> adımıyla kelime defterinizi ve istatistiklerinizi JSON formatında indirme.</li>
-            <li><strong>Düzeltme ve İtiraz:</strong> Eksik veya yanlış işlenen verilerin düzeltilmesini isteme, işlemeye itiraz etme ve verdiğiniz açık rızayı dilediğiniz zaman geri alma.</li>
-            <li><strong>Silme Hakkı (Unutulma Hakkı):</strong> Hesap silindiğinde buluttaki konuşma dökümleri ve yapay zekâ geri bildirimleri silinir. Bu telefondaki hesap verileri ve bekleyen taslaklar uygulama içi silmede temizlenir. Hesap bilgisi içermeyen maliyet ölçümleri ve rastgele silme makbuzu saklanır. Misafir ilerlemenizi Ayarlar → Öğrenme Verilerini Sıfırla üzerinden silebilir veya <a href="../delete-account/">lernfino.com/delete-account</a> adresinden ya da <code>support@lernfino.com</code> adresine yazarak bulut hesabınızın kalıcı olarak silinmesini talep edebilirsiniz.</li>
-            <li><strong>Şikâyet Hakkı:</strong> Veri işleme faaliyetlerimizin mevzuata aykırı olduğunu düşünmeniz hâlinde Türkiye'de <strong>Kişisel Verileri Koruma Kurulu'na (KVKK Kurulu)</strong>, Avrupa Birliği / AEA bölgesinde ise ikamet ettiğiniz veya çalıştığınız ülkedeki yetkili <strong>veri koruma denetim makamına</strong> (ör. Almanya eyalet veri koruma otoritesi) şikâyette bulunma hakkına sahipsiniz.</li>
+            <li><strong>Hesap Silme ve Abonelik Uyarısı:</strong> Uygulama içinden (<em>Ayarlar → Hesabım → Hesabı sil</em>) veya <a href="../delete-account/">lernfino.com/delete-account</a> üzerinden hesabınızı kalıcı olarak silebilirsiniz. <strong>Hesabınızı silmeniz aktif App Store veya Google Play aboneliğinizi otomatik olarak iptal etmez; ücretlendirmenin durması için aboneliğinizi mağaza hesap ayarlarından ayrıca iptal etmelisiniz.</strong></li>
+            <li><strong>Başvuru ve Şikâyet Hakkı:</strong> Haklarınıza ilişkin taleplerinizi <code>support@lernfino.com</code> adresine iletebilirsiniz (yasal süre içinde, en geç 30 gün içinde yanıtlanır). Ayrıca Türkiye'de <strong>Kişisel Verileri Koruma Kurulu'na</strong>, AB/AEA'da ise ikamet ettiğiniz ülkedeki yetkili <strong>veri koruma denetim makamına</strong> şikâyette bulunabilirsiniz.</li>
           </ul>
 
-          <h2>6. Yaş Sınırı (18+)</h2>
+          <h2>9. Veri Güvenliği, Değişiklikler ve İletişim</h2>
           <p>
-            Lernfino ve yapay zekâ değerlendirme özellikleri <strong>18 yaş ve üzeri yetişkin</strong> kullanıcılar için tasarlanmıştır. 18 yaşından küçük kişilerden bilerek doğrudan kişisel veri toplamıyoruz. Yapay zekâ konuşma veya yazma değerlendirmesi gönderilmeden önce kullanıcı 18 yaşından büyük olduğunu ayrıca onaylar. 18 yaşından küçük bir kişiye ait verinin işlendiğini fark ederseniz silinmesi için <code>support@lernfino.com</code> adresiyle iletişime geçebilirsiniz.
-          </p>
-
-          <h2>7. Veri Güvenliği, Değişiklikler ve İletişim</h2>
-          <p>
-            Tüm ağ aktarımları TLS / HTTPS şifrelemesi ile korunur. Bu Gizlilik Politikası yasal gereksinimlere veya yeni özelliklere göre güncellenebilir.
+            Tüm ağ iletişimleri TLS / HTTPS şifrelemesi ile korunur; bulut veritabanında satır düzeyinde erişim kontrolü (RLS) ve cihazda hassas oturum belirteçleri için güvenli depolama uygulanır. Bu Gizlilik Politikası mevzuat veya hizmet değişikliklerine göre güncellenebilir; önemli değişikliklerde kullanıcılar uygulama veya web üzerinden bilgilendirilir.
           </p>
           <p>
-            Her türlü soru, KVKK/GDPR başvurusu ve talepleriniz için:<br />
-            <strong>E-posta:</strong> <a href="mailto:support@lernfino.com">support@lernfino.com</a><br />
-            <strong>Web:</strong> <a href="https://lernfino.com">lernfino.com</a>
+            <strong>Yürürlük / Son Güncelleme Tarihi:</strong> 25 Kasım 2026<br />
+            <strong>E-posta:</strong> <a href="mailto:support@lernfino.com">support@lernfino.com</a>
           </p>
         </article>
 
         <!-- ==================== ENGLISH CONTENT ==================== -->
         <article class="legal-prose" data-lang-content="en" style="display: none;">
           <div class="callout-box callout-emerald">
-            <strong>Summary &amp; Core Promise:</strong> Lernfino is designed to safeguard your personal learning journey. Your reading history, vocabulary cards, and mock exam results remain stored on your own device by default, and your personal data is never sold to third parties.
+            <strong>Summary &amp; Core Promise:</strong> Lernfino is a German learning app designed for adults aged 18 and over. Your reading progress, flashcards, and practice results stay stored locally on your device by default, and your personal data is never sold to data brokers. This Privacy Policy is an informational notice separate from the Terms of Service.
           </div>
 
           <h2>1. Data Controller</h2>
           <p>
-            This Privacy Policy applies to the Lernfino mobile apps (iOS &amp; Android) and the <code>lernfino.com</code> website developed and operated by individual developer <strong>Abdulsamet Saygı</strong> (Respecode / Lernfino).
+            This Privacy Policy applies to the Lernfino mobile apps (iOS &amp; Android) and <code>lernfino.com</code>, operated by individual developer <strong>Abdulsamet Saygı</strong> trading under the <strong>Lernfino / Respecode</strong> brands in Türkiye. Respecode is not a separate legal entity or incorporated company.
           </p>
           <p>
-            <strong>Data Controller:</strong> Abdulsamet Saygı<br />
+            <strong>Data Controller:</strong> Abdulsamet Saygı (Individual developer under the Lernfino / Respecode brands)<br />
             <strong>Address:</strong> Mehmet Akif Ersoy Mah. 295. Cd C12 Blok No:46, Yenimahalle / Ankara, Türkiye<br />
-            <strong>Email:</strong> <a href="mailto:support@lernfino.com">support@lernfino.com</a>
+            <strong>Email:</strong> <a href="mailto:support@lernfino.com">support@lernfino.com</a><br />
+            <strong>Website:</strong> <a href="https://lernfino.com">https://lernfino.com</a>
           </p>
 
-          <h2>2. Data We Collect and Storage Principles</h2>
-          <p>Lernfino adheres strictly to data minimization principles. We only process data necessary to provide our learning features and requested communications:</p>
-          <ul>
-            <li>
-              <strong>On-Device (Local) Storage:</strong> Completed story chapters, listening progress, spaced repetition (SRS) flashcards, Goethe/ÖSD format practice scores, and visual theme preferences are stored locally on your device by default. This data is not uploaded to our servers unless you create and sync an account.
-            </li>
-            <li>
-              <strong>Optional Cloud Account Data:</strong> If you voluntarily create an account for cross-device synchronization, we store your email address, user ID, learning progress, and optional AI evaluation results in our cloud backend (Supabase).
-            </li>
-            <li>
-              <strong>Microphone &amp; Speech Recognition:</strong> Local recordings stay on this device. Speech recognition uses your operating system’s service and may need an internet connection. Only with explicit adult (18+) consent does Lernfino send audio or text via Supabase to Google Gemini. Lernfino processes audio in memory and deletes the local draft after saving feedback. Transcripts and feedback remain in the account. On the free tier Google may use submissions to improve its products; its retention terms apply.
-            </li>
-            <li>
-              <strong>Technical Diagnostics:</strong> Anonymized diagnostics (such as error codes, counts, and approximate timestamps) may be processed solely to maintain application stability.
-            </li>
-            <li>
-              <strong>Error Reports:</strong> A short technical report sent after a crash or unexpected error (no personal data; can be turned off under Settings → Privacy). Details are in the “Error reports” paragraph below.
-            </li>
-          </ul>
+          <h2>2. Data Categories, Purposes, Legal Bases &amp; Retention</h2>
+          <p>
+            Personal data is obtained directly from you, automatically through the application and website, and from relevant service providers. You can use core learning features as a guest without creating an account; however, ad delivery, media downloads, diagnostic error reporting, or store purchases may process limited data depending on your preferences.
+          </p>
+          <div class="legal-table-wrap">
+            <table class="legal-table">
+              <thead>
+                <tr>
+                  <th>Data Category</th>
+                  <th>Purpose</th>
+                  <th>Legal Basis (GDPR Art. 6 / KVKK Art. 5)</th>
+                  <th>Retention Period</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Account &amp; Authentication</strong><br />Email address, authentication record (password hashes managed by Supabase Auth), user ID, Sign in with Google/Apple tokens</td>
+                  <td>Optional cloud account creation, login security, and cross-device sync</td>
+                  <td>Performance of a contract (GDPR Art. 6(1)(b), KVKK Art. 5/2-c)</td>
+                  <td>While account is active; removed from active systems upon deletion (or after 24 months of inactivity following notice)</td>
+                </tr>
+                <tr>
+                  <td><strong>Learning Progress &amp; SRS Flashcards</strong><br />Reading progress, vocabulary cards, practice/exam scores, theme and language settings</td>
+                  <td>Saving learning progress locally and syncing to the cloud if signed in</td>
+                  <td>Performance of a contract (GDPR Art. 6(1)(b), KVKK Art. 5/2-c)</td>
+                  <td>Local data until uninstalled or reset; cloud data until account deletion</td>
+                </tr>
+                <tr>
+                  <td><strong>Optional AI Evaluations</strong><br />Writing texts, spoken audio recordings, transcripts, scores, and AI feedback</td>
+                  <td>Providing optional writing and speaking feedback when requested by an adult (18+) user</td>
+                  <td>Explicit consent (GDPR Art. 6(1)(a), KVKK Art. 5/1, Apple 5.1.2(i)) and requested service delivery</td>
+                  <td>Raw audio is processed transiently in memory and deleted after evaluation; transcripts/feedback stay until account deletion (paid Google Gemini API abuse-monitoring logs up to 55 days)</td>
+                </tr>
+                <tr>
+                  <td><strong>Subscriptions &amp; Purchases</strong><br />Transaction IDs, plan status, receipt validation (we never see or store payment card details)</td>
+                  <td>Verifying Plus, Pro, and one-time 12-week Exam Pass entitlements</td>
+                  <td>Contract performance &amp; legal obligation (GDPR Art. 6(1)(b),(c); KVKK Art. 5/2-c,ç)</td>
+                  <td>Duration of subscription/pass plus statutory tax, accounting, and limitation periods</td>
+                </tr>
+                <tr>
+                  <td><strong>Advertising (Free Tier Only)</strong><br />Advertising ID (IDFA/AAID), approximate IP-based location, device info, ad interactions (Google AdMob)</td>
+                  <td>Displaying and measuring ads to support the free tier</td>
+                  <td>Explicit consent for personalized ads (GDPR Art. 6(1)(a), ePrivacy Art. 5(3), KVKK Art. 5/1, iOS ATT); non-personalized ads (NPA) if declined</td>
+                  <td>Until consent is withdrawn and in accordance with Google AdMob retention terms</td>
+                </tr>
+                <tr>
+                  <td><strong>Crash &amp; Error Reports</strong><br />App/OS version, parameter-free screen path, error type/message/masked trace (max 4 KB), UI language, timestamp, random installation ID</td>
+                  <td>App stability and bug fixing (not linked to your account; IP addresses are not stored)</td>
+                  <td>Legitimate interest (GDPR Art. 6(1)(f), KVKK Art. 5/2-f); can be turned off anytime in Settings → Privacy</td>
+                  <td>Automatically deleted after <strong>90 days</strong></td>
+                </tr>
+                <tr>
+                  <td><strong>Study Reminders (Notifications)</strong><br />Local device schedule preferences (and device notification token if remote push is used in the future)</td>
+                  <td>Delivering optional daily study reminders</td>
+                  <td>Explicit consent / OS permission (GDPR Art. 6(1)(a), KVKK Art. 5/1)</td>
+                  <td>Until permission is revoked or app is uninstalled</td>
+                </tr>
+                <tr>
+                  <td><strong>Website Waitlist (<code>lernfino.com</code>)</strong><br />Email address, submission timestamp, interface language, optional target level</td>
+                  <td>Sending launch updates and consented product notifications</td>
+                  <td>Explicit consent (GDPR Art. 6(1)(a), KVKK Art. 5/1, German UWG § 7, Turkish Law 6563)</td>
+                  <td>Deleted within <strong>6 months</strong> after launch or immediately upon withdrawal</td>
+                </tr>
+                <tr>
+                  <td><strong>Media Delivery &amp; Transactional Emails</strong><br />IP address, request logs (Cloudflare R2), verification/password-reset delivery logs (Resend)</td>
+                  <td>Delivering audio/image packs and account verification/reset emails</td>
+                  <td>Contract performance / legitimate interest (GDPR Art. 6(1)(b),(f))</td>
+                  <td>Minimum period required for provider security logs (typically up to 30 days)</td>
+                </tr>
+                <tr>
+                  <td><strong>Deletion Receipt, Anonymous Cost Metrics &amp; Backups</strong><br />Random deletion receipt, account-free AI cost counters, database backups</td>
+                  <td>Confirming account deletion, AI budget protection, and database resilience</td>
+                  <td>Legal obligation &amp; legitimate interest (GDPR Art. 6(1)(c),(f))</td>
+                  <td>A daily cleanup removes cost records 90 days after the last AI quota reservation and receipts 90 days after they are created. For older receipts without a date, the period starts when this retention rule takes effect. Database backups are kept for up to 30 days.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
 
           <p id="errorReportsPara">
-            <strong>Error reports.</strong> If the app crashes or hits an unexpected error, it can send a short technical report so we can fix the problem. A report contains only: app version, platform (Android, iOS or web), operating-system version, the screen path (without any parameters), the error type, message and technical trace (at most 4 KB, with email addresses, long numbers and token-like strings masked), your interface language, the time, and a random installation ID. The installation ID is not linked to your account, and we do not collect your name, email address, account ID, device identifier, answers or recordings, and we do not store IP addresses. The same error is sent at most once per 24 hours, and at most 20 reports per day. Reports are deleted automatically after 90 days. No usage statistics are collected. You can turn this off at any time under Settings → Privacy → "Send error reports".
+            <strong>Error reports (pseudonymized technical data).</strong> If the app crashes or hits an unexpected error, it can send a short technical report so we can fix the problem. A report contains only: app version, platform (Android, iOS or web), operating-system version, the screen path (without any parameters), the error type, message and technical trace (at most 4 KB, with email addresses, long numbers and token-like strings masked), your interface language, the time, and a random installation ID. The installation ID is not linked to your account, and we do not collect your name, email address, account ID, device identifier, answers or recordings, and we do not store IP addresses. Because technical traces with a random installation ID may still constitute pseudonymized data, they are handled under strict data-protection safeguards. The same error is sent at most once per 24 hours, and at most 20 reports per day. Reports are deleted automatically after 90 days. No usage statistics are collected. You can turn this off at any time under Settings → Privacy → "Send error reports".
           </p>
 
-          <h2 id="waitlist-privacy">3. Launch Waitlist Form</h2>
+          <h2>3. AI Transparency (EU AI Act Art. 50) &amp; Microphone Use</h2>
+          <ul>
+            <li><strong>AI-Generated Voice Audio:</strong> All voice narrations, story audio, and word pronunciations in Lernfino are AI-generated; no real person's voice is cloned.</li>
+            <li><strong>Microphone &amp; OS Speech Recognition:</strong> Local speaking recordings remain on your device. Speech recognition uses your operating system's service (Apple/Google) and may require an internet connection depending on your device.</li>
+            <li><strong>Paid Google Gemini API Tier:</strong> Optional writing and speaking evaluations are sent via Supabase to the <strong>paid Google Gemini API</strong> tier only after your prior explicit consent. Under paid API terms, your inputs and outputs are not used to train or improve Google's models or products; Google may retain limited logs for up to 55 days for abuse and security monitoring. Raw audio is processed transiently in Lernfino server memory and deleted once feedback is generated; transcripts and feedback remain in your account until deleted.</li>
+            <li><strong>No Biometric Voiceprints &amp; No Official Scoring:</strong> We do not create voiceprints to uniquely identify users (GDPR Art. 9) and do not perform emotion recognition. AI scores are informal study estimates only, not official exam scores, and do not produce legal or similarly significant automated decisions (GDPR Art. 22). Please do not include sensitive personal or third-party data in your exercises.</li>
+          </ul>
+
+          <h2>4. Advertising Choices, Google UMP &amp; Apple ATT</h2>
+          <p>
+            The free tier displays ads via <strong>Google AdMob</strong> (Plus, Pro, and active Exam Pass users see no ads). To learn how Google uses data on partner sites and apps, visit: <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">How Google uses information from sites or apps that use our services</a>.
+          </p>
+          <ul>
+            <li><strong>EEA, UK &amp; Switzerland:</strong> We request consent before showing ads via Google's certified <strong>UMP (User Messaging Platform)</strong> dialog.</li>
+            <li><strong>Outside the EEA (including Türkiye):</strong> Prior explicit consent is requested before showing personalized ads; if you decline, only <strong>non-personalized ads (NPA)</strong> are shown.</li>
+            <li><strong>iOS App Tracking Transparency (ATT):</strong> On iOS, tracking is never used and only non-personalized ads are served unless you grant Apple ATT permission.</li>
+            <li><strong>Managing Preferences:</strong> You can update or withdraw your ad preferences anytime under <strong>Settings → Privacy → Ad privacy choices</strong>. Declining personalized ads does not block core learning features.</li>
+          </ul>
+
+          <h2 id="waitlist-privacy-en">5. Launch Waitlist Form</h2>
           <p>When you submit the launch notification form on <code>lernfino.com</code>, we process the following data:</p>
           <ul>
             <li><strong>Data Collected:</strong> Your email address, submission date/time, selected interface language, and optional target German level.</li>
-            <li><strong>Purpose:</strong> Sending launch notifications and product updates about Lernfino only.</li>
-            <li><strong>Legal Basis:</strong> Your explicit consent (GDPR Art. 6(1)(a), Turkish KVKK Art. 5(1), German UWG § 7). Submissions are blocked unless the consent box is actively ticked.</li>
-            <li><strong>Processor &amp; Transfer:</strong> Submissions are stored via Google Apps Script in Google Sheets (Google LLC, USA), involving an international data transfer to the United States.</li>
-            <li><strong>Retention:</strong> Waitlist records are deleted no later than <strong>6 months</strong> after app launch, or immediately upon your withdrawal/deletion request.</li>
-            <li><strong>Opt-Out:</strong> You may withdraw consent and unsubscribe at any time by emailing <code>support@lernfino.com</code>.</li>
+            <li><strong>Purpose &amp; Legal Basis:</strong> Sending launch notifications only, based on your explicit consent (GDPR Art. 6(1)(a), KVKK Art. 5(1), German UWG § 7). Submissions are blocked unless the consent box is ticked.</li>
+            <li><strong>Processor &amp; Retention:</strong> Stored via Google Apps Script in Google Sheets (Google LLC, USA) and deleted no later than <strong>6 months</strong> after launch, or immediately upon your withdrawal request.</li>
+            <li><strong>Opt-Out:</strong> Email <code>support@lernfino.com</code> anytime to unsubscribe.</li>
           </ul>
 
-          <h2>4. Processors and International Data Transfers</h2>
-          <p>We rely on the following third-party service providers (processors) to operate Lernfino:</p>
+          <h2>6. Service Providers &amp; International Data Transfers</h2>
+          <p>We work with the following service providers (acting as processors, or independent controllers for store billing / OS speech services):</p>
           <ul>
-            <li><strong>Supabase:</strong> Cloud user accounts, authentication, and learning progress synchronization.</li>
-            <li><strong>Google Gemini:</strong> Optional AI speaking and writing evaluations, sent only after explicit adult (18+) consent.</li>
-            <li><strong>Google AdMob:</strong> Advertising on the free tier (with Google UMP consent management in the EEA/UK).</li>
-            <li><strong>RevenueCat, Apple App Store &amp; Google Play:</strong> In-app purchases, subscription status, and receipt validation.</li>
-            <li><strong>Sign in with Google &amp; Sign in with Apple:</strong> Optional social sign-in providers.</li>
-            <li><strong>Google Apps Script / Google Sheets:</strong> Website launch waitlist storage.</li>
-            <li><strong>Resend:</strong> Sending account verification and password reset emails (email address and delivery logs are processed; US-based provider, transferred under appropriate safeguards such as Standard Contractual Clauses and/or your consent — <a href="https://resend.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>).</li>
-            <li><strong>Cloudflare (Cloudflare R2):</strong> Delivering app audio and image assets via <code>media.lernfino.com</code> (IP address and request logs are processed; global/US network, transferred under appropriate safeguards such as Standard Contractual Clauses and/or your consent — <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a>).</li>
+            <li><strong>Supabase:</strong> User accounts, authentication, and cloud sync (<a href="https://supabase.com/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>).
+              <div id="hostingDisclosureEn" data-hosting-disclosure lang="en">Lernfino uses Supabase in Frankfurt, Germany (EU, AWS eu-central-1) for accounts and cloud sync. Automatic error reports are sent to Supabase in the same region.</div>
+            </li>
+            <li><strong>Google LLC (USA):</strong> Paid Gemini API (optional AI evaluations), Google AdMob (ads — <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">partner-sites</a>), Sign in with Google, Google Sheets (waitlist) (<a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>).</li>
+            <li><strong>RevenueCat Inc. (USA):</strong> In-app purchase validation and entitlement management (<a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>).</li>
+            <li><strong>Apple Inc. (USA):</strong> App Store purchases, Sign in with Apple, and OS speech recognition (<a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a>).</li>
+            <li><strong>Cloudflare Inc. (Global / USA):</strong> Media delivery via <code>media.lernfino.com</code> (Cloudflare R2) and Turnstile bot protection (<a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener noreferrer">Privacy Policy</a>).</li>
+            <li><strong>Resend Inc. (USA):</strong> Account verification and password-reset emails (<a href="https://resend.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>).</li>
           </ul>
           <p>
-            <strong>International Transfers:</strong> Some of the providers listed above process data outside Türkiye and the European Economic Area (EEA), including in the United States. Transfers are carried out under appropriate safeguards (such as Standard Contractual Clauses) and/or your explicit consent.
+            <strong>Transfer Safeguards:</strong> Several providers process data outside Türkiye and the EEA (primarily in the USA). Transfers outside the EEA/UK rely on the EU–U.S. Data Privacy Framework (where certified), EU Standard Contractual Clauses (2021/914), and Data Processing Agreements (DPAs). Continuous transfers from Türkiye are governed by Article 9 of Turkish Law No. 6698 (KVKK).
           </p>
 
+          <h2>7. Age Requirement (18+)</h2>
+          <p>
+            Lernfino is intended exclusively for adults aged <strong>18 and over</strong>. Individuals under 18 are not permitted to use the application; a neutral birth-year check is shown at first launch and blocks access under 18. If you believe data of a person under 18 was collected, contact <code>support@lernfino.com</code> for deletion.
+          </p>
+
+          <h2>8. Your Rights (GDPR Arts. 15–22 &amp; Turkish KVKK Art. 11)</h2>
+          <p>
+            Under GDPR (Arts. 15–22), Turkish KVKK Art. 11, and applicable data protection laws, you have the right to learn whether your personal data is processed, request information, know the purpose of processing and third-party recipients domestically or abroad, request rectification of incomplete/inaccurate data, request erasure and notification to third parties, restrict processing, export your data in JSON format (<em>Settings → Backup my learning data</em> or <em>Settings → Privacy → Export my data</em>), object to solely automated decisions producing adverse effects, claim compensation for unlawful processing, and withdraw consent at any time.
+          </p>
           <div class="callout-box callout-navy">
-            <strong>No Data Selling · Transparent Ad Policy:</strong> We never sell, rent, or trade your personal information or learning history to data brokers. To support our free tier, ads may be delivered via Google AdMob; Plus and Pro subscriptions remove ads.
+            <strong>Right to Object (GDPR Art. 21):</strong> You have the right to object at any time, on grounds relating to your particular situation, to processing based on our legitimate interests (GDPR Art. 6(1)(f)), such as diagnostic error reporting. You may also disable error reporting anytime in Settings → Privacy.
           </div>
-
-          <h2>5. User Rights &amp; Right to Complain (GDPR, KVKK &amp; Global Rights)</h2>
-          <p>Every Lernfino user maintains full control over their data:</p>
           <ul>
-            <li><strong>Access &amp; Data Portability:</strong> You can export your vocabulary history and learning logs as an open JSON file anytime via <em>Settings → Backup Learning Data</em>.</li>
-            <li><strong>Rectification, Restriction &amp; Withdrawal:</strong> You may update your details, object to processing, or withdraw consent at any time.</li>
-            <li><strong>Right to Erasure (Deletion):</strong> Deleting an account erases synced transcripts and AI feedback. In-app deletion also clears account progress and queued drafts on that phone. Anonymous cost metrics and a random deletion receipt are retained. Guests can erase local learning progress in Settings → Reset Learning Data, or request permanent deletion at <a href="../delete-account/">lernfino.com/delete-account</a> or by emailing <code>support@lernfino.com</code>.</li>
-            <li><strong>Right to Lodge a Complaint:</strong> You have the right to lodge a complaint with a supervisory data protection authority in the EU/EEA (for example, your local German state data protection authority) or with the <strong>Personal Data Protection Board (KVKK Kurulu)</strong> in Türkiye.</li>
+            <li><strong>Account Deletion &amp; Subscriptions:</strong> Delete your account permanently in-app (<em>Settings → My account → Delete account</em>) or via <a href="../delete-account/">lernfino.com/delete-account</a>. <strong>Deleting your account does not automatically cancel an active App Store or Google Play subscription; you must cancel separately in your store account settings.</strong></li>
+            <li><strong>Contact &amp; Supervisory Authorities:</strong> Submit requests to <code>support@lernfino.com</code> (answered within statutory deadlines, at most 30 days / 1 month). You also have the right to lodge a complaint with an EU/EEA Data Protection Authority or the Turkish Personal Data Protection Board (KVKK Kurulu).</li>
           </ul>
 
-          <h2>6. Age Requirement (18+)</h2>
+          <h2>9. Security, Updates &amp; Contact</h2>
           <p>
-            Lernfino and its AI evaluation features are intended for adults aged <strong>18 and over</strong>. We do not knowingly collect personal data from individuals under 18. Before submitting audio or text for AI evaluation, users explicitly confirm that they are over 18. Parents or guardians may contact <code>support@lernfino.com</code> to request deletion of any data submitted in error.
+            All network traffic is encrypted with TLS / HTTPS; cloud tables use Row-Level Security (RLS), and device credentials use secure native storage. We may update this Policy as laws or features evolve and notify users of material changes.
           </p>
-
-          <h2>7. Data Security &amp; Contact Information</h2>
           <p>
-            All network communication is protected with TLS / HTTPS encryption. For any questions or data requests, please contact:<br />
-            <strong>Email:</strong> <a href="mailto:support@lernfino.com">support@lernfino.com</a><br />
-            <strong>Website:</strong> <a href="https://lernfino.com">lernfino.com</a>
+            <strong>Effective / Last Updated Date:</strong> November 25, 2026<br />
+            <strong>Email:</strong> <a href="mailto:support@lernfino.com">support@lernfino.com</a>
           </p>
         </article>
 
         <!-- ==================== DEUTSCH CONTENT ==================== -->
         <article class="legal-prose" data-lang-content="de" style="display: none;">
           <div class="callout-box callout-emerald">
-            <strong>Zusammenfassung:</strong> Lernfino schützt Ihre persönliche Lernreise. Ihr Lesefortschritt, Ihre Vokabelkarteikarten und Ihre Übungsergebnisse verbleiben standardmäßig lokal auf Ihrem eigenen Endgerät. Wir verkaufen niemals personenbezogene Daten an Dritte.
+            <strong>Zusammenfassung:</strong> Lernfino ist eine Deutsch-Lern-App für Erwachsene ab 18 Jahren. Dein Lesefortschritt, deine Vokabelkarteikarten und Übungsergebnisse werden standardmäßig lokal auf deinem Gerät gespeichert; personenbezogene Daten werden niemals an Datenbroker verkauft. Diese Datenschutzerklärung ist ein von den Nutzungsbedingungen getrennter Informationshinweis.
           </div>
 
           <h2>1. Verantwortlicher</h2>
           <p>
-            Diese Datenschutzerklärung gilt für die mobilen Lernfino-Apps (iOS und Android) sowie die Website <code>lernfino.com</code>, entwickelt und betrieben vom Einzelentwickler <strong>Abdulsamet Saygı</strong> (Respecode / Lernfino).
+            Diese Datenschutzerklärung gilt für die mobilen Lernfino-Apps (iOS und Android) sowie die Website <code>lernfino.com</code>, betrieben vom Einzelentwickler <strong>Abdulsamet Saygı</strong> unter den Marken <strong>Lernfino / Respecode</strong> in der Türkei. Respecode ist keine eigene Kapital- oder Personengesellschaft.
           </p>
           <p>
-            <strong>Verantwortlicher:</strong> Abdulsamet Saygı<br />
+            <strong>Verantwortlicher:</strong> Abdulsamet Saygı (Einzelentwickler unter den Marken Lernfino / Respecode)<br />
             <strong>Anschrift:</strong> Mehmet Akif Ersoy Mah. 295. Cd C12 Blok No:46, Yenimahalle / Ankara, Türkei<br />
-            <strong>E-Mail:</strong> <a href="mailto:support@lernfino.com">support@lernfino.com</a>
+            <strong>E-Mail:</strong> <a href="mailto:support@lernfino.com">support@lernfino.com</a><br />
+            <strong>Web:</strong> <a href="https://lernfino.com">https://lernfino.com</a>
           </p>
 
-          <h2>2. Erhobene Daten und Speicherung</h2>
-          <ul>
-            <li>
-              <strong>Lokale Gerätespeicherung:</strong> Gelesene Kapitel, Audiositzungen, SRS-Vokabeln, Übungsergebnisse und Anzeigeeinstellungen werden standardmäßig lokal auf Ihrem Gerät gespeichert.
-            </li>
-            <li>
-              <strong>Optionales Cloud-Konto:</strong> Wenn Sie sich freiwillig für ein Konto zur geräteübergreifenden Synchronisierung registrieren, speichern wir Ihre E-Mail-Adresse, Nutzer-ID, Ihren Lernfortschritt und gegebenenfalls Ihr optionales KI-Feedback (Supabase). Unter Einstellungen → Mein Konto → Konto löschen werden die synchronisierten Transkripte und KI-Rückmeldungen sowie die Kontodaten und Entwürfe auf diesem Gerät gelöscht. Anonyme Kostenmesswerte und eine zufällige Löschquittung bleiben erhalten.
-            </li>
-            <li>
-              <strong>Mikrofon- und Spracherkennung:</strong> Lokale Aufnahmen bleiben auf diesem Gerät. Die Spracherkennung nutzt den Dienst des Betriebssystems und benötigt je nach Gerät Internet. Nur mit ausdrücklicher Einwilligung Erwachsener (18+) sendet Lernfino Audio oder Text über Supabase an Google Gemini. Lernfino verarbeitet Audio im Arbeitsspeicher und löscht nach Speicherung des Ergebnisses den lokalen Entwurf. Transkript und Feedback bleiben im Konto. Im kostenlosen Tarif kann Google Einsendungen zur Produktverbesserung nutzen; Googles Speicherbedingungen gelten.
-            </li>
-            <li>
-              <strong>Technische Fehlerberichte:</strong> Zur Gewährleistung der App-Stabilität können anonymisierte Diagnosedaten (Fehlercodes, Zählerstände, ungefähre Zeitstempel) verarbeitet werden.
-            </li>
-            <li>
-              <strong>Fehlerberichte:</strong> Kurzer technischer Bericht nach einem Absturz oder unerwarteten Fehler (keine personenbezogenen Daten; unter Einstellungen → Datenschutz abschaltbar). Einzelheiten stehen im Absatz „Fehlerberichte“ unten.
-            </li>
-          </ul>
-
+          <h2>2. Verarbeitete Daten, Zwecke, Rechtsgrundlagen und Speicherdauer</h2>
           <p>
-            <strong>Fehlerberichte.</strong> Stürzt die App ab oder tritt ein unerwarteter Fehler auf, kann sie einen kurzen technischen Bericht senden, damit wir das Problem beheben können. Ein Bericht enthält nur: App-Version, Plattform (Android, iOS oder Web), Betriebssystemversion, den Bildschirmpfad (ohne Parameter), Fehlerart, Meldung und technische Spur (höchstens 4 KB; E-Mail-Adressen, lange Zahlen und token-ähnliche Zeichenfolgen werden maskiert), deine Oberflächensprache, die Zeit und eine zufällige Installations-ID. Die Installations-ID ist nicht mit deinem Konto verknüpft; wir erheben weder Name, E-Mail-Adresse, Konto-ID, Geräte-ID, Antworten noch Aufnahmen und speichern keine IP-Adressen. Derselbe Fehler wird höchstens einmal in 24 Stunden gesendet, insgesamt höchstens 20 Berichte pro Tag. Berichte werden nach 90 Tagen automatisch gelöscht. Es werden keine Nutzungsstatistiken erhoben. Du kannst das jederzeit unter Einstellungen → Datenschutz → „Fehlerberichte senden“ ausschalten.
+            Personenbezogene Daten werden direkt bei Ihnen, automatisch über App und Website sowie über eingebundene Dienstleister erhoben. Die Kernfunktionen der App lassen sich im Gastmodus ohne Konto nutzen; bei Werbung, Medien-Downloads, Fehlerberichten oder Käufen können je nach Einstellungen dennoch technische oder kaufbezogene Daten verarbeitet werden.
           </p>
-
-          <h2 id="waitlist-privacy">3. Wartelisten-Formular (Start-Benachrichtigung)</h2>
-          <p>Wenn Sie das Benachrichtigungsformular auf <code>lernfino.com</code> ausfüllen, verarbeiten wir folgende Daten:</p>
-          <ul>
-            <li><strong>Erhobene Daten:</strong> Ihre E-Mail-Adresse, das Anmeldedatum, die gewählte Sprache und optional Ihr gewünschtes Sprachniveau.</li>
-            <li><strong>Zweck:</strong> Ausschließlich Versand von Start-Benachrichtigungen und Produktneuigkeiten zu Lernfino.</li>
-            <li><strong>Rechtsgrundlage:</strong> Ihre ausdrückliche Einwilligung (Art. 6 Abs. 1 lit. a DSGVO, § 7 UWG sowie türkisches KVKK Art. 5/1). Ohne Aktivierung der Checkbox erfolgt kein Versand.</li>
-            <li><strong>Auftragsverarbeiter &amp; Übermittlung:</strong> Speicherung über Google Apps Script in Google Sheets (Google LLC, USA); dabei erfolgt eine Datenübermittlung in die USA.</li>
-            <li><strong>Speicherdauer:</strong> Löschung spätestens <strong>6 Monate</strong> nach dem App-Start oder unverzüglich auf Ihren Wunsch hin.</li>
-            <li><strong>Widerruf / Abmeldung:</strong> Sie können Ihre Einwilligung jederzeit per E-Mail an <code>support@lernfino.com</code> widerrufen.</li>
-          </ul>
-
-          <h2>4. Auftragsverarbeiter &amp; Drittlandübermittlung</h2>
-          <p>Zur Bereitstellung unserer Dienste setzen wir folgende Dienstleister ein:</p>
-          <ul>
-            <li><strong>Supabase:</strong> Kontoverwaltung, Authentifizierung und Cloud-Synchronisierung.</li>
-            <li><strong>Google Gemini:</strong> Optionale KI-Auswertung für Sprechen und Schreiben, ausschließlich nach ausdrücklicher Einwilligung Erwachsener (18+).</li>
-            <li><strong>Google AdMob:</strong> Werbeeinblendungen in der kostenlosen Version (mit Google-UMP-Einwilligungsabfrage im EWR/UK).</li>
-            <li><strong>RevenueCat, Apple App Store &amp; Google Play:</strong> Abwicklung und Validierung von In-App-Käufen und Abonnements.</li>
-            <li><strong>Mit Google anmelden &amp; Mit Apple anmelden:</strong> Optionale Anmeldedienste.</li>
-            <li><strong>Google Apps Script / Google Sheets:</strong> Verwaltung der Website-Warteliste.</li>
-            <li><strong>Resend:</strong> Versand von E-Mails zur Kontoverifizierung und zum Zurücksetzen des Passworts (E-Mail-Adresse und Versandprotokolle werden verarbeitet; Anbieter mit Sitz in den USA, Übermittlung auf Grundlage geeigneter Schutzmaßnahmen wie Standardvertragsklauseln und/oder Ihrer Einwilligung — <a href="https://resend.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">Datenschutzerklärung</a>).</li>
-            <li><strong>Cloudflare (Cloudflare R2):</strong> Bereitstellung von Audio- und Bilddateien der App über <code>media.lernfino.com</code> (IP-Adresse und Anfrageprotokolle werden verarbeitet; globales/US-Netzwerk, Übermittlung auf Grundlage geeigneter Schutzmaßnahmen wie Standardvertragsklauseln und/oder Ihrer Einwilligung — <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener noreferrer">Datenschutzerklärung</a>).</li>
-          </ul>
-          <p>
-            <strong>Drittlandübermittlung:</strong> Einige der genannten Anbieter verarbeiten Daten außerhalb des Europäischen Wirtschaftsraums (EWR) bzw. der Türkei, insbesondere in den USA. Die Übermittlung erfolgt auf Grundlage geeigneter Schutzmaßnahmen (z. B. Standardvertragsklauseln) und/oder Ihrer ausdrücklichen Einwilligung.
-          </p>
-
-          <div class="callout-box callout-navy">
-            <strong>Kein Datenverkauf · Transparente Werbung:</strong> Wir verkaufen oder vermieten keine personenbezogenen Daten an Datenhändler. In der kostenlosen Version kann Werbung über Google AdMob angezeigt werden; mit Plus oder Pro entfällt Werbung.
+          <div class="legal-table-wrap">
+            <table class="legal-table">
+              <thead>
+                <tr>
+                  <th>Datenkategorie</th>
+                  <th>Zweck</th>
+                  <th>Rechtsgrundlage (DSGVO Art. 6 / KVKK Art. 5)</th>
+                  <th>Speicherdauer</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>Konto &amp; Authentifizierung</strong><br />E-Mail-Adresse, Authentifizierungsdaten (Passwort-Hashes über Supabase Auth), Nutzer-ID, Google-/Apple-Login-Token</td>
+                  <td>Optionales Cloud-Konto, Anmeldesicherheit und Gerätesynchronisierung</td>
+                  <td>Vertragserfüllung (Art. 6 Abs. 1 lit. b DSGVO)</td>
+                  <td>Solange das Konto aktiv ist; Entfernung aus aktiven Systemen bei Löschung (oder nach 24 Monaten Inaktivität nach Hinweis)</td>
+                </tr>
+                <tr>
+                  <td><strong>Lernfortschritt &amp; SRS-Vokabeln</strong><br />Leseverlauf, Vokabelkarten, Übungs-/Prüfungsergebnisse, Design- und Spracheinstellungen</td>
+                  <td>Lokale Speicherung und optionale Cloud-Synchronisierung</td>
+                  <td>Vertragserfüllung (Art. 6 Abs. 1 lit. b DSGVO)</td>
+                  <td>Lokal bis Deinstallation/Zurücksetzen; in der Cloud bis zur Kontolöschung</td>
+                </tr>
+                <tr>
+                  <td><strong>Optionale KI-Auswertung</strong><br />Schreibtexte, Sprachaufnahmen, Transkripte, Punktzahlen und KI-Feedback</td>
+                  <td>Optionale Schreib- und Sprechrückmeldung auf Wunsch volljähriger (18+) Nutzer</td>
+                  <td>Ausdrückliche Einwilligung (Art. 6 Abs. 1 lit. a DSGVO, Apple 5.1.2(i))</td>
+                  <td>Roh-Audio wird im Arbeitsspeicher verarbeitet und nach Auswertung gelöscht; Transkripte/Feedback bis zur Kontolöschung (Google-API-Missbrauchsprotokolle max. 55 Tage)</td>
+                </tr>
+                <tr>
+                  <td><strong>Abonnements &amp; Käufe</strong><br />Transaktions-IDs, Tarifstatus, Belegprüfung (Zahlungskartendaten werden von uns nicht eingesehen oder gespeichert)</td>
+                  <td>Prüfung von Plus, Pro und dem einmaligen 12-Wochen-Prüfungs-Pass</td>
+                  <td>Vertragserfüllung &amp; rechtliche Verpflichtung (Art. 6 Abs. 1 lit. b, c DSGVO)</td>
+                  <td>Laufzeit des Tarifs zuzüglich gesetzlicher steuerlicher/handelsrechtlicher Aufbewahrungsfristen</td>
+                </tr>
+                <tr>
+                  <td><strong>Werbung (nur Gratis-Tarif)</strong><br />Werbe-ID (IDFA/AAID), ungefähre IP-Standortangabe, Gerätedaten, Werbeinteraktionen (Google AdMob)</td>
+                  <td>Anzeige und Messung von Werbung im kostenlosen Tarif</td>
+                  <td>Ausdrückliche Einwilligung für personalisierte Werbung (Art. 6 Abs. 1 lit. a DSGVO, ePrivacy Art. 5(3), iOS ATT); ohne Einwilligung nur nicht-personalisierte Werbung (NPA)</td>
+                  <td>Bis zum Widerruf der Einwilligung gemäß Google-AdMob-Richtlinien</td>
+                </tr>
+                <tr>
+                  <td><strong>Absturz- und Fehlerberichte</strong><br />App-/OS-Version, parameterfreier Bildschirmpfad, Fehlerart/-meldung/-Trace (max. 4 KB), Oberflächensprache, Zeitstempel, zufällige Installations-ID</td>
+                  <td>App-Stabilität und Fehlerbehebung (nicht mit dem Konto verknüpft; keine IP-Speicherung)</td>
+                  <td>Berechtigtes Interesse (Art. 6 Abs. 1 lit. f DSGVO); jederzeit unter Einstellungen → Datenschutz deaktivierbar</td>
+                  <td>Automatische Löschung nach <strong>90 Tagen</strong></td>
+                </tr>
+                <tr>
+                  <td><strong>Lernerinnerungen (Mitteilungen)</strong><br />Lokale Erinnerungszeiten (sowie ggf. Push-Token bei künftigen Remote-Mitteilungen)</td>
+                  <td>Zustellung freiwilliger täglicher Lernerinnerungen</td>
+                  <td>Einwilligung / Betriebssystem-Berechtigung (Art. 6 Abs. 1 lit. a DSGVO)</td>
+                  <td>Bis zum Widerruf oder zur Deinstallation</td>
+                </tr>
+                <tr>
+                  <td><strong>Website-Warteliste (<code>lernfino.com</code>)</strong><br />E-Mail-Adresse, Zeitpunkt, Sprache, optionales Lernziel</td>
+                  <td>Versand von Start-Benachrichtigungen</td>
+                  <td>Ausdrückliche Einwilligung (Art. 6 Abs. 1 lit. a DSGVO, § 7 UWG)</td>
+                  <td>Spätestens <strong>6 Monate</strong> nach App-Start oder unverzüglich nach Widerruf</td>
+                </tr>
+                <tr>
+                  <td><strong>Medienbereitstellung &amp; Transaktions-E-Mails</strong><br />IP-Adresse, Abrufprotokolle (Cloudflare R2), E-Mail-Zustellprotokolle (Resend)</td>
+                  <td>Auslieferung von Audio-/Bildpaketen und Versand von Verifizierungs-/Passwort-E-Mails</td>
+                  <td>Vertragserfüllung / berechtigtes Interesse (Art. 6 Abs. 1 lit. b, f DSGVO)</td>
+                  <td>Erforderliche Sicherheitsprotokolldauer beim Anbieter (in der Regel max. 30 Tage)</td>
+                </tr>
+                <tr>
+                  <td><strong>Löschquittung, anonyme Kostenmesswerte &amp; Backups</strong><br />Zufällige Löschquittung, kontolose KI-Kostenzähler, Datenbank-Backups</td>
+                  <td>Löschbestätigung, KI-Budgetschutz und Datensicherheit</td>
+                  <td>Rechtliche Verpflichtung &amp; berechtigtes Interesse (Art. 6 Abs. 1 lit. c, f DSGVO)</td>
+                  <td>Eine tägliche Bereinigung löscht Kostendaten 90 Tage nach der letzten KI-Kontingentreservierung und Löschquittungen 90 Tage nach ihrer Erstellung. Für ältere Quittungen ohne Datum beginnt die Frist mit Inkrafttreten dieser Aufbewahrungsregel. Datenbanksicherungen werden bis zu 30 Tage aufbewahrt.</td>
+                </tr>
+              </tbody>
+            </table>
           </div>
 
-          <h2>5. Ihre Rechte &amp; Beschwerderecht (DSGVO &amp; KVKK)</h2>
           <p>
-            Sie haben das Recht auf Auskunft, Datenübertragbarkeit (JSON-Export unter <em>Einstellungen → Lerndaten sichern</em>), Berichtigung, Einschränkung, Widerruf Ihrer Einwilligung und vollständige Löschung Ihres Kontos unter <a href="../delete-account/">lernfino.com/delete-account</a> oder via <code>support@lernfino.com</code>.
-          </p>
-          <p>
-            <strong>Beschwerderecht:</strong> Zudem haben Sie das Recht, sich bei einer Datenschutz-Aufsichtsbehörde in der EU/im EWR (z. B. der zuständigen Landesdatenschutzbehörde) sowie in der Türkei beim Datenschutzrat (<strong>KVKK Kurulu</strong>) zu beschweren.
+            <strong>Fehlerberichte (pseudonymisierte technische Daten).</strong> Stürzt die App ab oder tritt ein unerwarteter Fehler auf, kann sie einen kurzen technischen Bericht senden. Dieser enthält ausschließlich App-Version, Plattform (Android, iOS oder Web), Betriebssystemversion, den Bildschirmpfad ohne Parameter, Fehlerart, Meldung und technischen Trace (höchstens 4 KB; E-Mail-Adressen, lange Zahlen und token-ähnliche Zeichenfolgen werden maskiert), Oberflächensprache, Zeitstempel und eine zufällige Installations-ID. Die Installations-ID ist nicht mit deinem Konto verknüpft; Name, E-Mail, Konto-ID, Geräte-ID, Antworten, Aufnahmen oder IP-Adressen werden nicht gespeichert. Da technische Spuren mit einer Installations-ID pseudonymisierte Daten darstellen können, unterliegen sie strengen Schutzmaßnahmen. Derselbe Fehler wird höchstens einmal in 24 Stunden gesendet (max. 20 Berichte/Tag) und nach <strong>90 Tagen</strong> automatisch gelöscht. Du kannst dies jederzeit unter <strong>Einstellungen → Datenschutz → „Fehlerberichte senden“</strong> ausschalten.
           </p>
 
-          <h2>6. Altersgrenze (18+)</h2>
+          <h2>3. KI-Transparenz (EU AI Act Art. 50) &amp; Mikrofonnutzung</h2>
+          <ul>
+            <li><strong>KI-generierte Sprachausgabe:</strong> Alle Wort-Audios, Hörgeschichten und Übungssprecher in Lernfino sind KI-generiert; es werden keine Stimmen realer Personen geklont.</li>
+            <li><strong>Mikrofon &amp; Spracherkennung:</strong> Lokale Sprachaufnahmen bleiben auf Ihrem Gerät. Die Spracherkennung nutzt den Dienst des jeweiligen Betriebssystems (Apple/Google) und benötigt je nach Gerät Internet.</li>
+            <li><strong>Kostenpflichtiger Google Gemini API-Tarif:</strong> Optionale Schreib- und Sprechauswertungen werden erst nach Ihrer ausdrücklichen Einwilligung über Supabase an den <strong>kostenpflichtigen Google Gemini API-Tarif</strong> gesendet. Gemäß diesen Bedingungen werden Ihre Eingaben und Ergebnisse nicht zum Training oder zur Verbesserung von Google-Modellen verwendet; Google kann zur Missbrauchs- und Sicherheitsprüfung Protokolle bis zu 55 Tage vorhalten. Roh-Audio wird im Server-Arbeitsspeicher verarbeitet und nach Auswertung gelöscht; Transkript und Feedback bleiben bis zur Kontolöschung im Konto gespeichert.</li>
+            <li><strong>Keine Biometrie &amp; keine amtlichen Noten:</strong> Es werden keine Stimmabdrücke zur eindeutigen Identifizierung erstellt (Art. 9 DSGVO) und keine Emotionserkennung durchgeführt. KI-Punktzahlen sind unverbindliche Lernhilfen, keine offiziellen Prüfungsergebnisse und keine automatisierten Entscheidungen mit rechtlicher Wirkung (Art. 22 DSGVO). Bitte teilen Sie keine sensiblen persönlichen Daten oder Daten Dritter in den Übungen.</li>
+          </ul>
+
+          <h2>4. Werbeeinstellungen, Google UMP &amp; Apple ATT</h2>
           <p>
-            Lernfino und die KI-Bewertungsfunktionen richten sich an Erwachsene ab <strong>18 Jahren</strong>. Wir erheben wissentlich keine personenbezogenen Daten von Personen unter 18 Jahren. Vor jeder KI-Auswertung bestätigt die nutzende Person ausdrücklich, über 18 Jahre alt zu sein.
+            In der kostenlosen Version wird Werbung über <strong>Google AdMob</strong> geschaltet (Plus, Pro und aktiver Exam Pass sind werbefrei). Informationen zur Datennutzung durch Google finden Sie unter: <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">Wie Google Daten von Websites oder Apps verwendet</a>.
+          </p>
+          <ul>
+            <li><strong>EWR, Vereinigtes Königreich &amp; Schweiz:</strong> Vor der Werbeschaltung wird der zertifizierte <strong>Google-UMP-Einwilligungsdialog</strong> angezeigt.</li>
+            <li><strong>Außerhalb des EWR (einschließlich Türkei):</strong> Vor personalisierter Werbung wird eine gesonderte Einwilligung eingeholt; bei Ablehnung wird ausschließlich <strong>nicht-personalisierte Werbung (NPA)</strong> angezeigt.</li>
+            <li><strong>iOS App Tracking Transparency (ATT):</strong> Auf iOS erfolgt kein Tracking und es wird nur nicht-personalisierte Werbung gezeigt, sofern Sie nicht über Apple ATT zustimmen.</li>
+            <li><strong>Widerruf:</strong> Sie können Ihre Einstellungen jederzeit unter <strong>Einstellungen → Datenschutz → Datenschutz für Werbung</strong> ändern oder widerrufen.</li>
+          </ul>
+
+          <h2 id="waitlist-privacy-de">5. Wartelisten-Formular (Start-Benachrichtigung)</h2>
+          <p>Beim Ausfüllen des Wartelisten-Formulars auf <code>lernfino.com</code> werden Ihre E-Mail-Adresse, das Anmeldedatum, die Sprache und optional das gewünschte Niveau ausschließlich auf Grundlage Ihrer ausdrücklichen Einwilligung (Art. 6 Abs. 1 lit. a DSGVO, § 7 UWG, türkisches KVKK Art. 5/1) über Google Apps Script in Google Sheets (Google LLC, USA) gespeichert und spätestens <strong>6 Monate</strong> nach App-Start oder unverzüglich auf Wunsch (<code>support@lernfino.com</code>) gelöscht.</p>
+
+          <h2>6. Dienstleister &amp; Drittlandübermittlung</h2>
+          <ul>
+            <li><strong>Supabase:</strong> Kontoverwaltung, Authentifizierung und Cloud-Synchronisierung (<a href="https://supabase.com/privacy" target="_blank" rel="noopener noreferrer">Datenschutzerklärung</a>).
+              <div data-hosting-disclosure lang="de">Lernfino nutzt für Konten und die Cloud-Synchronisierung Supabase am Standort Frankfurt am Main (Deutschland, EU, AWS eu-central-1). Automatische Fehlerberichte werden an Supabase in derselben Region gesendet.</div>
+            </li>
+            <li><strong>Google LLC (USA):</strong> Kostenpflichtige Gemini API, Google AdMob (<a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener noreferrer">partner-sites</a>), Mit Google anmelden, Google Sheets (<a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Datenschutzerklärung</a>).</li>
+            <li><strong>RevenueCat Inc. (USA):</strong> Validierung von In-App-Käufen (<a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener noreferrer">Datenschutzerklärung</a>).</li>
+            <li><strong>Apple Inc. (USA):</strong> App Store, Mit Apple anmelden, OS-Spracherkennung (<a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">Datenschutzerklärung</a>).</li>
+            <li><strong>Cloudflare Inc. (Global / USA):</strong> Auslieferung über <code>media.lernfino.com</code> (R2) und Turnstile (<a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener noreferrer">Datenschutzerklärung</a>).</li>
+            <li><strong>Resend Inc. (USA):</strong> Versand von Kontoverifizierungs- und Passwort-E-Mails (<a href="https://resend.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">Datenschutzerklärung</a>).</li>
+          </ul>
+          <p>
+            <strong>Übermittlungsgarantien:</strong> Übermittlungen außerhalb des EWR/UK stützen sich auf das EU-US Data Privacy Framework (sofern zertifiziert), EU-Standardvertragsklauseln (2021/914) und Auftragsverarbeitungsverträge (DPA). Übermittlungen aus der Türkei unterliegen Art. 9 KVKK.
           </p>
 
-          <h2>7. Datensicherheit &amp; Kontakt</h2>
+          <h2>7. Altersgrenze (18+)</h2>
           <p>
-            Alle Übertragungen sind durch TLS / HTTPS geschützt.<br />
-            <strong>E-Mail:</strong> <a href="mailto:support@lernfino.com">support@lernfino.com</a><br />
-            <strong>Web:</strong> <a href="https://lernfino.com">lernfino.com</a>
+            Lernfino richtet sich ausschließlich an Erwachsene ab <strong>18 Jahren</strong>. Beim ersten Öffnen erfolgt eine neutrale Altersprüfung über das Geburtsjahr; Personen unter 18 Jahren erhalten keinen Zugang. Bei Kenntnis über Daten Minderjähriger wenden Sie sich bitte an <code>support@lernfino.com</code>.
+          </p>
+
+          <h2>8. Ihre Rechte (DSGVO Art. 15–22 &amp; türkisches KVKK Art. 11)</h2>
+          <p>
+            Sie haben das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit als JSON (<em>Einstellungen → Lernfortschritt sichern</em> bzw. <em>Einstellungen → Datenschutz → Meine Daten exportieren</em>), Widerruf erteilter Einwilligungen sowie auf die gesetzlichen Auskunfts-, Berichtigungs-, Löschungs-, Widerspruchs- und Schadensersatzrechte gemäß Art. 11 des türkischen KVKK.
+          </p>
+          <div class="callout-box callout-navy">
+            <strong>Besonderes Widerspruchsrecht (Art. 21 DSGVO):</strong> Sie haben das Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben, jederzeit gegen die Verarbeitung Ihrer Daten auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO (z. B. Fehlerberichte) Widerspruch einzulegen. Fehlerberichte lassen sich zudem direkt unter Einstellungen → Datenschutz deaktivieren.
+          </div>
+          <ul>
+            <li><strong>Kontolöschung &amp; Abonnements:</strong> Sie können Ihr Konto in der App (<em>Einstellungen → Mein Konto → Konto löschen</em>) oder über <a href="../delete-account/">lernfino.com/delete-account</a> dauerhaft löschen. <strong>Die Kontolöschung kündigt aktive App-Store- oder Google-Play-Abonnements nicht automatisch; diese müssen gesondert im Store gekündigt werden.</strong></li>
+            <li><strong>Kontakt &amp; Beschwerderecht:</strong> Anfragen an <code>support@lernfino.com</code> werden innerhalb der gesetzlichen Fristen (spätestens 30 Tage / 1 Monat) beantwortet. Sie haben zudem das Recht auf Beschwerde bei einer EU/EWR-Datenschutzaufsichtsbehörde sowie beim türkischen Datenschutzrat (<strong>KVKK Kurulu</strong>).</li>
+          </ul>
+
+          <h2>9. Datensicherheit, Änderungen &amp; Kontakt</h2>
+          <p>
+            Alle Verbindungen sind per TLS / HTTPS verschlüsselt; Cloud-Daten sind durch Row-Level Security (RLS) geschützt. Über wesentliche Änderungen dieser Datenschutzerklärung informieren wir Sie rechtzeitig.
+          </p>
+          <p>
+            <strong>Stand / Aktualisiert am:</strong> 25. November 2026<br />
+            <strong>E-Mail:</strong> <a href="mailto:support@lernfino.com">support@lernfino.com</a>
           </p>
         </article>
 
@@ -436,7 +661,7 @@
           <button type="button" class="text-link" data-lang-switch="de">Deutsch</button>
         </div>
         <p class="footer-disclaimer" data-i18n="footer.disclaimer">Goethe-Zertifikat, ÖSD ve telc, ilgili sahiplerinin markalarıdır. Lernfino bağımsız bir eğitim platformudur; Goethe-Institut, ÖSD veya telc gGmbH'nin resmî bir materyali, ortağı veya ürünü değildir.</p>
-        <small>© 2026 Lernfino · Respecode. <span data-i18n="footer.rights">Tüm hakları saklıdır.</span></small>
+        <small>© 2026 Lernfino · Abdulsamet Saygı (Respecode). <span data-i18n="footer.rights">Tüm hakları saklıdır.</span></small>
       </div>
     </div>
   </footer>
