@@ -210,21 +210,228 @@ const LEGAL_I18N = {
   }
 };
 
-// WEB-2: 12 additional site languages. When a language in the selector has no dedicated full legal translation,
-// the page explicitly informs the user that English is displayed (and only English/German are binding).
+// Each pair contains the English fallback notice and the binding-language notice.
 const LEGAL_NOTE_LANGS = {
-  es: "Esta página aún no cuenta con traducción al español; por ello, el contenido se muestra en inglés. Solo los textos en inglés y alemán son jurídicamente vinculantes.",
-  pt: "Esta página ainda não possui tradução para o português; portanto, o conteúdo é exibido em inglês. Somente os textos em inglês e alemão são juridicamente vinculantes.",
-  fr: "Cette page ne dispose pas encore d’une traduction en français ; son contenu est donc affiché en anglais. Seuls les textes en anglais et en allemand font foi juridiquement.",
-  it: "Questa pagina non dispone ancora di una traduzione in italiano; pertanto il contenuto è mostrato in inglese. Hanno valore giuridico vincolante solo i testi in inglese e in tedesco.",
-  pl: "Ta strona nie ma jeszcze pełnego tłumaczenia na język polski, dlatego jej treść jest wyświetlana po angielsku. Prawnie wiążące są wyłącznie teksty w języku angielskim i niemieckim.",
-  ar: "لا تتوفر ترجمة كاملة لهذه الصفحة باللغة العربية حاليًا، ولذلك يُعرض المحتوى باللغة الإنجليزية. النصان الإنجليزي والألماني وحدهما هما الملزمان قانونًا.",
-  ru: "Полный перевод этой страницы на русский язык пока недоступен, поэтому содержимое показано на английском языке. Юридически обязательны только тексты на английском и немецком языках.",
-  uk: "Повний переклад цієї сторінки українською мовою наразі відсутній, тому вміст показано англійською мовою. Юридично обов'язковими є лише тексти англійською та німецькою мовами.",
-  hi: "इस पृष्ठ का हिंदी अनुवाद अभी उपलब्ध नहीं है, इसलिए सामग्री अंग्रेज़ी में दिखाई जा रही है। कानूनी रूप से केवल अंग्रेज़ी और जर्मन पाठ बाध्यकारी हैं।",
-  vi: "Trang này hiện chưa có bản dịch tiếng Việt nên nội dung được hiển thị bằng tiếng Anh. Chỉ bản tiếng Anh và tiếng Đức có giá trị ràng buộc pháp lý.",
-  id: "Halaman ini belum tersedia dalam bahasa Indonesia sehingga kontennya ditampilkan dalam bahasa Inggris. Hanya teks bahasa Inggris dan Jerman yang mengikat secara hukum.",
-  zh: "本页面暂无中文完整译文，因此内容以英文显示。只有英文和德文文本具有法律约束力。"
+  es: ["Esta página aún no cuenta con traducción al español; por ello, el contenido se muestra en inglés. ", "Solo los textos en inglés y alemán son jurídicamente vinculantes."],
+  pt: ["Esta página ainda não possui tradução para o português; portanto, o conteúdo é exibido em inglês. ", "Somente os textos em inglês e alemão são juridicamente vinculantes."],
+  fr: ["Cette page ne dispose pas encore d’une traduction en français ; son contenu est donc affiché en anglais. ", "Seuls les textes en anglais et en allemand font foi juridiquement."],
+  it: ["Questa pagina non dispone ancora di una traduzione in italiano; pertanto il contenuto è mostrato in inglese. ", "Hanno valore giuridico vincolante solo i testi in inglese e in tedesco."],
+  pl: ["Ta strona nie ma jeszcze pełnego tłumaczenia na język polski, dlatego jej treść jest wyświetlana po angielsku. ", "Prawnie wiążące są wyłącznie teksty w języku angielskim i niemieckim."],
+  ar: ["لا تتوفر ترجمة كاملة لهذه الصفحة باللغة العربية حاليًا، ولذلك يُعرض المحتوى باللغة الإنجليزية. ", "النصان الإنجليزي والألماني وحدهما هما الملزمان قانونًا."],
+  ru: ["Полный перевод этой страницы на русский язык пока недоступен, поэтому содержимое показано на английском языке. ", "Юридически обязательны только тексты на английском и немецком языках."],
+  uk: ["Повний переклад цієї сторінки українською мовою наразі відсутній, тому вміст показано англійською мовою. ", "Юридично обов'язковими є лише тексти англійською та німецькою мовами."],
+  hi: ["इस पृष्ठ का हिंदी अनुवाद अभी उपलब्ध नहीं है, इसलिए सामग्री अंग्रेज़ी में दिखाई जा रही है। ", "कानूनी रूप से केवल अंग्रेज़ी और जर्मन पाठ बाध्यकारी हैं।"],
+  vi: ["Trang này hiện chưa có bản dịch tiếng Việt nên nội dung được hiển thị bằng tiếng Anh. ", "Chỉ bản tiếng Anh và tiếng Đức có giá trị ràng buộc pháp lý."],
+  id: ["Halaman ini belum tersedia dalam bahasa Indonesia sehingga kontennya ditampilkan dalam bahasa Inggris. ", "Hanya teks bahasa Inggris dan Jerman yang mengikat secara hukum."],
+  zh: ["本页面暂无中文完整译文，因此内容以英文显示。", "只有英文和德文文本具有法律约束力。"]
+};
+
+// Supplied privacy and account-deletion translations for the additional site languages.
+const LEGAL_POLICY_TRANSLATIONS = {
+  es: {
+    "privacy_learning_progress": "<strong>Progreso de aprendizaje &amp; tarjetas de memoria SRS</strong><br />Progreso de lectura, tarjetas de vocabulario, puntuaciones de prácticas y exámenes, borradores de escritura, respuestas de formularios, ajustes de tema e idioma",
+    "privacy_content_reports": "<strong>Informes de problemas de contenido.</strong> Cuando informa de un problema de contenido, Lernfino envía el ID del contenido, el tipo y la ruta de la pantalla, las categorías seleccionadas, su respuesta al ejercicio y la respuesta esperada, si procede, su nota opcional, el idioma de la interfaz, la versión de la aplicación, la plataforma, la hora y un ID de instalación aleatorio. Los informes sin conexión pueden permanecer en espera en su dispositivo hasta que puedan enviarse. Los informes recibidos por el servidor se almacenan independientemente de su cuenta y se eliminan automáticamente <strong>180 días</strong> después de su recepción.",
+    "delete_content_reports": "<strong>Informes de problemas de contenido.</strong> Cuando informa de un problema de contenido, Lernfino envía el ID del contenido, el tipo y la ruta de la pantalla, las categorías seleccionadas, su respuesta al ejercicio y la respuesta esperada, si procede, su nota opcional, el idioma de la interfaz, la versión de la aplicación, la plataforma, la hora y un ID de instalación aleatorio. Los informes sin conexión pueden permanecer en espera en su dispositivo hasta que puedan enviarse. Los informes recibidos por el servidor se almacenan independientemente de su cuenta y se eliminan automáticamente <strong>180 días</strong> después de su recepción, incluso si elimina su cuenta.",
+    "shared_ai_feedback_reports": "<strong>Informes sobre retroalimentación de IA.</strong> Los únicos campos relacionados con la retroalimentación que se envían son el ID del resultado, el ID de la tarea y el motivo que seleccione. El informe va acompañado de metadatos técnicos estándar y se aplica el mismo plazo de conservación de 180 días.",
+    "privacy_learning_sync": "<strong>Sincronización en la nube de datos de aprendizaje.</strong> Cuando ha iniciado sesión, Lernfino sincroniza automáticamente sus borradores de escritura y respuestas de formularios con Supabase como parte de su progreso de aprendizaje. Enviar una respuesta a Google Gemini para una evaluación opcional con IA es un paso independiente y requiere su consentimiento explícito.",
+    "delete_synced_drafts_and_forms": "Borradores de escritura y respuestas de formularios sincronizados con Supabase,",
+    "shared_local_ai_audio_queue": "<strong>Cola de audio de IA en el dispositivo.</strong> Las grabaciones de audio pendientes caducan después de 7 días. La aplicación las elimina tras una evaluación satisfactoria o la primera vez que comprueba la cola después de la caducidad. Para eliminar una grabación antes, vaya a <strong>Práctica → Examen oral con IA → Pendiente de envío</strong> y seleccione <strong>Eliminar envío pendiente</strong> para esa grabación.",
+    "shared_apple_revocation": "<strong>Revocación de Iniciar sesión con Apple.</strong> Cuando se elimina una cuenta de Lernfino vinculada a Iniciar sesión con Apple, Lernfino revoca su autorización de Iniciar sesión con Apple. Si se le solicita, vuelva a iniciar sesión con la misma cuenta de Apple para completar la eliminación.",
+    "privacy_effective_date": "<strong>Fecha de entrada en vigor / última actualización:</strong> 26 de noviembre de 2026",
+    "meta.dataPolicyUpdated": "Última actualización: 26 de noviembre de 2026",
+    "privacy_error_reports": "Se eliminan automáticamente después de <strong>90 días</strong>",
+    "privacy_cost_receipts_backups": "Una limpieza diaria elimina los registros de costes 90 días después de la última reserva de cuota de IA y los comprobantes 90 días después de su creación. Para los comprobantes anteriores sin fecha, el plazo comienza cuando entra en vigor esta norma de conservación. Las copias de seguridad de la base de datos se conservan durante un máximo de 30 días.",
+    "delete_cost_receipts": "<strong>Métricas de costes anónimas y comprobante de eliminación aleatorio:</strong> Estos registros no contienen correo electrónico, nombre ni contenido. Una limpieza diaria elimina los registros de costes del presupuesto de IA 90 días después de la última reserva de cuota de IA y los comprobantes que confirman la eliminación 90 días después de su creación. Para los comprobantes anteriores sin fecha, el plazo comienza cuando entra en vigor esta norma de conservación.",
+    "delete_error_reports": "<strong>Informes de errores técnicos seudonimizados:</strong> No están vinculados a su cuenta y no contienen ninguna dirección IP; se eliminan automáticamente después de <strong>90 días</strong>.",
+    "delete_backups": "<strong>Copias de seguridad de la base de datos:</strong> Las copias incluidas en las copias de seguridad del servidor se eliminan al final del ciclo de copias de seguridad del proveedor (hasta <strong>30 días</strong>); las cuentas eliminadas no se restauran."
+  },
+  pt: {
+    "privacy_learning_progress": "<strong>Progresso de aprendizagem &amp; cartões de memorização SRS</strong><br />Progresso de leitura, cartões de vocabulário, pontuações de práticas e exames, rascunhos de escrita, respostas de formulários, configurações de tema e idioma",
+    "privacy_content_reports": "<strong>Relatos de problemas de conteúdo.</strong> Ao relatar um problema de conteúdo, o Lernfino envia o ID do conteúdo, o tipo e o caminho da tela, as categorias selecionadas, sua resposta ao exercício e a resposta esperada, se aplicável, sua observação opcional, o idioma da interface, a versão do aplicativo, a plataforma, o horário e um ID aleatório de instalação. Relatos feitos offline podem ficar aguardando no seu dispositivo até que possam ser enviados. Os relatos recebidos pelo servidor são armazenados independentemente da sua conta e excluídos automaticamente <strong>180 dias</strong> após o recebimento.",
+    "delete_content_reports": "<strong>Relatos de problemas de conteúdo.</strong> Ao relatar um problema de conteúdo, o Lernfino envia o ID do conteúdo, o tipo e o caminho da tela, as categorias selecionadas, sua resposta ao exercício e a resposta esperada, se aplicável, sua observação opcional, o idioma da interface, a versão do aplicativo, a plataforma, o horário e um ID aleatório de instalação. Relatos feitos offline podem ficar aguardando no seu dispositivo até que possam ser enviados. Os relatos recebidos pelo servidor são armazenados independentemente da sua conta e excluídos automaticamente <strong>180 dias</strong> após o recebimento, mesmo que você exclua sua conta.",
+    "shared_ai_feedback_reports": "<strong>Denúncias de feedback da IA.</strong> Os únicos campos relacionados ao feedback enviados são o ID do resultado, o ID da tarefa e o motivo que você seleciona. Metadados técnicos padrão acompanham a denúncia, e aplica-se o mesmo período de retenção de 180 dias.",
+    "privacy_learning_sync": "<strong>Sincronização de dados de aprendizagem na nuvem.</strong> Quando você está conectado à sua conta, o Lernfino sincroniza automaticamente seus rascunhos de escrita e respostas de formulários com o Supabase como parte do seu progresso de aprendizagem. Enviar uma resposta ao Google Gemini para uma avaliação opcional por IA é uma etapa separada e exige seu consentimento explícito.",
+    "delete_synced_drafts_and_forms": "Rascunhos de escrita e respostas de formulários sincronizados com o Supabase,",
+    "shared_local_ai_audio_queue": "<strong>Fila de áudio de IA no dispositivo.</strong> As gravações de áudio pendentes expiram após 7 dias. O aplicativo as exclui após uma avaliação bem-sucedida ou na primeira vez que verifica a fila após a expiração. Para excluir uma gravação antes, acesse <strong>Prática → Exame oral com IA → Aguardando envio</strong> e selecione <strong>Excluir envio pendente</strong> para essa gravação.",
+    "shared_apple_revocation": "<strong>Revogação do Iniciar sessão com a Apple.</strong> Quando uma conta do Lernfino vinculada ao Iniciar sessão com a Apple é excluída, o Lernfino revoga sua autorização do Iniciar sessão com a Apple. Se solicitado, entre novamente com a mesma Conta Apple para concluir a exclusão.",
+    "privacy_effective_date": "<strong>Data de vigência / última atualização:</strong> 26 de novembro de 2026",
+    "meta.dataPolicyUpdated": "Última atualização: 26 de novembro de 2026",
+    "privacy_error_reports": "Excluídos automaticamente após <strong>90 dias</strong>",
+    "privacy_cost_receipts_backups": "Uma limpeza diária remove os registros de custos 90 dias após a última reserva de cota de IA e os comprovantes 90 dias após sua criação. Para comprovantes antigos sem data, o prazo começa quando esta regra de retenção entra em vigor. Os backups do banco de dados são mantidos por até 30 dias.",
+    "delete_cost_receipts": "<strong>Métricas de custos anônimas e comprovante de exclusão aleatório:</strong> Esses registros não contêm e-mail, nome nem conteúdo. Uma limpeza diária remove os registros de custos do orçamento de IA 90 dias após a última reserva de cota de IA e os comprovantes que confirmam a exclusão 90 dias após sua criação. Para comprovantes antigos sem data, o prazo começa quando esta regra de retenção entra em vigor.",
+    "delete_error_reports": "<strong>Relatórios de erros técnicos pseudonimizados:</strong> Não estão vinculados à sua conta e não contêm endereço IP; são excluídos automaticamente após <strong>90 dias</strong>.",
+    "delete_backups": "<strong>Backups do banco de dados:</strong> As cópias nos backups do servidor são eliminadas ao final do ciclo de backup do provedor (até <strong>30 dias</strong>); as contas excluídas não são restauradas."
+  },
+  fr: {
+    "privacy_learning_progress": "<strong>Progression d’apprentissage &amp; cartes mémoire SRS</strong><br />Progression en lecture, cartes de vocabulaire, scores de pratique et d’examens, brouillons de rédaction, réponses aux formulaires, paramètres de thème et de langue",
+    "privacy_content_reports": "<strong>Signalements de problèmes de contenu.</strong> Lorsque vous signalez un problème de contenu, Lernfino envoie l’identifiant du contenu, le type et le chemin de l’écran, les catégories sélectionnées, votre réponse à l’exercice et la réponse attendue le cas échéant, votre note facultative, la langue de l’interface, la version de l’application, la plateforme, l’heure et un identifiant d’installation aléatoire. Les signalements effectués hors ligne peuvent rester en attente sur votre appareil jusqu’à ce qu’ils puissent être envoyés. Les signalements reçus par le serveur sont stockés indépendamment de votre compte et supprimés automatiquement <strong>180 jours</strong> après leur réception.",
+    "delete_content_reports": "<strong>Signalements de problèmes de contenu.</strong> Lorsque vous signalez un problème de contenu, Lernfino envoie l’identifiant du contenu, le type et le chemin de l’écran, les catégories sélectionnées, votre réponse à l’exercice et la réponse attendue le cas échéant, votre note facultative, la langue de l’interface, la version de l’application, la plateforme, l’heure et un identifiant d’installation aléatoire. Les signalements effectués hors ligne peuvent rester en attente sur votre appareil jusqu’à ce qu’ils puissent être envoyés. Les signalements reçus par le serveur sont stockés indépendamment de votre compte et supprimés automatiquement <strong>180 jours</strong> après leur réception, même si vous supprimez votre compte.",
+    "shared_ai_feedback_reports": "<strong>Signalement des retours de l’IA.</strong> Les seuls champs relatifs aux retours qui sont envoyés sont l’identifiant du résultat, l’identifiant de la tâche et le motif que vous sélectionnez. Des métadonnées techniques standard accompagnent le signalement, et la même durée de conservation de 180 jours s’applique.",
+    "privacy_learning_sync": "<strong>Synchronisation des données d’apprentissage dans le cloud.</strong> Lorsque vous êtes connecté à votre compte, Lernfino synchronise automatiquement vos brouillons de rédaction et vos réponses aux formulaires avec Supabase dans le cadre de votre progression d’apprentissage. Envoyer une réponse à Google Gemini pour une évaluation facultative par IA constitue une étape distincte et nécessite votre consentement explicite.",
+    "delete_synced_drafts_and_forms": "Brouillons de rédaction et réponses aux formulaires synchronisés avec Supabase,",
+    "shared_local_ai_audio_queue": "<strong>File d’attente audio de l’IA sur l’appareil.</strong> Les enregistrements audio en attente expirent au bout de 7 jours. L’application les supprime après une évaluation réussie ou lors de la première vérification de la file d’attente après leur expiration. Pour supprimer un enregistrement plus tôt, accédez à <strong>Pratique → Examen oral avec IA → En attente d’envoi</strong> et sélectionnez <strong>Supprimer l’envoi en attente</strong> pour cet enregistrement.",
+    "shared_apple_revocation": "<strong>Révocation de Se connecter avec Apple.</strong> Lorsqu’un compte Lernfino lié à Se connecter avec Apple est supprimé, Lernfino révoque son autorisation Se connecter avec Apple. Si vous y êtes invité, reconnectez-vous avec le même compte Apple pour terminer la suppression.",
+    "privacy_effective_date": "<strong>Date d’entrée en vigueur / de dernière mise à jour :</strong> 26 novembre 2026",
+    "meta.dataPolicyUpdated": "Dernière mise à jour : 26 novembre 2026",
+    "privacy_error_reports": "Supprimés automatiquement au bout de <strong>90 jours</strong>",
+    "privacy_cost_receipts_backups": "Un nettoyage quotidien supprime les enregistrements de coûts 90 jours après la dernière réservation de quota d’IA et les reçus 90 jours après leur création. Pour les anciens reçus non datés, le délai commence à courir à l’entrée en vigueur de cette règle de conservation. Les sauvegardes de la base de données sont conservées pendant une durée maximale de 30 jours.",
+    "delete_cost_receipts": "<strong>Indicateurs de coûts anonymes et reçu de suppression aléatoire :</strong> Ces enregistrements ne contiennent ni adresse e-mail, ni nom, ni contenu. Un nettoyage quotidien supprime les enregistrements de coûts du budget d’IA 90 jours après la dernière réservation de quota d’IA et les reçus confirmant la suppression 90 jours après leur création. Pour les anciens reçus non datés, le délai commence à courir à l’entrée en vigueur de cette règle de conservation.",
+    "delete_error_reports": "<strong>Rapports d’erreurs techniques pseudonymisés :</strong> Ils ne sont pas liés à votre compte et ne contiennent aucune adresse IP ; ils sont supprimés automatiquement au bout de <strong>90 jours</strong>.",
+    "delete_backups": "<strong>Sauvegardes de la base de données :</strong> Les copies présentes dans les sauvegardes du serveur sont purgées à la fin du cycle de sauvegarde du fournisseur (jusqu’à <strong>30 jours</strong>) ; les comptes supprimés ne sont pas restaurés."
+  },
+  it: {
+    "privacy_learning_progress": "<strong>Progressi di apprendimento &amp; flashcard SRS</strong><br />Progressi di lettura, schede di vocabolario, punteggi di pratica ed esami, bozze di scrittura, risposte ai moduli, impostazioni del tema e della lingua",
+    "privacy_content_reports": "<strong>Segnalazioni di problemi nei contenuti.</strong> Quando viene segnalato un problema nei contenuti, Lernfino invia l’ID del contenuto, il tipo e il percorso della schermata, le categorie selezionate, la risposta fornita all’esercizio e la risposta attesa, se applicabile, la nota facoltativa, la lingua dell’interfaccia, la versione dell’app, la piattaforma, l’ora e un ID di installazione casuale. Le segnalazioni effettuate offline possono rimanere in attesa sul dispositivo fino a quando potranno essere inviate. Le segnalazioni ricevute dal server sono conservate indipendentemente dall’account dell’utente ed eliminate automaticamente <strong>180 giorni</strong> dopo la ricezione.",
+    "delete_content_reports": "<strong>Segnalazioni di problemi nei contenuti.</strong> Quando viene segnalato un problema nei contenuti, Lernfino invia l’ID del contenuto, il tipo e il percorso della schermata, le categorie selezionate, la risposta fornita all’esercizio e la risposta attesa, se applicabile, la nota facoltativa, la lingua dell’interfaccia, la versione dell’app, la piattaforma, l’ora e un ID di installazione casuale. Le segnalazioni effettuate offline possono rimanere in attesa sul dispositivo fino a quando potranno essere inviate. Le segnalazioni ricevute dal server sono conservate indipendentemente dall’account dell’utente ed eliminate automaticamente <strong>180 giorni</strong> dopo la ricezione, anche se l’utente elimina il proprio account.",
+    "shared_ai_feedback_reports": "<strong>Segnalazione del feedback dell’IA.</strong> Gli unici campi relativi al feedback che vengono inviati sono l’ID del risultato, l’ID dell’attività e il motivo selezionato dall’utente. La segnalazione è accompagnata da metadati tecnici standard e si applica lo stesso periodo di conservazione di 180 giorni.",
+    "privacy_learning_sync": "<strong>Sincronizzazione cloud dei dati di apprendimento.</strong> Quando l’utente ha effettuato l’accesso, Lernfino sincronizza automaticamente le sue bozze di scrittura e le risposte ai moduli con Supabase nell’ambito dei progressi di apprendimento. Inviare una risposta a Google Gemini per una valutazione facoltativa con IA è un passaggio separato e richiede il consenso esplicito dell’utente.",
+    "delete_synced_drafts_and_forms": "Bozze di scrittura e risposte ai moduli sincronizzate con Supabase,",
+    "shared_local_ai_audio_queue": "<strong>Coda audio IA sul dispositivo.</strong> Le registrazioni audio in attesa scadono dopo 7 giorni. L’app le elimina dopo una valutazione riuscita o al primo controllo della coda dopo la scadenza. Per eliminare prima una registrazione, accedere a <strong>Pratica → Esame orale con IA → In attesa di invio</strong> e selezionare <strong>Elimina invio in attesa</strong> per quella registrazione.",
+    "shared_apple_revocation": "<strong>Revoca di Accedi con Apple.</strong> Quando viene eliminato un account Lernfino collegato ad Accedi con Apple, Lernfino revoca la propria autorizzazione di Accedi con Apple. Se richiesto, effettuare nuovamente l’accesso con lo stesso Account Apple per completare l’eliminazione.",
+    "privacy_effective_date": "<strong>Data di entrata in vigore / ultimo aggiornamento:</strong> 26 novembre 2026",
+    "meta.dataPolicyUpdated": "Ultimo aggiornamento: 26 novembre 2026",
+    "privacy_error_reports": "Eliminati automaticamente dopo <strong>90 giorni</strong>",
+    "privacy_cost_receipts_backups": "Una pulizia giornaliera rimuove i registri dei costi 90 giorni dopo l’ultima prenotazione della quota IA e le ricevute 90 giorni dopo la loro creazione. Per le ricevute precedenti prive di data, il periodo decorre dall’entrata in vigore di questa regola di conservazione. I backup del database vengono conservati per un massimo di 30 giorni.",
+    "delete_cost_receipts": "<strong>Metriche di costo anonime e ricevuta di eliminazione casuale:</strong> Questi registri non contengono indirizzi e-mail, nomi o contenuti. Una pulizia giornaliera rimuove i registri dei costi del budget IA 90 giorni dopo l’ultima prenotazione della quota IA e le ricevute che confermano l’eliminazione 90 giorni dopo la loro creazione. Per le ricevute precedenti prive di data, il periodo decorre dall’entrata in vigore di questa regola di conservazione.",
+    "delete_error_reports": "<strong>Segnalazioni di errori tecnici pseudonimizzate:</strong> Non sono collegate all’account dell’utente e non contengono indirizzi IP; vengono eliminate automaticamente dopo <strong>90 giorni</strong>.",
+    "delete_backups": "<strong>Backup del database:</strong> Le copie presenti nei backup del server vengono eliminate al termine del ciclo di backup del fornitore (fino a <strong>30 giorni</strong>); gli account eliminati non vengono ripristinati."
+  },
+  pl: {
+    "privacy_learning_progress": "<strong>Postępy w nauce &amp; fiszki SRS</strong><br />Postępy w czytaniu, fiszki ze słownictwem, wyniki ćwiczeń i egzaminów, wersje robocze wypowiedzi pisemnych, odpowiedzi w formularzach, ustawienia motywu i języka",
+    "privacy_content_reports": "<strong>Zgłoszenia problemów z treścią.</strong> Gdy użytkownik zgłasza problem z treścią, Lernfino przesyła identyfikator treści, typ i ścieżkę ekranu, wybrane kategorie, odpowiedź użytkownika na ćwiczenie i oczekiwaną odpowiedź, jeśli ma to zastosowanie, opcjonalną notatkę, język interfejsu, wersję aplikacji, platformę, czas i losowy identyfikator instalacji. Zgłoszenia dokonane w trybie offline mogą oczekiwać na urządzeniu użytkownika do chwili, gdy możliwe będzie ich wysłanie. Zgłoszenia odebrane przez serwer są przechowywane niezależnie od konta użytkownika i automatycznie usuwane <strong>180 dni</strong> po odebraniu.",
+    "delete_content_reports": "<strong>Zgłoszenia problemów z treścią.</strong> Gdy użytkownik zgłasza problem z treścią, Lernfino przesyła identyfikator treści, typ i ścieżkę ekranu, wybrane kategorie, odpowiedź użytkownika na ćwiczenie i oczekiwaną odpowiedź, jeśli ma to zastosowanie, opcjonalną notatkę, język interfejsu, wersję aplikacji, platformę, czas i losowy identyfikator instalacji. Zgłoszenia dokonane w trybie offline mogą oczekiwać na urządzeniu użytkownika do chwili, gdy możliwe będzie ich wysłanie. Zgłoszenia odebrane przez serwer są przechowywane niezależnie od konta użytkownika i automatycznie usuwane <strong>180 dni</strong> po odebraniu, nawet jeśli użytkownik usunie swoje konto.",
+    "shared_ai_feedback_reports": "<strong>Zgłaszanie informacji zwrotnych od AI.</strong> Jedynymi przesyłanymi polami związanymi z informacją zwrotną są identyfikator wyniku, identyfikator zadania oraz powód wybrany przez użytkownika. Do zgłoszenia dołączane są standardowe metadane techniczne; obowiązuje ten sam okres przechowywania wynoszący 180 dni.",
+    "privacy_learning_sync": "<strong>Synchronizacja danych o nauce w chmurze.</strong> Gdy użytkownik jest zalogowany, Lernfino automatycznie synchronizuje jego wersje robocze wypowiedzi pisemnych i odpowiedzi w formularzach z Supabase w ramach zapisywania postępów w nauce. Przesłanie odpowiedzi do Google Gemini w celu opcjonalnej oceny przez AI jest odrębnym krokiem i wymaga wyraźnej zgody użytkownika.",
+    "delete_synced_drafts_and_forms": "Wersje robocze wypowiedzi pisemnych i odpowiedzi w formularzach zsynchronizowane z Supabase,",
+    "shared_local_ai_audio_queue": "<strong>Kolejka nagrań AI na urządzeniu.</strong> Oczekujące nagrania audio tracą ważność po 7 dniach. Aplikacja usuwa je po pomyślnej ocenie lub podczas pierwszego sprawdzenia kolejki po upływie terminu ważności. Aby wcześniej usunąć nagranie, należy przejść do <strong>Ćwiczenia → Egzamin ustny z AI → Oczekuje na wysłanie</strong> i wybrać <strong>Usuń oczekujący materiał</strong> dla danego nagrania.",
+    "shared_apple_revocation": "<strong>Cofnięcie autoryzacji funkcji Zaloguj się przez Apple.</strong> Gdy konto Lernfino powiązane z funkcją Zaloguj się przez Apple zostanie usunięte, Lernfino cofa swoją autoryzację tej funkcji Apple. Jeśli pojawi się taka prośba, należy ponownie zalogować się na to samo konto Apple, aby dokończyć usuwanie.",
+    "privacy_effective_date": "<strong>Data wejścia w życie / ostatniej aktualizacji:</strong> 26 listopada 2026 r.",
+    "meta.dataPolicyUpdated": "Ostatnia aktualizacja: 26 listopada 2026 r.",
+    "privacy_error_reports": "Automatycznie usuwane po <strong>90 dniach</strong>",
+    "privacy_cost_receipts_backups": "Codzienny proces czyszczenia usuwa zapisy kosztów 90 dni po ostatniej rezerwacji limitu AI, a potwierdzenia 90 dni po ich utworzeniu. W przypadku starszych potwierdzeń bez daty okres rozpoczyna się z chwilą wejścia w życie tej zasady przechowywania. Kopie zapasowe bazy danych są przechowywane maksymalnie przez 30 dni.",
+    "delete_cost_receipts": "<strong>Anonimowe wskaźniki kosztów i losowe potwierdzenie usunięcia:</strong> Zapisy te nie zawierają adresu e-mail, imienia i nazwiska ani treści. Codzienny proces czyszczenia usuwa zapisy kosztów budżetu AI 90 dni po ostatniej rezerwacji limitu AI, a potwierdzenia usunięcia 90 dni po ich utworzeniu. W przypadku starszych potwierdzeń bez daty okres rozpoczyna się z chwilą wejścia w życie tej zasady przechowywania.",
+    "delete_error_reports": "<strong>Pseudonimizowane raporty o błędach technicznych:</strong> Nie są powiązane z kontem użytkownika i nie zawierają adresu IP; są automatycznie usuwane po <strong>90 dniach</strong>.",
+    "delete_backups": "<strong>Kopie zapasowe bazy danych:</strong> Kopie znajdujące się w kopiach zapasowych serwera są usuwane na koniec cyklu tworzenia kopii zapasowych dostawcy (do <strong>30 dni</strong>); usunięte konta nie są przywracane."
+  },
+  ru: {
+    "privacy_learning_progress": "<strong>Прогресс обучения &amp; карточки со словами SRS</strong><br />Прогресс чтения, карточки со словами, результаты практики и экзаменов, черновики письменных работ, ответы в формах, настройки темы и языка",
+    "privacy_content_reports": "<strong>Сообщения о проблемах с содержанием.</strong> Когда вы сообщаете о проблеме с содержанием, Lernfino отправляет идентификатор материала, тип и путь экрана, выбранные категории, ваш ответ на упражнение и ожидаемый ответ, если применимо, необязательное примечание, язык интерфейса, версию приложения, платформу, время и случайный идентификатор установки. Сообщения, созданные без подключения к интернету, могут ожидать на вашем устройстве, пока не появится возможность их отправить. Полученные сервером сообщения хранятся независимо от вашей учётной записи и автоматически удаляются через <strong>180 дней</strong> после получения.",
+    "delete_content_reports": "<strong>Сообщения о проблемах с содержанием.</strong> Когда вы сообщаете о проблеме с содержанием, Lernfino отправляет идентификатор материала, тип и путь экрана, выбранные категории, ваш ответ на упражнение и ожидаемый ответ, если применимо, необязательное примечание, язык интерфейса, версию приложения, платформу, время и случайный идентификатор установки. Сообщения, созданные без подключения к интернету, могут ожидать на вашем устройстве, пока не появится возможность их отправить. Полученные сервером сообщения хранятся независимо от вашей учётной записи и автоматически удаляются через <strong>180 дней</strong> после получения, даже если вы удалите свою учётную запись.",
+    "shared_ai_feedback_reports": "<strong>Жалобы на обратную связь ИИ.</strong> Единственные отправляемые поля, связанные с обратной связью, — это идентификатор результата, идентификатор задания и выбранная вами причина. Жалоба сопровождается стандартными техническими метаданными; действует тот же срок хранения в 180 дней.",
+    "privacy_learning_sync": "<strong>Облачная синхронизация данных об обучении.</strong> Когда вы вошли в свою учётную запись, Lernfino автоматически синхронизирует черновики письменных работ и ответы в формах с Supabase в рамках сохранения вашего прогресса обучения. Отправка ответа в Google Gemini для необязательной оценки с помощью ИИ — отдельный шаг, требующий вашего явного согласия.",
+    "delete_synced_drafts_and_forms": "Черновики письменных работ и ответы в формах, синхронизированные с Supabase,",
+    "shared_local_ai_audio_queue": "<strong>Очередь аудиозаписей для ИИ на устройстве.</strong> Срок действия ожидающих аудиозаписей истекает через 7 дней. Приложение удаляет их после успешной оценки или при первой проверке очереди после истечения срока. Чтобы удалить запись раньше, перейдите в раздел <strong>Практика → Устный экзамен с ИИ → Ожидает отправки</strong> и выберите <strong>Удалить ожидающий материал</strong> для этой записи.",
+    "shared_apple_revocation": "<strong>Отзыв авторизации функции «Вход с Apple».</strong> При удалении учётной записи Lernfino, связанной с функцией «Вход с Apple», Lernfino отзывает свою авторизацию этой функции Apple. При появлении запроса снова войдите в тот же аккаунт Apple, чтобы завершить удаление.",
+    "privacy_effective_date": "<strong>Дата вступления в силу / последнего обновления:</strong> 26 ноября 2026 г.",
+    "meta.dataPolicyUpdated": "Последнее обновление: 26 ноября 2026 г.",
+    "privacy_error_reports": "Автоматически удаляются через <strong>90 дней</strong>",
+    "privacy_cost_receipts_backups": "Ежедневная очистка удаляет записи о расходах через 90 дней после последнего резервирования квоты ИИ, а подтверждения — через 90 дней после их создания. Для более ранних подтверждений без даты срок начинается с момента вступления в силу этого правила хранения. Резервные копии базы данных хранятся до 30 дней.",
+    "delete_cost_receipts": "<strong>Анонимные показатели расходов и случайное подтверждение удаления:</strong> Эти записи не содержат адреса электронной почты, имени или содержимого. Ежедневная очистка удаляет записи о расходах бюджета ИИ через 90 дней после последнего резервирования квоты ИИ, а подтверждения удаления — через 90 дней после их создания. Для более ранних подтверждений без даты срок начинается с момента вступления в силу этого правила хранения.",
+    "delete_error_reports": "<strong>Псевдонимизированные отчёты о технических ошибках:</strong> Не связаны с вашей учётной записью и не содержат IP-адреса; автоматически удаляются через <strong>90 дней</strong>.",
+    "delete_backups": "<strong>Резервные копии базы данных:</strong> Копии в резервных копиях сервера удаляются по окончании цикла резервного копирования поставщика (до <strong>30 дней</strong>); удалённые учётные записи не восстанавливаются."
+  },
+  uk: {
+    "privacy_learning_progress": "<strong>Прогрес навчання &amp; картки зі словами SRS</strong><br />Прогрес читання, картки зі словами, результати практики й іспитів, чернетки письмових робіт, відповіді у формах, налаштування теми й мови",
+    "privacy_content_reports": "<strong>Повідомлення про проблеми з вмістом.</strong> Коли ви повідомляєте про проблему з вмістом, Lernfino надсилає ідентифікатор матеріалу, тип і шлях екрана, вибрані категорії, вашу відповідь на вправу й очікувану відповідь, якщо застосовно, необов’язкову примітку, мову інтерфейсу, версію застосунку, платформу, час і випадковий ідентифікатор встановлення. Повідомлення, створені без підключення до інтернету, можуть очікувати на вашому пристрої, доки їх не можна буде надіслати. Отримані сервером повідомлення зберігаються незалежно від вашого облікового запису й автоматично видаляються через <strong>180 днів</strong> після отримання.",
+    "delete_content_reports": "<strong>Повідомлення про проблеми з вмістом.</strong> Коли ви повідомляєте про проблему з вмістом, Lernfino надсилає ідентифікатор матеріалу, тип і шлях екрана, вибрані категорії, вашу відповідь на вправу й очікувану відповідь, якщо застосовно, необов’язкову примітку, мову інтерфейсу, версію застосунку, платформу, час і випадковий ідентифікатор встановлення. Повідомлення, створені без підключення до інтернету, можуть очікувати на вашому пристрої, доки їх не можна буде надіслати. Отримані сервером повідомлення зберігаються незалежно від вашого облікового запису й автоматично видаляються через <strong>180 днів</strong> після отримання, навіть якщо ви видалите свій обліковий запис.",
+    "shared_ai_feedback_reports": "<strong>Скарги на відгуки ШІ.</strong> Єдині поля, пов’язані з відгуками, які надсилаються, — це ідентифікатор результату, ідентифікатор завдання й обрана вами причина. Скарга супроводжується стандартними технічними метаданими; застосовується той самий строк зберігання — 180 днів.",
+    "privacy_learning_sync": "<strong>Хмарна синхронізація даних про навчання.</strong> Коли ви ввійшли в обліковий запис, Lernfino автоматично синхронізує ваші чернетки письмових робіт і відповіді у формах із Supabase у межах збереження прогресу навчання. Надсилання відповіді до Google Gemini для необов’язкового оцінювання за допомогою ШІ — окремий крок, який потребує вашої явної згоди.",
+    "delete_synced_drafts_and_forms": "Чернетки письмових робіт і відповіді у формах, синхронізовані із Supabase,",
+    "shared_local_ai_audio_queue": "<strong>Черга аудіозаписів для ШІ на пристрої.</strong> Строк дії аудіозаписів, що очікують, спливає через 7 днів. Застосунок видаляє їх після успішного оцінювання або під час першої перевірки черги після спливу строку. Щоб видалити запис раніше, перейдіть до <strong>Практика → Усний іспит із ШІ → Очікує надсилання</strong> й виберіть <strong>Видалити матеріал, що очікує надсилання</strong> для цього запису.",
+    "shared_apple_revocation": "<strong>Відкликання авторизації функції «Вхід з Apple».</strong> Коли видаляється обліковий запис Lernfino, пов’язаний із функцією «Вхід з Apple», Lernfino відкликає свою авторизацію цієї функції Apple. Якщо з’явиться відповідний запит, увійдіть знову до того самого облікового запису Apple, щоб завершити видалення.",
+    "privacy_effective_date": "<strong>Дата набрання чинності / останнього оновлення:</strong> 26 листопада 2026 р.",
+    "meta.dataPolicyUpdated": "Останнє оновлення: 26 листопада 2026 р.",
+    "privacy_error_reports": "Автоматично видаляються через <strong>90 днів</strong>",
+    "privacy_cost_receipts_backups": "Щоденне очищення видаляє записи про витрати через 90 днів після останнього резервування квоти ШІ, а підтвердження — через 90 днів після їх створення. Для давніших підтверджень без дати строк починається з моменту набрання чинності цим правилом зберігання. Резервні копії бази даних зберігаються до 30 днів.",
+    "delete_cost_receipts": "<strong>Анонімні показники витрат і випадкове підтвердження видалення:</strong> Ці записи не містять адреси електронної пошти, імені або вмісту. Щоденне очищення видаляє записи про витрати бюджету ШІ через 90 днів після останнього резервування квоти ШІ, а підтвердження видалення — через 90 днів після їх створення. Для давніших підтверджень без дати строк починається з моменту набрання чинності цим правилом зберігання.",
+    "delete_error_reports": "<strong>Псевдонімізовані звіти про технічні помилки:</strong> Не пов’язані з вашим обліковим записом і не містять IP-адреси; автоматично видаляються через <strong>90 днів</strong>.",
+    "delete_backups": "<strong>Резервні копії бази даних:</strong> Копії в резервних копіях сервера видаляються наприкінці циклу резервного копіювання постачальника (до <strong>30 днів</strong>); видалені облікові записи не відновлюються."
+  },
+  ar: {
+    "privacy_learning_progress": "<strong>تقدم التعلم &amp; بطاقات تعليمية بنظام التكرار المتباعد SRS</strong><br />تقدم القراءة، وبطاقات المفردات، ودرجات التدريب والامتحانات، ومسودات الكتابة، وإجابات النماذج، وإعدادات المظهر واللغة",
+    "privacy_content_reports": "<strong>بلاغات مشكلات المحتوى.</strong> عند الإبلاغ عن مشكلة في المحتوى، يرسل Lernfino معرّف المحتوى، ونوع الشاشة ومسارها، والفئات المحددة، وإجابتك عن التمرين والإجابة المتوقعة إن وجدت، وملاحظتك الاختيارية، ولغة الواجهة، وإصدار التطبيق، والمنصة، والوقت، ومعرّف تثبيت عشوائي. قد تبقى البلاغات المقدمة دون اتصال في الانتظار على جهازك إلى أن يصبح إرسالها ممكنًا. تُخزَّن البلاغات التي يتلقاها الخادم بشكل مستقل عن حسابك وتُحذف تلقائيًا بعد <strong>180 يومًا</strong> من استلامها.",
+    "delete_content_reports": "<strong>بلاغات مشكلات المحتوى.</strong> عند الإبلاغ عن مشكلة في المحتوى، يرسل Lernfino معرّف المحتوى، ونوع الشاشة ومسارها، والفئات المحددة، وإجابتك عن التمرين والإجابة المتوقعة إن وجدت، وملاحظتك الاختيارية، ولغة الواجهة، وإصدار التطبيق، والمنصة، والوقت، ومعرّف تثبيت عشوائي. قد تبقى البلاغات المقدمة دون اتصال في الانتظار على جهازك إلى أن يصبح إرسالها ممكنًا. تُخزَّن البلاغات التي يتلقاها الخادم بشكل مستقل عن حسابك وتُحذف تلقائيًا بعد <strong>180 يومًا</strong> من استلامها، حتى في حال حذف حسابك.",
+    "shared_ai_feedback_reports": "<strong>الإبلاغ عن ملاحظات الذكاء الاصطناعي.</strong> الحقول الوحيدة المتعلقة بالملاحظات التي يتم إرسالها هي معرّف النتيجة ومعرّف المهمة والسبب الذي يتم اختياره. تُرفق بالبلاغ بيانات وصفية تقنية قياسية، وتنطبق مدة الاحتفاظ نفسها البالغة 180 يومًا.",
+    "privacy_learning_sync": "<strong>المزامنة السحابية لبيانات التعلم.</strong> عند تسجيل الدخول، يزامن Lernfino تلقائيًا مسودات الكتابة وإجابات النماذج الخاصة بك مع Supabase بوصفها جزءًا من تقدم التعلم. يُعد إرسال إجابة إلى Google Gemini لإجراء تقييم اختياري بالذكاء الاصطناعي خطوة منفصلة تتطلب موافقتك الصريحة.",
+    "delete_synced_drafts_and_forms": "مسودات الكتابة وإجابات النماذج التي تمت مزامنتها مع Supabase،",
+    "shared_local_ai_audio_queue": "<strong>قائمة انتظار التسجيلات الصوتية للذكاء الاصطناعي على الجهاز.</strong> تنتهي صلاحية التسجيلات الصوتية المعلقة بعد 7 أيام. يحذفها التطبيق بعد نجاح التقييم أو عند فحص قائمة الانتظار لأول مرة بعد انتهاء الصلاحية. لحذف تسجيل قبل ذلك، يُرجى الانتقال إلى <strong>تدريب → امتحان المحادثة بالذكاء الاصطناعي → في انتظار الإرسال</strong> واختيار <strong>حذف المادة التي تنتظر الإرسال</strong> لذلك التسجيل.",
+    "shared_apple_revocation": "<strong>إلغاء تفويض تسجيل الدخول باستخدام Apple.</strong> عند حذف حساب Lernfino المرتبط بخاصية تسجيل الدخول باستخدام Apple، يلغي Lernfino تفويضه لهذه الخاصية. إذا طُلب ذلك، يُرجى تسجيل الدخول مجددًا باستخدام حساب Apple نفسه لإكمال الحذف.",
+    "privacy_effective_date": "<strong>تاريخ السريان / آخر تحديث:</strong> 26 نوفمبر 2026",
+    "meta.dataPolicyUpdated": "آخر تحديث: 26 نوفمبر 2026",
+    "privacy_error_reports": "تُحذف تلقائيًا بعد <strong>90 يومًا</strong>",
+    "privacy_cost_receipts_backups": "تزيل عملية تنظيف يومية سجلات التكلفة بعد 90 يومًا من آخر حجز لحصة الذكاء الاصطناعي، والإيصالات بعد 90 يومًا من إنشائها. بالنسبة إلى الإيصالات الأقدم غير المؤرخة، تبدأ المدة عند دخول قاعدة الاحتفاظ هذه حيز التنفيذ. يُحتفظ بالنسخ الاحتياطية لقاعدة البيانات لمدة تصل إلى 30 يومًا.",
+    "delete_cost_receipts": "<strong>مقاييس التكلفة المجهولة وإيصال حذف عشوائي:</strong> لا تحتوي هذه السجلات على بريد إلكتروني أو اسم أو محتوى. تزيل عملية تنظيف يومية سجلات تكاليف ميزانية الذكاء الاصطناعي بعد 90 يومًا من آخر حجز لحصة الذكاء الاصطناعي، والإيصالات التي تؤكد الحذف بعد 90 يومًا من إنشائها. بالنسبة إلى الإيصالات الأقدم غير المؤرخة، تبدأ المدة عند دخول قاعدة الاحتفاظ هذه حيز التنفيذ.",
+    "delete_error_reports": "<strong>تقارير الأخطاء التقنية ذات المعرّفات المستعارة:</strong> لا ترتبط بحسابك ولا تحتوي على عنوان IP؛ وتُحذف تلقائيًا بعد <strong>90 يومًا</strong>.",
+    "delete_backups": "<strong>النسخ الاحتياطية لقاعدة البيانات:</strong> تُمحى النسخ الموجودة ضمن النسخ الاحتياطية للخادم في نهاية دورة النسخ الاحتياطي لدى المزود (حتى <strong>30 يومًا</strong>)؛ ولا تُستعاد الحسابات المحذوفة."
+  },
+  hi: {
+    "privacy_learning_progress": "<strong>सीखने की प्रगति &amp; SRS फ्लैशकार्ड</strong><br />पढ़ने की प्रगति, शब्दावली कार्ड, अभ्यास और परीक्षा के स्कोर, लेखन के ड्राफ्ट, फ़ॉर्म के उत्तर, थीम और भाषा की सेटिंग्स",
+    "privacy_content_reports": "<strong>सामग्री की समस्याओं की रिपोर्ट।</strong> जब आप सामग्री की किसी समस्या की रिपोर्ट करते हैं, तो Lernfino सामग्री की ID, स्क्रीन का प्रकार और पथ, चुनी गई श्रेणियां, अभ्यास का आपका उत्तर और लागू होने पर अपेक्षित उत्तर, आपका वैकल्पिक नोट, इंटरफ़ेस की भाषा, ऐप का वर्ज़न, प्लेटफ़ॉर्म, समय और एक रैंडम इंस्टॉलेशन ID भेजता है। ऑफ़लाइन रिपोर्ट आपके डिवाइस पर तब तक प्रतीक्षा में रह सकती हैं जब तक उन्हें भेजना संभव न हो। सर्वर को प्राप्त रिपोर्ट आपके खाते से स्वतंत्र रूप से संग्रहित की जाती हैं और प्राप्ति के <strong>180 दिन</strong> बाद अपने आप हटा दी जाती हैं।",
+    "delete_content_reports": "<strong>सामग्री की समस्याओं की रिपोर्ट।</strong> जब आप सामग्री की किसी समस्या की रिपोर्ट करते हैं, तो Lernfino सामग्री की ID, स्क्रीन का प्रकार और पथ, चुनी गई श्रेणियां, अभ्यास का आपका उत्तर और लागू होने पर अपेक्षित उत्तर, आपका वैकल्पिक नोट, इंटरफ़ेस की भाषा, ऐप का वर्ज़न, प्लेटफ़ॉर्म, समय और एक रैंडम इंस्टॉलेशन ID भेजता है। ऑफ़लाइन रिपोर्ट आपके डिवाइस पर तब तक प्रतीक्षा में रह सकती हैं जब तक उन्हें भेजना संभव न हो। सर्वर को प्राप्त रिपोर्ट आपके खाते से स्वतंत्र रूप से संग्रहित की जाती हैं और प्राप्ति के <strong>180 दिन</strong> बाद अपने आप हटा दी जाती हैं, भले ही आप अपना खाता हटा दें।",
+    "shared_ai_feedback_reports": "<strong>AI प्रतिक्रिया की रिपोर्ट करना।</strong> प्रतिक्रिया से संबंधित केवल परिणाम की ID, टास्क की ID और आपका चुना हुआ कारण भेजा जाता है। रिपोर्ट के साथ मानक तकनीकी मेटाडेटा भेजा जाता है और डेटा रखने की वही 180 दिन की अवधि लागू होती है।",
+    "privacy_learning_sync": "<strong>सीखने के डेटा का क्लाउड सिंक।</strong> जब आप साइन इन होते हैं, तो Lernfino आपकी सीखने की प्रगति के हिस्से के रूप में लेखन के ड्राफ्ट और फ़ॉर्म के उत्तरों को Supabase से अपने आप सिंक करता है। वैकल्पिक AI मूल्यांकन के लिए उत्तर Google Gemini को भेजना एक अलग चरण है, जिसके लिए आपकी स्पष्ट सहमति ज़रूरी है।",
+    "delete_synced_drafts_and_forms": "Supabase से सिंक किए गए लेखन के ड्राफ्ट और फ़ॉर्म के उत्तर,",
+    "shared_local_ai_audio_queue": "<strong>डिवाइस पर AI ऑडियो की कतार।</strong> प्रतीक्षा में मौजूद ऑडियो रिकॉर्डिंग 7 दिन बाद अमान्य हो जाती हैं। ऐप सफल मूल्यांकन के बाद या समय-सीमा समाप्त होने के बाद पहली बार कतार की जांच करते समय उन्हें हटा देता है। रिकॉर्डिंग इससे पहले हटाने के लिए <strong>अभ्यास → AI बोलने की परीक्षा → भेजने की प्रतीक्षा में</strong> पर जाएं और उस रिकॉर्डिंग के लिए <strong>प्रतीक्षा में मौजूद उत्तर हटाएं</strong> चुनें।",
+    "shared_apple_revocation": "<strong>Apple से साइन इन करने का प्राधिकरण रद्द करना।</strong> Apple से साइन इन करने की सुविधा से जुड़े Lernfino खाते को हटाने पर Lernfino Apple से साइन इन करने का अपना प्राधिकरण रद्द कर देता है। यदि कहा जाए, तो खाता हटाने की प्रक्रिया पूरी करने के लिए उसी Apple खाते से फिर साइन इन करें।",
+    "privacy_effective_date": "<strong>लागू होने / अंतिम अपडेट की तारीख:</strong> 26 नवंबर 2026",
+    "meta.dataPolicyUpdated": "अंतिम अपडेट: 26 नवंबर 2026",
+    "privacy_error_reports": "<strong>90 दिन</strong> बाद अपने आप हटा दिए जाते हैं",
+    "privacy_cost_receipts_backups": "दैनिक क्लीनअप अंतिम AI कोटा आरक्षण के 90 दिन बाद लागत रिकॉर्ड और बनाए जाने के 90 दिन बाद रसीदें हटा देता है। बिना तारीख वाली पुरानी रसीदों के लिए अवधि डेटा रखने के इस नियम के लागू होने से शुरू होती है। डेटाबेस के बैकअप अधिकतम 30 दिन तक रखे जाते हैं।",
+    "delete_cost_receipts": "<strong>अनाम लागत मेट्रिक्स और रैंडम खाता हटाने की रसीद:</strong> इन रिकॉर्ड में ईमेल, नाम या सामग्री नहीं होती। दैनिक क्लीनअप अंतिम AI कोटा आरक्षण के 90 दिन बाद AI बजट के लागत रिकॉर्ड और बनाए जाने के 90 दिन बाद खाता हटाने की पुष्टि करने वाली रसीदें हटा देता है। बिना तारीख वाली पुरानी रसीदों के लिए अवधि डेटा रखने के इस नियम के लागू होने से शुरू होती है।",
+    "delete_error_reports": "<strong>छद्म पहचान वाली तकनीकी त्रुटि रिपोर्ट:</strong> ये आपके खाते से जुड़ी नहीं होतीं और इनमें IP पता नहीं होता; इन्हें <strong>90 दिन</strong> बाद अपने आप हटा दिया जाता है।",
+    "delete_backups": "<strong>डेटाबेस बैकअप:</strong> सर्वर बैकअप में मौजूद प्रतियां प्रदाता के बैकअप चक्र के अंत में (अधिकतम <strong>30 दिन</strong>) पूरी तरह मिटा दी जाती हैं; हटाए गए खाते बहाल नहीं किए जाते।"
+  },
+  zh: {
+    "privacy_learning_progress": "<strong>学习进度 &amp; SRS 间隔重复记忆卡</strong><br />阅读进度、词汇卡、练习及考试成绩、写作草稿、表单答案、主题及语言设置",
+    "privacy_content_reports": "<strong>内容问题报告。</strong> 当您报告内容问题时，Lernfino 会发送内容 ID、界面类型及路径、所选类别、您的练习答案及适用情况下的预期答案、您填写的可选备注、界面语言、应用版本、平台、时间以及随机安装 ID。离线报告可能在您的设备上等待，直至可以发送。服务器收到的报告独立于您的账户存储，并在收到后 <strong>180 天</strong>自动删除。",
+    "delete_content_reports": "<strong>内容问题报告。</strong> 当您报告内容问题时，Lernfino 会发送内容 ID、界面类型及路径、所选类别、您的练习答案及适用情况下的预期答案、您填写的可选备注、界面语言、应用版本、平台、时间以及随机安装 ID。离线报告可能在您的设备上等待，直至可以发送。服务器收到的报告独立于您的账户存储，并在收到后 <strong>180 天</strong>自动删除，即使您删除账户也是如此。",
+    "shared_ai_feedback_reports": "<strong>举报 AI 反馈。</strong> 发送的反馈相关字段仅包括结果 ID、任务 ID 和您选择的原因。报告附带标准技术元数据，并适用相同的 180 天保留期限。",
+    "privacy_learning_sync": "<strong>学习数据的云端同步。</strong> 登录后，Lernfino 会将您的写作草稿和表单答案作为学习进度的一部分自动同步至 Supabase。将提交内容发送至 Google Gemini 进行可选的 AI 评估是一个独立步骤，需要获得您的明确同意。",
+    "delete_synced_drafts_and_forms": "同步至 Supabase 的写作草稿和表单答案，",
+    "shared_local_ai_audio_queue": "<strong>设备上的 AI 音频队列。</strong> 待处理的音频录音将在 7 天后过期。应用会在评估成功后，或在录音过期后首次检查队列时将其删除。如需提前删除录音，请前往 <strong>练习 → AI 口语考试 → 等待发送</strong>，并为该录音选择 <strong>删除待发送内容</strong>。",
+    "shared_apple_revocation": "<strong>撤销通过 Apple 登录的授权。</strong> 删除与通过 Apple 登录功能关联的 Lernfino 账户时，Lernfino 会撤销其通过 Apple 登录的授权。如果系统提示，请使用同一 Apple 账户重新登录以完成删除。",
+    "privacy_effective_date": "<strong>生效 / 最后更新日期：</strong> 2026 年 11 月 26 日",
+    "meta.dataPolicyUpdated": "最后更新：2026 年 11 月 26 日",
+    "privacy_error_reports": "在 <strong>90 天</strong>后自动删除",
+    "privacy_cost_receipts_backups": "每日清理会在最后一次 AI 配额预留后 90 天删除成本记录，并在回执创建后 90 天删除回执。对于没有日期的旧回执，期限自本保留规则生效时开始计算。数据库备份最多保留 30 天。",
+    "delete_cost_receipts": "<strong>匿名成本指标和随机删除回执：</strong> 这些记录不包含电子邮件地址、姓名或内容。每日清理会在最后一次 AI 配额预留后 90 天删除 AI 预算成本记录，并在确认删除的回执创建后 90 天删除这些回执。对于没有日期的旧回执，期限自本保留规则生效时开始计算。",
+    "delete_error_reports": "<strong>假名化技术错误报告：</strong> 不与您的账户关联，且不包含 IP 地址；在 <strong>90 天</strong>后自动删除。",
+    "delete_backups": "<strong>数据库备份：</strong> 服务器备份中的副本会在提供商的备份周期结束时彻底清除（最长 <strong>30 天</strong>）；已删除的账户不会被恢复。"
+  },
+  vi: {
+    "privacy_learning_progress": "<strong>Tiến độ học tập &amp; thẻ ghi nhớ SRS</strong><br />Tiến độ đọc, thẻ từ vựng, điểm luyện tập và thi, bản nháp bài viết, câu trả lời biểu mẫu, cài đặt giao diện và ngôn ngữ",
+    "privacy_content_reports": "<strong>Báo cáo vấn đề về nội dung.</strong> Khi quý vị báo cáo vấn đề về nội dung, Lernfino gửi ID nội dung, loại và đường dẫn màn hình, các danh mục đã chọn, câu trả lời của quý vị cho bài tập và câu trả lời dự kiến nếu có áp dụng, ghi chú không bắt buộc, ngôn ngữ giao diện, phiên bản ứng dụng, nền tảng, thời gian và ID cài đặt ngẫu nhiên. Báo cáo ngoại tuyến có thể nằm chờ trên thiết bị của quý vị cho đến khi có thể gửi đi. Các báo cáo mà máy chủ nhận được được lưu trữ độc lập với tài khoản của quý vị và tự động xóa sau <strong>180 ngày</strong> kể từ khi tiếp nhận.",
+    "delete_content_reports": "<strong>Báo cáo vấn đề về nội dung.</strong> Khi quý vị báo cáo vấn đề về nội dung, Lernfino gửi ID nội dung, loại và đường dẫn màn hình, các danh mục đã chọn, câu trả lời của quý vị cho bài tập và câu trả lời dự kiến nếu có áp dụng, ghi chú không bắt buộc, ngôn ngữ giao diện, phiên bản ứng dụng, nền tảng, thời gian và ID cài đặt ngẫu nhiên. Báo cáo ngoại tuyến có thể nằm chờ trên thiết bị của quý vị cho đến khi có thể gửi đi. Các báo cáo mà máy chủ nhận được được lưu trữ độc lập với tài khoản của quý vị và tự động xóa sau <strong>180 ngày</strong> kể từ khi tiếp nhận, ngay cả khi quý vị xóa tài khoản.",
+    "shared_ai_feedback_reports": "<strong>Báo cáo phản hồi của AI.</strong> Các trường liên quan đến phản hồi duy nhất được gửi là ID kết quả, ID nhiệm vụ và lý do quý vị chọn. Siêu dữ liệu kỹ thuật tiêu chuẩn được gửi kèm báo cáo và cùng thời hạn lưu giữ 180 ngày được áp dụng.",
+    "privacy_learning_sync": "<strong>Đồng bộ dữ liệu học tập trên đám mây.</strong> Khi quý vị đăng nhập, Lernfino tự động đồng bộ các bản nháp bài viết và câu trả lời biểu mẫu của quý vị với Supabase như một phần của tiến độ học tập. Việc gửi bài làm đến Google Gemini để đánh giá bằng AI theo tùy chọn là một bước riêng biệt và cần sự đồng ý rõ ràng của quý vị.",
+    "delete_synced_drafts_and_forms": "Bản nháp bài viết và câu trả lời biểu mẫu đã đồng bộ với Supabase,",
+    "shared_local_ai_audio_queue": "<strong>Hàng đợi âm thanh AI trên thiết bị.</strong> Các bản ghi âm đang chờ sẽ hết hạn sau 7 ngày. Ứng dụng xóa chúng sau khi đánh giá thành công hoặc trong lần đầu tiên kiểm tra hàng đợi sau khi hết hạn. Để xóa bản ghi âm sớm hơn, truy cập <strong>Luyện tập → Thi nói bằng AI → Đang chờ gửi</strong> và chọn <strong>Xóa bài gửi đang chờ</strong> cho bản ghi âm đó.",
+    "shared_apple_revocation": "<strong>Thu hồi quyền Đăng nhập bằng Apple.</strong> Khi tài khoản Lernfino liên kết với tính năng Đăng nhập bằng Apple bị xóa, Lernfino sẽ thu hồi quyền Đăng nhập bằng Apple của mình. Nếu được yêu cầu, hãy đăng nhập lại bằng cùng Tài khoản Apple để hoàn tất việc xóa.",
+    "privacy_effective_date": "<strong>Ngày có hiệu lực / cập nhật lần cuối:</strong> ngày 26 tháng 11 năm 2026",
+    "meta.dataPolicyUpdated": "Cập nhật lần cuối: ngày 26 tháng 11 năm 2026",
+    "privacy_error_reports": "Tự động xóa sau <strong>90 ngày</strong>",
+    "privacy_cost_receipts_backups": "Quy trình dọn dẹp hằng ngày xóa các bản ghi chi phí sau 90 ngày kể từ lần giữ hạn mức AI cuối cùng và xóa các biên nhận sau 90 ngày kể từ khi được tạo. Đối với các biên nhận cũ không có ngày, thời hạn bắt đầu khi quy tắc lưu giữ này có hiệu lực. Các bản sao lưu cơ sở dữ liệu được lưu giữ tối đa 30 ngày.",
+    "delete_cost_receipts": "<strong>Chỉ số chi phí ẩn danh và biên nhận xóa ngẫu nhiên:</strong> Các bản ghi này không chứa email, tên hoặc nội dung. Quy trình dọn dẹp hằng ngày xóa các bản ghi chi phí ngân sách AI sau 90 ngày kể từ lần giữ hạn mức AI cuối cùng và xóa các biên nhận xác nhận việc xóa sau 90 ngày kể từ khi được tạo. Đối với các biên nhận cũ không có ngày, thời hạn bắt đầu khi quy tắc lưu giữ này có hiệu lực.",
+    "delete_error_reports": "<strong>Báo cáo lỗi kỹ thuật đã được thay thế định danh:</strong> Không liên kết với tài khoản của quý vị và không chứa địa chỉ IP; tự động xóa sau <strong>90 ngày</strong>.",
+    "delete_backups": "<strong>Bản sao lưu cơ sở dữ liệu:</strong> Các bản sao trong bản sao lưu máy chủ được xóa hoàn toàn vào cuối chu kỳ sao lưu của nhà cung cấp (tối đa <strong>30 ngày</strong>); các tài khoản đã xóa không được khôi phục."
+  },
+  id: {
+    "privacy_learning_progress": "<strong>Kemajuan Belajar &amp; Kartu Kilas SRS</strong><br />Kemajuan membaca, kartu kosakata, skor latihan dan ujian, draf tulisan, jawaban formulir, pengaturan tema dan bahasa",
+    "privacy_content_reports": "<strong>Laporan masalah konten.</strong> Saat Anda melaporkan masalah konten, Lernfino mengirimkan ID konten, jenis dan jalur layar, kategori yang dipilih, jawaban latihan Anda dan jawaban yang diharapkan jika berlaku, catatan opsional Anda, bahasa antarmuka, versi aplikasi, platform, waktu, dan ID instalasi acak. Laporan luring dapat menunggu di perangkat Anda hingga dapat dikirim. Laporan yang diterima server disimpan secara terpisah dari akun Anda dan dihapus secara otomatis <strong>180 hari</strong> setelah diterima.",
+    "delete_content_reports": "<strong>Laporan masalah konten.</strong> Saat Anda melaporkan masalah konten, Lernfino mengirimkan ID konten, jenis dan jalur layar, kategori yang dipilih, jawaban latihan Anda dan jawaban yang diharapkan jika berlaku, catatan opsional Anda, bahasa antarmuka, versi aplikasi, platform, waktu, dan ID instalasi acak. Laporan luring dapat menunggu di perangkat Anda hingga dapat dikirim. Laporan yang diterima server disimpan secara terpisah dari akun Anda dan dihapus secara otomatis <strong>180 hari</strong> setelah diterima, bahkan jika Anda menghapus akun Anda.",
+    "shared_ai_feedback_reports": "<strong>Pelaporan umpan balik AI.</strong> Satu-satunya bidang terkait umpan balik yang dikirim adalah ID hasil, ID tugas, dan alasan yang Anda pilih. Metadata teknis standar disertakan dalam laporan, dan masa penyimpanan yang sama selama 180 hari berlaku.",
+    "privacy_learning_sync": "<strong>Sinkronisasi data belajar di cloud.</strong> Saat Anda masuk, Lernfino secara otomatis menyinkronkan draf tulisan dan jawaban formulir Anda ke Supabase sebagai bagian dari kemajuan belajar Anda. Mengirimkan jawaban ke Google Gemini untuk evaluasi AI opsional merupakan langkah terpisah dan memerlukan persetujuan eksplisit Anda.",
+    "delete_synced_drafts_and_forms": "Draf tulisan dan jawaban formulir yang disinkronkan ke Supabase,",
+    "shared_local_ai_audio_queue": "<strong>Antrean audio AI pada perangkat.</strong> Rekaman audio yang tertunda kedaluwarsa setelah 7 hari. Aplikasi menghapusnya setelah evaluasi berhasil atau saat pertama kali memeriksa antrean setelah kedaluwarsa. Untuk menghapus rekaman lebih awal, buka <strong>Latihan → Ujian berbicara AI → Menunggu pengiriman</strong> dan pilih <strong>Hapus kiriman yang menunggu</strong> untuk rekaman tersebut.",
+    "shared_apple_revocation": "<strong>Pencabutan otorisasi Masuk dengan Apple.</strong> Saat akun Lernfino yang ditautkan ke Masuk dengan Apple dihapus, Lernfino mencabut otorisasi Masuk dengan Apple miliknya. Jika diminta, masuk kembali menggunakan Akun Apple yang sama untuk menyelesaikan penghapusan.",
+    "privacy_effective_date": "<strong>Tanggal berlaku / terakhir diperbarui:</strong> 26 November 2026",
+    "meta.dataPolicyUpdated": "Terakhir diperbarui: 26 November 2026",
+    "privacy_error_reports": "Dihapus secara otomatis setelah <strong>90 hari</strong>",
+    "privacy_cost_receipts_backups": "Pembersihan harian menghapus catatan biaya 90 hari setelah reservasi kuota AI terakhir dan tanda terima 90 hari setelah dibuat. Untuk tanda terima lama yang tidak bertanggal, periode dimulai ketika aturan penyimpanan ini mulai berlaku. Cadangan basis data disimpan hingga 30 hari.",
+    "delete_cost_receipts": "<strong>Metrik biaya anonim dan tanda terima penghapusan acak:</strong> Catatan ini tidak berisi email, nama, atau konten. Pembersihan harian menghapus catatan biaya anggaran AI 90 hari setelah reservasi kuota AI terakhir dan tanda terima yang mengonfirmasi penghapusan 90 hari setelah dibuat. Untuk tanda terima lama yang tidak bertanggal, periode dimulai ketika aturan penyimpanan ini mulai berlaku.",
+    "delete_error_reports": "<strong>Laporan kesalahan teknis yang dipseudonimkan:</strong> Tidak tertaut ke akun Anda dan tidak memuat alamat IP; dihapus secara otomatis setelah <strong>90 hari</strong>.",
+    "delete_backups": "<strong>Cadangan basis data:</strong> Salinan dalam cadangan server dihapus secara menyeluruh pada akhir siklus pencadangan penyedia (hingga <strong>30 hari</strong>); akun yang dihapus tidak dipulihkan."
+  }
 };
 
 // WEB-3: translated "Error reports" paragraph for the 12 additional languages (privacy page only)
@@ -259,6 +466,7 @@ const HOSTING_DISCLOSURES = {
 };
 
 let legalCurrentLang = "tr";
+const legalPolicyOriginals = new WeakMap();
 
 function scrollToWaitlistPrivacy() {
   if (!/^#waitlist-privacy(?:-(?:tr|en|de))?$/.test(window.location.hash)) return;
@@ -290,10 +498,13 @@ function setLegalLanguage(chosen) {
   const isNote = !LEGAL_I18N[chosen] && !!LEGAL_NOTE_LANGS[chosen];
   if (!LEGAL_I18N[chosen] && !isNote) return;
   const lang = isNote ? "en" : chosen;
+  const policyBlocks = document.querySelectorAll("[data-legal-translation]");
+  const policyTranslations = policyBlocks.length ? LEGAL_POLICY_TRANSLATIONS[chosen] : undefined;
+  const direction = chosen === "ar" ? "rtl" : "ltr";
   legalCurrentLang = lang;
   localStorage.setItem("lernfino_web_lang", chosen);
   document.documentElement.lang = chosen;
-  // Body stays English (ltr) for note languages; only the note box gets rtl for Arabic
+  // Keep the English layout and apply text direction to each translated block.
   document.documentElement.dir = "ltr";
 
   // Binding-language note for the 12 additional languages
@@ -306,8 +517,9 @@ function setLegalLanguage(chosen) {
       note.id = "legalLangNote";
       note.className = "callout-box callout-amber";
       note.lang = chosen;
-      note.dir = chosen === "ar" ? "rtl" : "ltr";
-      note.textContent = LEGAL_NOTE_LANGS[chosen];
+      note.dir = direction;
+      const [fallback, binding] = LEGAL_NOTE_LANGS[chosen];
+      note.textContent = policyTranslations ? binding : fallback + binding;
       host.insertBefore(note, host.firstChild);
     }
   }
@@ -318,7 +530,7 @@ function setLegalLanguage(chosen) {
     if (isNote && ERROR_REPORTS_LANGS[chosen]) {
       errPara.innerHTML = ERROR_REPORTS_LANGS[chosen];
       errPara.lang = chosen;
-      errPara.dir = chosen === "ar" ? "rtl" : "ltr";
+      errPara.dir = direction;
     } else {
       errPara.innerHTML = errPara.dataset.en;
       errPara.removeAttribute("lang");
@@ -330,7 +542,7 @@ function setLegalLanguage(chosen) {
     hosting.dataset.en ??= hosting.textContent;
     hosting.textContent = HOSTING_DISCLOSURES[chosen] ?? hosting.dataset.en;
     hosting.lang = isNote ? chosen : "en";
-    hosting.dir = chosen === "ar" ? "rtl" : "ltr";
+    hosting.dir = direction;
   }
   const sel = document.getElementById("langSelect");
   if (sel) sel.value = chosen;
@@ -339,8 +551,31 @@ function setLegalLanguage(chosen) {
   document.querySelectorAll("[data-i18n]").forEach((el) => {
     const key = el.getAttribute("data-i18n");
     const val = LEGAL_I18N[lang][key];
-    if (val !== undefined) {
+    const translation = policyTranslations?.[key];
+    if (translation !== undefined) {
+      el.textContent = translation;
+      el.lang = chosen;
+      el.dir = direction;
+    } else if (val !== undefined) {
       el.innerHTML = val;
+      if (key === "meta.dataPolicyUpdated") {
+        el.removeAttribute("lang");
+        el.removeAttribute("dir");
+      }
+    }
+  });
+
+  policyBlocks.forEach((el) => {
+    const translation = policyTranslations?.[el.dataset.legalTranslation];
+    if (translation !== undefined) {
+      if (!legalPolicyOriginals.has(el)) legalPolicyOriginals.set(el, el.innerHTML);
+      el.innerHTML = translation;
+      el.lang = chosen;
+      el.dir = direction;
+    } else if (legalPolicyOriginals.has(el)) {
+      el.innerHTML = legalPolicyOriginals.get(el);
+      el.removeAttribute("lang");
+      el.removeAttribute("dir");
     }
   });
 

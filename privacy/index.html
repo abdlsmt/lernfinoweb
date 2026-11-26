@@ -304,7 +304,7 @@
         </article>
 
         <!-- ==================== ENGLISH CONTENT ==================== -->
-        <article class="legal-prose" data-lang-content="en" style="display: none;">
+        <article class="legal-prose" data-lang-content="en" lang="en" style="display: none;">
           <div class="callout-box callout-emerald">
             <strong>Summary &amp; Core Promise:</strong> Lernfino is a German learning app designed for adults aged 18 and over. Your reading progress, flashcards, and practice results stay stored locally on your device by default, and your personal data is never sold to data brokers. This Privacy Policy is an informational notice separate from the Terms of Service.
           </div>
@@ -342,7 +342,7 @@
                   <td>While account is active; removed from active systems upon deletion (or after 24 months of inactivity following notice)</td>
                 </tr>
                 <tr>
-                  <td><strong>Learning Progress &amp; SRS Flashcards</strong><br />Reading progress, vocabulary cards, practice/exam scores, writing drafts, form answers, theme and language settings</td>
+                  <td data-legal-translation="privacy_learning_progress"><strong>Learning Progress &amp; SRS Flashcards</strong><br />Reading progress, vocabulary cards, practice/exam scores, writing drafts, form answers, theme and language settings</td>
                   <td>Saving learning progress locally and syncing to the cloud if signed in</td>
                   <td>Performance of a contract (GDPR Art. 6(1)(b), KVKK Art. 5/2-c)</td>
                   <td>Local data until uninstalled or reset; cloud data until account deletion</td>
@@ -369,7 +369,7 @@
                   <td><strong>Crash &amp; Error Reports</strong><br />App/OS version, parameter-free screen path, error type/message/masked trace (max 4 KB), UI language, timestamp, random installation ID</td>
                   <td>App stability and bug fixing (not linked to your account; IP addresses are not stored)</td>
                   <td>Legitimate interest (GDPR Art. 6(1)(f), KVKK Art. 5/2-f); can be turned off anytime in Settings → Privacy</td>
-                  <td>Automatically deleted after <strong>90 days</strong></td>
+                  <td data-legal-translation="privacy_error_reports">Automatically deleted after <strong>90 days</strong></td>
                 </tr>
                 <tr>
                   <td><strong>Study Reminders (Notifications)</strong><br />Local device schedule preferences (and device notification token if remote push is used in the future)</td>
@@ -393,7 +393,7 @@
                   <td><strong>Deletion Receipt, Anonymous Cost Metrics &amp; Backups</strong><br />Random deletion receipt, account-free AI cost counters, database backups</td>
                   <td>Confirming account deletion, AI budget protection, and database resilience</td>
                   <td>Legal obligation &amp; legitimate interest (GDPR Art. 6(1)(c),(f))</td>
-                  <td>A daily cleanup removes cost records 90 days after the last AI quota reservation and receipts 90 days after they are created. For older receipts without a date, the period starts when this retention rule takes effect. Database backups are kept for up to 30 days.</td>
+                  <td data-legal-translation="privacy_cost_receipts_backups">A daily cleanup removes cost records 90 days after the last AI quota reservation and receipts 90 days after they are created. For older receipts without a date, the period starts when this retention rule takes effect. Database backups are kept for up to 30 days.</td>
                 </tr>
               </tbody>
             </table>
@@ -403,13 +403,13 @@
             <strong>Error reports (pseudonymized technical data).</strong> If the app crashes or hits an unexpected error, it can send a short technical report so we can fix the problem. A report contains only: app version, platform (Android, iOS or web), operating-system version, the screen path (without any parameters), the error type, message and technical trace (at most 4 KB, with email addresses, long numbers and token-like strings masked), your interface language, the time, and a random installation ID. The installation ID is not linked to your account, and we do not collect your name, email address, account ID, device identifier, answers or recordings, and we do not store IP addresses. Because technical traces with a random installation ID may still constitute pseudonymized data, they are handled under strict data-protection safeguards. The same error is sent at most once per 24 hours, and at most 20 reports per day. Reports are deleted automatically after 90 days. No usage statistics are collected. You can turn this off at any time under Settings → Privacy → "Send error reports".
           </p>
 
-          <p>
+          <p data-legal-translation="privacy_content_reports">
             <strong>Content issue reports.</strong> When you report a content issue, Lernfino sends the content ID, screen type and path, selected categories, your exercise answer and the expected answer if applicable, your optional note, interface language, app version, platform, time, and a random installation ID. Offline reports may wait on your device until they can be sent. Reports received by the server are stored independently of your account and deleted automatically <strong>180 days</strong> after receipt.
           </p>
-          <p>
+          <p data-legal-translation="shared_ai_feedback_reports">
             <strong>Reporting AI feedback.</strong> The only feedback-related fields sent are the result ID, the task ID, and the reason you select. Standard technical metadata accompanies the report, and the same 180-day retention period applies.
           </p>
-          <p>
+          <p data-legal-translation="privacy_learning_sync">
             <strong>Cloud sync of learning data.</strong> When you are signed in, Lernfino automatically syncs your writing drafts and form answers to Supabase as part of your learning progress. Sending a submission to Google Gemini for an optional AI evaluation is a separate step and requires your explicit consent.
           </p>
 
@@ -418,7 +418,7 @@
             <li><strong>AI-Generated Voice Audio:</strong> All voice narrations, story audio, and word pronunciations in Lernfino are AI-generated; no real person's voice is cloned.</li>
             <li><strong>Microphone &amp; OS Speech Recognition:</strong> Local speaking recordings remain on your device. Speech recognition uses your operating system's service (Apple/Google) and may require an internet connection depending on your device.</li>
             <li><strong>Paid Google Gemini API Tier:</strong> Optional writing and speaking evaluations are sent via Supabase to the <strong>paid Google Gemini API</strong> tier only after your prior explicit consent. Under paid API terms, your inputs and outputs are not used to train or improve Google's models or products; Google may retain limited logs for up to 55 days for abuse and security monitoring. Raw audio is processed transiently in Lernfino server memory and deleted once feedback is generated; transcripts and feedback remain in your account until deleted.</li>
-            <li><strong>On-device AI audio queue.</strong> Pending audio recordings expire after 7 days. The app deletes them after a successful evaluation or the first time it checks the queue after expiry. To delete a recording sooner, go to <strong>Practice → AI speaking exam → Waiting to send</strong> and select <strong>Delete waiting submission</strong> for that recording.</li>
+            <li data-legal-translation="shared_local_ai_audio_queue"><strong>On-device AI audio queue.</strong> Pending audio recordings expire after 7 days. The app deletes them after a successful evaluation or the first time it checks the queue after expiry. To delete a recording sooner, go to <strong>Practice → AI speaking exam → Waiting to send</strong> and select <strong>Delete waiting submission</strong> for that recording.</li>
             <li><strong>No Biometric Voiceprints &amp; No Official Scoring:</strong> We do not create voiceprints to uniquely identify users (GDPR Art. 9) and do not perform emotion recognition. AI scores are informal study estimates only, not official exam scores, and do not produce legal or similarly significant automated decisions (GDPR Art. 22). Please do not include sensitive personal or third-party data in your exercises.</li>
           </ul>
 
@@ -472,7 +472,7 @@
           </div>
           <ul>
             <li><strong>Account Deletion &amp; Subscriptions:</strong> Delete your account permanently in-app (<em>Settings → My account → Delete account</em>) or via <a href="../delete-account/">lernfino.com/delete-account</a>. <strong>Deleting your account does not automatically cancel an active App Store or Google Play subscription; you must cancel separately in your store account settings.</strong></li>
-            <li><strong>Sign in with Apple revocation.</strong> When a Lernfino account linked to Sign in with Apple is deleted, Lernfino revokes its Sign in with Apple authorization. If prompted, sign in again with the same Apple Account to complete deletion.</li>
+            <li data-legal-translation="shared_apple_revocation"><strong>Sign in with Apple revocation.</strong> When a Lernfino account linked to Sign in with Apple is deleted, Lernfino revokes its Sign in with Apple authorization. If prompted, sign in again with the same Apple Account to complete deletion.</li>
             <li><strong>Contact &amp; Supervisory Authorities:</strong> Submit requests to <code>support@lernfino.com</code> (answered within statutory deadlines, at most 30 days / 1 month). You also have the right to lodge a complaint with an EU/EEA Data Protection Authority or the Turkish Personal Data Protection Board (KVKK Kurulu).</li>
           </ul>
 
@@ -481,7 +481,7 @@
             All network traffic is encrypted with TLS / HTTPS; cloud tables use Row-Level Security (RLS), and device credentials use secure native storage. We may update this Policy as laws or features evolve and notify users of material changes.
           </p>
           <p>
-            <strong>Effective / Last Updated Date:</strong> November 26, 2026<br />
+            <bdi data-legal-translation="privacy_effective_date"><strong>Effective / Last Updated Date:</strong> November 26, 2026</bdi><br />
             <strong>Email:</strong> <a href="mailto:support@lernfino.com">support@lernfino.com</a>
           </p>
         </article>

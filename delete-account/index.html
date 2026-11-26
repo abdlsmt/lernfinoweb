@@ -218,7 +218,7 @@
         </article>
 
         <!-- ==================== ENGLISH CONTENT ==================== -->
-        <article class="legal-prose" data-lang-content="en" style="display: none;">
+        <article class="legal-prose" data-lang-content="en" lang="en" style="display: none;">
           <div class="callout-box callout-emerald">
             <strong>App &amp; Developer Info:</strong> This page covers account and data deletion for <strong>Lernfino</strong> (iOS &amp; Android), operated by individual developer <strong>Abdulsamet Saygı</strong> (Lernfino / Respecode). Guests store progress locally without an account; registered users can permanently delete their cloud account anytime.
           </div>
@@ -239,7 +239,7 @@
 
           <h2>2. Permanent Deletion of Cloud Account &amp; Server Records</h2>
           <p>If you created a Lernfino cloud account, you may permanently delete your profile and associated personal data.</p>
-          <p>
+          <p data-legal-translation="shared_apple_revocation">
             <strong>Sign in with Apple revocation.</strong> When a Lernfino account linked to Sign in with Apple is deleted, Lernfino revokes its Sign in with Apple authorization. If prompted, sign in again with the same Apple Account to complete deletion.
           </p>
 
@@ -247,22 +247,22 @@
           <ul>
             <li>Supabase authentication record, user ID, and registered email address,</li>
             <li>Cloud-synchronized reading history, learning path progress, and level metrics,</li>
-            <li>Writing drafts and form answers synced to Supabase,</li>
+            <li data-legal-translation="delete_synced_drafts_and_forms">Writing drafts and form answers synced to Supabase,</li>
             <li>Spaced repetition (SRS) flashcards, custom notes, and mock exam records,</li>
             <li>Synced speech transcripts and AI evaluation feedback,</li>
             <li>On-device account data, session tokens, and pending AI drafts (erased immediately upon in-app deletion; other devices cannot re-upload deleted account data once signed out).</li>
           </ul>
-          <p>
+          <p data-legal-translation="shared_local_ai_audio_queue">
             <strong>On-device AI audio queue.</strong> Pending audio recordings expire after 7 days. The app deletes them after a successful evaluation or the first time it checks the queue after expiry. To delete a recording sooner, go to <strong>Practice → AI speaking exam → Waiting to send</strong> and select <strong>Delete waiting submission</strong> for that recording.
           </p>
 
           <h3>Limited Records Retained &amp; Retention Periods:</h3>
           <ul>
-            <li><strong>Anonymous cost metrics &amp; random deletion receipt:</strong> These records contain no email, name, or content. A daily cleanup removes AI budget cost records 90 days after the last AI quota reservation and receipts confirming deletion 90 days after they are created. For older receipts without a date, the period starts when this retention rule takes effect.</li>
-            <li><strong>Pseudonymized technical error reports:</strong> Not linked to your account and contain no IP address; automatically deleted after <strong>90 days</strong>.</li>
-            <li><strong>Content issue reports.</strong> When you report a content issue, Lernfino sends the content ID, screen type and path, selected categories, your exercise answer and the expected answer if applicable, your optional note, interface language, app version, platform, time, and a random installation ID. Offline reports may wait on your device until they can be sent. Reports received by the server are stored independently of your account and deleted automatically <strong>180 days</strong> after receipt, even if you delete your account.</li>
-            <li><strong>Reporting AI feedback.</strong> The only feedback-related fields sent are the result ID, the task ID, and the reason you select. Standard technical metadata accompanies the report, and the same 180-day retention period applies.</li>
-            <li><strong>Database backups:</strong> Copies in server backups are purged at the end of the provider backup cycle (up to <strong>30 days</strong>); deleted accounts are not restored.</li>
+            <li data-legal-translation="delete_cost_receipts"><strong>Anonymous cost metrics &amp; random deletion receipt:</strong> These records contain no email, name, or content. A daily cleanup removes AI budget cost records 90 days after the last AI quota reservation and receipts confirming deletion 90 days after they are created. For older receipts without a date, the period starts when this retention rule takes effect.</li>
+            <li data-legal-translation="delete_error_reports"><strong>Pseudonymized technical error reports:</strong> Not linked to your account and contain no IP address; automatically deleted after <strong>90 days</strong>.</li>
+            <li data-legal-translation="delete_content_reports"><strong>Content issue reports.</strong> When you report a content issue, Lernfino sends the content ID, screen type and path, selected categories, your exercise answer and the expected answer if applicable, your optional note, interface language, app version, platform, time, and a random installation ID. Offline reports may wait on your device until they can be sent. Reports received by the server are stored independently of your account and deleted automatically <strong>180 days</strong> after receipt, even if you delete your account.</li>
+            <li data-legal-translation="shared_ai_feedback_reports"><strong>Reporting AI feedback.</strong> The only feedback-related fields sent are the result ID, the task ID, and the reason you select. Standard technical metadata accompanies the report, and the same 180-day retention period applies.</li>
+            <li data-legal-translation="delete_backups"><strong>Database backups:</strong> Copies in server backups are purged at the end of the provider backup cycle (up to <strong>30 days</strong>); deleted accounts are not restored.</li>
             <li><strong>Purchase &amp; statutory tax records:</strong> Store transaction records with Apple, Google, and RevenueCat are retained for statutory financial, accounting, and limitation periods.</li>
           </ul>
 

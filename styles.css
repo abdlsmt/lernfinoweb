@@ -1845,6 +1845,10 @@ h2[id^="waitlist-privacy-"] {
   vertical-align: top;
 }
 
+.legal-table td[dir="rtl"] {
+  text-align: right;
+}
+
 .legal-table th {
   font-weight: 700;
   color: var(--ink);
