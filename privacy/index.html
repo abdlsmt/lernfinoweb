@@ -94,7 +94,7 @@
           Lernfino, gizliliğinizi en üst düzeyde korumak üzere 'önce-yerel' (local-first) mimariyle geliştirilmiştir. Verilerinizin sahibi daima sizsiniz.
         </p>
         <div class="legal-meta-row">
-          <span class="legal-meta-pill" data-i18n="meta.updated">Son Güncelleme: 25 Kasım 2026</span>
+          <span class="legal-meta-pill" data-i18n="meta.dataPolicyUpdated">Son Güncelleme: 26 Kasım 2026</span>
           <span class="legal-meta-pill" data-i18n="meta.controller">Veri Sorumlusu: Abdulsamet Saygı (Lernfino / Respecode)</span>
           <span class="legal-meta-pill" data-i18n="meta.supportEmail">Destek: support@lernfino.com</span>
         </div>
@@ -154,7 +154,7 @@
                   <td>Hesabınız aktif olduğu sürece; silme talebinde aktif sistemlerden kaldırılır (veya 24 ay pasiflik sonrası bildirimle silinir)</td>
                 </tr>
                 <tr>
-                  <td><strong>Öğrenme İlerlemesi ve SRS Kelime Defteri</strong><br />Okuma ilerlemesi, kelime kartları, alıştırma ve deneme sonuçları, tema/dil tercihleri</td>
+                  <td><strong>Öğrenme İlerlemesi ve SRS Kelime Defteri</strong><br />Okuma ilerlemesi, kelime kartları, alıştırma ve deneme sonuçları, yazma taslakları, form cevapları, tema/dil tercihleri</td>
                   <td>Eğitim ilerlemenizi cihazda saklama ve giriş yaptığınızda bulutta eşitleme</td>
                   <td>Sözleşmenin ifası (KVKK m. 5/2-c, GDPR m. 6(1)(b))</td>
                   <td>Yerel veriler uygulamayı kaldırana veya sıfırlayana kadar; bulut verileri hesap silinene kadar</td>
@@ -215,11 +215,22 @@
             <strong>Hata raporları (takma adlandırılmış teknik veriler).</strong> Uygulama çökerse veya beklenmedik bir hata alırsa, sorunu çözebilmemiz için kısa bir teknik rapor gönderebilir. Rapor yalnızca uygulama sürümünü, platformu (Android, iOS veya web), işletim sistemi sürümünü, parametresiz ekran yolunu, hata türünü/mesajını ve en fazla 4 KB'lık teknik izi (e-posta adresleri, uzun sayılar ve belirteç benzeri diziler maskelenir), arayüz dilinizi, zamanı ve rastgele üretilmiş bir kurulum kimliğini (<code>install_id</code>) içerir. Kurulum kimliği hesabınızla ilişkilendirilmez ve IP adresi saklanmaz; ancak teknik kayıtlar cihaz veya kurulumla dolaylı olarak ilişkilendirilebileceğinden takma adlandırılmış kişisel veri korumasına tabi tutulur. Aynı hata 24 saatte en çok 1 kez, günde en çok 20 rapor gönderilir ve <strong>90 gün</strong> sonra otomatik silinir. Kullanım istatistiği toplanmaz. Raporlamayı istediğiniz zaman <strong>Ayarlar → Gizlilik → "Hata raporlarını gönder"</strong> bölümünden kapatabilirsiniz.
           </p>
 
+          <p>
+            <strong>İçerik sorun bildirimleri.</strong> Bir içerik sorunu bildirdiğinizde Lernfino içerik kimliğini, ekran türünü ve yolunu, seçtiğiniz kategorileri, varsa alıştırma cevabınızı ve beklenen cevabı, isteğe bağlı notunuzu, arayüz dilini, uygulama sürümünü, platformu, zamanı ve rastgele bir kurulum kimliğini gönderir. Çevrimdışı bildirimler gönderilene kadar cihazda bekleyebilir. Sunucuya ulaşan bildirimler hesabınızdan bağımsız tutulur ve alındıktan <strong>180 gün</strong> sonra otomatik olarak silinir.
+          </p>
+          <p>
+            <strong>Yapay zekâ geri bildirimini bildirme.</strong> Geri bildirime ilişkin gönderilen alanlar yalnızca sonuç kimliği, görev kimliği ve seçtiğiniz sebeptir. Bildirime standart teknik üstveriler eşlik eder ve aynı 180 günlük saklama süresi uygulanır.
+          </p>
+          <p>
+            <strong>Öğrenme verilerinin bulut eşitlemesi.</strong> Oturum açtığınızda Lernfino, öğrenme ilerlemenizin bir parçası olarak yazma taslaklarınızı ve form cevaplarınızı Supabase ile otomatik olarak eşitler. İsteğe bağlı yapay zekâ değerlendirmesi için bir cevabı Google Gemini'ye göndermek ayrı bir işlemdir ve açık rızanızı gerektirir.
+          </p>
+
           <h2>3. Yapay Zekâ Şeffaflığı (AB AI Act m. 50) ve Mikrofon Kullanımı</h2>
           <ul>
             <li><strong>Yapay Zekâ ile Üretilmiş Seslendirmeler:</strong> Lernfino'daki kelime sesleri, hikâye anlatımları ve dinleme parçalarının tamamı yapay zekâ ile üretilmiştir; gerçek kişilerin sesleri klonlanmaz.</li>
             <li><strong>Mikrofon ve Sistem Konuşma Tanıma:</strong> Alıştırmalardaki yerel ses kayıtları cihazınızda kalır. Konuşma tanıma özelliği işletim sisteminizin (Apple/Google) kendi servisini kullanır ve cihaza göre internet bağlantısı gerektirebilir.</li>
             <li><strong>Ücretli Google Gemini API Katmanı:</strong> İsteğe bağlı yazma ve konuşma değerlendirmeleri yalnızca önceden açık izin vermeniz hâlinde Supabase üzerinden <strong>ücretli Google Gemini API</strong> katmanına gönderilir. Ücretli API koşulları uyarınca değerlendirme girdi ve çıktılarınız Google'ın modellerini ve ürünlerini eğitmek veya geliştirmek için kullanılmaz; Google kötüye kullanımın önlenmesi amacıyla sınırlı süre (en fazla 55 gün) güvenlik kaydı tutabilir. Ham ses dosyası Lernfino sunucusu belleğinde anlık işlenir ve sonuç üretildikten sonra silinir; yazıya döküm ve geri bildirim hesabınızda kalır.</li>
+            <li><strong>Cihazdaki yapay zekâ ses kuyruğu.</strong> Bekleyen ses kayıtlarının kuyruk süresi en fazla 7 gündür. Uygulama kayıtları değerlendirme başarıyla tamamlandığında veya 7 gün dolduktan sonraki ilk kuyruk kontrolünde siler. Daha erken silmek için <strong>Pratik → Yapay zekâ konuşma sınavı → Gönderilmeyi bekliyor</strong> bölümünde ilgili kaydın <strong>Bekleyen kaydı sil</strong> seçeneğini kullanabilirsiniz.</li>
             <li><strong>Biyometrik Veri ve Resmî Sınav Niteliği:</strong> Benzersiz kimlik doğrulama amacıyla ses izi (biyometrik veri) çıkarılmaz ve eğitim ortamında duygu tespiti yapılmaz. Yapay zekâ puanları yalnızca tahminî çalışma geri bildirimidir; resmî sınav sonucu değildir ve GDPR m. 22 kapsamında hukuki sonuç doğuran otomatik karar niteliği taşımaz. Alıştırmalarınıza sağlık, din, siyasi görüş veya üçüncü kişilere ait hassas bilgileri eklemeyiniz.</li>
           </ul>
 
@@ -278,6 +289,7 @@
           </div>
           <ul>
             <li><strong>Hesap Silme ve Abonelik Uyarısı:</strong> Uygulama içinden (<em>Ayarlar → Hesabım → Hesabı sil</em>) veya <a href="../delete-account/">lernfino.com/delete-account</a> üzerinden hesabınızı kalıcı olarak silebilirsiniz. <strong>Hesabınızı silmeniz aktif App Store veya Google Play aboneliğinizi otomatik olarak iptal etmez; ücretlendirmenin durması için aboneliğinizi mağaza hesap ayarlarından ayrıca iptal etmelisiniz.</strong></li>
+            <li><strong>Apple ile Giriş yetkisinin iptali.</strong> Apple ile Giriş'e bağlı bir Lernfino hesabı silindiğinde Lernfino bu giriş yetkisini de iptal eder. Uygulama isterse silme işlemini tamamlamak için aynı Apple Hesabıyla yeniden giriş yapın.</li>
             <li><strong>Başvuru ve Şikâyet Hakkı:</strong> Haklarınıza ilişkin taleplerinizi <code>support@lernfino.com</code> adresine iletebilirsiniz (yasal süre içinde, en geç 30 gün içinde yanıtlanır). Ayrıca Türkiye'de <strong>Kişisel Verileri Koruma Kurulu'na</strong>, AB/AEA'da ise ikamet ettiğiniz ülkedeki yetkili <strong>veri koruma denetim makamına</strong> şikâyette bulunabilirsiniz.</li>
           </ul>
 
@@ -286,7 +298,7 @@
             Tüm ağ iletişimleri TLS / HTTPS şifrelemesi ile korunur; bulut veritabanında satır düzeyinde erişim kontrolü (RLS) ve cihazda hassas oturum belirteçleri için güvenli depolama uygulanır. Bu Gizlilik Politikası mevzuat veya hizmet değişikliklerine göre güncellenebilir; önemli değişikliklerde kullanıcılar uygulama veya web üzerinden bilgilendirilir.
           </p>
           <p>
-            <strong>Yürürlük / Son Güncelleme Tarihi:</strong> 25 Kasım 2026<br />
+            <strong>Yürürlük / Son Güncelleme Tarihi:</strong> 26 Kasım 2026<br />
             <strong>E-posta:</strong> <a href="mailto:support@lernfino.com">support@lernfino.com</a>
           </p>
         </article>
@@ -330,7 +342,7 @@
                   <td>While account is active; removed from active systems upon deletion (or after 24 months of inactivity following notice)</td>
                 </tr>
                 <tr>
-                  <td><strong>Learning Progress &amp; SRS Flashcards</strong><br />Reading progress, vocabulary cards, practice/exam scores, theme and language settings</td>
+                  <td><strong>Learning Progress &amp; SRS Flashcards</strong><br />Reading progress, vocabulary cards, practice/exam scores, writing drafts, form answers, theme and language settings</td>
                   <td>Saving learning progress locally and syncing to the cloud if signed in</td>
                   <td>Performance of a contract (GDPR Art. 6(1)(b), KVKK Art. 5/2-c)</td>
                   <td>Local data until uninstalled or reset; cloud data until account deletion</td>
@@ -391,11 +403,22 @@
             <strong>Error reports (pseudonymized technical data).</strong> If the app crashes or hits an unexpected error, it can send a short technical report so we can fix the problem. A report contains only: app version, platform (Android, iOS or web), operating-system version, the screen path (without any parameters), the error type, message and technical trace (at most 4 KB, with email addresses, long numbers and token-like strings masked), your interface language, the time, and a random installation ID. The installation ID is not linked to your account, and we do not collect your name, email address, account ID, device identifier, answers or recordings, and we do not store IP addresses. Because technical traces with a random installation ID may still constitute pseudonymized data, they are handled under strict data-protection safeguards. The same error is sent at most once per 24 hours, and at most 20 reports per day. Reports are deleted automatically after 90 days. No usage statistics are collected. You can turn this off at any time under Settings → Privacy → "Send error reports".
           </p>
 
+          <p>
+            <strong>Content issue reports.</strong> When you report a content issue, Lernfino sends the content ID, screen type and path, selected categories, your exercise answer and the expected answer if applicable, your optional note, interface language, app version, platform, time, and a random installation ID. Offline reports may wait on your device until they can be sent. Reports received by the server are stored independently of your account and deleted automatically <strong>180 days</strong> after receipt.
+          </p>
+          <p>
+            <strong>Reporting AI feedback.</strong> The only feedback-related fields sent are the result ID, the task ID, and the reason you select. Standard technical metadata accompanies the report, and the same 180-day retention period applies.
+          </p>
+          <p>
+            <strong>Cloud sync of learning data.</strong> When you are signed in, Lernfino automatically syncs your writing drafts and form answers to Supabase as part of your learning progress. Sending a submission to Google Gemini for an optional AI evaluation is a separate step and requires your explicit consent.
+          </p>
+
           <h2>3. AI Transparency (EU AI Act Art. 50) &amp; Microphone Use</h2>
           <ul>
             <li><strong>AI-Generated Voice Audio:</strong> All voice narrations, story audio, and word pronunciations in Lernfino are AI-generated; no real person's voice is cloned.</li>
             <li><strong>Microphone &amp; OS Speech Recognition:</strong> Local speaking recordings remain on your device. Speech recognition uses your operating system's service (Apple/Google) and may require an internet connection depending on your device.</li>
             <li><strong>Paid Google Gemini API Tier:</strong> Optional writing and speaking evaluations are sent via Supabase to the <strong>paid Google Gemini API</strong> tier only after your prior explicit consent. Under paid API terms, your inputs and outputs are not used to train or improve Google's models or products; Google may retain limited logs for up to 55 days for abuse and security monitoring. Raw audio is processed transiently in Lernfino server memory and deleted once feedback is generated; transcripts and feedback remain in your account until deleted.</li>
+            <li><strong>On-device AI audio queue.</strong> Pending audio recordings expire after 7 days. The app deletes them after a successful evaluation or the first time it checks the queue after expiry. To delete a recording sooner, go to <strong>Practice → AI speaking exam → Waiting to send</strong> and select <strong>Delete waiting submission</strong> for that recording.</li>
             <li><strong>No Biometric Voiceprints &amp; No Official Scoring:</strong> We do not create voiceprints to uniquely identify users (GDPR Art. 9) and do not perform emotion recognition. AI scores are informal study estimates only, not official exam scores, and do not produce legal or similarly significant automated decisions (GDPR Art. 22). Please do not include sensitive personal or third-party data in your exercises.</li>
           </ul>
 
@@ -449,6 +472,7 @@
           </div>
           <ul>
             <li><strong>Account Deletion &amp; Subscriptions:</strong> Delete your account permanently in-app (<em>Settings → My account → Delete account</em>) or via <a href="../delete-account/">lernfino.com/delete-account</a>. <strong>Deleting your account does not automatically cancel an active App Store or Google Play subscription; you must cancel separately in your store account settings.</strong></li>
+            <li><strong>Sign in with Apple revocation.</strong> When a Lernfino account linked to Sign in with Apple is deleted, Lernfino revokes its Sign in with Apple authorization. If prompted, sign in again with the same Apple Account to complete deletion.</li>
             <li><strong>Contact &amp; Supervisory Authorities:</strong> Submit requests to <code>support@lernfino.com</code> (answered within statutory deadlines, at most 30 days / 1 month). You also have the right to lodge a complaint with an EU/EEA Data Protection Authority or the Turkish Personal Data Protection Board (KVKK Kurulu).</li>
           </ul>
 
@@ -457,7 +481,7 @@
             All network traffic is encrypted with TLS / HTTPS; cloud tables use Row-Level Security (RLS), and device credentials use secure native storage. We may update this Policy as laws or features evolve and notify users of material changes.
           </p>
           <p>
-            <strong>Effective / Last Updated Date:</strong> November 25, 2026<br />
+            <strong>Effective / Last Updated Date:</strong> November 26, 2026<br />
             <strong>Email:</strong> <a href="mailto:support@lernfino.com">support@lernfino.com</a>
           </p>
         </article>
@@ -501,7 +525,7 @@
                   <td>Solange das Konto aktiv ist; Entfernung aus aktiven Systemen bei Löschung (oder nach 24 Monaten Inaktivität nach Hinweis)</td>
                 </tr>
                 <tr>
-                  <td><strong>Lernfortschritt &amp; SRS-Vokabeln</strong><br />Leseverlauf, Vokabelkarten, Übungs-/Prüfungsergebnisse, Design- und Spracheinstellungen</td>
+                  <td><strong>Lernfortschritt &amp; SRS-Vokabeln</strong><br />Leseverlauf, Vokabelkarten, Übungs-/Prüfungsergebnisse, Schreibentwürfe, Formularantworten, Design- und Spracheinstellungen</td>
                   <td>Lokale Speicherung und optionale Cloud-Synchronisierung</td>
                   <td>Vertragserfüllung (Art. 6 Abs. 1 lit. b DSGVO)</td>
                   <td>Lokal bis Deinstallation/Zurücksetzen; in der Cloud bis zur Kontolöschung</td>
@@ -562,11 +586,22 @@
             <strong>Fehlerberichte (pseudonymisierte technische Daten).</strong> Stürzt die App ab oder tritt ein unerwarteter Fehler auf, kann sie einen kurzen technischen Bericht senden. Dieser enthält ausschließlich App-Version, Plattform (Android, iOS oder Web), Betriebssystemversion, den Bildschirmpfad ohne Parameter, Fehlerart, Meldung und technischen Trace (höchstens 4 KB; E-Mail-Adressen, lange Zahlen und token-ähnliche Zeichenfolgen werden maskiert), Oberflächensprache, Zeitstempel und eine zufällige Installations-ID. Die Installations-ID ist nicht mit deinem Konto verknüpft; Name, E-Mail, Konto-ID, Geräte-ID, Antworten, Aufnahmen oder IP-Adressen werden nicht gespeichert. Da technische Spuren mit einer Installations-ID pseudonymisierte Daten darstellen können, unterliegen sie strengen Schutzmaßnahmen. Derselbe Fehler wird höchstens einmal in 24 Stunden gesendet (max. 20 Berichte/Tag) und nach <strong>90 Tagen</strong> automatisch gelöscht. Du kannst dies jederzeit unter <strong>Einstellungen → Datenschutz → „Fehlerberichte senden“</strong> ausschalten.
           </p>
 
+          <p>
+            <strong>Meldungen zu Inhaltsfehlern.</strong> Wenn Sie einen Inhaltsfehler melden, sendet Lernfino die Inhaltskennung, den Bildschirmtyp und -pfad, die gewählten Kategorien, gegebenenfalls Ihre Übungsantwort und die erwartete Antwort, Ihre optionale Notiz, die Oberflächensprache, die App-Version, die Plattform, den Zeitpunkt und eine zufällige Installations-ID. Offline erstellte Meldungen können bis zum Versand auf Ihrem Gerät zwischengespeichert werden. Eingegangene Meldungen werden unabhängig von Ihrem Konto gespeichert und <strong>180 Tage</strong> nach Eingang automatisch gelöscht.
+          </p>
+          <p>
+            <strong>KI-Feedback melden.</strong> Die einzigen übermittelten Angaben zum Feedback sind die Ergebnis-ID, die Aufgaben-ID und der von Ihnen ausgewählte Grund. Die Meldung enthält zusätzlich technische Standardmetadaten. Es gilt dieselbe Aufbewahrungsfrist von 180 Tagen.
+          </p>
+          <p>
+            <strong>Cloud-Synchronisierung von Lerndaten.</strong> Wenn Sie angemeldet sind, synchronisiert Lernfino Ihre Schreibentwürfe und Formularantworten als Teil Ihres Lernfortschritts automatisch mit Supabase. Eine Einreichung an Google Gemini zur optionalen KI-Auswertung ist ein eigener Schritt und erfordert Ihre ausdrückliche Einwilligung.
+          </p>
+
           <h2>3. KI-Transparenz (EU AI Act Art. 50) &amp; Mikrofonnutzung</h2>
           <ul>
             <li><strong>KI-generierte Sprachausgabe:</strong> Alle Wort-Audios, Hörgeschichten und Übungssprecher in Lernfino sind KI-generiert; es werden keine Stimmen realer Personen geklont.</li>
             <li><strong>Mikrofon &amp; Spracherkennung:</strong> Lokale Sprachaufnahmen bleiben auf Ihrem Gerät. Die Spracherkennung nutzt den Dienst des jeweiligen Betriebssystems (Apple/Google) und benötigt je nach Gerät Internet.</li>
             <li><strong>Kostenpflichtiger Google Gemini API-Tarif:</strong> Optionale Schreib- und Sprechauswertungen werden erst nach Ihrer ausdrücklichen Einwilligung über Supabase an den <strong>kostenpflichtigen Google Gemini API-Tarif</strong> gesendet. Gemäß diesen Bedingungen werden Ihre Eingaben und Ergebnisse nicht zum Training oder zur Verbesserung von Google-Modellen verwendet; Google kann zur Missbrauchs- und Sicherheitsprüfung Protokolle bis zu 55 Tage vorhalten. Roh-Audio wird im Server-Arbeitsspeicher verarbeitet und nach Auswertung gelöscht; Transkript und Feedback bleiben bis zur Kontolöschung im Konto gespeichert.</li>
+            <li><strong>KI-Audiowarteschlange auf dem Gerät.</strong> Wartende Sprachaufnahmen laufen nach 7 Tagen ab. Die App entfernt sie nach erfolgreicher Auswertung oder bei der ersten Prüfung der Warteschlange nach Ablauf der Frist. Zum vorzeitigen Löschen öffnen Sie <strong>Üben → KI-Sprechprüfung → Wartet auf Versand</strong> und wählen bei der Aufnahme <strong>Wartende Einreichung löschen</strong>.</li>
             <li><strong>Keine Biometrie &amp; keine amtlichen Noten:</strong> Es werden keine Stimmabdrücke zur eindeutigen Identifizierung erstellt (Art. 9 DSGVO) und keine Emotionserkennung durchgeführt. KI-Punktzahlen sind unverbindliche Lernhilfen, keine offiziellen Prüfungsergebnisse und keine automatisierten Entscheidungen mit rechtlicher Wirkung (Art. 22 DSGVO). Bitte teilen Sie keine sensiblen persönlichen Daten oder Daten Dritter in den Übungen.</li>
           </ul>
 
@@ -613,6 +648,7 @@
           </div>
           <ul>
             <li><strong>Kontolöschung &amp; Abonnements:</strong> Sie können Ihr Konto in der App (<em>Einstellungen → Mein Konto → Konto löschen</em>) oder über <a href="../delete-account/">lernfino.com/delete-account</a> dauerhaft löschen. <strong>Die Kontolöschung kündigt aktive App-Store- oder Google-Play-Abonnements nicht automatisch; diese müssen gesondert im Store gekündigt werden.</strong></li>
+            <li><strong>Widerruf der Apple-Anmeldeberechtigung.</strong> Bei Löschung eines Lernfino-Kontos, das mit „Mit Apple anmelden“ verknüpft ist, widerruft Lernfino auch diese Anmeldeberechtigung. Wenn die App Sie dazu auffordert, melden Sie sich mit demselben Apple Account erneut an, um die Löschung abzuschließen.</li>
             <li><strong>Kontakt &amp; Beschwerderecht:</strong> Anfragen an <code>support@lernfino.com</code> werden innerhalb der gesetzlichen Fristen (spätestens 30 Tage / 1 Monat) beantwortet. Sie haben zudem das Recht auf Beschwerde bei einer EU/EWR-Datenschutzaufsichtsbehörde sowie beim türkischen Datenschutzrat (<strong>KVKK Kurulu</strong>).</li>
           </ul>
 
@@ -621,7 +657,7 @@
             Alle Verbindungen sind per TLS / HTTPS verschlüsselt; Cloud-Daten sind durch Row-Level Security (RLS) geschützt. Über wesentliche Änderungen dieser Datenschutzerklärung informieren wir Sie rechtzeitig.
           </p>
           <p>
-            <strong>Stand / Aktualisiert am:</strong> 25. November 2026<br />
+            <strong>Stand / Aktualisiert am:</strong> 26. November 2026<br />
             <strong>E-Mail:</strong> <a href="mailto:support@lernfino.com">support@lernfino.com</a>
           </p>
         </article>
