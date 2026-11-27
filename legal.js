@@ -13,6 +13,8 @@ const LEGAL_I18N = {
     "nav.support": "Destek & SSS",
     "nav.deleteAccount": "Hesap Silme",
     "nav.imprint": "Künye",
+    "nav.pricing": "Fiyatlandırma",
+    "nav.refund": "İade Politikası",
     "nav.backHome": "← lernfino.com Ana Sayfasına Dön",
 
     // Meta Badges
@@ -22,9 +24,12 @@ const LEGAL_I18N = {
     "meta.controller": "Veri Sorumlusu: Abdulsamet Saygı (Lernfino / Respecode)",
     "meta.supportEmail": "Destek: support@lernfino.com",
     "meta.version": "Sürüm: 1.0 (Mağaza Yayını)",
+    "meta.termsUpdated": "Son Güncelleme: 27 Kasım 2026",
+    "meta.paddleUpdated": "Son Güncelleme: 27 Kasım 2026",
+    "meta.seller": "Web satıcısı: Paddle (Merchant of Record)",
 
     // Footer
-    "footer.tagline": "Almancaya açılan sıcak bir sayfa. Çok yakında iOS, Android ve Web'de.",
+    "footer.tagline": "Almancaya açılan sıcak bir sayfa. Google Play ve App Store'da; web sürümü çok yakında.",
     "footer.rights": "Tüm hakları saklıdır.",
     "footer.disclaimer": "Goethe-Zertifikat, ÖSD ve telc, ilgili sahiplerinin markalarıdır. Lernfino bağımsız bir eğitim platformudur; Goethe-Institut, ÖSD veya telc gGmbH'nin resmî bir materyali, ortağı veya ürünü değildir.",
     "footer.privacy": "Gizlilik Politikası",
@@ -32,6 +37,9 @@ const LEGAL_I18N = {
     "footer.support": "Destek & SSS",
     "footer.deleteAccount": "Hesap Silme",
     "footer.imprint": "Künye",
+    "footer.pricing": "Fiyatlandırma",
+    "footer.refund": "İade Politikası",
+    "footer.contact": "İletişim: support@lernfino.com",
 
     // PRIVACY POLICY PAGE (/privacy)
     "privacy.title": "Gizlilik Politikası",
@@ -71,7 +79,13 @@ const LEGAL_I18N = {
 
     // IMPRINT PAGE (/imprint)
     "imprint.title": "Künye",
-    "imprint.subtitle": "DDG § 5, MStV § 18 ve 6563 sayılı Kanun kapsamında lernfino.com ve Lernfino mobil uygulamalarına ilişkin işletmeci ve iletişim bilgileri."
+    "imprint.subtitle": "DDG § 5, MStV § 18 ve 6563 sayılı Kanun kapsamında lernfino.com ve Lernfino mobil uygulamalarına ilişkin işletmeci ve iletişim bilgileri.",
+    "pricing.title": "Fiyatlandırma",
+    "pricing.subtitle": "Lernfino Ücretsiz, Plus, Pro ve 12 haftalık Sınav Pass: kapsamlar, fiyatlar, ücretsiz deneme, yenileme ve iptal koşulları.",
+    "pricing.cardBadge": "LERNFINO PLANLARI VE FİYATLAR",
+    "refund.title": "İade Politikası",
+    "refund.subtitle": "Web satın alımlarında 14 gün içinde iade talebi, mağaza satın alımları ve yasal cayma hakkı. Web satıcısı: Paddle (Merchant of Record).",
+    "refund.cardBadge": "LERNFINO İADE POLİTİKASI"
   },
 
   en: {
@@ -82,6 +96,8 @@ const LEGAL_I18N = {
     "nav.support": "Support & FAQ",
     "nav.deleteAccount": "Delete Account",
     "nav.imprint": "Legal Notice",
+    "nav.pricing": "Pricing",
+    "nav.refund": "Refund Policy",
     "nav.backHome": "← Return to lernfino.com Home",
 
     // Meta Badges
@@ -91,9 +107,12 @@ const LEGAL_I18N = {
     "meta.controller": "Data Controller: Abdulsamet Saygı (Lernfino / Respecode)",
     "meta.supportEmail": "Support: support@lernfino.com",
     "meta.version": "Version: 1.0 (Store Release)",
+    "meta.termsUpdated": "Last Updated: November 27, 2026",
+    "meta.paddleUpdated": "Last Updated: November 27, 2026",
+    "meta.seller": "Web seller: Paddle (Merchant of Record)",
 
     // Footer
-    "footer.tagline": "A warm page opening to German. Coming soon to iOS, Android, and Web.",
+    "footer.tagline": "A warm page opening to German. On Google Play and the App Store; web version coming soon.",
     "footer.rights": "All rights reserved.",
     "footer.disclaimer": "Goethe-Zertifikat, ÖSD and telc are trademarks of their respective owners. Lernfino is an independent learning platform and not official material of the Goethe-Institut, ÖSD or telc gGmbH.",
     "footer.privacy": "Privacy Policy",
@@ -101,6 +120,9 @@ const LEGAL_I18N = {
     "footer.support": "Support & FAQ",
     "footer.deleteAccount": "Delete Account",
     "footer.imprint": "Legal Notice",
+    "footer.pricing": "Pricing",
+    "footer.refund": "Refund Policy",
+    "footer.contact": "Contact: support@lernfino.com",
 
     // PRIVACY POLICY PAGE (/privacy)
     "privacy.title": "Privacy Policy",
@@ -140,7 +162,13 @@ const LEGAL_I18N = {
 
     // IMPRINT PAGE (/imprint)
     "imprint.title": "Legal Notice",
-    "imprint.subtitle": "Operator and contact disclosures pursuant to German DDG § 5, MStV § 18, and Turkish Law No. 6563 for lernfino.com and the Lernfino mobile applications."
+    "imprint.subtitle": "Operator and contact disclosures pursuant to German DDG § 5, MStV § 18, and Turkish Law No. 6563 for lernfino.com and the Lernfino mobile applications.",
+    "pricing.title": "Pricing",
+    "pricing.subtitle": "Lernfino Free, Plus, Pro and the 12-week Exam Pass: what is included, prices, free trial, renewal and cancellation terms.",
+    "pricing.cardBadge": "LERNFINO PLANS & PRICING",
+    "refund.title": "Refund Policy",
+    "refund.subtitle": "Refund requests within 14 days for web purchases, store purchases and the statutory right of withdrawal. Web seller: Paddle (Merchant of Record).",
+    "refund.cardBadge": "LERNFINO REFUND POLICY"
   },
 
   de: {
@@ -151,6 +179,8 @@ const LEGAL_I18N = {
     "nav.support": "Support & FAQ",
     "nav.deleteAccount": "Konto löschen",
     "nav.imprint": "Impressum",
+    "nav.pricing": "Preise",
+    "nav.refund": "Erstattung",
     "nav.backHome": "← Zurück zur lernfino.com Startseite",
 
     // Meta Badges
@@ -160,9 +190,12 @@ const LEGAL_I18N = {
     "meta.controller": "Verantwortlicher: Abdulsamet Saygı (Lernfino / Respecode)",
     "meta.supportEmail": "Support: support@lernfino.com",
     "meta.version": "Version: 1.0 (Store Release)",
+    "meta.termsUpdated": "Zuletzt aktualisiert: 27. November 2026",
+    "meta.paddleUpdated": "Zuletzt aktualisiert: 27. November 2026",
+    "meta.seller": "Verkäufer im Web: Paddle (Merchant of Record)",
 
     // Footer
-    "footer.tagline": "Eine herzliche Seite zur deutschen Sprache. Demnächst für iOS, Android und Web.",
+    "footer.tagline": "Eine herzliche Seite zur deutschen Sprache. Bei Google Play und im App Store; Web-Version bald verfügbar.",
     "footer.rights": "Alle Rechte vorbehalten.",
     "footer.disclaimer": "Goethe-Zertifikat, ÖSD und telc sind Marken der jeweiligen Inhaber. Lernfino ist ein unabhängiges Bildungsangebot und kein offizielles Prüfungsmaterial des Goethe-Instituts, des ÖSD oder der telc gGmbH.",
     "footer.privacy": "Datenschutz",
@@ -170,6 +203,9 @@ const LEGAL_I18N = {
     "footer.support": "Support & FAQ",
     "footer.deleteAccount": "Konto löschen",
     "footer.imprint": "Impressum",
+    "footer.pricing": "Preise",
+    "footer.refund": "Erstattungsrichtlinie",
+    "footer.contact": "Kontakt: support@lernfino.com",
 
     // PRIVACY POLICY PAGE (/privacy)
     "privacy.title": "Datenschutzerklärung",
@@ -209,7 +245,13 @@ const LEGAL_I18N = {
 
     // IMPRINT PAGE (/imprint)
     "imprint.title": "Impressum",
-    "imprint.subtitle": "Angaben gemäß § 5 DDG, § 18 Abs. 2 MStV sowie dem türkischen Gesetz Nr. 6563 für lernfino.com und die mobilen Lernfino-Apps."
+    "imprint.subtitle": "Angaben gemäß § 5 DDG, § 18 Abs. 2 MStV sowie dem türkischen Gesetz Nr. 6563 für lernfino.com und die mobilen Lernfino-Apps.",
+    "pricing.title": "Preise",
+    "pricing.subtitle": "Lernfino Kostenlos, Plus, Pro und der 12-Wochen-Prüfungs-Pass: Leistungsumfang, Preise, Gratis-Testphase, Verlängerung und Kündigung.",
+    "pricing.cardBadge": "LERNFINO PLÄNE & PREISE",
+    "refund.title": "Erstattungsrichtlinie",
+    "refund.subtitle": "Erstattungsanfragen innerhalb von 14 Tagen bei Web-Käufen, Store-Käufe und das gesetzliche Widerrufsrecht. Verkäufer im Web: Paddle (Merchant of Record).",
+    "refund.cardBadge": "LERNFINO ERSTATTUNGSRICHTLINIE"
   }
 };
 
@@ -240,6 +282,9 @@ const LEGAL_POLICY_TRANSLATIONS = {
     "delete_synced_drafts_and_forms": "Borradores de escritura y respuestas de formularios sincronizados con Supabase,",
     "shared_local_ai_audio_queue": "<strong>Cola de audio de IA en el dispositivo.</strong> Las grabaciones de audio pendientes caducan después de 7 días. La aplicación las elimina tras una evaluación satisfactoria o la primera vez que comprueba la cola después de la caducidad. Para eliminar una grabación antes, vaya a <strong>Práctica → Examen oral con IA → Pendiente de envío</strong> y seleccione <strong>Eliminar envío pendiente</strong> para esa grabación.",
     "shared_apple_revocation": "<strong>Revocación de Iniciar sesión con Apple.</strong> Cuando se elimina una cuenta de Lernfino vinculada a Iniciar sesión con Apple, Lernfino revoca su autorización de Iniciar sesión con Apple. Si se le solicita, vuelva a iniciar sesión con la misma cuenta de Apple para completar la eliminación.",
+    "privacy_resend_provider": "Cuando hay nuevos informes sobre problemas de contenido o informes de diagnóstico (errores), Resend envía cada seis horas un resumen a la propia dirección de correo electrónico del operador, con un archivo adjunto que contiene los detalles de los informes parcialmente ocultos.",
+    "privacy_resend_table_data": "resúmenes de informes sobre problemas de contenido y de diagnóstico (errores), con archivos adjuntos",
+    "privacy_resend_table_purpose": "envío de resúmenes de informes a la dirección de correo electrónico del operador para su revisión",
     "privacy_effective_date": "<strong>Fecha de entrada en vigor / última actualización:</strong> 27 de noviembre de 2026",
     "meta.dataPolicyUpdated": "Última actualización: 26 de noviembre de 2026",
     "meta.privacyUpdated": "Última actualización: 27 de noviembre de 2026",
@@ -258,6 +303,9 @@ const LEGAL_POLICY_TRANSLATIONS = {
     "delete_synced_drafts_and_forms": "Rascunhos de escrita e respostas de formulários sincronizados com o Supabase,",
     "shared_local_ai_audio_queue": "<strong>Fila de áudio de IA no dispositivo.</strong> As gravações de áudio pendentes expiram após 7 dias. O aplicativo as exclui após uma avaliação bem-sucedida ou na primeira vez que verifica a fila após a expiração. Para excluir uma gravação antes, acesse <strong>Prática → Exame oral com IA → Aguardando envio</strong> e selecione <strong>Excluir envio pendente</strong> para essa gravação.",
     "shared_apple_revocation": "<strong>Revogação do Iniciar sessão com a Apple.</strong> Quando uma conta do Lernfino vinculada ao Iniciar sessão com a Apple é excluída, o Lernfino revoga sua autorização do Iniciar sessão com a Apple. Se solicitado, entre novamente com a mesma Conta Apple para concluir a exclusão.",
+    "privacy_resend_provider": "Quando há novos relatórios sobre problemas de conteúdo ou relatórios de diagnóstico (erros), a Resend envia, a cada seis horas, um resumo para o endereço de e-mail do próprio operador, com um anexo que contém os detalhes dos relatórios parcialmente ocultados.",
+    "privacy_resend_table_data": "resumos de relatórios sobre problemas de conteúdo e de diagnóstico (erros), com anexos",
+    "privacy_resend_table_purpose": "envio de resumos dos relatórios para o endereço de e-mail do operador para análise",
     "privacy_effective_date": "<strong>Data de vigência / última atualização:</strong> 27 de novembro de 2026",
     "meta.dataPolicyUpdated": "Última atualização: 26 de novembro de 2026",
     "meta.privacyUpdated": "Última atualização: 27 de novembro de 2026",
@@ -276,6 +324,9 @@ const LEGAL_POLICY_TRANSLATIONS = {
     "delete_synced_drafts_and_forms": "Brouillons de rédaction et réponses aux formulaires synchronisés avec Supabase,",
     "shared_local_ai_audio_queue": "<strong>File d’attente audio de l’IA sur l’appareil.</strong> Les enregistrements audio en attente expirent au bout de 7 jours. L’application les supprime après une évaluation réussie ou lors de la première vérification de la file d’attente après leur expiration. Pour supprimer un enregistrement plus tôt, accédez à <strong>Pratique → Examen oral avec IA → En attente d’envoi</strong> et sélectionnez <strong>Supprimer l’envoi en attente</strong> pour cet enregistrement.",
     "shared_apple_revocation": "<strong>Révocation de Se connecter avec Apple.</strong> Lorsqu’un compte Lernfino lié à Se connecter avec Apple est supprimé, Lernfino révoque son autorisation Se connecter avec Apple. Si vous y êtes invité, reconnectez-vous avec le même compte Apple pour terminer la suppression.",
+    "privacy_resend_provider": "En cas de nouveaux signalements de problèmes liés au contenu ou de nouveaux rapports de diagnostic (d’erreur), Resend envoie toutes les six heures un récapitulatif à l’adresse e-mail de l’exploitant lui-même, accompagné d’une pièce jointe contenant les détails des rapports partiellement masqués.",
+    "privacy_resend_table_data": "récapitulatifs des signalements de problèmes liés au contenu et des rapports de diagnostic (d’erreur), avec pièces jointes",
+    "privacy_resend_table_purpose": "envoi des récapitulatifs des rapports à l’adresse e-mail de l’exploitant pour examen",
     "privacy_effective_date": "<strong>Date d’entrée en vigueur / de dernière mise à jour :</strong> 27 novembre 2026",
     "meta.dataPolicyUpdated": "Dernière mise à jour : 26 novembre 2026",
     "meta.privacyUpdated": "Dernière mise à jour : 27 novembre 2026",
@@ -294,6 +345,9 @@ const LEGAL_POLICY_TRANSLATIONS = {
     "delete_synced_drafts_and_forms": "Bozze di scrittura e risposte ai moduli sincronizzate con Supabase,",
     "shared_local_ai_audio_queue": "<strong>Coda audio IA sul dispositivo.</strong> Le registrazioni audio in attesa scadono dopo 7 giorni. L’app le elimina dopo una valutazione riuscita o al primo controllo della coda dopo la scadenza. Per eliminare prima una registrazione, accedere a <strong>Pratica → Esame orale con IA → In attesa di invio</strong> e selezionare <strong>Elimina invio in attesa</strong> per quella registrazione.",
     "shared_apple_revocation": "<strong>Revoca di Accedi con Apple.</strong> Quando viene eliminato un account Lernfino collegato ad Accedi con Apple, Lernfino revoca la propria autorizzazione di Accedi con Apple. Se richiesto, effettuare nuovamente l’accesso con lo stesso Account Apple per completare l’eliminazione.",
+    "privacy_resend_provider": "In presenza di nuove segnalazioni di problemi relativi ai contenuti o di nuovi rapporti diagnostici (di errore), Resend invia ogni sei ore un riepilogo all’indirizzo e-mail del gestore stesso, con un allegato contenente i dettagli dei rapporti parzialmente oscurati.",
+    "privacy_resend_table_data": "riepiloghi delle segnalazioni di problemi relativi ai contenuti e dei rapporti diagnostici (di errore), con allegati",
+    "privacy_resend_table_purpose": "invio dei riepiloghi dei rapporti all’indirizzo e-mail del gestore per la loro verifica",
     "privacy_effective_date": "<strong>Data di entrata in vigore / ultimo aggiornamento:</strong> 27 novembre 2026",
     "meta.dataPolicyUpdated": "Ultimo aggiornamento: 26 novembre 2026",
     "meta.privacyUpdated": "Ultimo aggiornamento: 27 novembre 2026",
@@ -312,6 +366,9 @@ const LEGAL_POLICY_TRANSLATIONS = {
     "delete_synced_drafts_and_forms": "Wersje robocze wypowiedzi pisemnych i odpowiedzi w formularzach zsynchronizowane z Supabase,",
     "shared_local_ai_audio_queue": "<strong>Kolejka nagrań AI na urządzeniu.</strong> Oczekujące nagrania audio tracą ważność po 7 dniach. Aplikacja usuwa je po pomyślnej ocenie lub podczas pierwszego sprawdzenia kolejki po upływie terminu ważności. Aby wcześniej usunąć nagranie, należy przejść do <strong>Ćwiczenia → Egzamin ustny z AI → Oczekuje na wysłanie</strong> i wybrać <strong>Usuń oczekujący materiał</strong> dla danego nagrania.",
     "shared_apple_revocation": "<strong>Cofnięcie autoryzacji funkcji Zaloguj się przez Apple.</strong> Gdy konto Lernfino powiązane z funkcją Zaloguj się przez Apple zostanie usunięte, Lernfino cofa swoją autoryzację tej funkcji Apple. Jeśli pojawi się taka prośba, należy ponownie zalogować się na to samo konto Apple, aby dokończyć usuwanie.",
+    "privacy_resend_provider": "W przypadku nowych zgłoszeń problemów dotyczących treści lub raportów diagnostycznych (o błędach) Resend co sześć godzin wysyła zbiorcze podsumowanie na własny adres e-mail operatora wraz z załącznikiem zawierającym częściowo zamaskowane szczegóły zgłoszeń i raportów.",
+    "privacy_resend_table_data": "podsumowania zgłoszeń problemów dotyczących treści i raportów diagnostycznych (o błędach) wraz z załącznikami",
+    "privacy_resend_table_purpose": "przesyłanie podsumowań zgłoszeń i raportów na adres e-mail operatora w celu ich sprawdzenia",
     "privacy_effective_date": "<strong>Data wejścia w życie / ostatniej aktualizacji:</strong> 27 listopada 2026 r.",
     "meta.dataPolicyUpdated": "Ostatnia aktualizacja: 26 listopada 2026 r.",
     "meta.privacyUpdated": "Ostatnia aktualizacja: 27 listopada 2026 r.",
@@ -330,6 +387,9 @@ const LEGAL_POLICY_TRANSLATIONS = {
     "delete_synced_drafts_and_forms": "Черновики письменных работ и ответы в формах, синхронизированные с Supabase,",
     "shared_local_ai_audio_queue": "<strong>Очередь аудиозаписей для ИИ на устройстве.</strong> Срок действия ожидающих аудиозаписей истекает через 7 дней. Приложение удаляет их после успешной оценки или при первой проверке очереди после истечения срока. Чтобы удалить запись раньше, перейдите в раздел <strong>Практика → Устный экзамен с ИИ → Ожидает отправки</strong> и выберите <strong>Удалить ожидающий материал</strong> для этой записи.",
     "shared_apple_revocation": "<strong>Отзыв авторизации функции «Вход с Apple».</strong> При удалении учётной записи Lernfino, связанной с функцией «Вход с Apple», Lernfino отзывает свою авторизацию этой функции Apple. При появлении запроса снова войдите в тот же аккаунт Apple, чтобы завершить удаление.",
+    "privacy_resend_provider": "При наличии новых сообщений о проблемах с контентом или диагностических отчётов (об ошибках) Resend каждые шесть часов отправляет сводку на собственный адрес электронной почты оператора вместе с вложением, содержащим частично скрытые сведения из сообщений и отчётов.",
+    "privacy_resend_table_data": "сводки сообщений о проблемах с контентом и диагностических отчётов (об ошибках) с вложениями",
+    "privacy_resend_table_purpose": "отправка сводок сообщений и отчётов на адрес электронной почты оператора для рассмотрения",
     "privacy_effective_date": "<strong>Дата вступления в силу / последнего обновления:</strong> 27 ноября 2026 г.",
     "meta.dataPolicyUpdated": "Последнее обновление: 26 ноября 2026 г.",
     "meta.privacyUpdated": "Последнее обновление: 27 ноября 2026 г.",
@@ -348,6 +408,9 @@ const LEGAL_POLICY_TRANSLATIONS = {
     "delete_synced_drafts_and_forms": "Чернетки письмових робіт і відповіді у формах, синхронізовані із Supabase,",
     "shared_local_ai_audio_queue": "<strong>Черга аудіозаписів для ШІ на пристрої.</strong> Строк дії аудіозаписів, що очікують, спливає через 7 днів. Застосунок видаляє їх після успішного оцінювання або під час першої перевірки черги після спливу строку. Щоб видалити запис раніше, перейдіть до <strong>Практика → Усний іспит із ШІ → Очікує надсилання</strong> й виберіть <strong>Видалити матеріал, що очікує надсилання</strong> для цього запису.",
     "shared_apple_revocation": "<strong>Відкликання авторизації функції «Вхід з Apple».</strong> Коли видаляється обліковий запис Lernfino, пов’язаний із функцією «Вхід з Apple», Lernfino відкликає свою авторизацію цієї функції Apple. Якщо з’явиться відповідний запит, увійдіть знову до того самого облікового запису Apple, щоб завершити видалення.",
+    "privacy_resend_provider": "За наявності нових повідомлень про проблеми з контентом або діагностичних звітів (про помилки) Resend кожні шість годин надсилає зведення на власну адресу електронної пошти оператора разом із вкладенням, що містить частково приховані відомості з повідомлень і звітів.",
+    "privacy_resend_table_data": "зведення повідомлень про проблеми з контентом і діагностичних звітів (про помилки) із вкладеннями",
+    "privacy_resend_table_purpose": "надсилання зведень повідомлень і звітів на адресу електронної пошти оператора для розгляду",
     "privacy_effective_date": "<strong>Дата набрання чинності / останнього оновлення:</strong> 27 листопада 2026 р.",
     "meta.dataPolicyUpdated": "Останнє оновлення: 26 листопада 2026 р.",
     "meta.privacyUpdated": "Останнє оновлення: 27 листопада 2026 р.",
@@ -366,6 +429,9 @@ const LEGAL_POLICY_TRANSLATIONS = {
     "delete_synced_drafts_and_forms": "مسودات الكتابة وإجابات النماذج التي تمت مزامنتها مع Supabase،",
     "shared_local_ai_audio_queue": "<strong>قائمة انتظار التسجيلات الصوتية للذكاء الاصطناعي على الجهاز.</strong> تنتهي صلاحية التسجيلات الصوتية المعلقة بعد 7 أيام. يحذفها التطبيق بعد نجاح التقييم أو عند فحص قائمة الانتظار لأول مرة بعد انتهاء الصلاحية. لحذف تسجيل قبل ذلك، يُرجى الانتقال إلى <strong>تدريب → امتحان المحادثة بالذكاء الاصطناعي → في انتظار الإرسال</strong> واختيار <strong>حذف المادة التي تنتظر الإرسال</strong> لذلك التسجيل.",
     "shared_apple_revocation": "<strong>إلغاء تفويض تسجيل الدخول باستخدام Apple.</strong> عند حذف حساب Lernfino المرتبط بخاصية تسجيل الدخول باستخدام Apple، يلغي Lernfino تفويضه لهذه الخاصية. إذا طُلب ذلك، يُرجى تسجيل الدخول مجددًا باستخدام حساب Apple نفسه لإكمال الحذف.",
+    "privacy_resend_provider": "عند وجود بلاغات جديدة عن مشكلات في المحتوى أو تقارير تشخيصية (عن الأخطاء)، ترسل Resend ملخصًا مجمعًا كل ست ساعات إلى عنوان البريد الإلكتروني الخاص بالمشغّل نفسه، مع مرفق يحتوي على تفاصيل البلاغات والتقارير بعد حجب بعض المعلومات فيها.",
+    "privacy_resend_table_data": "ملخصات بلاغات مشكلات المحتوى والتقارير التشخيصية (عن الأخطاء) مع المرفقات",
+    "privacy_resend_table_purpose": "إرسال ملخصات البلاغات والتقارير إلى عنوان البريد الإلكتروني للمشغّل لمراجعتها",
     "privacy_effective_date": "<strong>تاريخ السريان / آخر تحديث:</strong> 27 نوفمبر 2026",
     "meta.dataPolicyUpdated": "آخر تحديث: 26 نوفمبر 2026",
     "meta.privacyUpdated": "آخر تحديث: 27 نوفمبر 2026",
@@ -384,6 +450,9 @@ const LEGAL_POLICY_TRANSLATIONS = {
     "delete_synced_drafts_and_forms": "Supabase से सिंक किए गए लेखन के ड्राफ्ट और फ़ॉर्म के उत्तर,",
     "shared_local_ai_audio_queue": "<strong>डिवाइस पर AI ऑडियो की कतार।</strong> प्रतीक्षा में मौजूद ऑडियो रिकॉर्डिंग 7 दिन बाद अमान्य हो जाती हैं। ऐप सफल मूल्यांकन के बाद या समय-सीमा समाप्त होने के बाद पहली बार कतार की जांच करते समय उन्हें हटा देता है। रिकॉर्डिंग इससे पहले हटाने के लिए <strong>अभ्यास → AI बोलने की परीक्षा → भेजने की प्रतीक्षा में</strong> पर जाएं और उस रिकॉर्डिंग के लिए <strong>प्रतीक्षा में मौजूद उत्तर हटाएं</strong> चुनें।",
     "shared_apple_revocation": "<strong>Apple से साइन इन करने का प्राधिकरण रद्द करना।</strong> Apple से साइन इन करने की सुविधा से जुड़े Lernfino खाते को हटाने पर Lernfino Apple से साइन इन करने का अपना प्राधिकरण रद्द कर देता है। यदि कहा जाए, तो खाता हटाने की प्रक्रिया पूरी करने के लिए उसी Apple खाते से फिर साइन इन करें।",
+    "privacy_resend_provider": "जब सामग्री से जुड़ी समस्याओं की नई रिपोर्टें या निदान संबंधी (त्रुटि) रिपोर्टें होती हैं, तो Resend हर छह घंटे में उनका समेकित सारांश संचालक के स्वयं के ईमेल पते पर भेजता है। इसके साथ एक संलग्नक भेजा जाता है, जिसमें रिपोर्टों के कुछ विवरण छिपाए गए होते हैं।",
+    "privacy_resend_table_data": "सामग्री से जुड़ी समस्याओं और निदान संबंधी (त्रुटि) रिपोर्टों के सारांश, संलग्नकों सहित",
+    "privacy_resend_table_purpose": "समीक्षा के लिए रिपोर्टों के सारांश संचालक के ईमेल पते पर भेजना",
     "privacy_effective_date": "<strong>लागू होने / अंतिम अपडेट की तारीख:</strong> 27 नवंबर 2026",
     "meta.dataPolicyUpdated": "अंतिम अपडेट: 26 नवंबर 2026",
     "meta.privacyUpdated": "अंतिम अपडेट: 27 नवंबर 2026",
@@ -402,6 +471,9 @@ const LEGAL_POLICY_TRANSLATIONS = {
     "delete_synced_drafts_and_forms": "同步至 Supabase 的写作草稿和表单答案，",
     "shared_local_ai_audio_queue": "<strong>设备上的 AI 音频队列。</strong> 待处理的音频录音将在 7 天后过期。应用会在评估成功后，或在录音过期后首次检查队列时将其删除。如需提前删除录音，请前往 <strong>练习 → AI 口语考试 → 等待发送</strong>，并为该录音选择 <strong>删除待发送内容</strong>。",
     "shared_apple_revocation": "<strong>撤销通过 Apple 登录的授权。</strong> 删除与通过 Apple 登录功能关联的 Lernfino 账户时，Lernfino 会撤销其通过 Apple 登录的授权。如果系统提示，请使用同一 Apple 账户重新登录以完成删除。",
+    "privacy_resend_provider": "如有新的内容问题报告或诊断（错误）报告，Resend 每六小时向运营者自己的电子邮件地址发送一份汇总，并附上包含经过部分遮盖处理的报告详细信息的附件。",
+    "privacy_resend_table_data": "内容问题报告和诊断（错误）报告的汇总及附件",
+    "privacy_resend_table_purpose": "将报告汇总发送至运营者的电子邮件地址以供审查",
     "privacy_effective_date": "<strong>生效 / 最后更新日期：</strong> 2026 年 11 月 27 日",
     "meta.dataPolicyUpdated": "最后更新：2026 年 11 月 26 日",
     "meta.privacyUpdated": "最后更新：2026 年 11 月 27 日",
@@ -420,6 +492,9 @@ const LEGAL_POLICY_TRANSLATIONS = {
     "delete_synced_drafts_and_forms": "Bản nháp bài viết và câu trả lời biểu mẫu đã đồng bộ với Supabase,",
     "shared_local_ai_audio_queue": "<strong>Hàng đợi âm thanh AI trên thiết bị.</strong> Các bản ghi âm đang chờ sẽ hết hạn sau 7 ngày. Ứng dụng xóa chúng sau khi đánh giá thành công hoặc trong lần đầu tiên kiểm tra hàng đợi sau khi hết hạn. Để xóa bản ghi âm sớm hơn, truy cập <strong>Luyện tập → Thi nói bằng AI → Đang chờ gửi</strong> và chọn <strong>Xóa bài gửi đang chờ</strong> cho bản ghi âm đó.",
     "shared_apple_revocation": "<strong>Thu hồi quyền Đăng nhập bằng Apple.</strong> Khi tài khoản Lernfino liên kết với tính năng Đăng nhập bằng Apple bị xóa, Lernfino sẽ thu hồi quyền Đăng nhập bằng Apple của mình. Nếu được yêu cầu, hãy đăng nhập lại bằng cùng Tài khoản Apple để hoàn tất việc xóa.",
+    "privacy_resend_provider": "Khi có báo cáo mới về vấn đề liên quan đến nội dung hoặc báo cáo chẩn đoán (lỗi), Resend gửi bản tổng hợp mỗi sáu giờ đến địa chỉ email của chính đơn vị vận hành, kèm theo tệp đính kèm chứa các chi tiết báo cáo đã được che đi một phần.",
+    "privacy_resend_table_data": "bản tổng hợp các báo cáo về vấn đề nội dung và báo cáo chẩn đoán (lỗi), cùng các tệp đính kèm",
+    "privacy_resend_table_purpose": "gửi bản tổng hợp các báo cáo đến địa chỉ email của đơn vị vận hành để xem xét",
     "privacy_effective_date": "<strong>Ngày có hiệu lực / cập nhật lần cuối:</strong> ngày 27 tháng 11 năm 2026",
     "meta.dataPolicyUpdated": "Cập nhật lần cuối: ngày 26 tháng 11 năm 2026",
     "meta.privacyUpdated": "Cập nhật lần cuối: ngày 27 tháng 11 năm 2026",
@@ -438,6 +513,9 @@ const LEGAL_POLICY_TRANSLATIONS = {
     "delete_synced_drafts_and_forms": "Draf tulisan dan jawaban formulir yang disinkronkan ke Supabase,",
     "shared_local_ai_audio_queue": "<strong>Antrean audio AI pada perangkat.</strong> Rekaman audio yang tertunda kedaluwarsa setelah 7 hari. Aplikasi menghapusnya setelah evaluasi berhasil atau saat pertama kali memeriksa antrean setelah kedaluwarsa. Untuk menghapus rekaman lebih awal, buka <strong>Latihan → Ujian berbicara AI → Menunggu pengiriman</strong> dan pilih <strong>Hapus kiriman yang menunggu</strong> untuk rekaman tersebut.",
     "shared_apple_revocation": "<strong>Pencabutan otorisasi Masuk dengan Apple.</strong> Saat akun Lernfino yang ditautkan ke Masuk dengan Apple dihapus, Lernfino mencabut otorisasi Masuk dengan Apple miliknya. Jika diminta, masuk kembali menggunakan Akun Apple yang sama untuk menyelesaikan penghapusan.",
+    "privacy_resend_provider": "Jika terdapat laporan baru mengenai masalah konten atau laporan diagnostik (kesalahan), Resend mengirimkan ringkasan gabungan setiap enam jam ke alamat email milik pengelola sendiri, beserta lampiran yang berisi rincian laporan yang telah disamarkan sebagian.",
+    "privacy_resend_table_data": "ringkasan laporan mengenai masalah konten dan laporan diagnostik (kesalahan) beserta lampiran",
+    "privacy_resend_table_purpose": "pengiriman ringkasan laporan ke alamat email pengelola untuk ditinjau",
     "privacy_effective_date": "<strong>Tanggal berlaku / terakhir diperbarui:</strong> 27 November 2026",
     "meta.dataPolicyUpdated": "Terakhir diperbarui: 26 November 2026",
     "meta.privacyUpdated": "Terakhir diperbarui: 27 November 2026",

@@ -361,8 +361,8 @@
       tabCounter: "Schreiben Word Counter",
       tabLevel: "Placement Level Test",
       ctaTitle: "Practice stories, interactive audio & timed mock exams in Lernfino",
-      ctaDesc: "Save your target level on the launch waitlist to be notified on release day.",
-      ctaBtn: "Join Launch Waitlist",
+      ctaDesc: "Lernfino is available on Google Play and the App Store. Start free and continue your German there.",
+      ctaBtn: "Get the App",
       skillListen: "Hören (Listening)",
       skillRead: "Lesen (Reading)",
       skillWrite: "Schreiben (Writing)",
@@ -431,7 +431,7 @@
       levelResultTitle: "Suggested starting level: {level}",
       levelResultNote: "Quick self-check only, not an official placement certificate. It stops at the first level below 2/3.",
       levelRetake: "Retake Test",
-      levelUseCta: "Continue with {level} on Waitlist"
+      levelUseCta: "Continue with {level} in the App"
     },
     tr: {
       backHome: "Lernfino Ana Sayfaya Dön",
@@ -439,8 +439,8 @@
       tabCounter: "Schreiben Kelime Sayacı",
       tabLevel: "Seviye Tespit (A1–B2)",
       ctaTitle: "Hikâyeler, yapay zekâ sesleri ve süreli denemeler Lernfino'da",
-      ctaDesc: "Seviyeni lansman bekleme listesine kaydet, uygulama çıktığında haberin olsun.",
-      ctaBtn: "Lansman Listesine Katıl",
+      ctaDesc: "Lernfino, Google Play ve App Store'da. Ücretsiz başla ve Almancana orada devam et.",
+      ctaBtn: "Uygulamayı İndir",
       skillListen: "Hören (Dinleme)",
       skillRead: "Lesen (Okuma)",
       skillWrite: "Schreiben (Yazma)",
@@ -509,7 +509,7 @@
       levelResultTitle: "Önerilen başlangıç seviyesi: {level}",
       levelResultNote: "Bu yalnızca hızlı bir ön değerlendirmedir, resmî seviye belgesi değildir. İlk 2/3 altı seviyede durur.",
       levelRetake: "Testi Tekrarla",
-      levelUseCta: "{level} Seviyesiyle Listeye Katıl"
+      levelUseCta: "{level} Seviyesiyle Uygulamada Devam Et"
     },
     de: {
       backHome: "Zurück zur Lernfino-Startseite",
@@ -517,8 +517,8 @@
       tabCounter: "Schreiben-Wortzähler",
       tabLevel: "Einstufungstest (A1–B2)",
       ctaTitle: "Geschichten, klares Audio & Prüfungsübungen in Lernfino",
-      ctaDesc: "Wählen Sie Ihr Zielniveau auf der Warteliste, um zum Start direkt benachrichtigt zu werden.",
-      ctaBtn: "Auf die Warteliste",
+      ctaDesc: "Lernfino gibt es bei Google Play und im App Store. Starten Sie kostenlos und lernen Sie dort weiter.",
+      ctaBtn: "App holen",
       skillListen: "Hören",
       skillRead: "Lesen",
       skillWrite: "Schreiben",
@@ -587,7 +587,7 @@
       levelResultTitle: "Empfohlenes Startniveau: {level}",
       levelResultNote: "Nur ein kurzer Selbstcheck, kein offizielles Einstufungszertifikat. Stoppt bei der ersten Stufe unter 2/3.",
       levelRetake: "Test wiederholen",
-      levelUseCta: "Mit {level} auf die Warteliste"
+      levelUseCta: "Mit {level} in der App weitermachen"
     }
   };
 
@@ -639,7 +639,7 @@
     }
 
     function homeRouteFor(lang, levelParam) {
-      var suffix = levelParam ? "?level=" + encodeURIComponent(levelParam) + "#launch" : "";
+      var suffix = levelParam ? "?level=" + encodeURIComponent(levelParam) + "#download" : "";
       if (lang === "tr") return "../tr/" + suffix;
       if (lang === "de") return "../de/" + suffix;
       return "../" + suffix;
@@ -664,7 +664,7 @@
 
       document.querySelectorAll("[data-home-link]").forEach(function (link) {
         var useLaunch = link.getAttribute("data-home-link") === "launch";
-        link.setAttribute("href", homeRouteFor(currentLang, "") + (useLaunch ? "#launch" : ""));
+        link.setAttribute("href", homeRouteFor(currentLang, "") + (useLaunch ? "#download" : ""));
       });
 
       var toolType = document.body.getAttribute("data-tool");
