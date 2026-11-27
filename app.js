@@ -31,7 +31,7 @@ const I18N = {
     "compare.c6Title": "Ücretsiz Başla · Ücretli Planlar",
     "compare.c6Desc": "A1 hikâyeleri ve A2–B2 örnek bölümlerle ücretsiz başla; ücretsiz planda günlük kullanım sınırları vardır; abonelikle kaldırılır.",
 
-    "hero.badge": "GOOGLE PLAY VE APP STORE'DA · Web sürümü çok yakında (app.lernfino.com)",
+    "hero.badge": "GOOGLE PLAY’DE · Web sürümü Aralık 2026’da (app.lernfino.com)",
     "hero.title": 'Fino ile her sayfada biraz <span class="highlight-gold">Almanca.</span> Küçük adımlar, büyük hikâyeler.',
     "hero.subtitle": "Sesli A1–B2 seviyeli hikâyeler, etkileşimli video dersi, dokunduğun anda açılan bağlamsal sözlük ve bağımsız Goethe/ÖSD formatında deneme sınavlarıyla Almanca öğrenin. Ücretsiz planda günlük kullanım sınırları vardır; abonelikle kaldırılır.",
     "hero.ctaPrimary": "Uygulamayı İndir",
@@ -53,9 +53,9 @@ const I18N = {
     "hero.floatExamTitle": "Goethe & ÖSD Formatı",
     "hero.floatExam": "Hören · Lesen (Bağımsız)",
 
-    "store.soon": "Çok Yakında",
+    "store.soon": "Çok yakında",
+    "store.webDate": "Aralık 2026",
     "store.web": "Web Sürümü",
-    "store.appStoreSmall": "İndirin:",
     "store.playSmall": "Şuradan edinin:",
 
     "demo.eyebrow": "CANLI UYGULAMA ÖNİZLEMESİ",
@@ -176,13 +176,13 @@ const I18N = {
     "dl.title": "Lernfino ile Almanca Öğren",
     "dl.desc": "Lernfino, A1'den B2'ye Almanca öğrenmek için hazırlanmış bir uygulamadır. Rehberli öğrenme yolunu izleyin, seviyeli hikâyeleri okuyup dinleyin, kelimelere dokunarak anlamlarına bakın, dilbilgisi çalışın ve bağımsız Goethe/ÖSD/telc sınav formatlarında pratik yapın. Yazma ve konuşma için isteğe bağlı yapay zekâ geri bildirimi sunulur.",
     "dl.cardTitle": "Uygulamayı edinin",
-    "dl.cardSub": "Lernfino, Google Play ve App Store'da. app.lernfino.com adresindeki web sürümü çok yakında.",
+    "dl.cardSub": "Lernfino Google Play’de. App Store’da çok yakında. Web sürümü Aralık 2026’da app.lernfino.com adresinde yayına girecek.",
     "dl.plansTitle": "Ücretsiz başlayın, daha fazlasını istediğinizde ücretli planlar",
     "dl.plansDesc": "Ücretsiz planda günlük kullanım sınırları vardır ve reklam gösterilebilir. Plus, Pro ve 12 haftalık Sınav Pass reklamları kaldırır ve daha fazlasını sunar. Planlar, fiyatlar, deneme, yenileme ve iptal koşulları Fiyatlandırma sayfasında; iadeler İade Politikası'nda yer alır.",
     "dl.pricingBtn": "Fiyatlandırmayı Gör",
     "dl.contact": "Sorularınız için: <a href=\"mailto:support@lernfino.com\">support@lernfino.com</a>",
 
-    "footer.tagline": "Almancaya açılan sıcak bir sayfa. Google Play ve App Store'da; web sürümü çok yakında.",
+    "footer.tagline": "Almancaya açılan sıcak bir sayfa. Google Play’de. Web sürümü Aralık 2026’da.",
     "footer.rights": "Tüm hakları saklıdır.",
     "footer.disclaimer": "Goethe-Zertifikat, ÖSD ve telc, ilgili sahiplerinin markalarıdır. Lernfino bağımsız bir eğitim platformudur; Goethe-Institut, ÖSD veya telc gGmbH'nin resmî bir materyali, ortağı veya ürünü değildir.",
     "footer.toolsLabel": "Çalışma Araçları:",
@@ -226,7 +226,7 @@ const I18N = {
     "compare.c6Title": "Start Free · Paid Plans",
     "compare.c6Desc": "Start free on A1 stories and sample A2–B2 chapters; the free plan has daily usage limits that are removed with a subscription.",
 
-    "hero.badge": "NOW ON GOOGLE PLAY & APP STORE · Web version coming soon (app.lernfino.com)",
+    "hero.badge": "NOW ON GOOGLE PLAY · Web version in December 2026 (app.lernfino.com)",
     "hero.title": 'A little <span class="highlight-gold">German</span> on every page with Fino. Small steps, big stories.',
     "hero.subtitle": "Learn German with leveled audio stories (A1–B2), an interactive video episode, an instant tap-to-learn contextual dictionary, and independent Goethe/ÖSD format practice exams & exercise sets. Start free; the free plan has daily usage limits that are removed with a subscription.",
     "hero.ctaPrimary": "Get the App",
@@ -248,9 +248,9 @@ const I18N = {
     "hero.floatExamTitle": "Goethe & ÖSD Format",
     "hero.floatExam": "Hören · Lesen (Independent)",
 
-    "store.soon": "Coming Soon",
+    "store.soon": "Coming soon",
+    "store.webDate": "December 2026",
     "store.web": "Web Version",
-    "store.appStoreSmall": "Download on the",
     "store.playSmall": "Get it on",
 
     "demo.eyebrow": "INTERACTIVE APP PREVIEW",
@@ -371,13 +371,13 @@ const I18N = {
     "dl.title": "Learn German with Lernfino",
     "dl.desc": "Lernfino is a German learning app for levels A1 to B2. Follow a guided learning path, read and listen to leveled stories, look up words with a tap, train grammar and practice in independent Goethe/ÖSD/telc exam formats. Optional AI feedback is available for writing and speaking.",
     "dl.cardTitle": "Get the app",
-    "dl.cardSub": "Lernfino is available on Google Play and the App Store. A web version at app.lernfino.com is coming soon.",
+    "dl.cardSub": "Lernfino is available on Google Play. The App Store release is coming soon. The web version launches at app.lernfino.com in December 2026.",
     "dl.plansTitle": "Free to start, paid plans when you want more",
     "dl.plansDesc": "The free plan has daily usage limits and may show ads. Plus, Pro and the 12-week Exam Pass remove the ads and add more. Plans, prices, trial, renewal and cancellation terms are on the Pricing page; refunds are covered by the Refund Policy.",
     "dl.pricingBtn": "See Pricing",
     "dl.contact": "Questions? Contact <a href=\"mailto:support@lernfino.com\">support@lernfino.com</a>",
 
-    "footer.tagline": "A warm page opening to German. On Google Play and the App Store; web version coming soon.",
+    "footer.tagline": "A warm page opening to German. On Google Play. Web version in December 2026.",
     "footer.rights": "All rights reserved.",
     "footer.toolsLabel": "Study Tools:",
     "footer.toolCalc": "Goethe/ÖSD Score Calculator",
@@ -421,7 +421,7 @@ const I18N = {
     "compare.c6Title": "Kostenlos starten · Bezahlte Pläne",
     "compare.c6Desc": "Starten Sie kostenlos mit A1-Geschichten und A2–B2-Leseproben; im kostenlosen Tarif gelten tägliche Nutzungslimits, die mit einem Abonnement aufgehoben werden.",
 
-    "hero.badge": "JETZT BEI GOOGLE PLAY & IM APP STORE · Web-Version bald verfügbar (app.lernfino.com)",
+    "hero.badge": "JETZT BEI GOOGLE PLAY · Web-Version im Dezember 2026 (app.lernfino.com)",
     "hero.title": 'Mit Fino auf jeder Seite ein Stück <span class="highlight-gold">Deutsch.</span> Kleine Schritte, große Geschichten.',
     "hero.subtitle": "Deutsch lernen mit gestuften Hörgeschichten (A1–B2), einer interaktiven Video-Episode, Kontextwörterbuch und unabhängigen Übungsprüfungen sowie Übungssets im Goethe-/ÖSD-Format. Kostenlos starten; im kostenlosen Tarif gelten tägliche Nutzungslimits, die mit einem Abonnement aufgehoben werden.",
     "hero.ctaPrimary": "App holen",
@@ -444,8 +444,8 @@ const I18N = {
     "hero.floatExam": "Hören · Lesen (Unabhängig)",
 
     "store.soon": "Demnächst",
+    "store.webDate": "Dezember 2026",
     "store.web": "Web-Version",
-    "store.appStoreSmall": "Laden im",
     "store.playSmall": "Jetzt bei",
 
     "demo.eyebrow": "INTERAKTIVE APP-VORSCHAU",
@@ -566,13 +566,13 @@ const I18N = {
     "dl.title": "Deutsch lernen mit Lernfino",
     "dl.desc": "Lernfino ist eine App zum Deutschlernen von A1 bis B2. Folge einem geführten Lernpfad, lies und höre Geschichten nach Niveau, schlage Wörter mit einem Tipp nach, trainiere Grammatik und übe in unabhängigen Prüfungsformaten nach Goethe/ÖSD/telc. Für Schreiben und Sprechen gibt es optionales KI-Feedback.",
     "dl.cardTitle": "App holen",
-    "dl.cardSub": "Lernfino gibt es bei Google Play und im App Store. Eine Web-Version unter app.lernfino.com folgt bald.",
+    "dl.cardSub": "Lernfino gibt es bei Google Play und demnächst im App Store. Die Web-Version startet im Dezember 2026 unter app.lernfino.com.",
     "dl.plansTitle": "Kostenlos starten, bezahlte Pläne für mehr",
     "dl.plansDesc": "Der kostenlose Plan hat tägliche Nutzungsgrenzen und kann Werbung zeigen. Plus, Pro und der 12-Wochen-Prüfungs-Pass entfernen die Werbung und bieten mehr. Pläne, Preise, Testzeitraum, Verlängerung und Kündigung stehen auf der Preisseite; Erstattungen regelt die Erstattungsrichtlinie.",
     "dl.pricingBtn": "Preise ansehen",
     "dl.contact": "Fragen? Schreib an <a href=\"mailto:support@lernfino.com\">support@lernfino.com</a>",
 
-    "footer.tagline": "Eine warme Seite, die sich dem Deutschen öffnet. Bei Google Play und im App Store; Web-Version bald verfügbar.",
+    "footer.tagline": "Eine warme Seite, die sich dem Deutschen öffnet. Bei Google Play. Web-Version im Dezember 2026.",
     "footer.rights": "Alle Rechte vorbehalten.",
     "footer.toolsLabel": "Lern-Tools:",
     "footer.toolCalc": "Goethe/ÖSD-Punkterechner",
@@ -590,11 +590,7 @@ const I18N = {
   }
 };
 
-/* PADDLE-STORE-LINKS: fill APP_STORE_LINKI with the real App Store URL; an empty value renders the badge as plain text */
-const STORE_LINKS = {
-  play: "https://play.google.com/store/apps/details?id=com.lernfino.app",
-  appstore: "",
-};
+const GOOGLE_PLAY_URL = "https://play.google.com/store/apps/details?id=com.respecode.lernfino";
 
 /* WEB2-LANGS-START */
 Object.assign(I18N, {
@@ -640,6 +636,7 @@ Object.assign(I18N, {
     "hero.floatExamTitle": "Formato Goethe y ÖSD",
     "hero.floatExam": "Hören · Lesen (independiente)",
     "store.soon": "Próximamente",
+    "store.webDate": "Diciembre de 2026",
     "store.web": "Versión web",
     "demo.eyebrow": "VISTA PREVIA INTERACTIVA DE LA APP",
     "demo.title": "Descubre ahora mismo cómo funciona Lernfino",
@@ -801,6 +798,7 @@ Object.assign(I18N, {
     "hero.floatExamTitle": "Formato Goethe e ÖSD",
     "hero.floatExam": "Hören · Lesen (independente)",
     "store.soon": "Em breve",
+    "store.webDate": "Dezembro de 2026",
     "store.web": "Versão web",
     "demo.eyebrow": "PRÉVIA INTERATIVA DO APP",
     "demo.title": "Veja agora como o Lernfino funciona",
@@ -962,6 +960,7 @@ Object.assign(I18N, {
     "hero.floatExamTitle": "Format Goethe et ÖSD",
     "hero.floatExam": "Hören · Lesen (indépendant)",
     "store.soon": "Bientôt",
+    "store.webDate": "Décembre 2026",
     "store.web": "Version web",
     "demo.eyebrow": "APERÇU INTERACTIF DE L'APP",
     "demo.title": "Découvrez dès maintenant comment fonctionne Lernfino",
@@ -1123,6 +1122,7 @@ Object.assign(I18N, {
     "hero.floatExamTitle": "Formato Goethe e ÖSD",
     "hero.floatExam": "Hören · Lesen (indipendente)",
     "store.soon": "In arrivo",
+    "store.webDate": "Dicembre 2026",
     "store.web": "Versione web",
     "demo.eyebrow": "ANTEPRIMA INTERATTIVA DELL'APP",
     "demo.title": "Scopri subito come funziona Lernfino",
@@ -1284,6 +1284,7 @@ Object.assign(I18N, {
     "hero.floatExamTitle": "Format Goethe i ÖSD",
     "hero.floatExam": "Hören · Lesen (niezależne)",
     "store.soon": "Wkrótce",
+    "store.webDate": "Grudzień 2026",
     "store.web": "Wersja webowa",
     "demo.eyebrow": "INTERAKTYWNY PODGLĄD APLIKACJI",
     "demo.title": "Zobacz od razu, jak działa Lernfino",
@@ -1445,6 +1446,7 @@ Object.assign(I18N, {
     "hero.floatExamTitle": "صيغة Goethe وÖSD",
     "hero.floatExam": "<bdi dir=\"ltr\">Hören · Lesen</bdi> (مستقلة)",
     "store.soon": "قريبًا",
+    "store.webDate": "ديسمبر 2026",
     "store.web": "نسخة الويب",
     "demo.eyebrow": "معاينة تفاعلية للتطبيق",
     "demo.title": "اطّلع الآن على طريقة عمل Lernfino",
@@ -1606,6 +1608,7 @@ Object.assign(I18N, {
     "hero.floatExamTitle": "Формат Goethe и ÖSD",
     "hero.floatExam": "Hören · Lesen (независимо)",
     "store.soon": "Скоро",
+    "store.webDate": "Декабрь 2026",
     "store.web": "Веб-версия",
     "demo.eyebrow": "ИНТЕРАКТИВНЫЙ ПРЕДПРОСМОТР ПРИЛОЖЕНИЯ",
     "demo.title": "Узнайте прямо сейчас, как работает Lernfino",
@@ -1767,6 +1770,7 @@ Object.assign(I18N, {
     "hero.floatExamTitle": "Формат Goethe та ÖSD",
     "hero.floatExam": "Hören · Lesen (незалежно)",
     "store.soon": "Незабаром",
+    "store.webDate": "Грудень 2026",
     "store.web": "Веб-версія",
     "demo.eyebrow": "ІНТЕРАКТИВНИЙ ПОПЕРЕДНІЙ ПЕРЕГЛЯД ЗАСТОСУНКУ",
     "demo.title": "Дізнайтеся просто зараз, як працює Lernfino",
@@ -1928,6 +1932,7 @@ Object.assign(I18N, {
     "hero.floatExamTitle": "Goethe और ÖSD फ़ॉर्मेट",
     "hero.floatExam": "Hören · Lesen (स्वतंत्र)",
     "store.soon": "जल्द आ रहा है",
+    "store.webDate": "दिसंबर 2026",
     "store.web": "वेब संस्करण",
     "demo.eyebrow": "ऐप का इंटरैक्टिव पूर्वावलोकन",
     "demo.title": "अभी देखें कि Lernfino कैसे काम करता है",
@@ -2089,6 +2094,7 @@ Object.assign(I18N, {
     "hero.floatExamTitle": "Định dạng Goethe & ÖSD",
     "hero.floatExam": "Hören · Lesen (độc lập)",
     "store.soon": "Sắp ra mắt",
+    "store.webDate": "Tháng 12 năm 2026",
     "store.web": "Bản web",
     "demo.eyebrow": "XEM TRƯỚC ỨNG DỤNG TƯƠNG TÁC",
     "demo.title": "Trải nghiệm ngay cách Lernfino hoạt động",
@@ -2250,6 +2256,7 @@ Object.assign(I18N, {
     "hero.floatExamTitle": "Format Goethe & ÖSD",
     "hero.floatExam": "Hören · Lesen (independen)",
     "store.soon": "Segera hadir",
+    "store.webDate": "Desember 2026",
     "store.web": "Versi web",
     "demo.eyebrow": "PRATINJAU APLIKASI INTERAKTIF",
     "demo.title": "Rasakan sekarang cara kerja Lernfino",
@@ -2411,6 +2418,7 @@ Object.assign(I18N, {
     "hero.floatExamTitle": "Goethe 与 ÖSD 格式",
     "hero.floatExam": "Hören · Lesen（独立）",
     "store.soon": "即将上线",
+    "store.webDate": "2026年12月",
     "store.web": "网页版",
     "demo.eyebrow": "应用互动预览",
     "demo.title": "马上体验 Lernfino 如何运作",
@@ -3606,16 +3614,8 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  // Store badges: apply STORE_LINKS; a badge without a URL stays visible but is not a link
-  document.querySelectorAll("[data-store-link]").forEach((a) => {
-    const url = STORE_LINKS[a.getAttribute("data-store-link")];
-    if (url) {
-      a.setAttribute("href", url);
-    } else {
-      a.removeAttribute("href");
-      a.removeAttribute("target");
-      a.removeAttribute("rel");
-    }
+  document.querySelectorAll('[data-store-link="play"]').forEach((link) => {
+    link.href = GOOGLE_PLAY_URL;
   });
 
   // Initial render

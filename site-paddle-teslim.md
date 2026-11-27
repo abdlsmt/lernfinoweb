@@ -5,7 +5,7 @@ lernfino.com artık "yakında / bekleme listesi" değil, mağazada yayında bir 
 ## Ne yapıldı
 
 - **Ana sayfa (15 dil):** Rozet "Google Play ve App Store'da · web sürümü (app.lernfino.com) çok yakında". Bekleme listesi formu kaldırıldı; yerine ürünü anlatan "Get the App" bölümü (`#download`), mağaza rozetleri, plan özeti ve Fiyatlandırma/İade bağlantıları geldi. Başlık, description ve OG metinleri yenilendi. Tools sayfalarındaki "Join Launch Waitlist" düğmeleri "Get the App" oldu.
-- **Mağaza bağlantıları:** `<GOOGLE_PLAY_LINKI>` / `<APP_STORE_LINKI>` değişkeni repoda yok. Google Play rozeti paket adından türetilen `https://play.google.com/store/apps/details?id=com.lernfino.app` adresine gidiyor (paket adı `lernfinoapp/docs/MOBILE.md`'den). App Store URL'si bilinmiyor; `app.js` başındaki `STORE_LINKS.appstore` boş, bu hâlde rozet bağlantısız düz metin görünür. URL'yi o satıra yazmak yeterli.
+- **Mağaza bağlantıları:** `<GOOGLE_PLAY_LINKI>` / `<APP_STORE_LINKI>` değişkeni repoda yok. İlk teslimde Google Play bağlantısı paket adından türetilmişti. Bağlantı ve App Store durumu SITE-PADDLE-2’de güncellendi.
 - **/pricing/ (TR/EN/DE):** Ücretsiz, Plus, Pro, Sınav Pass kapsam tablosu; fiyat tablosu (aylık/yıllık, 7 gün deneme, yenileme); deneme, yenileme, iptal, Paddle (Merchant of Record), iade bölümleri. Kapsamlar `lernfinoapp/src/lib/entitlements.ts` ve `docs/magaza/{en,tr,de}.md` ile birebir: ücretsiz günlük 20 kart / 10 sesli cümle / 3 tur / 1 atlama testi / 100 kelime; AI yazma 2 + konuşma 2 (ömür boyu); Plus 5 + 2 aylık; Pro 30 + 8 aylık; Pass 12 haftada 90 + 24, yenilenmez; Pro'da tüm düzeylerde "Almanya'da Hayat" (Plus'ta yalnız A1); reklamsız.
 - **/refund/ (TR/EN/DE):** Web satın alımlarında 14 gün içinde gerekçesiz iade talebi (Paddle üzerinden), AB/BK 14 günlük cayma hakkı ve dijital içerikte açık onay + feragat açıklaması, mağaza satın alımlarının Google/Apple kurallarına tabi olması, Paddle.com Market Limited'in Merchant of Record olarak satıcı olması. "Hiçbir koşulda iade yok" türü ifade yok.
 - **/terms/:** 3. bölüm yeniden yazıldı (web aboneliği, Paddle MoR, web iptal yolu, iade bağlantısı; eski "web sitesinden ödeme alınmaz" cümlesi kaldırıldı). Tarih 27 Kasım 2026.
@@ -21,24 +21,22 @@ lernfino.com artık "yakında / bekleme listesi" değil, mağazada yayında bir 
 - `web2-build/build.cjs check`: TR/DE eksiksiz; 12 dilde 21'er anahtar bilerek eksik (EN gösterim).
 - Tarayıcıda görsel kontrol yapılmadı.
 
-## Fiyat tablosu (kullanıcıdan istenen)
+## Fiyat tablosu
 
-`lernfinoapp` kaynağında ve belgelerinde EUR fiyatı yok (`ABONELIK_REKLAM_SPRECHEN_PLANI.md` §11: "Avro: mağazanın eşdeğeri, 0,99 ile biten"). Bu yüzden sayfada yer tutucular duruyor. Lütfen web (Paddle) EUR fiyatlarını (KDV dâhil gösterilecekse öyle) yazın; yer tutucular yalnız `web2-build/paddle-content.cjs` içindeki `PRICE` nesnesinde ve üretilen `pricing/index.html` ile `web-ceviri/site-paddle/CEVIRI.md` içinde geçer.
+İlk teslimde web fiyatları onay bekliyordu. Onaylı EUR fiyatları ve diğer kararlar [SITE-PADDLE-2 teslim raporunda](site-paddle-2-teslim.md) yer alıyor.
 
-| Plan | Sayfadaki yer tutucu | Doldurulacak (EUR) | Mağaza referansı (USD / TL, `KULLANICI_MAGAZA_URUN_KURULUMU.md`) |
-| --- | --- | --- | --- |
-| Plus aylık | `WEB_FIYAT_PLUS_AYLIK` | ? | 6,99 USD / 149,99 TL |
-| Plus yıllık (7 gün deneme) | `WEB_FIYAT_PLUS_YILLIK` | ? | 39,99 USD / 899,99 TL |
-| Pro aylık | `WEB_FIYAT_PRO_AYLIK` | ? | 12,99 USD / 279,99 TL |
-| Pro yıllık (7 gün deneme) | `WEB_FIYAT_PRO_YILLIK` | ? | 79,99 USD / 1.699,00 TL |
-| Sınav Pass (12 hafta, tek ödeme) | `WEB_FIYAT_SINAV_PASS` | ? | 24,99 USD / 599,99 TL |
-
-Yer tutucular Paddle incelemesinden önce gerçek fiyatlarla değiştirilmeli; inceleme bu hâliyle büyük olasılıkla fiyat eksikliğinden takılır.
+| Plan | Mağaza referansı (USD / TL, `KULLANICI_MAGAZA_URUN_KURULUMU.md`) |
+| --- | --- |
+| Plus aylık | 6,99 USD / 149,99 TL |
+| Plus yıllık (7 gün deneme) | 39,99 USD / 899,99 TL |
+| Pro aylık | 12,99 USD / 279,99 TL |
+| Pro yıllık (7 gün deneme) | 79,99 USD / 1.699,00 TL |
+| Sınav Pass (12 hafta, tek ödeme) | 24,99 USD / 599,99 TL |
 
 ## Kullanıcıya sorular
 
 1. Web (Paddle) EUR fiyatları yukarıdaki tabloda nedir? Fiyatlar KDV dâhil mi gösterilsin?
-2. App Store URL'si nedir? (`app.js` → `STORE_LINKS.appstore`.) Google Play için türetilen `com.lernfino.app` bağlantısı doğru mu?
+2. App Store URL'si nedir? Google Play için türetilen bağlantı doğru mu?
 3. Web'de yıllık planlara da 7 günlük deneme verilecek mi? Sayfa, mağazadaki gibi "uygun yeni hesaplara" diyor.
 4. Web satın alımı hangi hesaba bağlanacak ve uygulamadaki hak (Plus/Pro/Pass) nasıl eşleşecek? Sayfalar bunu henüz iddia etmiyor; netleşince eklenmeli.
 5. 14 günlük iade yenileme ücretlerini de kapsıyor mu? Sayfalar "her web tahsilatından itibaren 14 gün" diyor; farklıysa `refund` metni düzeltilmeli.

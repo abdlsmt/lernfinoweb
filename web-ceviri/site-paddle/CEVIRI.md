@@ -6,7 +6,7 @@ Kapsam: lernfino.com ana sayfası, /pricing/, /refund/, /terms/ 3. bölüm (web 
 
 - Her dil bloğunda kimliklerin karşısına çeviriyi yazın ("- `kimlik`: çeviri" biçiminde, aynı satırda). Şu an bloklar boştur; doldurulacaktır.
 - HTML etiketlerini (`<strong>`, `<a href="...">`, `<code>`, `<br />`) ve `&amp;` gibi varlıkları aynen koruyun; yalnızca görünen metni çevirin. Bağlantı adreslerini (href) değiştirmeyin.
-- Değiştirmeyin: Lernfino, Paddle, Paddle.com Market Limited, Merchant of Record, Plus, Pro, Exam Pass (ürün adı), app.lernfino.com, support@lernfino.com, Google Play, App Store, Goethe/ÖSD/telc, Lesen/Hören/Schreiben/Sprechen, `WEB_FIYAT_*` yer tutucuları (fiyat tablosunda kullanıcı gerçek fiyatları yazacak; yer tutucu görürseniz olduğu gibi bırakın).
+- Değiştirmeyin: Lernfino, Paddle, Paddle.com Market Limited, Merchant of Record, Plus, Pro, Exam Pass (ürün adı), app.lernfino.com, support@lernfino.com, Google Play, App Store, Goethe/ÖSD/telc, Lesen/Hören/Schreiben/Sprechen. Fiyat tablosundaki EUR tutarlarını koruyun.
 - Hukuki anlam eş değer olmalı: "iade", "cayma hakkı", "Merchant of Record" (kayıtlı satıcı) kavramlarını ilgili ülkenin tüketici hukuku terimleriyle karşılayın. "Hiçbir koşulda iade yok" gibi kesin ifade eklemeyin.
 - Rakamlar (14 gün, 7 gün, 12 hafta/84 gün, 24 saat, AI hak sayıları) birebir kalmalı.
 - `pricing_*` ve `refund_*` kimlikleri sayfa sırasıyla başlık, paragraf, madde ve tablo hücreleridir; sıra önemlidir.
@@ -20,26 +20,27 @@ Kapsam: lernfino.com ana sayfası, /pricing/, /refund/, /terms/ 3. bölüm (web 
 | `home_nav_launch` | Uygulamayı İndir |
 | `home_nav_cta` | Uygulamayı İndir |
 | `home_nav_pricing` | Fiyatlandırma |
-| `home_hero_badge` | GOOGLE PLAY VE APP STORE'DA · Web sürümü çok yakında (app.lernfino.com) |
+| `home_hero_badge` | GOOGLE PLAY’DE · Web sürümü Aralık 2026’da (app.lernfino.com) |
 | `home_hero_ctaPrimary` | Uygulamayı İndir |
-| `home_store_appStoreSmall` | İndirin: |
+| `home_store_soon` | Çok yakında |
+| `home_store_webDate` | Aralık 2026 |
 | `home_store_playSmall` | Şuradan edinin: |
 | `home_compare_c6Title` | Ücretsiz Başla · Ücretli Planlar |
 | `home_dl_eyebrow` | LERNFINO'YU EDİN |
 | `home_dl_title` | Lernfino ile Almanca Öğren |
 | `home_dl_desc` | Lernfino, A1'den B2'ye Almanca öğrenmek için hazırlanmış bir uygulamadır. Rehberli öğrenme yolunu izleyin, seviyeli hikâyeleri okuyup dinleyin, kelimelere dokunarak anlamlarına bakın, dilbilgisi çalışın ve bağımsız Goethe/ÖSD/telc sınav formatlarında pratik yapın. Yazma ve konuşma için isteğe bağlı yapay zekâ geri bildirimi sunulur. |
 | `home_dl_cardTitle` | Uygulamayı edinin |
-| `home_dl_cardSub` | Lernfino, Google Play ve App Store'da. app.lernfino.com adresindeki web sürümü çok yakında. |
+| `home_dl_cardSub` | Lernfino Google Play’de. App Store’da çok yakında. Web sürümü Aralık 2026’da app.lernfino.com adresinde yayına girecek. |
 | `home_dl_plansTitle` | Ücretsiz başlayın, daha fazlasını istediğinizde ücretli planlar |
 | `home_dl_plansDesc` | Ücretsiz planda günlük kullanım sınırları vardır ve reklam gösterilebilir. Plus, Pro ve 12 haftalık Sınav Pass reklamları kaldırır ve daha fazlasını sunar. Planlar, fiyatlar, deneme, yenileme ve iptal koşulları Fiyatlandırma sayfasında; iadeler İade Politikası'nda yer alır. |
 | `home_dl_pricingBtn` | Fiyatlandırmayı Gör |
 | `home_dl_contact` | Sorularınız için: <a href="mailto:support@lernfino.com">support@lernfino.com</a> |
-| `home_footer_tagline` | Almancaya açılan sıcak bir sayfa. Google Play ve App Store'da; web sürümü çok yakında. |
+| `home_footer_tagline` | Almancaya açılan sıcak bir sayfa. Google Play’de. Web sürümü Aralık 2026’da. |
 | `home_footer_pricing` | Fiyatlandırma |
 | `home_footer_refund` | İade Politikası |
 | `home_footer_contact` | İletişim: support@lernfino.com |
-| `home_meta_description` | Lernfino, A1–B2 seviyeleri için bir Almanca öğrenme uygulamasıdır: rehberli öğrenme yolu, seviyeli sesli hikâyeler, dokunarak öğrenen sözlük, dilbilgisi antrenörleri ve isteğe bağlı yapay zekâ geri bildirimiyle bağımsız Goethe/ÖSD/telc formatında pratik. Ücretsiz plan; Plus, Pro ve Sınav Pass ücretli planları. Google Play ve App Store'da; web sürümü çok yakında. |
-| `home_og_description` | A1–B2 Almanca öğren: seviyeli sesli hikâyeler, dokunarak öğrenen sözlük, dilbilgisi antrenörleri ve bağımsız sınav formatında pratik. Ücretsiz plan mevcut. Google Play ve App Store'da. |
+| `home_meta_description` | Lernfino, A1–B2 seviyeleri için bir Almanca öğrenme uygulamasıdır: rehberli öğrenme yolu, seviyeli sesli hikâyeler, dokunarak öğrenen sözlük, dilbilgisi antrenörleri ve isteğe bağlı yapay zekâ geri bildirimiyle bağımsız Goethe/ÖSD/telc formatında pratik. Ücretsiz plan; Plus, Pro ve Sınav Pass ücretli planları. Google Play’de. Web sürümü Aralık 2026’da. |
+| `home_og_description` | A1–B2 Almanca öğren: seviyeli sesli hikâyeler, dokunarak öğrenen sözlük, dilbilgisi antrenörleri ve bağımsız sınav formatında pratik. Ücretsiz plan mevcut. Google Play’de. |
 | `legal_nav_pricing` | Fiyatlandırma |
 | `legal_nav_refund` | İade Politikası |
 | `legal_footer_pricing` | Fiyatlandırma |
@@ -54,7 +55,7 @@ Kapsam: lernfino.com ana sayfası, /pricing/, /refund/, /terms/ 3. bölüm (web 
 | `legal_refund_title` | İade Politikası |
 | `legal_refund_subtitle` | Web satın alımlarında 14 gün içinde iade talebi, mağaza satın alımları ve yasal cayma hakkı. Web satıcısı: Paddle (Merchant of Record). |
 | `legal_refund_cardBadge` | LERNFINO İADE POLİTİKASI |
-| `legal_footer_tagline` | Almancaya açılan sıcak bir sayfa. Google Play ve App Store'da; web sürümü çok yakında. |
+| `legal_footer_tagline` | Almancaya açılan sıcak bir sayfa. Google Play’de. Web sürümü Aralık 2026’da. |
 | `pricing_001` | 1. Planlara Genel Bakış |
 | `pricing_002` | Lernfino ücretsiz başlar. Ücretli planlar ücretsiz plandaki sınırları ve reklamları kaldırır, daha fazla yapay zekâ değerlendirmesi sunar. Lernfino'yu Abdulsamet Saygı (Lernfino / Respecode) işletir; web satın alımlarının satıcısı Merchant of Record olarak Paddle'dır (bkz. bölüm 5). |
 | `pricing_003` | Ücretsiz |
@@ -105,53 +106,54 @@ Kapsam: lernfino.com ana sayfası, /pricing/, /refund/, /terms/ 3. bölüm (web 
 | `pricing_048` | 2. Fiyatlar |
 | `pricing_049` | Plan |
 | `pricing_050` | Faturalama |
-| `pricing_051` | Web fiyatı (geçerli vergiler dâhil) |
+| `pricing_051` | Web fiyatı (EUR, KDV dâhil) |
 | `pricing_052` | Ücretsiz deneme |
 | `pricing_053` | Yenileme |
 | `pricing_054` | <strong>Ücretsiz</strong> |
 | `pricing_055` | — |
-| `pricing_056` | 0 |
+| `pricing_056` | 0 € |
 | `pricing_057` | — |
 | `pricing_058` | — |
 | `pricing_059` | <strong>Plus</strong> aylık |
 | `pricing_060` | Her ay |
-| `pricing_061` | WEB_FIYAT_PLUS_AYLIK |
+| `pricing_061` | 6,99 € |
 | `pricing_062` | Yok |
 | `pricing_063` | İptal edilene kadar aylık yenilenir |
 | `pricing_064` | <strong>Plus</strong> yıllık |
 | `pricing_065` | Her yıl |
-| `pricing_066` | WEB_FIYAT_PLUS_YILLIK |
+| `pricing_066` | 39,99 € |
 | `pricing_067` | Uygun yeni hesaplara 7 gün |
 | `pricing_068` | İptal edilene kadar yıllık yenilenir |
 | `pricing_069` | <strong>Pro</strong> aylık |
 | `pricing_070` | Her ay |
-| `pricing_071` | WEB_FIYAT_PRO_AYLIK |
+| `pricing_071` | 12,99 € |
 | `pricing_072` | Yok |
 | `pricing_073` | İptal edilene kadar aylık yenilenir |
 | `pricing_074` | <strong>Pro</strong> yıllık |
 | `pricing_075` | Her yıl |
-| `pricing_076` | WEB_FIYAT_PRO_YILLIK |
+| `pricing_076` | 79,99 € |
 | `pricing_077` | Uygun yeni hesaplara 7 gün |
 | `pricing_078` | İptal edilene kadar yıllık yenilenir |
 | `pricing_079` | <strong>Sınav Pass</strong> |
 | `pricing_080` | Tek seferlik, 12 hafta (84 gün) |
-| `pricing_081` | WEB_FIYAT_SINAV_PASS |
+| `pricing_081` | 24,99 € |
 | `pricing_082` | Yok |
 | `pricing_083` | Yenilenmez |
-| `pricing_084` | Fiyat, para birimi ve varsa vergiler (KDV gibi) ödeme sayfasında, ödemeden önce gösterilir. Mobil uygulamalardaki satın alımlar Apple App Store veya Google Play tarafından mağazada gösterilen fiyatlarla faturalanır; bu fiyatlar web fiyatlarından farklı olabilir. Web satın alımları, <code>app.lernfino.com</code> adresindeki web sürümü yayına girdiğinde kullanılabilir olacaktır. |
-| `pricing_085` | 3. Ücretsiz Deneme |
-| `pricing_086` | Yıllık Plus ve yıllık Pro teklifleri uygun yeni hesaplar için <strong>7 günlük ücretsiz deneme</strong> içerebilir. Deneme sırasında ücret alınmaz. Deneme bitmeden iptal etmezseniz, ödeme sayfasında gösterilen ilk yıllık ücret deneme sonunda tahsil edilir. Mağazalarda denemeyi bitiminden en az 24 saat önce iptal edin (Google Play: bitmeden önce). Web satın alımlarında bölüm 4'te anlatıldığı gibi deneme bitmeden iptal edin. Aylık planlarda ve Sınav Pass'te ücretsiz deneme yoktur. |
-| `pricing_087` | 4. Yenileme ve İptal |
-| `pricing_088` | <strong>Otomatik yenileme:</strong> Plus ve Pro, siz iptal edene kadar aynı süre için o günkü güncel fiyatla otomatik yenilenir. Fiyat ve yenileme tarihi satın almadan önce ve makbuzunuzda gösterilir. |
-| `pricing_089` | <strong>Sınav Pass:</strong> 12 hafta (84 gün) reklamsız Pro erişimi için tek seferlik ödemedir. <strong>Yenilenmez</strong>, ek ücret alınmaz; süre sonunda hesabınız ücretsiz plana döner, ilerlemeniz kalır. |
-| `pricing_090` | <strong>İstediğiniz zaman iptal:</strong> İptal, gelecekteki yenilemeleri durdurur; ücretini ödediğiniz dönemin sonuna kadar ücretli erişiminiz sürer. Mağaza abonelikleri <a href="https://apps.apple.com/account/subscriptions" target="_blank" rel="noopener noreferrer">Apple ID Abonelikleri</a> veya <a href="https://play.google.com/store/account/subscriptions" target="_blank" rel="noopener noreferrer">Google Play Abonelikleri</a> üzerinden yönetilir. Web abonelikleri, Paddle makbuz e-postasındaki iptal bağlantısıyla, <a href="https://paddle.net" target="_blank" rel="noopener noreferrer">paddle.net</a> üzerinden veya <a href="mailto:support@lernfino.com">support@lernfino.com</a> adresine e-posta göndererek iptal edilir. Mağazalarda geçerli dönem bitiminden en az 24 saat önce iptal edin. |
-| `pricing_091` | <strong>Uygulamayı veya Lernfino hesabınızı silmek aboneliği iptal etmez.</strong> Önce iptal edin, sonra silin. |
-| `pricing_092` | 5. Ödemeler, Vergiler ve Merchant of Record |
-| `pricing_093` | Web satın alımlarını ödeme sağlayıcımız ve <strong>Merchant of Record</strong> (kayıtlı satıcı) olan <strong>Paddle.com Market Limited</strong> (“Paddle”) işler. Paddle web siparişlerinin satıcısıdır: ödeme yönteminizden tahsilat yapar, geçerli vergileri hesaplayıp tahsil eder, faturanızı ve makbuzunuzu düzenler, ödeme desteğini ve iadeleri yönetir. Bu siparişlere Paddle'ın <a href="https://www.paddle.com/legal/checkout-buyer-terms" target="_blank" rel="noopener noreferrer">Ödeme Alıcı Şartları</a> ve <a href="https://www.paddle.com/legal/privacy" target="_blank" rel="noopener noreferrer">Gizlilik Bildirimi</a> uygulanır. Lernfino kart bilgilerinizin tamamını görmez ve saklamaz. |
-| `pricing_094` | 6. İadeler |
-| `pricing_095` | Web satın alımlarında tahsilattan itibaren 14 gün içinde, gerekçe göstermeden iade talep edebilirsiniz. Mağaza satın alımları Apple veya Google'ın iade kurallarına tabidir. Ayrıntılar <a href="../refund/">İade Politikamızda</a> yer alır. |
-| `pricing_096` | 7. İletişim |
-| `pricing_097` | Planlar, faturalama veya iptal hakkında sorularınız için: <a href="mailto:support@lernfino.com">support@lernfino.com</a>. Hizmet sağlayıcı: Abdulsamet Saygı (Lernfino / Respecode), bkz. <a href="../imprint/">Künye</a>. Ayrıca <a href="../terms/">Kullanım Koşulları</a> ve <a href="../privacy/">Gizlilik Politikası</a> sayfalarımıza bakın. |
+| `pricing_084` | Web satın alımları, <code>app.lernfino.com</code> adresindeki web sürümü Aralık 2026’da yayına girdiğinde açılır. Toplam tutarı ödemeden önce görürsünüz. Mobil mağaza fiyatları web fiyatlarından farklı olabilir. |
+| `pricing_085` | Web satın alımınız Lernfino hesabınıza bağlanır. E-posta, Google veya Apple ile giriş yapabilirsiniz. Aynı hesapla mobil uygulamada satın aldığınız Plus, Pro veya Sınav Pass’e erişebilirsiniz. |
+| `pricing_086` | 3. Ücretsiz Deneme |
+| `pricing_087` | Web’de yıllık Plus ve Pro planları, uygun yeni hesaplara <strong>7 günlük ücretsiz deneme</strong> sunar. Deneme sırasında ücret alınmaz. Deneme bitmeden iptal etmezseniz, ödeme sayfasında gösterilen ilk yıllık ücret deneme sonunda tahsil edilir. Web denemesini iptal etmek için deneme bitmeden bölüm 4’teki adımları izleyin. Denemeyi mobil mağazada başlattıysanız mağazanın iptal süresine uyun. Aylık planlarda ve Sınav Pass'te ücretsiz deneme yoktur. |
+| `pricing_088` | 4. Yenileme ve İptal |
+| `pricing_089` | <strong>Otomatik yenileme:</strong> Plus ve Pro, siz iptal edene kadar aynı süre için o günkü güncel fiyatla otomatik yenilenir. Fiyat ve yenileme tarihi satın almadan önce ve makbuzunuzda gösterilir. |
+| `pricing_090` | <strong>Sınav Pass:</strong> 12 hafta (84 gün) reklamsız Pro erişimi için tek seferlik ödemedir. <strong>Yenilenmez</strong>, ek ücret alınmaz; süre sonunda hesabınız ücretsiz plana döner, ilerlemeniz kalır. |
+| `pricing_091` | <strong>İstediğiniz zaman iptal:</strong> İptal, gelecekteki yenilemeleri durdurur; ücretini ödediğiniz dönemin sonuna kadar ücretli erişiminiz sürer. Mağaza abonelikleri <a href="https://apps.apple.com/account/subscriptions" target="_blank" rel="noopener noreferrer">Apple ID Abonelikleri</a> veya <a href="https://play.google.com/store/account/subscriptions" target="_blank" rel="noopener noreferrer">Google Play Abonelikleri</a> üzerinden yönetilir. Web abonelikleri, Paddle makbuz e-postasındaki iptal bağlantısıyla, <a href="https://paddle.net" target="_blank" rel="noopener noreferrer">paddle.net</a> üzerinden veya <a href="mailto:support@lernfino.com">support@lernfino.com</a> adresine e-posta göndererek iptal edilir. Mağazalarda geçerli dönem bitiminden en az 24 saat önce iptal edin. |
+| `pricing_092` | <strong>Uygulamayı veya Lernfino hesabınızı silmek aboneliği iptal etmez.</strong> Önce iptal edin, sonra silin. |
+| `pricing_093` | 5. Ödemeler, Vergiler ve Merchant of Record |
+| `pricing_094` | Web satın alımlarını ödeme sağlayıcımız ve <strong>Merchant of Record</strong> (kayıtlı satıcı) olan <strong>Paddle.com Market Limited</strong> (“Paddle”) işler. Paddle web siparişlerinin satıcısıdır: ödeme yönteminizden tahsilat yapar, geçerli vergileri hesaplayıp tahsil eder, faturanızı ve makbuzunuzu düzenler, ödeme desteğini ve iadeleri yönetir. Bu siparişlere Paddle'ın <a href="https://www.paddle.com/legal/checkout-buyer-terms" target="_blank" rel="noopener noreferrer">Ödeme Alıcı Şartları</a> ve <a href="https://www.paddle.com/legal/privacy" target="_blank" rel="noopener noreferrer">Gizlilik Bildirimi</a> uygulanır. Lernfino kart bilgilerinizin tamamını görmez ve saklamaz. |
+| `pricing_095` | 6. İadeler |
+| `pricing_096` | Yenilemeler dâhil her web tahsilatından itibaren 14 gün içinde gerekçe göstermeden tam iade talep edebilirsiniz. Mağaza satın alımları Apple veya Google'ın iade kurallarına tabidir. Ayrıntılar <a href="../refund/">İade Politikamızda</a> yer alır. |
+| `pricing_097` | 7. İletişim |
+| `pricing_098` | Planlar, faturalama veya iptal hakkında sorularınız için: <a href="mailto:support@lernfino.com">support@lernfino.com</a>. Hizmet sağlayıcı: Abdulsamet Saygı (Lernfino / Respecode), bkz. <a href="../imprint/">Künye</a>. Ayrıca <a href="../terms/">Kullanım Koşulları</a> ve <a href="../privacy/">Gizlilik Politikası</a> sayfalarımıza bakın. |
 | `refund_001` | 1. Size Kim Satış Yapar |
 | `refund_002` | Lernfino'yu Abdulsamet Saygı (Lernfino / Respecode) sunar. <strong>Web üzerindeki satın alımların</strong> satıcısı, ödeme sağlayıcımız ve <strong>Merchant of Record</strong> (kayıtlı satıcı) olan <strong>Paddle.com Market Limited</strong>'dır (“Paddle”, Judd House, 18-29 Mora Street, Londra EC1V 8BT, Birleşik Krallık). Paddle ödeme yönteminizden tahsilat yapar, vergileri toplar, fatura ve makbuz düzenler, web siparişlerinin iadelerini işler. <strong>Mobil uygulamalardaki satın alımlar</strong> Apple (App Store) veya Google (Google Play) tarafından satılır ve faturalanır; bunlara mağazaların kuralları uygulanır (bölüm 5). |
 | `refund_003` | 2. Web Satın Alımlarında 14 Günlük İade |
@@ -174,12 +176,12 @@ Kapsam: lernfino.com ana sayfası, /pricing/, /refund/, /terms/ 3. bölüm (web 
 | `refund_020` | 8. İletişim |
 | `refund_021` | <a href="mailto:support@lernfino.com">support@lernfino.com</a>. Ayrıca <a href="../pricing/">Fiyatlandırma</a>, <a href="../terms/">Kullanım Koşulları</a> ve <a href="../privacy/">Gizlilik Politikası</a> sayfalarına bakın. Hizmet sağlayıcı bilgileri <a href="../imprint/">Künye</a>'dedir. Web siparişlerine Paddle'ın <a href="https://www.paddle.com/legal/checkout-buyer-terms" target="_blank" rel="noopener noreferrer">Ödeme Alıcı Şartları</a> da uygulanır. |
 | `terms_s3_001` | 3. Abonelikler, 12 Haftalık Sınav Paketi, Web Satın Alımları (Paddle), Otomatik Yenileme, İptal ve Cayma |
-| `terms_s3_002` | Ücretli planlar (<strong>Lernfino Plus</strong> ve <strong>Lernfino Pro</strong> — aylık ve yıllık) ile <strong>12 haftalık Sınav Paketi (Exam Pass)</strong> (a) mobil uygulamalarda <strong>Apple App Store</strong> veya <strong>Google Play Store</strong> uygulama içi satın alma sistemleri üzerinden ve (b) Lernfino'nun web sürümünde (<code>app.lernfino.com</code>, çok yakında) ödeme sağlayıcımız ve Merchant of Record'umuz <strong>Paddle</strong> üzerinden satın alınabilir. Güncel planlar, kapsam ve fiyatlar <a href="../pricing/">Fiyatlandırma</a> sayfamızda yer alır ve her satın alma öncesinde gösterilir. |
-| `terms_s3_003` | <strong>Otomatik Yenileme (Plus &amp; Pro):</strong> Aylık ve yıllık abonelikler, iptal edilene kadar aynı süre ve güncel fiyat üzerinden otomatik yenilenir. Mağazalarda mevcut fatura döneminin bitiminden <strong>en az 24 saat önce</strong>, web'de yenileme tarihinden önce iptal edin. Yıllık planlarda uygun yeni hesaplar için 7 günlük ücretsiz deneme sunulabilir; deneme bitmeden iptal edilmezse abonelik ücretli yıllık plana dönüşür. |
+| `terms_s3_002` | Ücretli planlar (<strong>Lernfino Plus</strong> ve <strong>Lernfino Pro</strong> — aylık ve yıllık) ile <strong>12 haftalık Sınav Paketi (Exam Pass)</strong> (a) mobil uygulamalarda <strong>Google Play Store</strong> uygulama içi satın alma sistemi üzerinden (<strong>Apple App Store</strong> çok yakında) ve (b) Lernfino'nun web sürümünde (<code>app.lernfino.com</code>, Aralık 2026) ödeme sağlayıcımız ve Merchant of Record'umuz <strong>Paddle</strong> üzerinden satın alınabilir. Güncel planlar, kapsam ve fiyatlar <a href="../pricing/">Fiyatlandırma</a> sayfamızda yer alır ve her satın alma öncesinde gösterilir. |
+| `terms_s3_003` | <strong>Otomatik Yenileme (Plus &amp; Pro):</strong> Aylık ve yıllık abonelikler, iptal edilene kadar aynı süre ve güncel fiyat üzerinden otomatik yenilenir. Mağazalarda mevcut fatura döneminin bitiminden <strong>en az 24 saat önce</strong>, web'de yenileme tarihinden önce iptal edin. Yıllık web planları, uygun yeni hesaplara 7 günlük ücretsiz deneme sunar. Deneme bitmeden iptal edilmezse abonelik ücretli yıllık plana dönüşür. |
 | `terms_s3_004` | <strong>12 Haftalık Sınav Paketi (Tek Seferlik, Yenilenmez):</strong> Sınav Paketi satın alma tarihinden itibaren <strong>12 hafta (84 gün)</strong> boyunca ilgili Pro özelliklerine ve tanımlı toplam yapay zekâ değerlendirme kotasına erişim sağlar. <strong>Tek seferlik ödemedir, otomatik yenilenmez</strong>; süre sonunda yeni bir satın alma olmadan tekrar ücret alınmaz. |
 | `terms_s3_005` | <strong>Web Satın Alımları ve Merchant of Record Olarak Paddle:</strong> Web siparişlerini bu siparişlerin <strong>Merchant of Record</strong>'u (kayıtlı satıcısı) olarak hareket eden <strong>Paddle.com Market Limited</strong> (“Paddle”) işler. Paddle ödeme yönteminizden tahsilat yapar, geçerli vergileri hesaplayıp tahsil eder, fatura ve makbuz düzenler, ödeme desteği ve iadeleri yönetir. Web siparişlerinde bu Koşullara ek olarak Paddle'ın <a href="https://www.paddle.com/legal/checkout-buyer-terms" target="_blank" rel="noopener noreferrer">Ödeme Alıcı Şartları</a> uygulanır. Uygulamayı, içeriği ve hizmeti Lernfino (Abdulsamet Saygı) sağlar. |
 | `terms_s3_006` | <strong>Yönetim ve İptal:</strong> Mağaza aboneliklerinizi dilediğiniz zaman <a href="https://apps.apple.com/account/subscriptions" target="_blank" rel="noopener noreferrer">Apple ID Abonelik Ayarları</a> veya <a href="https://play.google.com/store/account/subscriptions" target="_blank" rel="noopener noreferrer">Google Play Abonelikler</a> üzerinden yönetebilir ya da iptal edebilirsiniz. Web aboneliklerini dilediğiniz zaman Paddle makbuz e-postasındaki bağlantıyla, <a href="https://paddle.net" target="_blank" rel="noopener noreferrer">paddle.net</a> üzerinden veya <a href="mailto:support@lernfino.com">support@lernfino.com</a> adresine e-posta göndererek iptal edebilirsiniz. İptal, ödenmiş dönemin sonundaki gelecek yenilemeleri durdurur. <strong>Uygulamayı veya Lernfino hesabınızı silmek aktif aboneliğinizi otomatik olarak iptal etmez.</strong> |
-| `terms_s3_007` | <strong>Cayma Hakkı ve İadeler:</strong> Mağaza satın alımlarında ödeme ve iadeler Apple Media Services veya Google Play kurallarına göre yürütülür. Web satın alımlarında tahsilattan itibaren 14 gün içinde <a href="../refund/">İade Politikamızda</a> açıklandığı şekilde iade talep edebilirsiniz. Önceden açık onayınız ve bilgilendirmenizle anında ifasına başlanan dijital içerik/hizmetlere ilişkin yasal cayma istisnaları (2011/83/AB Direktifi m. 16(m); 6502 sayılı Kanun ve Mesafeli Sözleşmeler Yönetmeliği m. 15/1-ğ,h) orada açıklanmıştır; zorunlu yasal tüketici hakları saklıdır. |
+| `terms_s3_007` | <strong>Cayma Hakkı ve İadeler:</strong> Mağaza satın alımlarında ödeme ve iadeler Apple Media Services veya Google Play kurallarına göre yürütülür. Yenilemeler dâhil her web tahsilatından itibaren 14 gün içinde <a href="../refund/">İade Politikamızda</a> açıklandığı şekilde tam iade talep edebilirsiniz. Önceden açık onayınız ve bilgilendirmenizle anında ifasına başlanan dijital içerik/hizmetlere ilişkin yasal cayma istisnaları (2011/83/AB Direktifi m. 16(m); 6502 sayılı Kanun ve Mesafeli Sözleşmeler Yönetmeliği m. 15/1-ğ,h) orada açıklanmıştır; zorunlu yasal tüketici hakları saklıdır. |
 | `privacy_paddle_row_001` | <strong>Web Satın Alımları (Paddle)</strong><br />Ad, e-posta adresi, fatura ülkesi ve posta kodu, girdiyseniz vergi/KDV bilgileri, ödeme onayı, sipariş ve abonelik numaraları, plan, durum ve tarihler. Kart veya cüzdan bilgileri Paddle'da girilir; Lernfino bunları almaz ve saklamaz. |
 | `privacy_paddle_row_002` | Web satın alımlarının ve aboneliklerin işlenmesi, vergi ve faturalama, iadeler, ödeme sahtekârlığının önlenmesi ve satın alımın planınızla eşleştirilmesi |
 | `privacy_paddle_row_003` | Sözleşmenin ifası (GDPR m. 6(1)(b), KVKK m. 5/2-c); hukuki yükümlülük (vergi ve muhasebe mevzuatı; GDPR m. 6(1)(c)); sahtekârlığın önlenmesi (meşru menfaat, GDPR m. 6(1)(f)) |
@@ -194,26 +196,27 @@ Kapsam: lernfino.com ana sayfası, /pricing/, /refund/, /terms/ 3. bölüm (web 
 | `home_nav_launch` | Get the App |
 | `home_nav_cta` | Get the App |
 | `home_nav_pricing` | Pricing |
-| `home_hero_badge` | NOW ON GOOGLE PLAY & APP STORE · Web version coming soon (app.lernfino.com) |
+| `home_hero_badge` | NOW ON GOOGLE PLAY · Web version in December 2026 (app.lernfino.com) |
 | `home_hero_ctaPrimary` | Get the App |
-| `home_store_appStoreSmall` | Download on the |
+| `home_store_soon` | Coming soon |
+| `home_store_webDate` | December 2026 |
 | `home_store_playSmall` | Get it on |
 | `home_compare_c6Title` | Start Free · Paid Plans |
 | `home_dl_eyebrow` | GET LERNFINO |
 | `home_dl_title` | Learn German with Lernfino |
 | `home_dl_desc` | Lernfino is a German learning app for levels A1 to B2. Follow a guided learning path, read and listen to leveled stories, look up words with a tap, train grammar and practice in independent Goethe/ÖSD/telc exam formats. Optional AI feedback is available for writing and speaking. |
 | `home_dl_cardTitle` | Get the app |
-| `home_dl_cardSub` | Lernfino is available on Google Play and the App Store. A web version at app.lernfino.com is coming soon. |
+| `home_dl_cardSub` | Lernfino is available on Google Play. The App Store release is coming soon. The web version launches at app.lernfino.com in December 2026. |
 | `home_dl_plansTitle` | Free to start, paid plans when you want more |
 | `home_dl_plansDesc` | The free plan has daily usage limits and may show ads. Plus, Pro and the 12-week Exam Pass remove the ads and add more. Plans, prices, trial, renewal and cancellation terms are on the Pricing page; refunds are covered by the Refund Policy. |
 | `home_dl_pricingBtn` | See Pricing |
 | `home_dl_contact` | Questions? Contact <a href="mailto:support@lernfino.com">support@lernfino.com</a> |
-| `home_footer_tagline` | A warm page opening to German. On Google Play and the App Store; web version coming soon. |
+| `home_footer_tagline` | A warm page opening to German. On Google Play. Web version in December 2026. |
 | `home_footer_pricing` | Pricing |
 | `home_footer_refund` | Refund Policy |
 | `home_footer_contact` | Contact: support@lernfino.com |
-| `home_meta_description` | Lernfino is a German learning app for levels A1–B2: guided learning path, leveled audio stories, tap-to-learn dictionary, grammar trainers and independent Goethe/ÖSD/telc-format practice with optional AI feedback. Free plan, plus Plus, Pro and Exam Pass. Available on Google Play and the App Store; web version coming soon. |
-| `home_og_description` | Learn German A1–B2: leveled audio stories, tap-to-learn dictionary, grammar trainers and independent exam-format practice. Free plan available. On Google Play and the App Store. |
+| `home_meta_description` | Lernfino is a German learning app for levels A1–B2: guided learning path, leveled audio stories, tap-to-learn dictionary, grammar trainers and independent Goethe/ÖSD/telc-format practice with optional AI feedback. Free plan, plus Plus, Pro and Exam Pass. Available on Google Play. Web version in December 2026. |
+| `home_og_description` | Learn German A1–B2: leveled audio stories, tap-to-learn dictionary, grammar trainers and independent exam-format practice. Free plan available. On Google Play. |
 | `legal_nav_pricing` | Pricing |
 | `legal_nav_refund` | Refund Policy |
 | `legal_footer_pricing` | Pricing |
@@ -228,7 +231,7 @@ Kapsam: lernfino.com ana sayfası, /pricing/, /refund/, /terms/ 3. bölüm (web 
 | `legal_refund_title` | Refund Policy |
 | `legal_refund_subtitle` | Refund requests within 14 days for web purchases, store purchases and the statutory right of withdrawal. Web seller: Paddle (Merchant of Record). |
 | `legal_refund_cardBadge` | LERNFINO REFUND POLICY |
-| `legal_footer_tagline` | A warm page opening to German. On Google Play and the App Store; web version coming soon. |
+| `legal_footer_tagline` | A warm page opening to German. On Google Play. Web version in December 2026. |
 | `pricing_001` | 1. Plans at a Glance |
 | `pricing_002` | Lernfino is free to start. Paid plans remove the free-plan limits and the ads and include more AI evaluations. Lernfino is operated by Abdulsamet Saygı (Lernfino / Respecode); web purchases are sold by Paddle as Merchant of Record (see section 5). |
 | `pricing_003` | Free |
@@ -279,53 +282,54 @@ Kapsam: lernfino.com ana sayfası, /pricing/, /refund/, /terms/ 3. bölüm (web 
 | `pricing_048` | 2. Prices |
 | `pricing_049` | Plan |
 | `pricing_050` | Billing |
-| `pricing_051` | Web price (incl. applicable taxes) |
+| `pricing_051` | Web price in EUR (incl. VAT) |
 | `pricing_052` | Free trial |
 | `pricing_053` | Renewal |
 | `pricing_054` | <strong>Free</strong> |
 | `pricing_055` | — |
-| `pricing_056` | 0 |
+| `pricing_056` | 0 € |
 | `pricing_057` | — |
 | `pricing_058` | — |
 | `pricing_059` | <strong>Plus</strong> monthly |
 | `pricing_060` | Every month |
-| `pricing_061` | WEB_FIYAT_PLUS_AYLIK |
+| `pricing_061` | 6,99 € |
 | `pricing_062` | None |
 | `pricing_063` | Renews monthly until canceled |
 | `pricing_064` | <strong>Plus</strong> annual |
 | `pricing_065` | Every year |
-| `pricing_066` | WEB_FIYAT_PLUS_YILLIK |
+| `pricing_066` | 39,99 € |
 | `pricing_067` | 7 days for eligible new accounts |
 | `pricing_068` | Renews yearly until canceled |
 | `pricing_069` | <strong>Pro</strong> monthly |
 | `pricing_070` | Every month |
-| `pricing_071` | WEB_FIYAT_PRO_AYLIK |
+| `pricing_071` | 12,99 € |
 | `pricing_072` | None |
 | `pricing_073` | Renews monthly until canceled |
 | `pricing_074` | <strong>Pro</strong> annual |
 | `pricing_075` | Every year |
-| `pricing_076` | WEB_FIYAT_PRO_YILLIK |
+| `pricing_076` | 79,99 € |
 | `pricing_077` | 7 days for eligible new accounts |
 | `pricing_078` | Renews yearly until canceled |
 | `pricing_079` | <strong>Exam Pass</strong> |
 | `pricing_080` | One-time, 12 weeks (84 days) |
-| `pricing_081` | WEB_FIYAT_SINAV_PASS |
+| `pricing_081` | 24,99 € |
 | `pricing_082` | None |
 | `pricing_083` | Does not renew |
-| `pricing_084` | The price, currency and any taxes (such as VAT) are shown at checkout before you pay. Purchases made in the mobile apps are billed by Apple App Store or Google Play at the prices shown in the store, which can differ from web prices. Web purchases become available when the web version at <code>app.lernfino.com</code> launches. |
-| `pricing_085` | 3. Free Trial |
-| `pricing_086` | Annual Plus and Annual Pro offers may include a <strong>7-day free trial</strong> for eligible new accounts. You are not charged during the trial. Unless you cancel before the trial ends, the first annual charge shown at checkout applies when the trial ends. In the stores, cancel at least 24 hours before the trial ends (Google Play: before it ends). For web purchases, cancel before the trial ends as described in section 4. Monthly plans and the Exam Pass have no free trial. |
-| `pricing_087` | 4. Renewal &amp; Cancellation |
-| `pricing_088` | <strong>Auto-renewal:</strong> Plus and Pro renew automatically for the same period at the then-current price until you cancel. The price and renewal date are shown before you buy and in your receipt. |
-| `pricing_089` | <strong>Exam Pass:</strong> a one-time payment for 12 weeks (84 days) of ad-free Pro access. It does <strong>not</strong> renew and nothing further is charged; afterwards your account returns to the free plan and your progress stays. |
-| `pricing_090` | <strong>Cancel anytime:</strong> cancellation stops future renewals and your paid access continues until the end of the period you already paid for. Store subscriptions are managed in <a href="https://apps.apple.com/account/subscriptions" target="_blank" rel="noopener noreferrer">Apple ID Subscriptions</a> or <a href="https://play.google.com/store/account/subscriptions" target="_blank" rel="noopener noreferrer">Google Play Subscriptions</a>. Web subscriptions are canceled with the cancellation link in your Paddle receipt email, at <a href="https://paddle.net" target="_blank" rel="noopener noreferrer">paddle.net</a>, or by emailing <a href="mailto:support@lernfino.com">support@lernfino.com</a>. In the stores, cancel at least 24 hours before the current period ends. |
-| `pricing_091` | <strong>Deleting the app or your Lernfino account does not cancel a subscription.</strong> Cancel first, then delete. |
-| `pricing_092` | 5. Payments, Taxes &amp; Merchant of Record |
-| `pricing_093` | Web purchases are processed by <strong>Paddle.com Market Limited</strong> (“Paddle”), our payment provider and <strong>Merchant of Record</strong>. Paddle is the seller of record for web orders: it charges your payment method, calculates and collects applicable taxes, issues your invoice and receipt, and handles payment support and refunds. Paddle’s <a href="https://www.paddle.com/legal/checkout-buyer-terms" target="_blank" rel="noopener noreferrer">Checkout Buyer Terms</a> and <a href="https://www.paddle.com/legal/privacy" target="_blank" rel="noopener noreferrer">Privacy Notice</a> apply to these orders. Lernfino does not see or store your full card details. |
-| `pricing_094` | 6. Refunds |
-| `pricing_095` | You can ask for a refund of a web purchase within 14 days of the charge, without giving a reason. Store purchases follow the refund rules of Apple or Google. Details are in our <a href="../refund/">Refund Policy</a>. |
-| `pricing_096` | 7. Contact |
-| `pricing_097` | Questions about plans, billing or cancellation: <a href="mailto:support@lernfino.com">support@lernfino.com</a>. Provider: Abdulsamet Saygı (Lernfino / Respecode), see the <a href="../imprint/">Legal Notice</a>. See also our <a href="../terms/">Terms of Service</a> and <a href="../privacy/">Privacy Policy</a>. |
+| `pricing_084` | Web purchases open with the December 2026 launch at <code>app.lernfino.com</code>. You’ll see the total before paying. Mobile store prices may differ from web prices. |
+| `pricing_085` | Web purchases are linked to your Lernfino account (sign in with email, Google or Apple). Use the same account in the mobile app to access the Plus, Pro or Exam Pass you bought. |
+| `pricing_086` | 3. Free Trial |
+| `pricing_087` | On the web, annual Plus and Pro include a <strong>7-day free trial</strong> for eligible new accounts. You are not charged during the trial. Unless you cancel before the trial ends, the first annual charge shown at checkout applies when the trial ends. To cancel a web trial, follow section 4 before the trial ends. For a trial started in a mobile store, follow that store’s cancellation deadline. Monthly plans and the Exam Pass have no free trial. |
+| `pricing_088` | 4. Renewal &amp; Cancellation |
+| `pricing_089` | <strong>Auto-renewal:</strong> Plus and Pro renew automatically for the same period at the then-current price until you cancel. The price and renewal date are shown before you buy and in your receipt. |
+| `pricing_090` | <strong>Exam Pass:</strong> a one-time payment for 12 weeks (84 days) of ad-free Pro access. It does <strong>not</strong> renew and nothing further is charged; afterwards your account returns to the free plan and your progress stays. |
+| `pricing_091` | <strong>Cancel anytime:</strong> cancellation stops future renewals and your paid access continues until the end of the period you already paid for. Store subscriptions are managed in <a href="https://apps.apple.com/account/subscriptions" target="_blank" rel="noopener noreferrer">Apple ID Subscriptions</a> or <a href="https://play.google.com/store/account/subscriptions" target="_blank" rel="noopener noreferrer">Google Play Subscriptions</a>. Web subscriptions are canceled with the cancellation link in your Paddle receipt email, at <a href="https://paddle.net" target="_blank" rel="noopener noreferrer">paddle.net</a>, or by emailing <a href="mailto:support@lernfino.com">support@lernfino.com</a>. In the stores, cancel at least 24 hours before the current period ends. |
+| `pricing_092` | <strong>Deleting the app or your Lernfino account does not cancel a subscription.</strong> Cancel first, then delete. |
+| `pricing_093` | 5. Payments, Taxes &amp; Merchant of Record |
+| `pricing_094` | Web purchases are processed by <strong>Paddle.com Market Limited</strong> (“Paddle”), our payment provider and <strong>Merchant of Record</strong>. Paddle is the seller of record for web orders: it charges your payment method, calculates and collects applicable taxes, issues your invoice and receipt, and handles payment support and refunds. Paddle’s <a href="https://www.paddle.com/legal/checkout-buyer-terms" target="_blank" rel="noopener noreferrer">Checkout Buyer Terms</a> and <a href="https://www.paddle.com/legal/privacy" target="_blank" rel="noopener noreferrer">Privacy Notice</a> apply to these orders. Lernfino does not see or store your full card details. |
+| `pricing_095` | 6. Refunds |
+| `pricing_096` | You can request a full refund within 14 days of each web charge, including renewals, without giving a reason. Store purchases follow the refund rules of Apple or Google. Details are in our <a href="../refund/">Refund Policy</a>. |
+| `pricing_097` | 7. Contact |
+| `pricing_098` | Questions about plans, billing or cancellation: <a href="mailto:support@lernfino.com">support@lernfino.com</a>. Provider: Abdulsamet Saygı (Lernfino / Respecode), see the <a href="../imprint/">Legal Notice</a>. See also our <a href="../terms/">Terms of Service</a> and <a href="../privacy/">Privacy Policy</a>. |
 | `refund_001` | 1. Who Sells to You |
 | `refund_002` | Lernfino is provided by Abdulsamet Saygı (Lernfino / Respecode). <strong>Purchases on the web</strong> are sold by <strong>Paddle.com Market Limited</strong> (“Paddle”, Judd House, 18-29 Mora Street, London EC1V 8BT, United Kingdom), our payment provider and <strong>Merchant of Record</strong>. Paddle charges your payment method, collects taxes, issues invoices and receipts, and processes refunds for web orders. <strong>Purchases in the mobile apps</strong> are sold and billed by Apple (App Store) or Google (Google Play) and follow their rules (section 5). |
 | `refund_003` | 2. 14-Day Refund for Web Purchases |
@@ -348,12 +352,12 @@ Kapsam: lernfino.com ana sayfası, /pricing/, /refund/, /terms/ 3. bölüm (web 
 | `refund_020` | 8. Contact |
 | `refund_021` | <a href="mailto:support@lernfino.com">support@lernfino.com</a>. See also <a href="../pricing/">Pricing</a>, <a href="../terms/">Terms of Service</a> and <a href="../privacy/">Privacy Policy</a>. Provider details are in the <a href="../imprint/">Legal Notice</a>. Paddle’s <a href="https://www.paddle.com/legal/checkout-buyer-terms" target="_blank" rel="noopener noreferrer">Checkout Buyer Terms</a> also apply to web orders. |
 | `terms_s3_001` | 3. Subscriptions, 12-Week Exam Pass, Web Purchases (Paddle), Auto-Renewal, Cancellation &amp; Withdrawal |
-| `terms_s3_002` | Paid plans (<strong>Lernfino Plus</strong> and <strong>Lernfino Pro</strong> — monthly and annual) and the <strong>12-week Exam Pass</strong> can be bought (a) in the mobile apps through <strong>Apple App Store</strong> or <strong>Google Play Store</strong> in-app purchases, and (b) on the web version of Lernfino (<code>app.lernfino.com</code>, launching soon) through our payment provider and Merchant of Record <strong>Paddle</strong>. Current plans, scope and prices are on our <a href="../pricing/">Pricing</a> page and are shown before each purchase. |
-| `terms_s3_003` | <strong>Auto-Renewal (Plus &amp; Pro):</strong> Monthly and annual subscriptions automatically renew at the same length and current price until canceled. Cancel at least <strong>24 hours before</strong> the end of the current billing period (stores) or before the renewal date (web). Annual plans may offer a 7-day free trial for eligible new accounts; unless canceled before the trial ends, the subscription converts to a paid annual plan. |
+| `terms_s3_002` | Paid plans (<strong>Lernfino Plus</strong> and <strong>Lernfino Pro</strong> — monthly and annual) and the <strong>12-week Exam Pass</strong> can be bought (a) in the mobile apps through <strong>Google Play Store</strong> in-app purchases (<strong>Apple App Store</strong> coming soon), and (b) on the web version of Lernfino (<code>app.lernfino.com</code>, launching in December 2026) through our payment provider and Merchant of Record <strong>Paddle</strong>. Current plans, scope and prices are on our <a href="../pricing/">Pricing</a> page and are shown before each purchase. |
+| `terms_s3_003` | <strong>Auto-Renewal (Plus &amp; Pro):</strong> Monthly and annual subscriptions automatically renew at the same length and current price until canceled. Cancel at least <strong>24 hours before</strong> the end of the current billing period (stores) or before the renewal date (web). Annual web plans include a 7-day free trial for eligible new accounts. The subscription converts to a paid annual plan unless canceled before the trial ends. |
 | `terms_s3_004` | <strong>12-Week Exam Pass (One-Time, Non-Renewing):</strong> The Exam Pass grants access to Pro features and its total AI evaluation allowance for <strong>12 weeks (84 days)</strong> from purchase. It is a <strong>one-time purchase that does not automatically renew</strong>; access ends after 84 days with no further charge unless you buy again. |
 | `terms_s3_005` | <strong>Web Purchases &amp; Paddle as Merchant of Record:</strong> Web orders are processed by <strong>Paddle.com Market Limited</strong> (“Paddle”), which acts as the <strong>Merchant of Record</strong> and seller of record for these orders. Paddle charges your payment method, calculates and collects applicable taxes, issues invoices and receipts, and handles payment support and refunds. Paddle’s <a href="https://www.paddle.com/legal/checkout-buyer-terms" target="_blank" rel="noopener noreferrer">Checkout Buyer Terms</a> apply to web orders in addition to these Terms. Lernfino (Abdulsamet Saygı) provides the app, content and service. |
 | `terms_s3_006` | <strong>Management &amp; Cancellation:</strong> Store subscriptions can be managed or canceled anytime via <a href="https://apps.apple.com/account/subscriptions" target="_blank" rel="noopener noreferrer">Apple ID Subscriptions</a> or <a href="https://play.google.com/store/account/subscriptions" target="_blank" rel="noopener noreferrer">Google Play Subscriptions</a>. Web subscriptions can be canceled anytime via the link in your Paddle receipt email, at <a href="https://paddle.net" target="_blank" rel="noopener noreferrer">paddle.net</a>, or by emailing <a href="mailto:support@lernfino.com">support@lernfino.com</a>. Cancellation stops future renewals at the end of the paid period. <strong>Deleting the app or your Lernfino account does not automatically cancel an active subscription.</strong> |
-| `terms_s3_007` | <strong>Withdrawal &amp; Refunds:</strong> Store purchases are billed and refunded under Apple Media Services or Google Play rules. For web purchases you may request a refund within 14 days of the charge as described in our <a href="../refund/">Refund Policy</a>. Statutory withdrawal exceptions for digital content/services begun immediately with your prior explicit consent and acknowledgment (EU Directive 2011/83/EU Art. 16(m); Turkish Law No. 6502 &amp; Distance Contracts Regulation Art. 15/1-ğ,h) remain explained there, without limiting mandatory statutory consumer rights. |
+| `terms_s3_007` | <strong>Withdrawal &amp; Refunds:</strong> Store purchases are billed and refunded under Apple Media Services or Google Play rules. You may request a full refund within 14 days of each web charge, including renewals, as described in our <a href="../refund/">Refund Policy</a>. Statutory withdrawal exceptions for digital content/services begun immediately with your prior explicit consent and acknowledgment (EU Directive 2011/83/EU Art. 16(m); Turkish Law No. 6502 &amp; Distance Contracts Regulation Art. 15/1-ğ,h) remain explained there, without limiting mandatory statutory consumer rights. |
 | `privacy_paddle_row_001` | <strong>Web Purchases (Paddle)</strong><br />Name, email address, billing country and postcode, tax/VAT details if you enter them, payment confirmation, order and subscription IDs, plan, status and dates. Card or wallet details are entered with Paddle; Lernfino does not receive or store them. |
 | `privacy_paddle_row_002` | Processing web purchases and subscriptions, taxes and invoicing, refunds, payment fraud prevention, and linking the purchase to your plan |
 | `privacy_paddle_row_003` | Performance of a contract (GDPR Art. 6(1)(b), KVKK Art. 5/2-c); legal obligations (tax and accounting law; GDPR Art. 6(1)(c)); fraud prevention (legitimate interest, GDPR Art. 6(1)(f)) |
@@ -368,7 +372,8 @@ Kapsam: lernfino.com ana sayfası, /pricing/, /refund/, /terms/ 3. bölüm (web 
 - `home_nav_pricing`
 - `home_hero_badge`
 - `home_hero_ctaPrimary`
-- `home_store_appStoreSmall`
+- `home_store_soon`
+- `home_store_webDate`
 - `home_store_playSmall`
 - `home_compare_c6Title`
 - `home_dl_eyebrow`
@@ -498,6 +503,7 @@ Kapsam: lernfino.com ana sayfası, /pricing/, /refund/, /terms/ 3. bölüm (web 
 - `pricing_095`
 - `pricing_096`
 - `pricing_097`
+- `pricing_098`
 - `refund_001`
 - `refund_002`
 - `refund_003`
@@ -540,7 +546,8 @@ Kapsam: lernfino.com ana sayfası, /pricing/, /refund/, /terms/ 3. bölüm (web 
 - `home_nav_pricing`
 - `home_hero_badge`
 - `home_hero_ctaPrimary`
-- `home_store_appStoreSmall`
+- `home_store_soon`
+- `home_store_webDate`
 - `home_store_playSmall`
 - `home_compare_c6Title`
 - `home_dl_eyebrow`
@@ -670,6 +677,7 @@ Kapsam: lernfino.com ana sayfası, /pricing/, /refund/, /terms/ 3. bölüm (web 
 - `pricing_095`
 - `pricing_096`
 - `pricing_097`
+- `pricing_098`
 - `refund_001`
 - `refund_002`
 - `refund_003`
@@ -712,7 +720,8 @@ Kapsam: lernfino.com ana sayfası, /pricing/, /refund/, /terms/ 3. bölüm (web 
 - `home_nav_pricing`
 - `home_hero_badge`
 - `home_hero_ctaPrimary`
-- `home_store_appStoreSmall`
+- `home_store_soon`
+- `home_store_webDate`
 - `home_store_playSmall`
 - `home_compare_c6Title`
 - `home_dl_eyebrow`
@@ -842,6 +851,7 @@ Kapsam: lernfino.com ana sayfası, /pricing/, /refund/, /terms/ 3. bölüm (web 
 - `pricing_095`
 - `pricing_096`
 - `pricing_097`
+- `pricing_098`
 - `refund_001`
 - `refund_002`
 - `refund_003`
@@ -884,7 +894,8 @@ Kapsam: lernfino.com ana sayfası, /pricing/, /refund/, /terms/ 3. bölüm (web 
 - `home_nav_pricing`
 - `home_hero_badge`
 - `home_hero_ctaPrimary`
-- `home_store_appStoreSmall`
+- `home_store_soon`
+- `home_store_webDate`
 - `home_store_playSmall`
 - `home_compare_c6Title`
 - `home_dl_eyebrow`
@@ -1014,6 +1025,7 @@ Kapsam: lernfino.com ana sayfası, /pricing/, /refund/, /terms/ 3. bölüm (web 
 - `pricing_095`
 - `pricing_096`
 - `pricing_097`
+- `pricing_098`
 - `refund_001`
 - `refund_002`
 - `refund_003`
@@ -1056,7 +1068,8 @@ Kapsam: lernfino.com ana sayfası, /pricing/, /refund/, /terms/ 3. bölüm (web 
 - `home_nav_pricing`
 - `home_hero_badge`
 - `home_hero_ctaPrimary`
-- `home_store_appStoreSmall`
+- `home_store_soon`
+- `home_store_webDate`
 - `home_store_playSmall`
 - `home_compare_c6Title`
 - `home_dl_eyebrow`
@@ -1186,6 +1199,7 @@ Kapsam: lernfino.com ana sayfası, /pricing/, /refund/, /terms/ 3. bölüm (web 
 - `pricing_095`
 - `pricing_096`
 - `pricing_097`
+- `pricing_098`
 - `refund_001`
 - `refund_002`
 - `refund_003`
@@ -1228,7 +1242,8 @@ Kapsam: lernfino.com ana sayfası, /pricing/, /refund/, /terms/ 3. bölüm (web 
 - `home_nav_pricing`
 - `home_hero_badge`
 - `home_hero_ctaPrimary`
-- `home_store_appStoreSmall`
+- `home_store_soon`
+- `home_store_webDate`
 - `home_store_playSmall`
 - `home_compare_c6Title`
 - `home_dl_eyebrow`
@@ -1358,6 +1373,7 @@ Kapsam: lernfino.com ana sayfası, /pricing/, /refund/, /terms/ 3. bölüm (web 
 - `pricing_095`
 - `pricing_096`
 - `pricing_097`
+- `pricing_098`
 - `refund_001`
 - `refund_002`
 - `refund_003`
@@ -1400,7 +1416,8 @@ Kapsam: lernfino.com ana sayfası, /pricing/, /refund/, /terms/ 3. bölüm (web 
 - `home_nav_pricing`
 - `home_hero_badge`
 - `home_hero_ctaPrimary`
-- `home_store_appStoreSmall`
+- `home_store_soon`
+- `home_store_webDate`
 - `home_store_playSmall`
 - `home_compare_c6Title`
 - `home_dl_eyebrow`
@@ -1530,6 +1547,7 @@ Kapsam: lernfino.com ana sayfası, /pricing/, /refund/, /terms/ 3. bölüm (web 
 - `pricing_095`
 - `pricing_096`
 - `pricing_097`
+- `pricing_098`
 - `refund_001`
 - `refund_002`
 - `refund_003`
@@ -1572,7 +1590,8 @@ Kapsam: lernfino.com ana sayfası, /pricing/, /refund/, /terms/ 3. bölüm (web 
 - `home_nav_pricing`
 - `home_hero_badge`
 - `home_hero_ctaPrimary`
-- `home_store_appStoreSmall`
+- `home_store_soon`
+- `home_store_webDate`
 - `home_store_playSmall`
 - `home_compare_c6Title`
 - `home_dl_eyebrow`
@@ -1702,6 +1721,7 @@ Kapsam: lernfino.com ana sayfası, /pricing/, /refund/, /terms/ 3. bölüm (web 
 - `pricing_095`
 - `pricing_096`
 - `pricing_097`
+- `pricing_098`
 - `refund_001`
 - `refund_002`
 - `refund_003`
@@ -1744,7 +1764,8 @@ Kapsam: lernfino.com ana sayfası, /pricing/, /refund/, /terms/ 3. bölüm (web 
 - `home_nav_pricing`
 - `home_hero_badge`
 - `home_hero_ctaPrimary`
-- `home_store_appStoreSmall`
+- `home_store_soon`
+- `home_store_webDate`
 - `home_store_playSmall`
 - `home_compare_c6Title`
 - `home_dl_eyebrow`
@@ -1874,6 +1895,7 @@ Kapsam: lernfino.com ana sayfası, /pricing/, /refund/, /terms/ 3. bölüm (web 
 - `pricing_095`
 - `pricing_096`
 - `pricing_097`
+- `pricing_098`
 - `refund_001`
 - `refund_002`
 - `refund_003`
@@ -1916,7 +1938,8 @@ Kapsam: lernfino.com ana sayfası, /pricing/, /refund/, /terms/ 3. bölüm (web 
 - `home_nav_pricing`
 - `home_hero_badge`
 - `home_hero_ctaPrimary`
-- `home_store_appStoreSmall`
+- `home_store_soon`
+- `home_store_webDate`
 - `home_store_playSmall`
 - `home_compare_c6Title`
 - `home_dl_eyebrow`
@@ -2046,6 +2069,7 @@ Kapsam: lernfino.com ana sayfası, /pricing/, /refund/, /terms/ 3. bölüm (web 
 - `pricing_095`
 - `pricing_096`
 - `pricing_097`
+- `pricing_098`
 - `refund_001`
 - `refund_002`
 - `refund_003`
@@ -2088,7 +2112,8 @@ Kapsam: lernfino.com ana sayfası, /pricing/, /refund/, /terms/ 3. bölüm (web 
 - `home_nav_pricing`
 - `home_hero_badge`
 - `home_hero_ctaPrimary`
-- `home_store_appStoreSmall`
+- `home_store_soon`
+- `home_store_webDate`
 - `home_store_playSmall`
 - `home_compare_c6Title`
 - `home_dl_eyebrow`
@@ -2218,6 +2243,7 @@ Kapsam: lernfino.com ana sayfası, /pricing/, /refund/, /terms/ 3. bölüm (web 
 - `pricing_095`
 - `pricing_096`
 - `pricing_097`
+- `pricing_098`
 - `refund_001`
 - `refund_002`
 - `refund_003`
@@ -2260,7 +2286,8 @@ Kapsam: lernfino.com ana sayfası, /pricing/, /refund/, /terms/ 3. bölüm (web 
 - `home_nav_pricing`
 - `home_hero_badge`
 - `home_hero_ctaPrimary`
-- `home_store_appStoreSmall`
+- `home_store_soon`
+- `home_store_webDate`
 - `home_store_playSmall`
 - `home_compare_c6Title`
 - `home_dl_eyebrow`
@@ -2390,6 +2417,7 @@ Kapsam: lernfino.com ana sayfası, /pricing/, /refund/, /terms/ 3. bölüm (web 
 - `pricing_095`
 - `pricing_096`
 - `pricing_097`
+- `pricing_098`
 - `refund_001`
 - `refund_002`
 - `refund_003`

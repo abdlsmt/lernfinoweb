@@ -29,7 +29,7 @@ const LEGAL_I18N = {
     "meta.seller": "Web satıcısı: Paddle (Merchant of Record)",
 
     // Footer
-    "footer.tagline": "Almancaya açılan sıcak bir sayfa. Google Play ve App Store'da; web sürümü çok yakında.",
+    "footer.tagline": "Almancaya açılan sıcak bir sayfa. Google Play’de. Web sürümü Aralık 2026’da.",
     "footer.rights": "Tüm hakları saklıdır.",
     "footer.disclaimer": "Goethe-Zertifikat, ÖSD ve telc, ilgili sahiplerinin markalarıdır. Lernfino bağımsız bir eğitim platformudur; Goethe-Institut, ÖSD veya telc gGmbH'nin resmî bir materyali, ortağı veya ürünü değildir.",
     "footer.privacy": "Gizlilik Politikası",
@@ -112,7 +112,7 @@ const LEGAL_I18N = {
     "meta.seller": "Web seller: Paddle (Merchant of Record)",
 
     // Footer
-    "footer.tagline": "A warm page opening to German. On Google Play and the App Store; web version coming soon.",
+    "footer.tagline": "A warm page opening to German. On Google Play. Web version in December 2026.",
     "footer.rights": "All rights reserved.",
     "footer.disclaimer": "Goethe-Zertifikat, ÖSD and telc are trademarks of their respective owners. Lernfino is an independent learning platform and not official material of the Goethe-Institut, ÖSD or telc gGmbH.",
     "footer.privacy": "Privacy Policy",
@@ -195,7 +195,7 @@ const LEGAL_I18N = {
     "meta.seller": "Verkäufer im Web: Paddle (Merchant of Record)",
 
     // Footer
-    "footer.tagline": "Eine herzliche Seite zur deutschen Sprache. Bei Google Play und im App Store; Web-Version bald verfügbar.",
+    "footer.tagline": "Eine herzliche Seite zur deutschen Sprache. Bei Google Play. Web-Version im Dezember 2026.",
     "footer.rights": "Alle Rechte vorbehalten.",
     "footer.disclaimer": "Goethe-Zertifikat, ÖSD und telc sind Marken der jeweiligen Inhaber. Lernfino ist ein unabhängiges Bildungsangebot und kein offizielles Prüfungsmaterial des Goethe-Instituts, des ÖSD oder der telc gGmbH.",
     "footer.privacy": "Datenschutz",
